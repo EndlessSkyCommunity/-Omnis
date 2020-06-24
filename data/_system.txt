@@ -1,0 +1,44 @@
+system "Hevru Hai"
+	add object quarg_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system "Ka'ch'chrai"
+	add object wanderer_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system "Kor Nor'peli"
+	add object korath_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system "Pug Iyik"
+	add object pug_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system "Ya Hai"
+	add object hai_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Cinxia
+	add object remnant_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Nenia
+	add object drak_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Nona
+	add object ka'het_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Quaru
+	add object coalition_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Rutilicus
+	add object omnis_gateway
+		distance 2000
+		sprite sprite/wisp_green
+system Sol
+	add object human_gateway
+		distance 2000
+		sprite sprite/wisp_green

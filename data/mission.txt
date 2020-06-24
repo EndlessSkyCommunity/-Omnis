@@ -1,0 +1,141 @@
+mission licenses_give
+	description `Gives all licenses to the player.`
+	job
+	name `Licenses- Give`
+	on accept
+		set "license: Aben Technology"
+		set "license: Carrier"
+		set "license: City-Ship"
+		set "license: Coalition"
+		set "license: Cruiser"
+		set "license: Hai Trust"
+		set "license: Heliarch"
+		set "license: Militia"
+		set "license: Navy"
+		set "license: Remnant Capital"
+		set "license: Remnant"
+		set "license: Unfettered Militia"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+		set all_licenses
+	repeat
+	source
+		system Omnis
+	to offer
+		not all_licenses
+mission licenses_take
+	description `Take all licenses from the player.`
+	job
+	name `Licenses- Remove`
+	on accept
+		clear "license: Aben Technology"
+		clear "license: Carrier"
+		clear "license: City-Ship"
+		clear "license: Coalition"
+		clear "license: Cruiser"
+		clear "license: Hai Trust"
+		clear "license: Heliarch"
+		clear "license: Militia"
+		clear "license: Navy"
+		clear "license: Remnant Capital License"
+		clear "license: Remnant"
+		clear "license: Unfettered Militia"
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+		clear all_licenses
+	repeat
+	source
+		system Omnis
+	to offer
+		has all_licenses
+mission money
+	invisible
+	landing
+	on accept
+		payment 922e16
+	on offer
+		conversation
+			`On landing you are greeted only by an empty hangar, not a soul in sight. After hours of exploring, trying to determine the exact purpose of this place, you come across a console with only an eerie circle faintly glowing brighter and dimming over again, like calm breathing. Cautiously, you place your hand onto the circle and it fades away. Seconds later, text in an unrecognizable language is displayed, then another, it seems as if the text is cycling languages in hopes that one could be read by you. ORY'HARA it reads.`
+			`	Unsure of what to make of the writing, you turn to leave but are interrupted by a sharp click from the console. It's a credit chip for unimaginable fortune, if you take the money you will never toil for wealth again, but there must be consequences...`
+			choice
+				`	[Take the chip]`
+					accept
+				`	[Leave this room]`
+					decline
+	source
+		government cheat
+mission reveal_map
+	job
+	name `Reveal Map`
+	on accept
+		event reveal_map
+		set revealed_map
+	source
+		system Omnis
+	to fail
+		has "reveal_map: Active"
+mission swizzle_0
+	description `Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow.`
+	job
+	name `Swizzle- 0`
+	on accept
+		event swizzle_0
+	repeat
+	source
+		system Omnis
+mission swizzle_1
+	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
+	job
+	name `Swizzle- 1`
+	on accept
+		event swizzle_1
+	repeat
+	source
+		system Omnis
+mission swizzle_2
+	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
+	job
+	name `Swizzle- 2`
+	on accept
+		event swizzle_2
+	repeat
+	source
+		system Omnis
+mission swizzle_3
+	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
+	job
+	name `Swizzle- 3`
+	on accept
+		event swizzle_3
+	repeat
+	source
+		system Omnis
+mission swizzle_4
+	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
+	job
+	name `Swizzle- 4`
+	on accept
+		event swizzle_4
+	repeat
+	source
+		system Omnis
+mission swizzle_5
+	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
+	job
+	name `Swizzle- 5`
+	on accept
+		event swizzle_5
+	repeat
+	source
+		system Omnis
+mission swizzle_6
+	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
+	job
+	name `Swizzle- 6`
+	on accept
+		event swizzle_6
+	repeat
+	source
+		system Omnis

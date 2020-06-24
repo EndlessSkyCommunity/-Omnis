@@ -1,0 +1,726 @@
+fleet aerie
+	government arena
+	personality
+		heroic
+	variant
+		Aerie
+		Dagger 2
+fleet albatross
+	government arena
+	personality
+		heroic
+	variant
+		Albatross
+fleet aphid
+	government arena
+	personality
+		heroic
+	variant
+		Aphid
+fleet arach_courier
+	government arena
+	personality
+		heroic
+	variant
+		"Arach Courier"
+fleet arach_freighter
+	government arena
+	personality
+		heroic
+	variant
+		"Arach Freighter"
+fleet arach_hulk
+	government arena
+	personality
+		heroic
+	variant
+		"Arach Hulk"
+fleet arach_spindle
+	government arena
+	personality
+		heroic
+	variant
+		"Arach Spindle"
+fleet arach_transport
+	government arena
+	personality
+		heroic
+	variant
+		"Arach Transport"
+fleet archon
+	government arena
+	personality
+		heroic
+	variant
+		Archon
+fleet argosy
+	government arena
+	personality
+		heroic
+	variant
+		Argosy
+fleet arrow
+	government arena
+	personality
+		heroic
+	variant
+		Arrow
+fleet autumn_leaf
+	government arena
+	personality
+		heroic
+	variant
+		"Autumn Leaf"
+fleet bactrian
+	government arena
+	personality
+		heroic
+	variant
+		Bactrian
+		Dagger 3
+fleet bastion
+	government arena
+	personality
+		heroic
+	variant
+		Bastion
+fleet behemoth
+	government arena
+	personality
+		heroic
+	variant
+		Behemoth
+fleet berserker
+	government arena
+	personality
+		heroic
+	variant
+		Berserker
+fleet blackbird
+	government arena
+	personality
+		heroic
+	variant
+		Blackbird
+fleet bounder
+	government arena
+	personality
+		heroic
+	variant
+		Bounder
+fleet bulk_freighter
+	government arena
+	personality
+		heroic
+	variant
+		"Bulk Freighter"
+fleet carrier
+	government arena
+	personality
+		heroic
+	variant
+		"Combat Drone" 6
+		Carrier
+		Lance 4
+fleet centipede
+	government arena
+	personality
+		heroic
+	variant
+		Centipede
+fleet clipper
+	government arena
+	personality
+		heroic
+	variant
+		Clipper
+fleet cool_breeze
+	government arena
+	personality
+		heroic
+	variant
+		"Cool Breeze"
+fleet corvette
+	government arena
+	personality
+		heroic
+	variant
+		Corvette
+fleet cruiser
+	government arena
+	personality
+		heroic
+	variant
+		"Combat Drone" 4
+		Cruiser
+fleet deep_river
+	government arena
+	personality
+		heroic
+	variant
+		"Deep River"
+fleet derecho
+	government arena
+	personality
+		heroic
+	variant
+		Derecho
+fleet dreadnought
+	government arena
+	personality
+		heroic
+	variant
+		Dreadnought
+fleet earth_shaper
+	government arena
+	personality
+		heroic
+	variant
+		"Earth Shaper"
+fleet falcon
+	government arena
+	personality
+		heroic
+	variant
+		Falcon
+fleet firebird
+	government arena
+	personality
+		heroic
+	variant
+		Firebird
+fleet flivver
+	government arena
+	personality
+		heroic
+	variant
+		Flivver
+fleet freighter
+	government arena
+	personality
+		heroic
+	variant
+		Freighter
+fleet frigate
+	government arena
+	personality
+		heroic
+	variant
+		Frigate
+fleet fury
+	government arena
+	personality
+		heroic
+	variant
+		Fury
+fleet geocoris
+	government arena
+	personality
+		heroic
+	variant
+		Geocoris
+fleet grasshopper
+	government arena
+	personality
+		heroic
+	variant
+		Grasshopper
+fleet gull
+	government arena
+	personality
+		heroic
+	variant
+		Gull
+fleet gunboat
+	government arena
+	personality
+		heroic
+	variant
+		Gunboat
+fleet hauler
+	government arena
+	personality
+		heroic
+	variant
+		Hauler
+fleet hauler_ii
+	government arena
+	personality
+		heroic
+	variant
+		"Hauler II"
+fleet hauler_iii
+	government arena
+	personality
+		heroic
+	variant
+		"Hauler III"
+fleet hawk
+	government arena
+	personality
+		heroic
+	variant
+		Hawk
+fleet headhunter
+	government arena
+	personality
+		heroic
+	variant
+		Headhunter
+fleet heavy_shuttle
+	government arena
+	personality
+		heroic
+	variant
+		"Heavy Shuttle"
+fleet heliarch_interdictor
+	government arena
+	personality
+		heroic
+	variant
+		"Heliarch Interdictor"
+fleet heliarch_neutralizer
+	government arena
+	personality
+		heroic
+	variant
+		"Heliarch Neutralizer"
+fleet heliarch_punisher
+	government arena
+	personality
+		heroic
+	variant
+		"Heliarch Punisher"
+fleet hurricane
+	government arena
+	personality
+		heroic
+	variant
+		Hurricane
+fleet ibis
+	government arena
+	personality
+		heroic
+	variant
+		Ibis
+		Petrel 2
+		Tern 4
+fleet kar_ik_vot_349
+	government arena
+	personality
+		heroic
+	variant
+		"Kar Ik Vot 349"
+fleet kestrel
+	government arena
+	personality
+		heroic
+	variant
+		Kestrel
+fleet kimek_briar
+	government arena
+	personality
+		heroic
+	variant
+		"Kimek Briar"
+fleet kimek_spire
+	government arena
+	personality
+		heroic
+	variant
+		"Kimek Spire"
+fleet kimek_thistle
+	government arena
+	personality
+		heroic
+	variant
+		"Kimek Thistle"
+fleet kimek_thorn
+	government arena
+	personality
+		heroic
+	variant
+		"Kimek Thorn"
+fleet korath_raider
+	government arena
+	personality
+		heroic
+	variant
+		"Korath Chaser" 2
+		"Korath Raider"
+fleet korath_world-ship_a
+	government arena
+	personality
+		heroic
+	variant
+		"Korath World-Ship"
+fleet lance
+	government arena
+	personality
+		heroic
+	variant
+		Lance
+fleet leviathan
+	government arena
+	personality
+		heroic
+	variant
+		Leviathan
+fleet lightning_bug
+	government arena
+	personality
+		heroic
+	variant
+		"Lightning Bug"
+fleet maeri'het
+	government arena
+	personality
+		heroic
+	variant
+		Maeri'het
+fleet manta
+	government arena
+	personality
+		heroic
+	variant
+		Manta
+fleet met_par_tek_53
+	government arena
+	personality
+		heroic
+	variant
+		"Met Par Tek 53"
+fleet model_128
+	government arena
+	personality
+		heroic
+	variant
+		"Model 128"
+fleet model_16
+	government arena
+	personality
+		heroic
+	variant
+		"Model 16"
+fleet model_256
+	government arena
+	personality
+		heroic
+	variant
+		"Model 256"
+fleet model_32
+	government arena
+	personality
+		heroic
+	variant
+		"Model 32"
+fleet model_512
+	government arena
+	personality
+		heroic
+	variant
+		"Model 512"
+fleet model_64
+	government arena
+	personality
+		heroic
+	variant
+		"Model 64"
+fleet model_8
+	government arena
+	personality
+		heroic
+	variant
+		"Model 8"
+fleet modified_argosy
+	government arena
+	personality
+		heroic
+	variant
+		"Modified Argosy"
+fleet mule
+	government arena
+	personality
+		heroic
+	variant
+		Dagger
+		Mule
+fleet nest
+	government arena
+	personality
+		heroic
+	variant
+		Finch 2
+		Nest
+fleet osprey
+	government arena
+	personality
+		heroic
+	variant
+		Osprey
+fleet pelican
+	government arena
+	personality
+		heroic
+	variant
+		Pelican
+fleet penguin
+	government arena
+	personality
+		heroic
+	variant
+		Penguin
+fleet pond_strider
+	government arena
+	personality
+		heroic
+	variant
+		Flea 8
+		"Pond Strider"
+fleet protector
+	government arena
+	personality
+		heroic
+	variant
+		Protector
+fleet puffin
+	government arena
+	personality
+		heroic
+	variant
+		Puffin
+fleet pug_arfecta
+	government arena
+	personality
+		heroic
+	variant
+		"Pug Arfecta"
+fleet pug_enfolta
+	government arena
+	personality
+		heroic
+	variant
+		"Pug Enfolta"
+fleet pug_maboro
+	government arena
+	personality
+		heroic
+	variant
+		"Pug Maboro"
+fleet pug_zibruka
+	government arena
+	personality
+		heroic
+	variant
+		"Pug Zibruka"
+fleet quarg_skylark
+	government arena
+	personality
+		heroic
+	variant
+		"Quarg Skylark"
+fleet quarg_wardragon
+	government arena
+	personality
+		heroic
+	variant
+		"Quarg Wardragon"
+fleet quicksilver
+	government arena
+	personality
+		heroic
+	variant
+		Quicksilver
+fleet rainmaker
+	government arena
+	personality
+		heroic
+	variant
+		Rainmaker
+fleet raven
+	government arena
+	personality
+		heroic
+	variant
+		Raven
+fleet riptide
+	government arena
+	personality
+		heroic
+	variant
+		Riptide
+fleet roost
+	government arena
+	personality
+		heroic
+	variant
+		Finch 4
+		Roost
+fleet saryd_runabout
+	government arena
+	personality
+		heroic
+	variant
+		"Saryd Runabout"
+fleet saryd_sojourner
+	government arena
+	personality
+		heroic
+	variant
+		"Saryd Sojourner"
+fleet saryd_traveler
+	government arena
+	personality
+		heroic
+	variant
+		"Saryd Traveler"
+fleet saryd_visitor
+	government arena
+	personality
+		heroic
+	variant
+		"Saryd Visitor"
+fleet scout
+	government arena
+	personality
+		heroic
+	variant
+		Scout
+fleet shield_beetle
+	government arena
+	personality
+		heroic
+	variant
+		"Shield Beetle"
+fleet shuttle
+	government arena
+	personality
+		heroic
+	variant
+		Shuttle
+fleet skein
+	government arena
+	personality
+		heroic
+	variant
+		Finch 6
+		Skein
+fleet solifuge
+	government arena
+	personality
+		heroic
+	variant
+		"Violin Spider" 6
+		Solifuge
+fleet sparrow
+	government arena
+	personality
+		heroic
+	variant
+		Sparrow
+fleet splinter
+	government arena
+	personality
+		heroic
+	variant
+		Splinter
+fleet starling
+	government arena
+	personality
+		heroic
+	variant
+		Starling
+fleet star_barge
+	government arena
+	personality
+		heroic
+	variant
+		"Star Barge"
+fleet star_queen
+	government arena
+	personality
+		heroic
+	variant
+		"Star Queen"
+fleet strong_wind
+	government arena
+	personality
+		heroic
+	variant
+		"Strong Wind"
+fleet summer_leaf
+	government arena
+	personality
+		heroic
+	variant
+		"Summer Leaf"
+fleet tek_far_109
+	government arena
+	personality
+		heroic
+	variant
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+		"Tek Far 109"
+fleet tek_far_71_lek
+	government arena
+	personality
+		heroic
+	variant
+		"Far Lek 14" 10
+		"Tek Far 71 - Lek"
+fleet tek_far_78_osk
+	government arena
+	personality
+		heroic
+	variant
+		"Far Osk 27" 9
+		"Tek Far 78 - Osk"
+fleet telis'het
+	government arena
+	personality
+		heroic
+	variant
+		Telis'het
+fleet tempest
+	government arena
+	personality
+		heroic
+	variant
+		Tempest
+fleet vanguard
+	government arena
+	personality
+		heroic
+	variant
+		Vanguard
+fleet void_sprite_infant
+	government arena
+	personality
+		heroic
+	variant
+		"Void Sprite (Infant)"
+fleet void_sprite
+	government arena
+	personality
+		heroic
+	variant
+		"Void Sprite"
+fleet wasp
+	government arena
+	personality
+		heroic
+	variant
+		Wasp
+fleet water_bug
+	government arena
+	personality
+		heroic
+	variant
+		"Water Bug"
+fleet winter_gale
+	government arena
+	personality
+		heroic
+	variant
+		"Winter Gale"

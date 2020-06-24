@@ -1,0 +1,312 @@
+shipyard coalition
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+	"Heliarch Interdictor"
+	"Heliarch Neutralizer"
+	"Heliarch Punisher"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
+shipyard developer
+	" Caster"
+shipyard drak
+	"Void Sprite"
+	"Void Sprite Infant"
+	Archon
+	Subsidurial
+shipyard hai
+	"Lightning Bug"
+	"Pond Strider"
+	"Shield Beetle"
+	"Violin Spider"
+	"Water Bug"
+	Aphid
+	Centipede
+	Flea
+	Geocoris
+	Grasshopper
+	Solifuge
+shipyard human
+	"Bulk Freighter"
+	"Class C Freighter"
+	"Combat Drone"
+	"Hauler II"
+	"Hauler III"
+	"Heavy Shuttle"
+	"Lampyrid-Class Transport"
+	"Marauder Arrow"
+	"Marauder Bounder"
+	"Marauder Falcon"
+	"Marauder Firebird"
+	"Marauder Fury"
+	"Marauder Leviathan"
+	"Marauder Manta"
+	"Marauder Quicksilver"
+	"Marauder Raven"
+	"Marauder Splinter"
+	"Modified Osprey"
+	"Star Barge"
+	"Star Queen"
+	"Surveillance Drone"
+	"Unknown Ship Type"
+	Aerie
+	Argosy
+	Arrow
+	Bactrian
+	Barb
+	Bastion
+	Behemoth
+	Berserker
+	Blackbird
+	Bounder
+	Boxwing
+	Carrier
+	Clipper
+	Corvette
+	Cruiser
+	Dagger
+	Dreadnought
+	Falcon
+	Finch
+	Firebird
+	Flivver
+	Freighter
+	Frigate
+	Fury
+	Gunboat
+	Hauler
+	Hawk
+	Headhunter
+	Kestrel
+	Lance
+	Leviathan
+	Manta
+	Mule
+	Nest
+	Osprey
+	Protector
+	Quicksilver
+	Rainmaker
+	Raven
+	Roost
+	Scout
+	Shuttle
+	Skein
+	Sparrow
+	Splinter
+	Vanguard
+	Wasp
+shipyard ka'het
+	Faes'mar
+	Maeri'het
+	Selii'mar
+	Telis'het
+shipyard korath
+	"Far Lek 14"
+	"Far Osk 27"
+	"Kar Ik Vot 349"
+	"Korath Chaser"
+	"Korath Raider"
+	"Korath World-Ship"
+	"Met Par Tek 53"
+	"Model 128"
+	"Model 16"
+	"Model 256"
+	"Model 32"
+	"Model 512"
+	"Model 64"
+	"Model 8"
+	"Tek Far 109"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
+	Nanobot
+shipyard pug
+	"Pug Arfecta"
+	"Pug Enfolta"
+	"Pug Maboro"
+	"Pug Zibruka"
+shipyard quarg
+	"Quarg Skylark"
+	"Quarg Wardragon"
+shipyard remnant
+	Albatross
+	Gull
+	Ibis
+	Pelican
+	Penguin
+	Petrel
+	Puffin
+	Starling
+	Tern
+shipyard vanilla
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+	"Autumn Leaf"
+	"Bulk Freighter"
+	"Class C Freighter"
+	"Combat Drone"
+	"Cool Breeze"
+	"Deep River Transport"
+	"Deep River"
+	"Earth Shaper"
+	"Far Lek 14"
+	"Far Osk 27"
+	"Hauler II"
+	"Hauler III"
+	"Heavy Shuttle"
+	"Heliarch Interdictor"
+	"Heliarch Neutralizer"
+	"Heliarch Punisher"
+	"Kar Ik Vot 349"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+	"Korath Chaser"
+	"Korath Raider"
+	"Korath World-Ship"
+	"Lampyrid-Class Transport"
+	"Lightning Bug"
+	"Marauder Arrow"
+	"Marauder Bounder"
+	"Marauder Falcon"
+	"Marauder Firebird"
+	"Marauder Fury"
+	"Marauder Leviathan"
+	"Marauder Manta"
+	"Marauder Quicksilver"
+	"Marauder Raven"
+	"Marauder Splinter"
+	"Met Par Tek 53"
+	"Model 128"
+	"Model 16"
+	"Model 256"
+	"Model 32"
+	"Model 512"
+	"Model 64"
+	"Model 8"
+	"Modified Osprey"
+	"Pond Strider"
+	"Pug Arfecta"
+	"Pug Enfolta"
+	"Pug Maboro"
+	"Pug Zibruka"
+	"Quarg Skylark"
+	"Quarg Wardragon"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
+	"Shield Beetle"
+	"Star Barge"
+	"Star Queen"
+	"Strong Wind"
+	"Summer Leaf"
+	"Surveillance Drone"
+	"Tek Far 109"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
+	"Unknown Ship Type"
+	"Ursa Polaris"
+	"Violin Spider"
+	"Void Sprite"
+	"Water Bug"
+	"Winter Gale"
+	Aerie
+	Albatross
+	Aphid
+	Archon
+	Argosy
+	Arrow
+	Bactrian
+	Barb
+	Bastion
+	Behemoth
+	Berserker
+	Blackbird
+	Bounder
+	Boxwing
+	Carrier
+	Centipede
+	Clipper
+	Corvette
+	Cruiser
+	Dagger
+	Derecho
+	Dreadnought
+	Faes'mar
+	Falcon
+	Finch
+	Firebird
+	Flea
+	Flivver
+	Flycatcher
+	Freighter
+	Frigate
+	Fury
+	Geocoris
+	Grasshopper
+	Gull
+	Gunboat
+	Hauler
+	Hawk
+	Headhunter
+	Hurricane
+	Ibis
+	Kestrel
+	Lance
+	Leviathan
+	Maeri'het
+	Manta
+	Mule
+	Nanobot
+	Nest
+	Osprey
+	Pelican
+	Penguin
+	Petrel
+	Protector
+	Puffin
+	Quicksilver
+	Rainmaker
+	Raven
+	Riptide
+	Roost
+	Scout
+	Selii'mar
+	Shuttle
+	Skein
+	Solifuge
+	Sparrow
+	Splinter
+	Starling
+	Telis'het
+	Tempest
+	Tern
+	Vanguard
+	Wasp
+shipyard wanderer
+	"Autumn Leaf"
+	"Cool Breeze"
+	"Deep River Transport"
+	"Deep River"
+	"Earth Shaper"
+	"Strong Wind"
+	"Summer Leaf"
+	"Winter Gale"
+	Derecho
+	Flycatcher
+	Hurricane
+	Riptide
+	Tempest

@@ -1,0 +1,69 @@
+ship " Caster"
+	attributes
+		"afterburner thrust" -200000
+		"asteroid scan power" 1000000
+		"cargo scan power" 1000000
+		"cargo scan speed" 1000000
+		"cargo space" 1000000
+		"energy generation" 16666.6667
+		"fuel capacity" 300
+		"fuel generation" 1000000
+		"heat dissipation" .1667
+		"hull repair rate" 16666.6667
+		"jump drive" 1
+		"jump speed" 1000000
+		"outfit scan power" 1000000
+		"outfit scan speed" 1000000
+		"outfit space" 1000000
+		"quantum keystone" 1
+		"required crew" 1
+		"scan interference" 1000000
+		"slowing resistance" 1000000
+		"tactical scan power" 1000000
+		"weapon capacity" 1000000
+		bunks 10000
+		category Transport
+		cloak 1
+		drag 11111.1
+		gaslining 1
+		hull 1000000
+		hyperdrive 1
+		mass 1000000
+		thrust 200000
+		turn 3000000
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	outfits
+		Deterrence
+	sprite ship/caster
+	thumbnail thumbnail/caster
+	turret 0 116 Deterrence
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116

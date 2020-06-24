@@ -1,0 +1,6 @@
+galaxy galaxy_omnis
+	pos 0 -10000
+	sprite galaxy/omnis
+galaxy label_omnis
+	pos -110 -9880
+	sprite label/omnis

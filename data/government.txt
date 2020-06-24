@@ -1,0 +1,11 @@
+government arena
+	"display name" Unknown
+	"player reputation" -1
+	color 1 1 1
+	fine 0
+	swizzle 0
+government cheat
+	"display name" Unknown
+	color 1 1 1
+	fine 0
+	swizzle 0

@@ -1,0 +1,835 @@
+planet "Albatross "
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet albatross
+planet "Arach Courier"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arach_courier
+planet "Arach Freighter"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arach_freighter
+planet "Arach Hulk"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arach_hulk
+planet "Arach Spindle"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arach_spindle
+planet "Arach Transport"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arach_transport
+planet "Autumn Leaf"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet autumn_leaf
+planet "Bulk Freighter"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet bulk_freighter
+planet "Cool Breeze"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet cool_breeze
+planet "Deep River"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet deep_river
+planet "Earth Shaper"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet earth_shaper
+planet "Hauler II"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet hauler_ii
+planet "Hauler III"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet hauler_iii
+planet "Heavy Shuttle"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet heavy_shuttle
+planet "Heliarch Interdictor"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet heliarch_interdictor
+planet "Heliarch Neutralizer"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet heliarch_neutralizer
+planet "Heliarch Punisher"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet heliarch_punisher
+planet "Kar Ik Vot 349"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kar_ik_vot_349
+planet "Kimek Briar"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kimek_briar
+planet "Kimek Spire"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kimek_spire
+planet "Kimek Thistle"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kimek_thistle
+planet "Kimek Thorn"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kimek_thorn
+planet "Korath Raider"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet korath_raider
+planet "Korath World-Ship A"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet korath_world-ship_a
+planet "Lightning Bug"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet lightning_bug
+planet "Met Par Tek 53"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet met_par_tek_53
+planet "Model 128"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_128
+planet "Model 16"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_16
+planet "Model 256"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_256
+planet "Model 32"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_32
+planet "Model 512"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_512
+planet "Model 64"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_64
+planet "Model 8"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet model_8
+planet "Modified Argosy"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet modified_argosy
+planet "Pond Strider"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pond_strider
+planet "Pug Arfecta"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pug_arfecta
+planet "Pug Enfolta"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pug_enfolta
+planet "Pug Maboro"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pug_maboro
+planet "Pug Zibruka"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pug_zibruka
+planet "Quarg Skylark"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet quarg_skylark
+planet "Quarg Wardragon"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet quarg_wardragon
+planet "Quicksilver "
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet quicksilver
+planet "Saryd Runabout"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet saryd_runabout
+planet "Saryd Sojourner"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet saryd_sojourner
+planet "Saryd Traveler"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet saryd_traveler
+planet "Saryd Visitor"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet saryd_visitor
+planet "Shield Beetle"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet shield_beetle
+planet "Star Barge"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet star_barge
+planet "Star Queen"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet star_queen
+planet "Strong Wind"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet strong_wind
+planet "Summer Leaf"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet summer_leaf
+planet "Tek Far 109"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet tek_far_109
+planet "Tek Far 71 - Lek"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet tek_far_71_lek
+planet "Tek Far 78 - Osk"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet tek_far_78_osk
+planet "Void Sprite Infant"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet void_sprite_infant
+planet "Void Sprite"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet void_sprite
+planet "Water Bug"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet water_bug
+planet "Winter Gale"
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet winter_gale
+planet Aerie
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet aerie
+planet Aphid
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet aphid
+planet Archon
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet archon
+planet Argosy
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet argosy
+planet Arrow
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet arrow
+planet Bactrian
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet bactrian
+planet Bastion
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet bastion
+planet Behemoth
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet behemoth
+planet Berserker
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet berserker
+planet Blackbird
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet blackbird
+planet Bounder
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet bounder
+planet Carrier
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet carrier
+planet Centipede
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet centipede
+planet Clipper
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet clipper
+planet Coalition
+	bribe 0
+	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	landscape landscape/station6
+	outfitter coalition
+	shipyard coalition
+	spaceport `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+planet Corvette
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet corvette
+planet Cruiser
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet cruiser
+planet Deprecated
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter deprecated
+	spaceport ``
+planet Derecho
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet derecho
+planet Drak
+	bribe 0
+	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	landscape landscape/station6
+	outfitter drak
+	shipyard drak
+	spaceport `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+planet Dreadnought
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet dreadnought
+planet Everything
+	bribe 0
+	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+	landscape landscape/station6
+	outfitter coalition
+	outfitter deprecated
+	outfitter drak
+	outfitter hai
+	outfitter human
+	outfitter ka'het
+	outfitter korath
+	outfitter plugin
+	outfitter pug
+	outfitter quarg
+	outfitter remnant
+	outfitter wanderer
+	shipyard coalition
+	shipyard drak
+	shipyard hai
+	shipyard human
+	shipyard ka'het
+	shipyard korath
+	shipyard plugin
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
+	shipyard wanderer
+	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+planet Experimental
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter developer
+	outfitter experimental
+	shipyard developer
+	shipyard experimental
+	spaceport ``
+planet Falcon
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet falcon
+planet Firebird
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet firebird
+planet Flivver
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet flivver
+planet Freighter
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet freighter
+planet Frigate
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet frigate
+planet Fury
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet fury
+planet Geocoris
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet geocoris
+planet Grasshopper
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet grasshopper
+planet Gull
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet gull
+planet Gunboat
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet gunboat
+planet Hai
+	bribe 0
+	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	landscape landscape/station6
+	outfitter hai
+	shipyard hai
+	spaceport `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+planet Hauler
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet hauler
+planet Hawk
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet hawk
+planet Headhunter
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet headhunter
+planet Human
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter human
+	shipyard human
+	spaceport ``
+planet Hurricane
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet hurricane
+planet Ibis
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet ibis
+planet Ka'het
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter ka'het
+	shipyard ka'het
+	spaceport ``
+planet Kestrel
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet kestrel
+planet Korath
+	bribe 0
+	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	landscape landscape/station6
+	outfitter korath
+	shipyard korath
+	spaceport `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+planet Lance
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet lance
+planet Leviathan
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet leviathan
+planet Maeri'het
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet maeri'het
+planet Manta
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet manta
+planet Mule
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet mule
+planet Nest
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet nest
+planet Osprey
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet osprey
+planet Pelican
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet pelican
+planet Penguin
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet penguin
+planet Plugins
+	bribe 0
+	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
+	landscape landscape/station6
+	outfitter plugin
+	shipyard plugin
+	spaceport `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
+planet Protector
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet protector
+planet Puffin
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet puffin
+planet Pug
+	bribe 0
+	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	landscape landscape/station6
+	outfitter pug
+	shipyard pug
+	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+planet Quarg
+	bribe 0
+	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	landscape landscape/station6
+	outfitter quarg
+	shipyard quarg
+	spaceport `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+planet Rainmaker
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet rainmaker
+planet Raven
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet raven
+planet Remnant
+	bribe 0
+	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	landscape landscape/station6
+	outfitter remnant
+	shipyard remnant
+	spaceport `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+planet Riptide
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet riptide
+planet Roost
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet roost
+planet Scout
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet scout
+planet Shuttle
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet shuttle
+planet Skein
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet skein
+planet Solifuge
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet solifuge
+planet Starling
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet starling
+planet Sparrow
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet sparrow
+planet Splinter
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet splinter
+planet Telis'het
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet telis'het
+planet Tempest
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet tempest
+planet Vanguard
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet vanguard
+planet Vanilla
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter vanilla
+	shipyard vanilla
+	spaceport ``
+planet Wanderer
+	bribe 0
+	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	landscape landscape/station6
+	outfitter wanderer
+	shipyard wanderer
+	spaceport `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+planet Wasp
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet wasp

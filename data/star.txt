@@ -1,0 +1,3 @@
+star planet/wisp
+	power 1
+	wind 1
