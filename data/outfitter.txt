@@ -116,6 +116,7 @@ outfitter human
 	"AR120 Reverse Thruster"
 	"Armageddon Core"
 	"Asteroid Scanner"
+	"Auxiliary License"
 	"Beam Laser"
 	"Blaster Turret"
 	"Breeder Reactor"

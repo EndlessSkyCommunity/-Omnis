@@ -35,6 +35,8 @@ shipyard hai
 	Grasshopper
 	Solifuge
 shipyard human
+	"Auxiliary (Cargo)"
+	"Auxiliary (Transport)"
 	"Bulk Freighter"
 	"Class C Freighter"
 	"Combat Drone"
@@ -60,6 +62,7 @@ shipyard human
 	Aerie
 	Argosy
 	Arrow
+	Auxiliary
 	Bactrian
 	Barb
 	Bastion
@@ -74,6 +77,7 @@ shipyard human
 	Cruiser
 	Dagger
 	Dreadnought
+	Dropship
 	Falcon
 	Finch
 	Firebird
@@ -147,6 +151,8 @@ shipyard remnant
 	Starling
 	Tern
 shipyard vanilla
+	"Auxiliary (Cargo)"
+	"Auxiliary (Transport)"
 	"Arach Courier"
 	"Arach Freighter"
 	"Arach Hulk"
@@ -229,6 +235,7 @@ shipyard vanilla
 	Archon
 	Argosy
 	Arrow
+	Auxiliary
 	Bactrian
 	Barb
 	Bastion
@@ -245,6 +252,7 @@ shipyard vanilla
 	Dagger
 	Derecho
 	Dreadnought
+	Dropship
 	Faes'mar
 	Falcon
 	Finch

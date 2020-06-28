@@ -4,6 +4,7 @@ mission licenses_give
 	name `Licenses- Give`
 	on accept
 		set "license: Aben Technology"
+		set "license: Auxiliary"
 		set "license: Carrier"
 		set "license: City-Ship"
 		set "license: Coalition"
@@ -30,6 +31,7 @@ mission licenses_take
 	name `Licenses- Remove`
 	on accept
 		clear "license: Aben Technology"
+		clear "license: Auxiliary"
 		clear "license: Carrier"
 		clear "license: City-Ship"
 		clear "license: Coalition"
