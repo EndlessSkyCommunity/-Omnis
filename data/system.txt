@@ -248,33 +248,37 @@ system Omnis
 		distance 4000
 		offset 48
 		sprite ship/arrow
-	object Bactrian
+	object Auxiliary
 		distance 4000
 		offset 52
+		sprite ship/auxiliaryh
+	object Bactrian
+		distance 4000
+		offset 56
 		sprite ship/bactrian
 	object Bastion
 		distance 4000
-		offset 56
+		offset 60
 		sprite ship/bastion
 	object Behemoth
 		distance 4000
-		offset 60
+		offset 64
 		sprite ship/behemoth
 	object Berserker
 		distance 4000
-		offset 64
+		offset 68
 		sprite ship/berserker
 	object Blackbird
 		distance 4000
-		offset 68
+		offset 72
 		sprite ship/blackbird
 	object Bounder
 		distance 4000
-		offset 72
+		offset 76
 		sprite ship/bounder
 	object Carrier
 		distance 4000
-		offset 76
+		offset 80
 		sprite ship/carrier
 	object Centipede
 		distance 5000
@@ -282,7 +286,7 @@ system Omnis
 		sprite "ship/hai centipede"
 	object Clipper
 		distance 4000
-		offset 80
+		offset 84
 		sprite ship/clipper
 	object Coalition
 		distance 10000
@@ -291,11 +295,11 @@ system Omnis
 			sprite sprite/wisp_green
 	object Corvette
 		distance 4000
-		offset 84
+		offset 88
 		sprite ship/corvette
 	object Cruiser
 		distance 4000
-		offset 88
+		offset 92
 		sprite ship/cruiser
 	object Deprecated
 		distance 444
@@ -312,7 +316,7 @@ system Omnis
 			sprite sprite/wisp_green
 	object Dreadnought
 		distance 4000
-		offset 92
+		offset 96
 		sprite ship/dreadnought
 	object Everything
 		distance 1218
@@ -391,27 +395,27 @@ system Omnis
 		sprite sprite/station8
 	object Falcon
 		distance 4000
-		offset 96
+		offset 100
 		sprite ship/falcon
 	object Firebird
 		distance 4000
-		offset 100
+		offset 104
 		sprite ship/firebird
 	object Flivver
 		distance 4000
-		offset 104
+		offset 108
 		sprite ship/flivver
 	object Freighter
 		distance 4000
-		offset 108
+		offset 112
 		sprite ship/freighter
 	object Frigate
 		distance 4000
-		offset 112
+		offset 116
 		sprite ship/frigate
 	object Fury
 		distance 4000
-		offset 116
+		offset 120
 		sprite ship/fury
 	object Geocoris
 		distance 5000
@@ -427,7 +431,7 @@ system Omnis
 		sprite ship/gull
 	object Gunboat
 		distance 4000
-		offset 120
+		offset 124
 		sprite ship/gunboat
 	object Hai
 		distance 5000
@@ -436,15 +440,15 @@ system Omnis
 			sprite sprite/wisp_green
 	object Hauler
 		distance 4000
-		offset 124
+		offset 128
 		sprite "ship/hauler i"
 	object Hawk
 		distance 4000
-		offset 128
+		offset 132
 		sprite ship/hawk
 	object Headhunter
 		distance 4000
-		offset 132
+		offset 136
 		sprite ship/headhunter
 	object Human
 		distance 4000
@@ -462,7 +466,7 @@ system Omnis
 			sprite sprite/wisp_green
 	object Kestrel
 		distance 4000
-		offset 136
+		offset 140
 		sprite ship/kestrel
 	object Korath
 		distance 8000
@@ -475,11 +479,11 @@ system Omnis
 		sprite ship/ibis
 	object Lance
 		distance 4000
-		offset 140
+		offset 144
 		sprite ship/lance
 	object Leviathan
 		distance 4000
-		offset 144
+		offset 148
 		sprite ship/leviathan
 	object Maeri'het
 		distance 7000
@@ -487,21 +491,21 @@ system Omnis
 		sprite ship/maeri'het
 	object Manta
 		distance 4000
-		offset 148
+		offset 152
 		sprite ship/manta
 	object Mule
 		distance 4000
-		offset 152
+		offset 156
 		sprite ship/mule
 	object Nest
 		distance 4000
-		offset 156
+		offset 160
 		sprite ship/nest
 	object omnis_gateway
 			sprite sprite/wisp_green
 	object Osprey
 		distance 4000
-		offset 160
+		offset 164
 		sprite ship/osprey
 	object Pelican
 		distance 6000
@@ -517,7 +521,7 @@ system Omnis
 		sprite sprite/station8
 	object Protector
 		distance 4000
-		offset 164
+		offset 168
 		sprite ship/protector
 	object Puffin
 		distance 6000
@@ -535,11 +539,11 @@ system Omnis
 			sprite sprite/wisp_green
 	object Rainmaker
 		distance 4000
-		offset 168
+		offset 172
 		sprite ship/rainmaker
 	object Raven
 		distance 4000
-		offset 172
+		offset 176
 		sprite ship/raven
 	object Remnant
 		distance 6000
@@ -552,27 +556,27 @@ system Omnis
 		sprite ship/riptide
 	object Roost
 		distance 4000
-		offset 176
+		offset 180
 		sprite ship/roost
 	object Scout
 		distance 4000
-		offset 180
+		offset 184
 		sprite ship/scout
 	object Shuttle
 		distance 4000
-		offset 184
+		offset 188
 		sprite ship/shuttle
 	object Skein
 		distance 4000
-		offset 188
+		offset 192
 		sprite ship/skein
 	object Sparrow
 		distance 4000
-		offset 192
+		offset 196
 		sprite ship/sparrow
 	object Splinter
 		distance 4000
-		offset 196
+		offset 200
 		sprite ship/splinter
 	object Solifuge
 		distance 5000
@@ -592,7 +596,7 @@ system Omnis
 		sprite ship/tempest
 	object Vanguard
 		distance 4000
-		offset 200
+		offset 204
 		sprite ship/vanguard
 	object Vanilla
 		distance 444
@@ -605,6 +609,6 @@ system Omnis
 			sprite sprite/wisp_green
 	object Wasp
 		distance 4000
-		offset 204
+		offset 208
 		sprite ship/wasp
 	pos -10 -10016

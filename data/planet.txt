@@ -376,6 +376,12 @@ planet Arrow
 	tribute 1
 		threshold 0
 		fleet arrow
+planet Auxiliary
+	bribe 0
+	government arena
+	tribute 1
+		threshold 0
+		fleet auxiliary
 planet Bactrian
 	bribe 0
 	government arena

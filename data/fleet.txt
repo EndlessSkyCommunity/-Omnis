@@ -71,6 +71,13 @@ fleet autumn_leaf
 		heroic
 	variant
 		"Autumn Leaf"
+fleet auxiliary
+	government arena
+	personality
+		heroic
+	variant
+		Auxiliary
+		Dropship 4
 fleet bactrian
 	government arena
 	personality
@@ -316,6 +323,7 @@ fleet kestrel
 	personality
 		heroic
 	variant
+		Finch 2
 		Kestrel
 fleet kimek_briar
 	government arena
