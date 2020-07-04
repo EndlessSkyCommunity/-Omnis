@@ -292,7 +292,6 @@ event reveal_map
 	"visit planet" Prime
 	"visit planet" Pugglemug
 	"visit planet" Pugglequat
-	"visit planet" Querii'ka
 	"visit planet" Quicksilver
 	"visit planet" Rand
 	"visit planet" Relic
