@@ -33,6 +33,7 @@ event reveal_map
 	"visit planet" "Drekag Firask"
 	"visit planet" "Dusk Companion"
 	"visit planet" "Dwelling of Speloog"
+	"visit planet" "Echoes of Tragedy"
 	"visit planet" "Elek Kartanu"
 	"visit planet" "Ember Graveyard"
 	"visit planet" "Ember Reaches"
@@ -748,6 +749,7 @@ event reveal_map
 	visit Zaurak
 	visit Zosma
 	visit Zubenelgenubi
+	visit Zubenelhakrabi
 	visit Zubeneschamali
 event swizzle_0
 	government Escort
