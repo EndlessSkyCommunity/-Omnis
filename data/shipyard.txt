@@ -191,6 +191,7 @@ shipyard vanilla
 	"Deep River Transport"
 	"Deep River"
 	"Earth Shaper"
+	"Emerald Sword"
 	"Far Lek 14"
 	"Far Osk 27"
 	"Hauler II"
