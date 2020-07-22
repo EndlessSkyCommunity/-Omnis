@@ -170,6 +170,7 @@ shipyard remnant
 	Ibis
 	Pelican
 	Penguin
+	Peregrine
 	Petrel
 	Puffin
 	Starling
@@ -334,6 +335,7 @@ shipyard vanilla
 	Osprey
 	Pelican
 	Penguin
+	Peregrine
 	Petrel
 	Protector
 	Puffin
