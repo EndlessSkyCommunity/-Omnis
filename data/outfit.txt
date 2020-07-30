@@ -1,23 +1,23 @@
 outfit "Extra Engine"
+	category "Special"
 	"engine capacity" 1
-	category Special
 outfit "Extra Outfit"
+	category "Special"
 	"outfit space" 1
-	category Special
 outfit "Extra Weapon"
+	category "Special"
 	"weapon capacity" 1
-	category Special
 outfit "Remote Pilot"
+	category "Special"
 	automaton -1
 	bunks 1
-	category Special
-outfit Deterrence
+outfit "Deterrence"
+	category "Special"
 	"turret mounts" -1
-	category Special
 	weapon
-		"hull damage" 16666666.6667
-		"turret turn" 12
 		lifetime 1
-		piercing 1
-		reload 1
 		velocity 100000
+		"turret turn" 12
+		reload 1
+		"hull damage" 16666666.6667
+		piercing 1

@@ -1,4 +1,4 @@
-outfitter coalition
+outfitter "coalition"
 	"Bombardment Cannon"
 	"Bombardment Turret"
 	"Cooling Module"
@@ -9,6 +9,7 @@ outfitter coalition
 	"Finisher Torpedo"
 	"Heliarch Attractor"
 	"Heliarch Repulsor"
+	"Hyperdrive"
 	"Ion Hail Turret"
 	"Ion Rain Gun"
 	"Large Battery Module"
@@ -29,8 +30,7 @@ outfitter coalition
 	"Small Shield Module"
 	"Small Steering Module"
 	"Small Thrust Module"
-	Hyperdrive
-outfitter deprecated
+outfitter "deprecated"
 	"Bullfrog Anti-Missile Turret"
 	"Chameleon Anti-Missile Turret"
 	"Korath Ark'parat Steering"
@@ -44,24 +44,24 @@ outfitter deprecated
 	"Mass Expansion"
 	"NDR-114 Android"
 	"Reverse Thruster"
-outfitter developer
+outfitter "developer"
 	"Extra Engine"
 	"Extra Outfit"
 	"Extra Weapon"
 	"Remote Pilot"
-	Deterrence
-outfitter drak
+	"Deterrence"
+outfitter "drak"
 	"Drak Anti-Missile Field"
 	"Drak Antimatter Cannon"
 	"Drak Distancer"
 	"Drak Draining Field"
 	"Drak Turret"
+	"Hyperdrive"
 	"Jump Drive"
 	"Medium Graviton Steering"
 	"Medium Graviton Thruster"
-	Hyperdrive
-	Mouthparts?
-outfitter hai
+	"Mouthparts?"
+outfitter "hai"
 	"Boulder Reactor"
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
@@ -77,6 +77,7 @@ outfitter hai
 	"Hai Tracker"
 	"Hai Valley Batteries"
 	"Hai Williwaw Cooling"
+	"Hyperdrive"
 	"Ion Cannon"
 	"Outfits Expansion"
 	"Pebble Core"
@@ -85,6 +86,7 @@ outfitter hai
 	"Pulse Turret"
 	"Quantum Keystone"
 	"Railgun Slug"
+	"Railgun"
 	"Sand Cell"
 	"Tracker Storage Pod"
 	`"Baellie" Atomic Engines`
@@ -98,9 +100,7 @@ outfitter hai
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
-	Hyperdrive
-	Railgun
-outfitter human
+outfitter "human"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -111,6 +111,7 @@ outfitter human
 	"A525 Atomic Steering"
 	"A860 Atomic Thruster"
 	"A865 Atomic Steering"
+	"Afterburner"
 	"Anti-Missile Turret"
 	"AR120 Reverse Thruster"
 	"Armageddon Core"
@@ -118,6 +119,7 @@ outfitter human
 	"Beam Laser"
 	"Blaster Turret"
 	"Breeder Reactor"
+	"Brig"
 	"Bullet Boxes"
 	"Bunk Room"
 	"Cargo Expansion"
@@ -136,6 +138,7 @@ outfitter human
 	"Electron Turret"
 	"Energy Blaster"
 	"Fission Reactor"
+	"Flamethrower"
 	"Fragmentation Grenades"
 	"Fuel Pod"
 	"Fusion Reactor"
@@ -149,12 +152,14 @@ outfitter human
 	"Heavy Rocket Launcher"
 	"Heavy Rocket Rack"
 	"Heavy Rocket"
+	"Hyperdrive"
 	"Impala Plasma Steering"
 	"Impala Plasma Thruster"
 	"Interference Plating"
 	"Ionic Afterburner"
 	"Javelin Pod"
 	"Javelin Storage Crate"
+	"Javelin"
 	"KP-6 Photovoltaic Array"
 	"KP-6 Photovoltaic Panel"
 	"Large Radar Jammer"
@@ -192,6 +197,7 @@ outfitter human
 	"Proton Gun"
 	"Proton Turret"
 	"Quad Blaster Turret"
+	"Ramscoop"
 	"RT-I Radiothermal"
 	"S-270 Regenerator"
 	"S-970 Regenerator"
@@ -205,10 +211,12 @@ outfitter human
 	"Small Bunk Room"
 	"Small Radar Jammer"
 	"Stack Core"
+	"Supercapacitor"
 	"Surveillance Pod"
 	"Tactical Scanner"
 	"Torpedo Launcher"
 	"Torpedo Storage Rack"
+	"Torpedo"
 	"Typhoon Launcher"
 	"Typhoon Storage Tube"
 	"Typhoon Torpedo"
@@ -226,15 +234,7 @@ outfitter human
 	"X4700 Ion Thruster"
 	"X5200 Ion Steering"
 	"X5700 Ion Thruster"
-	Afterburner
-	Brig
-	Flamethrower
-	Hyperdrive
-	Javelin
-	Ramscoop
-	Supercapacitor
-	Torpedo
-outfitter ka'het
+outfitter "ka'het"
 	"Ka'het Annihilator Turret"
 	"Ka'het Annihilator"
 	"Ka'het EMP Deployer"
@@ -245,7 +245,7 @@ outfitter ka'het
 	"Ka'het Reserve Accumulator"
 	"Ka'het Shield Restorer"
 	"Ka'het Support Cooling"
-outfitter korath
+outfitter "korath"
 	"Command Center"
 	"Control Transceiver"
 	"Double Plasma Core"
@@ -253,6 +253,7 @@ outfitter korath
 	"Generator (Candle Class)"
 	"Generator (Furnace Class)"
 	"Generator (Inferno Class)"
+	"Hyperdrive"
 	"Jump Drive"
 	"Korath Banisher"
 	"Korath Detainer"
@@ -291,8 +292,7 @@ outfitter korath
 	"Thruster (Planetary Class)"
 	"Thruster (Stellar Class)"
 	"Triple Plasma Core"
-	Hyperdrive
-outfitter pug
+outfitter "pug"
 	"Cloaking Device"
 	"Jump Drive"
 	"Pug Akfar Steering"
@@ -309,7 +309,7 @@ outfitter pug
 	"Pug Zapper Turret"
 	"Pug Zapper"
 	"Tier 3 Anti-Missile"
-outfitter quarg
+outfitter "quarg"
 	"Antimatter Core"
 	"Intrusion Countermeasures"
 	"Jump Drive"
@@ -319,7 +319,7 @@ outfitter quarg
 	"Quantum Shield Generator"
 	"Quarg Anti-Missile"
 	"Quarg Skylance"
-outfitter remnant
+outfitter "remnant"
 	"Aeon Cell"
 	"Anvil-Class Engine"
 	"Bellows-Class Afterburner"
@@ -334,6 +334,7 @@ outfitter remnant
 	"Epoch Cell"
 	"Forge-Class Steering"
 	"Forge-Class Thruster"
+	"Hyperdrive"
 	"Inhibitor Cannon"
 	"Inhibitor Turret"
 	"Jump Drive (Broken)"
@@ -351,8 +352,7 @@ outfitter remnant
 	"Thrasher Turret"
 	"Tuning Rifle"
 	"Void Rifle"
-	Hyperdrive
-outfitter vanilla
+outfitter "vanilla"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -364,6 +364,7 @@ outfitter vanilla
 	"A860 Atomic Thruster"
 	"A865 Atomic Steering"
 	"Aeon Cell"
+	"Afterburner"
 	"Anti-Missile Turret"
 	"Antimatter Core"
 	"Anvil-Class Engine"
@@ -377,6 +378,7 @@ outfitter vanilla
 	"Bombardment Turret"
 	"Boulder Reactor"
 	"Breeder Reactor"
+	"Brig"
 	"Bright Cloud Shielding"
 	"Bullet Boxes"
 	"Bullfrog Anti-Missile"
@@ -425,6 +427,7 @@ outfitter vanilla
 	"Finisher Storage Tube"
 	"Finisher Torpedo"
 	"Fission Reactor"
+	"Flamethrower"
 	"Forge-Class Steering"
 	"Forge-Class Thruster"
 	"Fragmentation Grenades"
@@ -458,6 +461,7 @@ outfitter vanilla
 	"Heavy Rocket"
 	"Heliarch Attractor"
 	"Heliarch Repulsor"
+	"Hyperdrive"
 	"Impala Plasma Steering"
 	"Impala Plasma Thruster"
 	"Inhibitor Cannon"
@@ -469,6 +473,7 @@ outfitter vanilla
 	"Ionic Afterburner"
 	"Javelin Pod"
 	"Javelin Storage Crate"
+	"Javelin"
 	"Jump Drive (Broken)"
 	"Jump Drive"
 	"Ka'het Annihilator Turret"
@@ -528,6 +533,8 @@ outfitter vanilla
 	"Modified Blaster Turret"
 	"Modified Blaster"
 	"Moonbeam Turret"
+	"Moonbeam"
+	"Mouthparts?"
 	"Nano Strike"
 	"Nanotech Battery"
 	"Nerve Gas"
@@ -577,6 +584,8 @@ outfitter vanilla
 	"Quarg Anti-Missile"
 	"Quarg Skylance"
 	"Railgun Slug"
+	"Railgun"
+	"Ramscoop"
 	"Reasoning Node"
 	"Red Sun Reactor"
 	"RT-I Radiothermal"
@@ -614,6 +623,8 @@ outfitter vanilla
 	"Steering (Planetary Class)"
 	"Steering (Stellar Class)"
 	"Sunbeam Turret"
+	"Sunbeam"
+	"Supercapacitor"
 	"Surveillance Pod"
 	"Systems Core (Large)"
 	"Systems Core (Medium)"
@@ -633,6 +644,7 @@ outfitter vanilla
 	"Tier 3 Anti-Missile"
 	"Torpedo Launcher"
 	"Torpedo Storage Rack"
+	"Torpedo"
 	"Tracker Storage Pod"
 	"Triple Plasma Core"
 	"Tuning Rifle"
@@ -678,29 +690,20 @@ outfitter vanilla
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
-	Afterburner
-	Brig
-	Flamethrower
-	Hyperdrive
-	Javelin
-	Moonbeam
-	Mouthparts?
-	Railgun
-	Ramscoop
-	Sunbeam
-	Supercapacitor
-	Torpedo
-outfitter wanderer
+outfitter "wanderer"
 	"Blue Sun Reactor"
 	"Bright Cloud Shielding"
 	"Dark Storm Shielding"
 	"Dual Sunbeam Turret"
+	"Hyperdrive"
 	"Large Biochemical Cell"
 	"Moonbeam Turret"
+	"Moonbeam"
 	"Outfits Expansion"
 	"Red Sun Reactor"
 	"Small Biochemical Cell"
 	"Sunbeam Turret"
+	"Sunbeam"
 	"Thunderhead Launcher"
 	"Thunderhead Missile"
 	"Thunderhead Storage Array"
@@ -717,6 +720,3 @@ outfitter wanderer
 	"Wanderer Ramscoop"
 	"White Sun Reactor"
 	"Yellow Sun Reactor"
-	Hyperdrive
-	Moonbeam
-	Sunbeam

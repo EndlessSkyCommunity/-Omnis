@@ -1,44 +1,44 @@
 system "Hevru Hai"
-	add object quarg_gateway
+	add object "quarg gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
 system "Ka'ch'chrai"
-	add object wanderer_gateway
+	add object "wanderer gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
 system "Kor Nor'peli"
-	add object korath_gateway
+	add object "korath gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
 system "Pug Iyik"
-	add object pug_gateway
+	add object "pug gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
 system "Ya Hai"
-	add object hai_gateway
+	add object "hai gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Cinxia
-	add object remnant_gateway
+system "Cinxia"
+	add object "remnant gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Nenia
-	add object drak_gateway
+system "Nenia"
+	add object "drak gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Nona
-	add object ka'het_gateway
+system "Nona"
+	add object "ka'het gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Quaru
-	add object coalition_gateway
+system "Quaru"
+	add object "coalition gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Rutilicus
-	add object omnis_gateway
+system "Rutilicus"
+	add object "omnis gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green
-system Sol
-	add object human_gateway
+system "Sol"
+	add object "human gateway"
+		sprite "sprite/wisp_green"
 		distance 2000
-		sprite sprite/wisp_green

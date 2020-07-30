@@ -1,614 +1,614 @@
-system Omnis
-	government cheat
+system "Omnis"
+	pos -10 -10016
+	government "cheat"
 	object "Albatross "
+		sprite "ship/albatross"
 		distance 6000
 		offset 8
-		sprite ship/albatross
 	object "Arach Courier"
+		sprite "ship/arach courier"
 		distance 10000
 		offset 4
-		sprite "ship/arach courier"
 	object "Arach Freighter"
+		sprite "ship/arach freighter"
 		distance 10000
 		offset 6
-		sprite "ship/arach freighter"
 	object "Arach Hulk"
+		sprite "ship/arach hulk"
 		distance 10000
 		offset 8
-		sprite "ship/arach hulk"
 	object "Arach Spindle"
+		sprite "ship/arach spindle"
 		distance 10000
 		offset 10
-		sprite "ship/arach spindle"
 	object "Arach Transport"
+		sprite "ship/arach transport"
 		distance 10000
 		offset 12
-		sprite "ship/arach transport"
 	object "Autumn Leaf"
+		sprite "ship/autumn leaf"
 		distance 9000
 		offset 6
-		sprite "ship/autumn leaf"
 	object "Bulk Freighter"
+		sprite "ship/bulk freighter"
 		distance 4000
 		offset 8
-		sprite "ship/bulk freighter"
 	object "Cool Breeze"
+		sprite "ship/cool breeze"
 		distance 9000
 		offset 9
-		sprite "ship/cool breeze"
 	object "Deep River"
+		sprite "ship/deep river"
 		distance 9000
 		offset 12
-		sprite "ship/deep river"
 	object "Earth Shaper"
+		sprite "ship/earth shaper"
 		distance 9000
 		offset 15
-		sprite "ship/earth shaper"
 	object "Hauler II"
+		sprite "ship/hauler ii"
 		distance 4000
 		offset 12
-		sprite "ship/hauler ii"
 	object "Hauler III"
+		sprite "ship/hauler iii"
 		distance 4000
 		offset 16
-		sprite "ship/hauler iii"
 	object "Heavy Shuttle"
+		sprite "ship/heavy shuttle"
 		distance 4000
 		offset 20
-		sprite "ship/heavy shuttle"
 	object "Heliarch Interdictor"
+		sprite "ship/heliarch interdictor"
 		distance 10000
 		offset 14
-		sprite "ship/heliarch interdictor"
 	object "Heliarch Neutralizer"
+		sprite "ship/heliarch neutralizer"
 		distance 10000
 		offset 16
-		sprite "ship/heliarch neutralizer"
 	object "Heliarch Punisher"
+		sprite "ship/heliarch punisher"
 		distance 10000
 		offset 18
-		sprite "ship/heliarch punisher"
 	object "Kar Ik Vot 349"
+		sprite "ship/kar ik vot 349"
 		distance 8000
 		offset 6
-		sprite "ship/kar ik vot 349"
 	object "Kimek Briar"
+		sprite "ship/kimek briar"
 		distance 10000
 		offset 20
-		sprite "ship/kimek briar"
 	object "Kimek Spire"
+		sprite "ship/kimek spire"
 		distance 10000
 		offset 22
-		sprite "ship/kimek spire"
 	object "Kimek Thistle"
+		sprite "ship/kimek thistle"
 		distance 10000
 		offset 24
-		sprite "ship/kimek thistle"
 	object "Kimek Thorn"
+		sprite "ship/kimek thorn"
 		distance 10000
 		offset 26
-		sprite "ship/kimek thorn"
 	object "Korath Raider"
+		sprite "ship/raider"
 		distance 8000
 		offset 9
-		sprite ship/raider
 	object "Korath World-Ship A"
+		sprite "ship/world-ship a"
 		distance 8000
 		offset 12
-		sprite "ship/world-ship a"
 	object "Lightning Bug"
+		sprite "ship/hai lightning bug"
 		distance 5000
 		offset 8
-		sprite "ship/hai lightning bug"
 	object "Met Par Tek 53"
+		sprite "ship/met par tek 53"
 		distance 8000
 		offset 15
-		sprite "ship/met par tek 53"
 	object "Model 128"
+		sprite "ship/model 128"
 		distance 8000
 		offset 18
-		sprite "ship/model 128"
 	object "Model 16"
+		sprite "ship/model 16"
 		distance 8000
 		offset 21
-		sprite "ship/model 16"
 	object "Model 256"
+		sprite "ship/model 256"
 		distance 8000
 		offset 24
-		sprite "ship/model 256"
 	object "Model 32"
+		sprite "ship/model 32"
 		distance 8000
 		offset 27
-		sprite "ship/model 32"
 	object "Model 512"
+		sprite "ship/model 512"
 		distance 8000
 		offset 30
-		sprite "ship/model 512"
 	object "Model 64"
+		sprite "ship/model 64"
 		distance 8000
 		offset 33
-		sprite "ship/model 64"
 	object "Model 8"
+		sprite "ship/model 8"
 		distance 8000
 		offset 36
-		sprite "ship/model 8"
 	object "Modified Argosy"
+		sprite "ship/modified argosy"
 		distance 4000
 		offset 24
-		sprite "ship/modified argosy"
 	object "Pond Strider"
+		sprite "ship/hai pond strider"
 		distance 5000
 		offset 12
-		sprite "ship/hai pond strider"
 	object "Pug Arfecta"
+		sprite "ship/pug arfecta"
 		distance 12000
 		offset 4
-		sprite "ship/pug arfecta"
 	object "Pug Enfolta"
+		sprite "ship/pug enfolta"
 		distance 12000
 		offset 6
-		sprite "ship/pug enfolta"
 	object "Pug Maboro"
+		sprite "ship/pug maboro"
 		distance 12000
 		offset 8
-		sprite "ship/pug maboro"
 	object "Pug Zibruka"
+		sprite "ship/pug zibruka"
 		distance 12000
 		offset 10
-		sprite "ship/pug zibruka"
 	object "Quarg Skylark"
+		sprite "ship/skylark"
 		distance 11000
 		offset 4
-		sprite ship/skylark
 	object "Quarg Wardragon"
+		sprite "ship/wardragon"
 		distance 11000
 		offset 6
-		sprite ship/wardragon
 	object "Quicksilver "
+		sprite "ship/quicksilver"
 		distance 4000
 		offset 28
-		sprite ship/quicksilver
 	object "Saryd Runabout"
+		sprite "ship/saryd runabout"
 		distance 10000
 		offset 28
-		sprite "ship/saryd runabout"
 	object "Saryd Sojourner"
+		sprite "ship/saryd sojourner"
 		distance 10000
 		offset 30
-		sprite "ship/saryd sojourner"
 	object "Saryd Traveler"
+		sprite "ship/saryd traveler"
 		distance 10000
 		offset 32
-		sprite "ship/saryd traveler"
 	object "Saryd Visitor"
+		sprite "ship/saryd visitor"
 		distance 10000
 		offset 34
-		sprite "ship/saryd visitor"
 	object "Shield Beetle"
+		sprite "ship/hai shield beetle"
 		distance 5000
 		offset 16
-		sprite "ship/hai shield beetle"
 	object "Star Barge"
+		sprite "ship/star barge"
 		distance 4000
 		offset 32
-		sprite "ship/star barge"
 	object "Star Queen"
+		sprite "ship/star queen"
 		distance 4000
 		offset 36
-		sprite "ship/star queen"
 	object "Strong Wind"
+		sprite "ship/strong wind"
 		distance 9000
 		offset 18
-		sprite "ship/strong wind"
 	object "Tek Far 109"
+		sprite "ship/tek far 109"
 		distance 8000
 		offset 39
-		sprite "ship/tek far 109"
 	object "Tek Far 71 - Lek"
+		sprite "ship/tek far 71 lek"
 		distance 8000
 		offset 42
-		sprite "ship/tek far 71 lek"
 	object "Tek Far 78 - Osk"
+		sprite "ship/tek far 78 osk"
 		distance 8000
 		offset 45
-		sprite "ship/tek far 78 osk"
 	object "Void Sprite Infant"
+		sprite "ship/void sprite infant"
 		distance 13000
 		offset 4
-		sprite "ship/void sprite infant"
 	object "Void Sprite"
+		sprite "ship/void sprite adult"
 		distance 13000
 		offset 6
-		sprite "ship/void sprite adult"
 	object "Water Bug"
+		sprite "ship/hai water bug"
 		distance 5000
 		offset 20
-		sprite "ship/hai water bug"
 	object "Winter Gale"
+		sprite "ship/winter gale"
 		distance 9000
 		offset 24
-		sprite "ship/winter gale"
-	object Aerie
+	object "Aerie"
+		sprite "ship/aerie"
 		distance 4000
 		offset 40
-		sprite ship/aerie
-	object Aphid
+	object "Aphid"
+		sprite "ship/hai aphid"
 		distance 5000
 		offset 24
-		sprite "ship/hai aphid"
-	object Archon
+	object "Archon"
+		sprite "ship/archon"
 		distance 13000
 		offset 8
-		sprite ship/archon
-	object Argosy
+	object "Argosy"
+		sprite "ship/argosy"
 		distance 4000
 		offset 44
-		sprite ship/argosy
-	object Arrow
+	object "Arrow"
+		sprite "ship/arrow"
 		distance 4000
 		offset 48
-		sprite ship/arrow
-	object Auxiliary
+	object "Auxiliary"
+		sprite "ship/auxiliaryh"
 		distance 4000
 		offset 52
-		sprite ship/auxiliaryh
-	object Bactrian
+	object "Bactrian"
+		sprite "ship/bactrian"
 		distance 4000
 		offset 56
-		sprite ship/bactrian
-	object Bastion
+	object "Bastion"
+		sprite "ship/bastion"
 		distance 4000
 		offset 60
-		sprite ship/bastion
-	object Behemoth
+	object "Behemoth"
+		sprite "ship/behemoth"
 		distance 4000
 		offset 64
-		sprite ship/behemoth
-	object Berserker
+	object "Berserker"
+		sprite "ship/berserker"
 		distance 4000
 		offset 68
-		sprite ship/berserker
-	object Blackbird
+	object "Blackbird"
+		sprite "ship/blackbird"
 		distance 4000
 		offset 72
-		sprite ship/blackbird
-	object Bounder
+	object "Bounder"
+		sprite "ship/bounder"
 		distance 4000
 		offset 76
-		sprite ship/bounder
-	object Carrier
+	object "Carrier"
+		sprite "ship/carrier"
 		distance 4000
 		offset 80
-		sprite ship/carrier
-	object Centipede
+	object "Centipede"
+		sprite "ship/hai centipede"
 		distance 5000
 		offset 28
-		sprite "ship/hai centipede"
-	object Clipper
+	object "Clipper"
+		sprite "ship/clipper"
 		distance 4000
 		offset 84
-		sprite ship/clipper
-	object Coalition
+	object "Coalition"
+		sprite "sprite/black-hole-core-land"
 		distance 10000
-		sprite sprite/black-hole-core-land
-		object coalition_gateway
-			sprite sprite/wisp_green
-	object Corvette
+		object "coalition gateway"
+			sprite "sprite/wisp_green"
+	object "Corvette"
+		sprite "ship/corvette"
 		distance 4000
 		offset 88
-		sprite ship/corvette
-	object Cruiser
+	object "Cruiser"
+		sprite "ship/cruiser"
 		distance 4000
 		offset 92
-		sprite ship/cruiser
-	object Deprecated
+	object "Deprecated"
+		sprite "sprite/station8"
 		distance 444
 		offset 225
-		sprite sprite/station8
-	object Derecho
+	object "Derecho"
+		sprite "ship/derecho"
 		distance 9000
 		offset 27
-		sprite ship/derecho
-	object Drak
+	object "Drak"
+		sprite "sprite/black-hole-core-land"
 		distance 13000
-		sprite sprite/black-hole-core-land
-		object drak_gateway
-			sprite sprite/wisp_green
-	object Dreadnought
+		object "drak gateway"
+			sprite "sprite/wisp_green"
+	object "Dreadnought"
+		sprite "ship/dreadnought"
 		distance 4000
 		offset 96
-		sprite ship/dreadnought
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 20
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 40
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 60
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 80
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 100
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 120
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 140
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 160
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 180
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 200
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 220
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 240
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 260
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 280
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 300
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 320
-		sprite sprite/everything
-	object Everything
+	object "Everything"
+		sprite "sprite/everything"
 		distance 1218
 		offset 340
-		sprite sprite/everything
 	object Experimental
+		sprite "sprite/station8"
 		distance 444
 		offset 135
-		sprite sprite/station8
 	object Falcon
+		sprite "ship/falcon"
 		distance 4000
 		offset 100
-		sprite ship/falcon
 	object Firebird
+		sprite "ship/firebird"
 		distance 4000
 		offset 104
-		sprite ship/firebird
 	object Flivver
+		sprite "ship/flivver"
 		distance 4000
 		offset 108
-		sprite ship/flivver
 	object Freighter
+		sprite "ship/freighter"
 		distance 4000
 		offset 112
-		sprite ship/freighter
 	object Frigate
+		sprite "ship/frigate"
 		distance 4000
 		offset 116
-		sprite ship/frigate
 	object Fury
+		sprite "ship/fury"
 		distance 4000
 		offset 120
-		sprite ship/fury
 	object Geocoris
+		sprite "ship/hai geocoris"
 		distance 5000
 		offset 32
-		sprite "ship/hai geocoris"
 	object Grasshopper
+		sprite "ship/hai grasshopper"
 		distance 5000
 		offset 36
-		sprite "ship/hai grasshopper"
 	object Gull
+		sprite "ship/gull"
 		distance 6000
 		offset 16
-		sprite ship/gull
 	object Gunboat
+		sprite "ship/gunboat"
 		distance 4000
 		offset 124
-		sprite ship/gunboat
 	object Hai
+		sprite "sprite/black-hole-core-land"
 		distance 5000
-		sprite sprite/black-hole-core-land
-		object hai_gateway
-			sprite sprite/wisp_green
+		object "hai gateway"
+			sprite "sprite/wisp_green"
 	object Hauler
+		sprite "ship/hauler i"
 		distance 4000
 		offset 128
-		sprite "ship/hauler i"
 	object Hawk
+		sprite "ship/hawk"
 		distance 4000
 		offset 132
-		sprite ship/hawk
 	object Headhunter
+		sprite "ship/headhunter"
 		distance 4000
 		offset 136
-		sprite ship/headhunter
 	object Human
+		sprite "sprite/black-hole-core-land"
 		distance 4000
-		sprite sprite/black-hole-core-land
-		object human_gateway
-			sprite sprite/wisp_green
+		object "human gateway"
+			sprite "sprite/wisp_green"
 	object Hurricane
+		sprite "ship/hurricane"
 		distance 9000
 		offset 30
-		sprite ship/hurricane
 	object Ka'het
+		sprite "sprite/black-hole-core-land"
 		distance 7000
-		sprite sprite/black-hole-core-land
-		object ka'het_gateway
-			sprite sprite/wisp_green
+		object "ka'het gateway"
+			sprite "sprite/wisp_green"
 	object Kestrel
+		sprite "ship/kestrel"
 		distance 4000
 		offset 140
-		sprite ship/kestrel
 	object Korath
+		sprite "sprite/black-hole-core-land"
 		distance 8000
-		sprite sprite/black-hole-core-land
-		object korath_gateway
-			sprite sprite/wisp_green
+		object "korath gateway"
+			sprite "sprite/wisp_green"
 	object Ibis
+		sprite "ship/ibis"
 		distance 6000
 		offset 20
-		sprite ship/ibis
 	object Lance
+		sprite "ship/lance"
 		distance 4000
 		offset 144
-		sprite ship/lance
 	object Leviathan
+		sprite "ship/leviathan"
 		distance 4000
 		offset 148
-		sprite ship/leviathan
 	object Maeri'het
+		sprite "ship/maeri'het"
 		distance 7000
 		offset 6
-		sprite ship/maeri'het
 	object Manta
+		sprite "ship/manta"
 		distance 4000
 		offset 152
-		sprite ship/manta
 	object Mule
+		sprite "ship/mule"
 		distance 4000
 		offset 156
-		sprite ship/mule
 	object Nest
+		sprite "ship/nest"
 		distance 4000
 		offset 160
-		sprite ship/nest
-	object omnis_gateway
-			sprite sprite/wisp_green
+	object "omnis gateway"
+			sprite "sprite/wisp_green"
 	object Osprey
+		sprite "ship/osprey"
 		distance 4000
 		offset 164
-		sprite ship/osprey
 	object Pelican
+		sprite "ship/pelican"
 		distance 6000
 		offset 24
-		sprite ship/pelican
 	object Penguin
+		sprite "ship/penguin/penguin"
 		distance 6000
 		offset 28
-		sprite ship/penguin/penguin
 	object Plugins
+		sprite "sprite/station8"
 		distance 444
 		offset 45
-		sprite sprite/station8
 	object Protector
+		sprite "ship/protector"
 		distance 4000
 		offset 168
-		sprite ship/protector
 	object Puffin
+		sprite "ship/puffin"
 		distance 6000
 		offset 12
-		sprite ship/puffin
 	object Pug
+		sprite "sprite/black-hole-core-land"
 		distance 12000
-		sprite sprite/black-hole-core-land
-		object pug_gateway
-			sprite sprite/wisp_green
+		object "pug gateway"
+			sprite "sprite/wisp_green"
 	object Quarg
+		sprite "sprite/black-hole-core-land"
 		distance 11000
-		sprite sprite/black-hole-core-land
-		object quarg_gateway
-			sprite sprite/wisp_green
+		object "quarg gateway"
+			sprite "sprite/wisp_green"
 	object Rainmaker
+		sprite "ship/rainmaker"
 		distance 4000
 		offset 172
-		sprite ship/rainmaker
 	object Raven
+		sprite "ship/raven"
 		distance 4000
 		offset 176
-		sprite ship/raven
 	object Remnant
+		sprite "sprite/black-hole-core-land"
 		distance 6000
-		sprite sprite/black-hole-core-land
-		object remnant_gateway
-			sprite sprite/wisp_green
+		object "remnant gateway"
+			sprite "sprite/wisp_green"
 	object Riptide
+		sprite "ship/riptide"
 		distance 9000
 		offset 33
-		sprite ship/riptide
 	object Roost
+		sprite "ship/roost"
 		distance 4000
 		offset 180
-		sprite ship/roost
 	object Scout
+		sprite "ship/scout"
 		distance 4000
 		offset 184
-		sprite ship/scout
 	object Shuttle
+		sprite "ship/shuttle"
 		distance 4000
 		offset 188
-		sprite ship/shuttle
 	object Skein
+		sprite "ship/skein"
 		distance 4000
 		offset 192
-		sprite ship/skein
 	object Sparrow
+		sprite "ship/sparrow"
 		distance 4000
 		offset 196
-		sprite ship/sparrow
 	object Splinter
+		sprite "ship/splinter"
 		distance 4000
 		offset 200
-		sprite ship/splinter
 	object Solifuge
+		sprite "ship/hai solifuge"
 		distance 5000
 		offset 40
-		sprite "ship/hai solifuge"
 	object Starling
+		sprite "ship/starling"
 		distance 6000
 		offset 32
-		sprite ship/starling
 	object Telis'het
+		sprite "ship/telis'het"
 		distance 7000
 		offset 9
-		sprite ship/telis'het
 	object Tempest
+		sprite "ship/tempest"
 		distance 9000
 		offset 36
-		sprite ship/tempest
 	object Vanguard
+		sprite "ship/vanguard"
 		distance 4000
 		offset 204
-		sprite ship/vanguard
 	object Vanilla
+		sprite "sprite/station8"
 		distance 444
 		offset 315
-		sprite sprite/station8
 	object Wanderer
+		sprite "sprite/black-hole-core-land"
 		distance 9000
-		sprite sprite/black-hole-core-land
-		object wanderer_gateway
-			sprite sprite/wisp_green
+		object "wanderer gateway"
+			sprite "sprite/wisp_green"
 	object Wasp
+		sprite "ship/wasp"
 		distance 4000
 		offset 208
-		sprite ship/wasp
-	pos -10 -10016
