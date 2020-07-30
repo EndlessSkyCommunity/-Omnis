@@ -37,6 +37,7 @@ ship "Caster"
 		"energy generation" 16666.6667
 		"afterburner thrust" -200000
 		"slowing resistance" 1000000
+		"force protection" 1000000
 	outfits
 		"Deterrence"
 	gun 0 -172
