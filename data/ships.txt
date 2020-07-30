@@ -1,3 +1,81 @@
+-------------
+# TRANSPORT #
+-------------
+
+ship "Caster"
+	sprite "ship/caster"
+	thumbnail "thumbnail/caster"
+	attributes
+		category "Transport"
+		hull 1000000
+		"required crew" 1
+		bunks 10000
+		mass 1000000
+		drag 11111.1
+		"heat dissipation" .1667
+		"fuel capacity" 300
+		"cargo space" 1000000
+		"outfit space" 1000000
+		"weapon capacity" 1000000
+		"hull repair rate" 16666.6667
+		cloak 1
+		"outfit scan power" 1000000
+		"outfit scan speed" 1000000
+		"cargo scan power" 1000000
+		"cargo scan speed" 1000000
+		"tactical scan power" 1000000
+		"asteroid scan power" 1000000
+		"scan interference" 1000000
+		turn 3000000
+		thrust 200000
+		hyperdrive 1
+		"jump drive" 1
+		"jump speed" 1000000
+		"fuel generation" 1000000
+		"quantum keystone" 1
+		gaslining 1
+		"energy generation" 16666.6667
+		"afterburner thrust" -200000
+		"slowing resistance" 1000000
+	outfits
+		"Deterrence"
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	gun 0 -172
+	turret 0 116 Deterrence
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+	turret 0 116
+
+---------
+# SALES #
+---------
+
 shipyard "coalition"
 	"Arach Courier"
 	"Arach Freighter"
@@ -15,13 +93,16 @@ shipyard "coalition"
 	"Saryd Sojourner"
 	"Saryd Traveler"
 	"Saryd Visitor"
+	
 shipyard "developer"
 	"Caster"
+
 shipyard "drak"
 	"Archon"
 	"Subsidurial"
 	"Void Sprite Infant"
 	"Void Sprite"
+
 shipyard "hai"
 	"Aphid"
 	"Centipede"
@@ -34,6 +115,7 @@ shipyard "hai"
 	"Solifuge"
 	"Violin Spider"
 	"Water Bug"
+
 shipyard "human"
 	"Aerie"
 	"Argosy"
@@ -130,11 +212,13 @@ shipyard "human"
 	"Unknown Ship Type"
 	"Vanguard"
 	"Wasp"
-shipyard `ka'het`
+
+shipyard "ka'het"
 	"Faes'mar"
 	"Maeri'het"
 	"Selii'mar"
 	"Telis'het"
+
 shipyard "korath"
 	"Far Lek 14"
 	"Far Osk 27"
@@ -156,14 +240,17 @@ shipyard "korath"
 	"Tek Far 109"
 	"Tek Far 71 - Lek"
 	"Tek Far 78 - Osk"
+
 shipyard "pug"
 	"Pug Arfecta"
 	"Pug Enfolta"
 	"Pug Maboro"
 	"Pug Zibruka"
+
 shipyard "quarg"
 	"Quarg Skylark"
 	"Quarg Wardragon"
+
 shipyard "remnant"
 	"Albatross"
 	"Gull"
@@ -175,6 +262,7 @@ shipyard "remnant"
 	"Puffin"
 	"Starling"
 	"Tern"
+
 shipyard "vanilla"
 	"Aerie"
 	"Albatross"
@@ -357,6 +445,7 @@ shipyard "vanilla"
 	"Wasp"
 	"Water Bug"
 	"Winter Gale"
+
 shipyard "wanderer"
 	"Autumn Leaf"
 	"Cool Breeze"

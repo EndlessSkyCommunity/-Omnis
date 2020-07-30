@@ -1,3 +1,39 @@
+-----------
+# SPECIAL #
+-----------
+
+outfit "Deterrence"
+	category "Special"
+	"turret mounts" -1
+	weapon
+		lifetime 1
+		velocity 100000
+		"turret turn" 12
+		reload 1
+		"hull damage" 16666666.6667
+		piercing 1
+
+outfit "Extra Engine"
+	category "Special"
+	"engine capacity" 1
+
+outfit "Extra Outfit"
+	category "Special"
+	"outfit space" 1
+
+outfit "Extra Weapon"
+	category "Special"
+	"weapon capacity" 1
+
+outfit "Remote Pilot"
+	category "Special"
+	automaton -1
+	bunks 1
+
+---------
+# SALES #
+---------
+
 outfitter "coalition"
 	"Bombardment Cannon"
 	"Bombardment Turret"
@@ -30,6 +66,7 @@ outfitter "coalition"
 	"Small Shield Module"
 	"Small Steering Module"
 	"Small Thrust Module"
+	
 outfitter "deprecated"
 	"Bullfrog Anti-Missile Turret"
 	"Chameleon Anti-Missile Turret"
@@ -44,12 +81,14 @@ outfitter "deprecated"
 	"Mass Expansion"
 	"NDR-114 Android"
 	"Reverse Thruster"
+
 outfitter "developer"
 	"Extra Engine"
 	"Extra Outfit"
 	"Extra Weapon"
 	"Remote Pilot"
 	"Deterrence"
+
 outfitter "drak"
 	"Drak Anti-Missile Field"
 	"Drak Antimatter Cannon"
@@ -61,6 +100,7 @@ outfitter "drak"
 	"Medium Graviton Steering"
 	"Medium Graviton Thruster"
 	"Mouthparts?"
+
 outfitter "hai"
 	"Boulder Reactor"
 	"Bullfrog Anti-Missile"
@@ -100,6 +140,7 @@ outfitter "hai"
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
+
 outfitter "human"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
@@ -234,6 +275,7 @@ outfitter "human"
 	"X4700 Ion Thruster"
 	"X5200 Ion Steering"
 	"X5700 Ion Thruster"
+
 outfitter "ka'het"
 	"Ka'het Annihilator Turret"
 	"Ka'het Annihilator"
@@ -245,6 +287,7 @@ outfitter "ka'het"
 	"Ka'het Reserve Accumulator"
 	"Ka'het Shield Restorer"
 	"Ka'het Support Cooling"
+
 outfitter "korath"
 	"Command Center"
 	"Control Transceiver"
@@ -292,6 +335,7 @@ outfitter "korath"
 	"Thruster (Planetary Class)"
 	"Thruster (Stellar Class)"
 	"Triple Plasma Core"
+
 outfitter "pug"
 	"Cloaking Device"
 	"Jump Drive"
@@ -309,6 +353,7 @@ outfitter "pug"
 	"Pug Zapper Turret"
 	"Pug Zapper"
 	"Tier 3 Anti-Missile"
+
 outfitter "quarg"
 	"Antimatter Core"
 	"Intrusion Countermeasures"
@@ -319,6 +364,7 @@ outfitter "quarg"
 	"Quantum Shield Generator"
 	"Quarg Anti-Missile"
 	"Quarg Skylance"
+
 outfitter "remnant"
 	"Aeon Cell"
 	"Anvil-Class Engine"
@@ -352,6 +398,7 @@ outfitter "remnant"
 	"Thrasher Turret"
 	"Tuning Rifle"
 	"Void Rifle"
+
 outfitter "vanilla"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
@@ -690,6 +737,7 @@ outfitter "vanilla"
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
+
 outfitter "wanderer"
 	"Blue Sun Reactor"
 	"Bright Cloud Shielding"

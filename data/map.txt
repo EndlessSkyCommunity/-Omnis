@@ -1,441 +1,1204 @@
+----------
+# GALAXY #
+----------
+
+galaxy "galaxy omnis"
+	sprite "galaxy/omnis"
+	pos 0 -10000
+
+galaxy "label omnis"
+	sprite "label/omnis"
+	pos -110 -9880
+
+-------------
+# INHABITED #
+-------------
+
+system "Omnis"
+	pos -10 -10016
+	government "cheat"
+	object "Albatross "
+		sprite "ship/albatross"
+		distance 6000
+		offset 8
+	object "Arach Courier"
+		sprite "ship/arach courier"
+		distance 10000
+		offset 4
+	object "Arach Freighter"
+		sprite "ship/arach freighter"
+		distance 10000
+		offset 6
+	object "Arach Hulk"
+		sprite "ship/arach hulk"
+		distance 10000
+		offset 8
+	object "Arach Spindle"
+		sprite "ship/arach spindle"
+		distance 10000
+		offset 10
+	object "Arach Transport"
+		sprite "ship/arach transport"
+		distance 10000
+		offset 12
+	object "Autumn Leaf"
+		sprite "ship/autumn leaf"
+		distance 9000
+		offset 6
+	object "Bulk Freighter"
+		sprite "ship/bulk freighter"
+		distance 4000
+		offset 8
+	object "Cool Breeze"
+		sprite "ship/cool breeze"
+		distance 9000
+		offset 9
+	object "Deep River"
+		sprite "ship/deep river"
+		distance 9000
+		offset 12
+	object "Earth Shaper"
+		sprite "ship/earth shaper"
+		distance 9000
+		offset 15
+	object "Hauler II"
+		sprite "ship/hauler ii"
+		distance 4000
+		offset 12
+	object "Hauler III"
+		sprite "ship/hauler iii"
+		distance 4000
+		offset 16
+	object "Heavy Shuttle"
+		sprite "ship/heavy shuttle"
+		distance 4000
+		offset 20
+	object "Heliarch Interdictor"
+		sprite "ship/heliarch interdictor"
+		distance 10000
+		offset 14
+	object "Heliarch Neutralizer"
+		sprite "ship/heliarch neutralizer"
+		distance 10000
+		offset 16
+	object "Heliarch Punisher"
+		sprite "ship/heliarch punisher"
+		distance 10000
+		offset 18
+	object "Kar Ik Vot 349"
+		sprite "ship/kar ik vot 349"
+		distance 8000
+		offset 6
+	object "Kimek Briar"
+		sprite "ship/kimek briar"
+		distance 10000
+		offset 20
+	object "Kimek Spire"
+		sprite "ship/kimek spire"
+		distance 10000
+		offset 22
+	object "Kimek Thistle"
+		sprite "ship/kimek thistle"
+		distance 10000
+		offset 24
+	object "Kimek Thorn"
+		sprite "ship/kimek thorn"
+		distance 10000
+		offset 26
+	object "Korath Raider"
+		sprite "ship/raider"
+		distance 8000
+		offset 9
+	object "Korath World-Ship A"
+		sprite "ship/world-ship a"
+		distance 8000
+		offset 12
+	object "Lightning Bug"
+		sprite "ship/hai lightning bug"
+		distance 5000
+		offset 8
+	object "Met Par Tek 53"
+		sprite "ship/met par tek 53"
+		distance 8000
+		offset 15
+	object "Model 128"
+		sprite "ship/model 128"
+		distance 8000
+		offset 18
+	object "Model 16"
+		sprite "ship/model 16"
+		distance 8000
+		offset 21
+	object "Model 256"
+		sprite "ship/model 256"
+		distance 8000
+		offset 24
+	object "Model 32"
+		sprite "ship/model 32"
+		distance 8000
+		offset 27
+	object "Model 512"
+		sprite "ship/model 512"
+		distance 8000
+		offset 30
+	object "Model 64"
+		sprite "ship/model 64"
+		distance 8000
+		offset 33
+	object "Model 8"
+		sprite "ship/model 8"
+		distance 8000
+		offset 36
+	object "Modified Argosy"
+		sprite "ship/modified argosy"
+		distance 4000
+		offset 24
+	object "Pond Strider"
+		sprite "ship/hai pond strider"
+		distance 5000
+		offset 12
+	object "Pug Arfecta"
+		sprite "ship/pug arfecta"
+		distance 12000
+		offset 4
+	object "Pug Enfolta"
+		sprite "ship/pug enfolta"
+		distance 12000
+		offset 6
+	object "Pug Maboro"
+		sprite "ship/pug maboro"
+		distance 12000
+		offset 8
+	object "Pug Zibruka"
+		sprite "ship/pug zibruka"
+		distance 12000
+		offset 10
+	object "Quarg Skylark"
+		sprite "ship/skylark"
+		distance 11000
+		offset 4
+	object "Quarg Wardragon"
+		sprite "ship/wardragon"
+		distance 11000
+		offset 6
+	object "Quicksilver "
+		sprite "ship/quicksilver"
+		distance 4000
+		offset 28
+	object "Saryd Runabout"
+		sprite "ship/saryd runabout"
+		distance 10000
+		offset 28
+	object "Saryd Sojourner"
+		sprite "ship/saryd sojourner"
+		distance 10000
+		offset 30
+	object "Saryd Traveler"
+		sprite "ship/saryd traveler"
+		distance 10000
+		offset 32
+	object "Saryd Visitor"
+		sprite "ship/saryd visitor"
+		distance 10000
+		offset 34
+	object "Shield Beetle"
+		sprite "ship/hai shield beetle"
+		distance 5000
+		offset 16
+	object "Star Barge"
+		sprite "ship/star barge"
+		distance 4000
+		offset 32
+	object "Star Queen"
+		sprite "ship/star queen"
+		distance 4000
+		offset 36
+	object "Strong Wind"
+		sprite "ship/strong wind"
+		distance 9000
+		offset 18
+	object "Tek Far 109"
+		sprite "ship/tek far 109"
+		distance 8000
+		offset 39
+	object "Tek Far 71 - Lek"
+		sprite "ship/tek far 71 lek"
+		distance 8000
+		offset 42
+	object "Tek Far 78 - Osk"
+		sprite "ship/tek far 78 osk"
+		distance 8000
+		offset 45
+	object "Void Sprite Infant"
+		sprite "ship/void sprite infant"
+		distance 13000
+		offset 4
+	object "Void Sprite"
+		sprite "ship/void sprite adult"
+		distance 13000
+		offset 6
+	object "Water Bug"
+		sprite "ship/hai water bug"
+		distance 5000
+		offset 20
+	object "Winter Gale"
+		sprite "ship/winter gale"
+		distance 9000
+		offset 24
+	object "Aerie"
+		sprite "ship/aerie"
+		distance 4000
+		offset 40
+	object "Aphid"
+		sprite "ship/hai aphid"
+		distance 5000
+		offset 24
+	object "Archon"
+		sprite "ship/archon"
+		distance 13000
+		offset 8
+	object "Argosy"
+		sprite "ship/argosy"
+		distance 4000
+		offset 44
+	object "Arrow"
+		sprite "ship/arrow"
+		distance 4000
+		offset 48
+	object "Auxiliary"
+		sprite "ship/auxiliaryh"
+		distance 4000
+		offset 52
+	object "Bactrian"
+		sprite "ship/bactrian"
+		distance 4000
+		offset 56
+	object "Bastion"
+		sprite "ship/bastion"
+		distance 4000
+		offset 60
+	object "Behemoth"
+		sprite "ship/behemoth"
+		distance 4000
+		offset 64
+	object "Berserker"
+		sprite "ship/berserker"
+		distance 4000
+		offset 68
+	object "Blackbird"
+		sprite "ship/blackbird"
+		distance 4000
+		offset 72
+	object "Bounder"
+		sprite "ship/bounder"
+		distance 4000
+		offset 76
+	object "Carrier"
+		sprite "ship/carrier"
+		distance 4000
+		offset 80
+	object "Centipede"
+		sprite "ship/hai centipede"
+		distance 5000
+		offset 28
+	object "Clipper"
+		sprite "ship/clipper"
+		distance 4000
+		offset 84
+	object "Coalition"
+		sprite "sprite/black-hole-core-land"
+		distance 10000
+		object "coalition gateway"
+			sprite "sprite/wisp_green"
+	object "Corvette"
+		sprite "ship/corvette"
+		distance 4000
+		offset 88
+	object "Cruiser"
+		sprite "ship/cruiser"
+		distance 4000
+		offset 92
+	object "Deprecated"
+		sprite "sprite/station8"
+		distance 444
+		offset 225
+	object "Derecho"
+		sprite "ship/derecho"
+		distance 9000
+		offset 27
+	object "Drak"
+		sprite "sprite/black-hole-core-land"
+		distance 13000
+		object "drak gateway"
+			sprite "sprite/wisp_green"
+	object "Dreadnought"
+		sprite "ship/dreadnought"
+		distance 4000
+		offset 96
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 20
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 40
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 60
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 80
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 100
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 120
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 140
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 160
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 180
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 200
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 220
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 240
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 260
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 280
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 300
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 320
+	object "Everything"
+		sprite "sprite/everything"
+		distance 1218
+		offset 340
+	object Experimental
+		sprite "sprite/station8"
+		distance 444
+		offset 135
+	object Falcon
+		sprite "ship/falcon"
+		distance 4000
+		offset 100
+	object Firebird
+		sprite "ship/firebird"
+		distance 4000
+		offset 104
+	object Flivver
+		sprite "ship/flivver"
+		distance 4000
+		offset 108
+	object Freighter
+		sprite "ship/freighter"
+		distance 4000
+		offset 112
+	object Frigate
+		sprite "ship/frigate"
+		distance 4000
+		offset 116
+	object Fury
+		sprite "ship/fury"
+		distance 4000
+		offset 120
+	object Geocoris
+		sprite "ship/hai geocoris"
+		distance 5000
+		offset 32
+	object Grasshopper
+		sprite "ship/hai grasshopper"
+		distance 5000
+		offset 36
+	object Gull
+		sprite "ship/gull"
+		distance 6000
+		offset 16
+	object Gunboat
+		sprite "ship/gunboat"
+		distance 4000
+		offset 124
+	object Hai
+		sprite "sprite/black-hole-core-land"
+		distance 5000
+		object "hai gateway"
+			sprite "sprite/wisp_green"
+	object Hauler
+		sprite "ship/hauler i"
+		distance 4000
+		offset 128
+	object Hawk
+		sprite "ship/hawk"
+		distance 4000
+		offset 132
+	object Headhunter
+		sprite "ship/headhunter"
+		distance 4000
+		offset 136
+	object Human
+		sprite "sprite/black-hole-core-land"
+		distance 4000
+		object "human gateway"
+			sprite "sprite/wisp_green"
+	object Hurricane
+		sprite "ship/hurricane"
+		distance 9000
+		offset 30
+	object Ka'het
+		sprite "sprite/black-hole-core-land"
+		distance 7000
+		object "ka'het gateway"
+			sprite "sprite/wisp_green"
+	object Kestrel
+		sprite "ship/kestrel"
+		distance 4000
+		offset 140
+	object Korath
+		sprite "sprite/black-hole-core-land"
+		distance 8000
+		object "korath gateway"
+			sprite "sprite/wisp_green"
+	object Ibis
+		sprite "ship/ibis"
+		distance 6000
+		offset 20
+	object Leviathan
+		sprite "ship/leviathan"
+		distance 4000
+		offset 148
+	object Maeri'het
+		sprite "ship/maeri'het"
+		distance 7000
+		offset 6
+	object Manta
+		sprite "ship/manta"
+		distance 4000
+		offset 152
+	object Mule
+		sprite "ship/mule"
+		distance 4000
+		offset 156
+	object Nest
+		sprite "ship/nest"
+		distance 4000
+		offset 160
+	object "omnis gateway"
+			sprite "sprite/wisp_green"
+	object Osprey
+		sprite "ship/osprey"
+		distance 4000
+		offset 164
+	object Pelican
+		sprite "ship/pelican"
+		distance 6000
+		offset 24
+	object Penguin
+		sprite "ship/penguin/penguin"
+		distance 6000
+		offset 28
+	object Plugins
+		sprite "sprite/station8"
+		distance 444
+		offset 45
+	object Protector
+		sprite "ship/protector"
+		distance 4000
+		offset 168
+	object Puffin
+		sprite "ship/puffin"
+		distance 6000
+		offset 12
+	object Pug
+		sprite "sprite/black-hole-core-land"
+		distance 12000
+		object "pug gateway"
+			sprite "sprite/wisp_green"
+	object Quarg
+		sprite "sprite/black-hole-core-land"
+		distance 11000
+		object "quarg gateway"
+			sprite "sprite/wisp_green"
+	object Rainmaker
+		sprite "ship/rainmaker"
+		distance 4000
+		offset 172
+	object Raven
+		sprite "ship/raven"
+		distance 4000
+		offset 176
+	object Remnant
+		sprite "sprite/black-hole-core-land"
+		distance 6000
+		object "remnant gateway"
+			sprite "sprite/wisp_green"
+	object Riptide
+		sprite "ship/riptide"
+		distance 9000
+		offset 33
+	object Roost
+		sprite "ship/roost"
+		distance 4000
+		offset 180
+	object Scout
+		sprite "ship/scout"
+		distance 4000
+		offset 184
+	object Shuttle
+		sprite "ship/shuttle"
+		distance 4000
+		offset 188
+	object Skein
+		sprite "ship/skein"
+		distance 4000
+		offset 192
+	object Sparrow
+		sprite "ship/sparrow"
+		distance 4000
+		offset 196
+	object Splinter
+		sprite "ship/splinter"
+		distance 4000
+		offset 200
+	object Solifuge
+		sprite "ship/hai solifuge"
+		distance 5000
+		offset 40
+	object Starling
+		sprite "ship/starling"
+		distance 6000
+		offset 32
+	object Telis'het
+		sprite "ship/telis'het"
+		distance 7000
+		offset 9
+	object Tempest
+		sprite "ship/tempest"
+		distance 9000
+		offset 36
+	object Vanguard
+		sprite "ship/vanguard"
+		distance 4000
+		offset 204
+	object Vanilla
+		sprite "sprite/station8"
+		distance 444
+		offset 315
+	object Wanderer
+		sprite "sprite/black-hole-core-land"
+		distance 9000
+		object "wanderer gateway"
+			sprite "sprite/wisp_green"
+	object Wasp
+		sprite "ship/wasp"
+		distance 4000
+		offset 208
+
+------------
+# OVERRIDE #
+------------
+
+system "Cinxia"
+	add object "remnant gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Hevru Hai"
+	add object "quarg gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+		
+system "Ka'ch'chrai"
+	add object "wanderer gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Kor Nor'peli"
+	add object "korath gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Nenia"
+	add object "drak gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Nona"
+	add object "ka'het gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Pug Iyik"
+	add object "pug gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Quaru"
+	add object "coalition gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Rutilicus"
+	add object "omnis gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Sol"
+	add object "human gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Ya Hai"
+	add object "hai gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+-----------
+# PLANETS #
+-----------
+
 planet "Albatross "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "albatross"
+
 planet "Arach Courier"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arach courier"
+
 planet "Arach Freighter"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arach freighter"
+
 planet "Arach Hulk"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arach hulk"
+
 planet "Arach Spindle"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arach spindle"
+
 planet "Arach Transport"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arach transport"
+
 planet "Autumn Leaf"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "autumn leaf"
+
 planet "Bulk Freighter"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "bulk freighter"
+
 planet "Cool Breeze"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "cool breeze"
+
 planet "Deep River"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "deep river"
+
 planet "Earth Shaper"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "earth shaper"
+
 planet "Hauler II"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "hauler ii"
+
 planet "Hauler III"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "hauler iii"
+
 planet "Heavy Shuttle"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "heavy shuttle"
+
 planet "Heliarch Interdictor"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "heliarch interdictor"
+
 planet "Heliarch Neutralizer"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "heliarch neutralizer"
+
 planet "Heliarch Punisher"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "heliarch punisher"
+
 planet "Kar Ik Vot 349"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kar ik vot 349"
+
 planet "Kimek Briar"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kimek briar"
+
 planet "Kimek Spire"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kimek spire"
+
 planet "Kimek Thistle"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kimek thistle"
+
 planet "Kimek Thorn"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kimek thorn"
+
 planet "Korath Raider"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "korath raider"
+
 planet "Korath World-Ship A"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "korath world-ship a"
+
 planet "Lightning Bug"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "lightning bug"
+
 planet "Met Par Tek 53"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "met par tek 53"
+
 planet "Model 128"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 128"
+
 planet "Model 16"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 16"
+
 planet "Model 256"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 256"
+
 planet "Model 32"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 32"
+
 planet "Model 512"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 512"
+
 planet "Model 64"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 64"
+
 planet "Model 8"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "model 8"
+
 planet "Modified Argosy"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "modified argosy"
+
 planet "Pond Strider"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pond strider"
+
 planet "Pug Arfecta"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pug arfecta"
+
 planet "Pug Enfolta"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pug enfolta"
+
 planet "Pug Maboro"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pug maboro"
+
 planet "Pug Zibruka"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pug zibruka"
+
 planet "Quarg Skylark"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "quarg skylark"
+
 planet "Quarg Wardragon"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "quarg wardragon"
+
 planet "Quicksilver "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "quicksilver"
+
 planet "Saryd Runabout"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "saryd runabout"
+
 planet "Saryd Sojourner"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "saryd sojourner"
+
 planet "Saryd Traveler"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "saryd traveler"
+
 planet "Saryd Visitor"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "saryd visitor"
+
 planet "Shield Beetle"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "shield beetle"
+
 planet "Star Barge"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "star barge"
+
 planet "Star Queen"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "star queen"
+
 planet "Strong Wind"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "strong wind"
+
 planet "Summer Leaf"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "summer leaf"
+
 planet "Tek Far 109"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "tek far 109"
+
 planet "Tek Far 71 - Lek"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "tek far 71 lek"
+
 planet "Tek Far 78 - Osk"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "tek far 78 osk"
+
 planet "Void Sprite Infant"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "void sprite infant"
+
 planet "Void Sprite"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "void sprite"
+
 planet "Water Bug"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "water bug"
+
 planet "Winter Gale"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "winter gale"
+
 planet "Aerie"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "aerie"
+
 planet "Aphid"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "aphid"
+
 planet "Archon"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "archon"
+
 planet "Argosy"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "argosy"
+
 planet "Arrow"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "arrow"
+
 planet "Auxiliary"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "auxiliary"
+
 planet "Bactrian"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "bactrian"
+
 planet "Bastion"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "bastion"
+
 planet "Behemoth"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "behemoth"
+
 planet "Berserker"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "berserker"
+
 planet "Blackbird"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "blackbird"
+
 planet "Bounder"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "bounder"
+
 planet "Carrier"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "carrier"
+
 planet "Centipede"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "centipede"
+
 planet "Clipper"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "clipper"
+
 planet "Coalition"
 	landscape "landscape/station6"
 	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
@@ -443,30 +1206,35 @@ planet "Coalition"
 	outfitter "coalition"
 	shipyard "coalition"
 	bribe 0
+
 planet "Corvette"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "corvette"
+
 planet "Cruiser"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "cruiser"
+
 planet "Deprecated"
 	landscape landscape/station6
 	description ``
 	spaceport ``
 	outfitter "deprecated"
 	bribe 0
+
 planet "Derecho"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "derecho"
+
 planet "Drak"
 	landscape "landscape/station6"
 	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
@@ -474,12 +1242,14 @@ planet "Drak"
 	outfitter "drak"
 	shipyard "drak"
 	bribe 0
+
 planet "Dreadnought"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "dreadnought"
+
 planet "Everything"
 	landscape "landscape/station6"
 	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
@@ -508,6 +1278,7 @@ planet "Everything"
 	shipyard "remnant"
 	shipyard "wanderer"
 	bribe 0
+
 planet "Experimental"
 	landscape landscape/station6
 	description ``
@@ -517,66 +1288,77 @@ planet "Experimental"
 	shipyard "developer"
 	shipyard "experimental"
 	bribe 0
+
 planet "Falcon"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "falcon"
+
 planet "Firebird"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "firebird"
+
 planet "Flivver"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "flivver"
+
 planet "Freighter"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "freighter"
+
 planet "Frigate"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "frigate"
+
 planet "Fury"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "fury"
+
 planet "Geocoris"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "geocoris"
+
 planet "Grasshopper"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "grasshopper"
+
 planet "Gull"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "gull"
+
 planet "Gunboat"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "gunboat"
+
 planet "Hai"
 	landscape "landscape/station6"
 	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
@@ -584,24 +1366,28 @@ planet "Hai"
 	outfitter "hai"
 	shipyard "hai"
 	bribe 0
+
 planet "Hauler"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "hauler"
+
 planet "Hawk"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "hawk"
+
 planet "Headhunter"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "headhunter"
+
 planet "Human"
 	landscape "landscape/station6"
 	description ``
@@ -609,31 +1395,36 @@ planet "Human"
 	outfitter "human"
 	shipyard "human"
 	bribe 0
+
 planet "Hurricane"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "hurricane"
+
 planet "Ibis"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "ibis"
-planet `Ka'het`
+
+planet "Ka'het"
 	bribe 0
 	description ``
 	landscape landscape/station6
 	outfitter "ka'het"
 	shipyard "ka'het"
 	spaceport ``
+
 planet "Kestrel"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kestrel"
+
 planet "Korath"
 	landscape "landscape/station6"
 	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
@@ -641,60 +1432,63 @@ planet "Korath"
 	outfitter "korath"
 	shipyard "korath"
 	bribe 0
-planet "Lance"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "lance"
+
 planet "Leviathan"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "leviathan"
+
 planet "Maeri'het"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "maeri'het"
+
 planet "Manta"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "manta"
+
 planet "Mule"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "mule"
+
 planet "Nest"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "nest"
+
 planet "Osprey"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "osprey"
+
 planet "Pelican"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "pelican"
+
 planet "Penguin"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "penguin"
+
 planet "Plugins"
 	landscape "landscape/station6"
 	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
@@ -702,18 +1496,21 @@ planet "Plugins"
 	outfitter "plugin"
 	shipyard "plugin"
 	bribe 0
+
 planet "Protector"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "protector"
+
 planet "Puffin"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "puffin"
+
 planet "Pug"
 	landscape "landscape/station6"
 	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
@@ -721,6 +1518,7 @@ planet "Pug"
 	outfitter "pug"
 	shipyard "pug"
 	bribe 0
+
 planet "Quarg"
 	landscape landscape/station6
 	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
@@ -728,18 +1526,21 @@ planet "Quarg"
 	outfitter "quarg"
 	shipyard "quarg"
 	bribe 0
+
 planet "Rainmaker"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "rainmaker"
+
 planet "Raven"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "raven"
+
 planet "Remnant"
 	landscape "landscape/station6"
 	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
@@ -747,78 +1548,91 @@ planet "Remnant"
 	outfitter "remnant"
 	shipyard "remnant"
 	bribe 0
+
 planet "Riptide"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "riptide"
+
 planet "Roost"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "roost"
+
 planet "Scout"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "scout"
+
 planet "Shuttle"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "shuttle"
+
 planet "Skein"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "skein"
+
 planet "Solifuge"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "solifuge"
+
 planet "Starling"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "starling"
+
 planet "Sparrow"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "sparrow"
+
 planet "Splinter"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "splinter"
+
 planet "Telis'het"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "telis'het"
+
 planet "Tempest"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "tempest"
+
 planet "Vanguard"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "vanguard"
+
 planet "Vanilla"
 	landscape "landscape/station6"
 	description ``
@@ -826,6 +1640,7 @@ planet "Vanilla"
 	outfitter "vanilla"
 	shipyard "vanilla"
 	bribe 0
+
 planet "Wanderer"
 	landscape "landscape/station6"
 	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
@@ -833,6 +1648,7 @@ planet "Wanderer"
 	outfitter "wanderer"
 	shipyard "wanderer"
 	bribe 0
+
 planet "Wasp"
 	bribe 0
 	government "arena"

@@ -1,6 +1,0 @@
-galaxy "galaxy omnis"
-	sprite "galaxy/omnis"
-	pos 0 -10000
-galaxy "label omnis"
-	sprite "label/omnis"
-	pos -110 -9880

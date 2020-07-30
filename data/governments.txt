@@ -4,6 +4,7 @@ government "arena"
 	color 1 1 1
 	"player reputation" -1
 	fine 0
+	
 government "cheat"
 	"display name" Unknown
 	swizzle 0
