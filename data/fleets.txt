@@ -363,61 +363,6 @@ fleet "wasp"
 	variant
 		Wasp
 
------------
-# REMNANT #
------------
-
-fleet "albatross"
-	government "arena"
-	personality
-		heroic
-	variant
-		Albatross
-
-fleet "gull"
-	government "arena"
-	personality
-		heroic
-	variant
-		Gull
-
-fleet "ibis"
-	government "arena"
-	personality
-		heroic
-	variant
-		Ibis
-		Petrel 2
-		Tern 4
-
-fleet "pelican"
-	government "arena"
-	personality
-		heroic
-	variant
-		Pelican
-
-fleet "penguin"
-	government "arena"
-	personality
-		heroic
-	variant
-		Penguin
-
-fleet "puffin"
-	government "arena"
-	personality
-		heroic
-	variant
-		Puffin
-
-fleet "starling"
-	government "arena"
-	personality
-		heroic
-	variant
-		Starling
-
 -------
 # HAI #
 -------
@@ -486,6 +431,61 @@ fleet "water bug"
 		heroic
 	variant
 		"Water Bug"
+
+-----------
+# REMNANT #
+-----------
+
+fleet "albatross"
+	government "arena"
+	personality
+		heroic
+	variant
+		Albatross
+
+fleet "gull"
+	government "arena"
+	personality
+		heroic
+	variant
+		Gull
+
+fleet "ibis"
+	government "arena"
+	personality
+		heroic
+	variant
+		Ibis
+		Petrel 2
+		Tern 4
+
+fleet "pelican"
+	government "arena"
+	personality
+		heroic
+	variant
+		Pelican
+
+fleet "penguin"
+	government "arena"
+	personality
+		heroic
+	variant
+		Penguin
+
+fleet "puffin"
+	government "arena"
+	personality
+		heroic
+	variant
+		Puffin
+
+fleet "starling"
+	government "arena"
+	personality
+		heroic
+	variant
+		Starling
 
 ----------
 # KA'HET #
@@ -612,6 +612,87 @@ fleet "tek far 78 osk"
 		"Tek Far 78 - Osk"
 		"Far Osk 27" 9
 
+------------
+# WANDERER #
+------------
+
+fleet "autumn leaf"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Autumn Leaf"
+
+fleet "cool breeze"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Cool Breeze"
+
+fleet "deep river"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Deep River"
+
+fleet "derecho"
+	government "arena"
+	personality
+		heroic
+	variant
+		Derecho
+
+fleet "earth shaper"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Earth Shaper"
+
+fleet "hurricane"
+	government "arena"
+	personality
+		heroic
+	variant
+		Hurricane
+
+fleet "riptide"
+	government "arena"
+	personality
+		heroic
+	variant
+		Riptide
+
+fleet "strong wind"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Strong Wind"
+
+fleet "summer leaf"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Summer Leaf"
+
+fleet "tempest"
+	government "arena"
+	personality
+		heroic
+	variant
+		Tempest
+		
+fleet "winter gale"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Winter Gale"
+
 -------------
 # COALITION #
 -------------
@@ -727,87 +808,6 @@ fleet "saryd visitor"
 		heroic
 	variant
 		"Saryd Visitor"
-
-------------
-# WANDERER #
-------------
-
-fleet "autumn leaf"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Autumn Leaf"
-
-fleet "cool breeze"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Cool Breeze"
-
-fleet "deep river"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Deep River"
-
-fleet "derecho"
-	government "arena"
-	personality
-		heroic
-	variant
-		Derecho
-
-fleet "earth shaper"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Earth Shaper"
-
-fleet "hurricane"
-	government "arena"
-	personality
-		heroic
-	variant
-		Hurricane
-
-fleet "riptide"
-	government "arena"
-	personality
-		heroic
-	variant
-		Riptide
-
-fleet "strong wind"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Strong Wind"
-
-fleet "summer leaf"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Summer Leaf"
-
-fleet "tempest"
-	government "arena"
-	personality
-		heroic
-	variant
-		Tempest
-		
-fleet "winter gale"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Winter Gale"
 
 ---------
 # QUARG #
