@@ -771,6 +771,7 @@ event "reveal map"
 	visit "Sagittarius A*"
 	visit "Saiph"
 	visit "Salipastart"
+	visit saquergen
 	visit "Sargas"
 	visit "Sarin"
 	visit "Sayaiban"
