@@ -659,7 +659,7 @@ system "Ka'ch'chrai"
 		sprite "sprite/wisp_green"
 		distance 2000
 
-system "Kor Nor'peli"
+system "Kashikt"
 	add object "korath gateway"
 		sprite "sprite/wisp_green"
 		distance 2000
