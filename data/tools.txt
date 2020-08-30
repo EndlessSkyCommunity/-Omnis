@@ -82,6 +82,7 @@ mission "money"
 mission "reveal map"
 	name `Reveal Map`
 	job
+	repeat
 	to fail
 		has "reveal map: Active"
 	source
