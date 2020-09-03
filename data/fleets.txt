@@ -868,7 +868,14 @@ fleet "archon"
 	personality
 		heroic
 	variant
-		Archon
+		"Archon"
+
+fleet "ember waste node"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ember Waste Node"
 
 fleet "void sprite infant"
 	government "arena"

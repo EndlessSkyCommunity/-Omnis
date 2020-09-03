@@ -635,10 +635,14 @@ system "Omnis"
 		sprite "ship/void sprite adult"
 		distance 13000
 		offset 6
+	object "Ember Waste Node"
+		sprite "ship/ember waste node/ember waste node"
+		distance 13000
+		offset 8
 	object "Archon"
 		sprite "ship/archon"
 		distance 13000
-		offset 8
+		offset 10
 
 # ------------
 #   OVERRIDE 
@@ -1732,6 +1736,13 @@ planet "Archon"
 	tribute 1
 		threshold 0
 		fleet "archon"
+
+planet "Ember Waste Node"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "ember waste node"
 
 planet "Void Sprite Infant"
 	bribe 0
