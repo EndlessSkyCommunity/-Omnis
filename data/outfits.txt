@@ -1,6 +1,6 @@
------------
-# SPECIAL #
------------
+# -----------
+#   SPECIAL
+# -----------
 
 outfit "Deterrence"
 	category "Special"
@@ -30,9 +30,15 @@ outfit "Remote Pilot"
 	automaton -1
 	bunks 1
 
----------
-# SALES #
----------
+outfit "Quantum keyStone"
+	category "Special"
+	omnis 1
+	description "Enables use of non-Ruticulus Omnis wormholes."
+	
+
+# ---------
+#   SALES
+# ---------
 
 outfitter "coalition"
 	"Bombardment Cannon"
@@ -88,6 +94,7 @@ outfitter "developer"
 	"Extra Weapon"
 	"Remote Pilot"
 	"Deterrence"
+	"Quantum keyStone"
 
 outfitter "drak"
 	"Drak Anti-Missile Field"

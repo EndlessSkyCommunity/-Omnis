@@ -1,6 +1,6 @@
----------
-# TOOLS #
----------
+# ---------
+#   TOOLS
+# ---------
 
 mission "licenses give"
 	name `Licenses- Give`
@@ -75,9 +75,9 @@ mission "money"
 	on accept
 		payment 922e16
 
------------
-# MAPPING #
------------
+# -----------
+#   MAPPING
+# -----------
 
 mission "reveal map"
 	name `Reveal Map`
@@ -845,9 +845,9 @@ event "reveal map"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
 
------------
-# SWIZZLE #
------------
+# -----------
+# SWIZZLE
+# -----------
 
 mission "swizzle 0"
 	name `Swizzle- 0`
