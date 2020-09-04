@@ -1,6 +1,6 @@
-----------
-# GALAXY #
-----------
+# ----------
+#   GALAXY  
+# ----------
 
 galaxy "galaxy omnis"
 	sprite "galaxy/omnis"
@@ -10,9 +10,9 @@ galaxy "label omnis"
 	sprite "label/omnis"
 	pos -110 -9880
 
--------------
-# INHABITED #
--------------
+# -------------
+#   INHABITED 
+# -------------
 
 system "Omnis"
 	pos -10 -10016
@@ -644,9 +644,9 @@ system "Omnis"
 		distance 13000
 		offset 10
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE 
+# ------------
 
 system "Cinxia"
 	add object "remnant gateway"
@@ -703,9 +703,9 @@ system "Ya Hai"
 		sprite "sprite/wisp_green"
 		distance 2000
 
------------
-# PLANETS #
------------
+# -----------
+#   PLANETS
+# -----------
 
 planet "Deprecated"
 	landscape landscape/station6
@@ -771,9 +771,43 @@ planet "Vanilla"
 	shipyard "vanilla"
 	bribe 0
 
------------------
-# PLANETS HUMAN #
------------------
+# -------------
+#   WORMHOLES
+# -------------
+
+planet "human gateway"
+	attributes "requires: omnis"
+
+planet "hai gateway"
+	attributes "requires: omnis"
+
+planet "remnant gateway"
+	attributes "requires: omnis"
+
+planet "ka'het gateway"
+	attributes "requires: omnis"
+
+planet "korath gateway"
+	attributes "requires: omnis"
+
+planet "wanderer gateway"
+	attributes "requires: omnis"
+
+planet "coalition gateway"
+	attributes "requires: omnis"
+
+planet "quarg gateway"
+	attributes "requires: omnis"
+
+planet "pug gateway"
+	attributes "requires: omnis"
+
+planet "drak gateway"
+	attributes "requires: omnis"
+
+# -----------------
+#   PLANETS HUMAN
+# -----------------
 
 planet "Human"
 	landscape "landscape/station6"
@@ -1133,9 +1167,9 @@ planet "Wasp"
 		threshold 0
 		fleet "wasp"
 
----------------
-# PLANETS HAI #
----------------
+# ---------------
+#   PLANETS HAI
+# ---------------
 
 planet "Hai"
 	landscape "landscape/station6"
@@ -1208,9 +1242,9 @@ planet "Water Bug"
 		threshold 0
 		fleet "water bug"
 
--------------------
-# PLANETS REMNANT #
--------------------
+# -------------------
+#   PLANETS REMNANT
+# -------------------
 
 planet "Remnant"
 	landscape "landscape/station6"
@@ -1269,9 +1303,9 @@ planet "Starling"
 		threshold 0
 		fleet "starling"
 
-------------------
-# PLANETS KA'HET #
-------------------
+# ------------------
+#   PLANETS KA'HET
+# ------------------
 
 planet "Ka'het"
 	bribe 0
@@ -1295,9 +1329,9 @@ planet "Telis'het"
 		threshold 0
 		fleet "telis'het"
 
-------------------
-# PLANETS KORATH #
-------------------
+# ------------------
+#   PLANETS KORATH
+# ------------------
 
 planet "Korath"
 	landscape "landscape/station6"
@@ -1405,9 +1439,9 @@ planet "Tek Far 78 - Osk"
 		threshold 0
 		fleet "tek far 78 osk"
 
---------------------
-# PLANETS WANDERER #
---------------------
+# --------------------
+#  PLANETS WANDERER
+# --------------------
 
 planet "Wanderer"
 	landscape "landscape/station6"
@@ -1494,9 +1528,9 @@ planet "Winter Gale"
 		threshold 0
 		fleet "winter gale"
 
---------------------
-# PLANET COALITION #
---------------------
+# --------------------
+#   PLANET COALITION
+# --------------------
 
 planet "Coalition"
 	landscape "landscape/station6"
@@ -1618,9 +1652,9 @@ planet "Saryd Visitor"
 		threshold 0
 		fleet "saryd visitor"
 
------------------
-# PLANETS QUARG #
------------------
+# -----------------
+#   PLANETS QUARG
+# -----------------
 
 planet "Quarg"
 	landscape landscape/station6
@@ -1644,9 +1678,9 @@ planet "Quarg Wardragon"
 		threshold 0
 		fleet "quarg wardragon"
 
----------------
-# PLANETS PUG #
----------------
+# ---------------
+#   PLANETS PUG
+# ---------------
 
 planet "Pug"
 	landscape "landscape/station6"
@@ -1684,9 +1718,9 @@ planet "Pug Zibruka"
 		threshold 0
 		fleet "pug zibruka"
 
-----------------
-# PLANETS DRAK #
-----------------
+# ----------------
+#   PLANETS DRAK
+# ----------------
 
 planet "Drak"
 	landscape "landscape/station6"

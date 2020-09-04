@@ -1,6 +1,6 @@
----------
-# HUMAN #
----------
+# ---------
+#   HUMAN
+# ---------
 
 fleet "aerie"
 	government "arena"
@@ -363,9 +363,9 @@ fleet "wasp"
 	variant
 		Wasp
 
--------
-# HAI #
--------
+# -------
+#   HAI
+# -------
 
 fleet "aphid"
 	government "arena"
@@ -432,9 +432,9 @@ fleet "water bug"
 	variant
 		"Water Bug"
 
------------
-# REMNANT #
------------
+# -----------
+#   REMNANT
+# -----------
 
 fleet "albatross"
 	government "arena"
@@ -487,9 +487,9 @@ fleet "starling"
 	variant
 		Starling
 
-----------
-# KA'HET #
-----------
+# ----------
+#   KA'HET
+# ----------
 
 fleet "maeri'het"
 	government "arena"
@@ -505,9 +505,9 @@ fleet "telis'het"
 	variant
 		Telis'het
 
-----------
-# KORATH #
-----------
+# ----------
+#   KORATH
+# ----------
 
 fleet "kar ik vot 349"
 	government "arena"
@@ -612,9 +612,9 @@ fleet "tek far 78 osk"
 		"Tek Far 78 - Osk"
 		"Far Osk 27" 9
 
-------------
-# WANDERER #
-------------
+# ------------
+#   WANDERER
+# ------------
 
 fleet "autumn leaf"
 	government "arena"
@@ -693,9 +693,9 @@ fleet "winter gale"
 	variant
 		"Winter Gale"
 
--------------
-# COALITION #
--------------
+# -------------
+#   COALITION
+# -------------
 
 fleet "arach courier"
 	government "arena"
@@ -809,9 +809,9 @@ fleet "saryd visitor"
 	variant
 		"Saryd Visitor"
 
----------
-# QUARG #
----------
+# ---------
+#   QUARG
+# ---------
 
 fleet "quarg skylark"
 	government "arena"
@@ -827,9 +827,9 @@ fleet "quarg wardragon"
 	variant
 		"Quarg Wardragon"
 
--------
-# PUG #
--------
+# -------
+#   PUG
+# -------
 
 fleet "pug arfecta"
 	government "arena"
@@ -859,9 +859,9 @@ fleet "pug zibruka"
 	variant
 		"Pug Zibruka"
 
---------
-# DRAK #
---------
+# --------
+#   DRAK
+# --------
 
 fleet "archon"
 	government "arena"

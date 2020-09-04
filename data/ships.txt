@@ -1,6 +1,6 @@
--------------
-# TRANSPORT #
--------------
+# -------------
+#   TRANSPORT
+# -------------
 
 ship "Caster"
 	sprite "ship/caster"
@@ -73,9 +73,9 @@ ship "Caster"
 	turret 0 116
 	turret 0 116
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 shipyard "coalition"
 	"Arach Courier"

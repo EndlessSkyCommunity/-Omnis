@@ -1,6 +1,6 @@
----------
-# TOOLS #
----------
+# ---------
+#   TOOLS
+# ---------
 
 mission "licenses give"
 	name `Licenses- Give`
@@ -75,9 +75,9 @@ mission "money"
 	on accept
 		payment 922e16
 
------------
-# MAPPING #
------------
+# -----------
+#   MAPPING
+# -----------
 
 mission "reveal map"
 	name `Reveal Map`
@@ -508,7 +508,6 @@ event "reveal map"
 	visit "Zubenelgenubi"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
-
 	"visit planet" "Ablub's Invention"
 	"visit planet" "Ada"
 	"visit planet" "Ahr"
@@ -875,9 +874,9 @@ event "reveal map"
 	"visit planet" "Zenith"
 	"visit planet" "Zug"
 
------------
-# SWIZZLE #
------------
+# -----------
+#   SWIZZLE
+# -----------
 
 mission "swizzle 0"
 	name `Swizzle- 0`
