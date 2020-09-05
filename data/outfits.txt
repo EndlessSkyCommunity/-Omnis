@@ -30,10 +30,11 @@ outfit "Remote Pilot"
 	automaton -1
 	bunks 1
 
-outfit "Quantum keyStone"
+outfit "Crux Stone"
 	category "Special"
-	omnis 1
-	description "Enables use of non-Ruticulus Omnis wormholes."
+	thumbnail "outfit/keystone"
+	Omnis 1
+	description "Enables use of the Omnis nexus wormholes."
 	
 
 # ---------
@@ -94,7 +95,7 @@ outfitter "developer"
 	"Extra Weapon"
 	"Remote Pilot"
 	"Deterrence"
-	"Quantum keyStone"
+	"Crux Stone"
 
 outfitter "drak"
 	"Drak Anti-Missile Field"
