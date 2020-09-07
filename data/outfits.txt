@@ -28,7 +28,7 @@ outfit "Extra Weapon"
 outfit "Remote Pilot"
 	category "Special"
 	automaton -1
-	bunks 1
+	bunks 100
 
 outfit "Crux Stone"
 	category "Special"
