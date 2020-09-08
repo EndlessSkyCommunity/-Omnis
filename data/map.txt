@@ -776,34 +776,34 @@ planet "Vanilla"
 # -------------
 
 planet "human gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "hai gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "remnant gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "ka'het gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "korath gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "wanderer gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "coalition gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "quarg gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "pug gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 planet "drak gateway"
-	attributes "requires: omnis"
+	attributes "requires: Omnis"
 
 # -----------------
 #   PLANETS HUMAN
