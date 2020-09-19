@@ -19,7 +19,7 @@ system "Omnis"
 	government "cheat"
 
 	object "omnis gateway"
-			sprite "sprite/wisp_green"
+			sprite "sprite/wisp_red"
 	object Plugins
 		sprite "sprite/station8"
 		distance 444
@@ -385,10 +385,14 @@ system "Omnis"
 		sprite "ship/penguin/penguin"
 		distance 6000
 		offset 28
+	object Peregrine
+		sprite "ship/Peregrine/Peregrine"
+		distance 6000
+		offest 32
 	object Starling
 		sprite "ship/starling"
 		distance 6000
-		offset 32
+		offset 36
 
 	object Ka'het
 		sprite "sprite/black-hole-core-land"
@@ -1288,6 +1292,13 @@ planet "Penguin"
 	tribute 1
 		threshold 0
 		fleet "penguin"
+
+planet "Peregrine"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "peregrine"
 
 planet "Puffin"
 	bribe 0

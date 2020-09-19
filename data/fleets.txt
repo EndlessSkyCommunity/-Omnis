@@ -466,6 +466,13 @@ fleet "pelican"
 	variant
 		Pelican
 
+fleet "peregrine"
+	goverment "arena"
+	personality
+		heroic
+	variant
+		Peregrine
+
 fleet "penguin"
 	government "arena"
 	personality
