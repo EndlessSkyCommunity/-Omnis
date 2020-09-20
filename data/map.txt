@@ -19,7 +19,7 @@ system "Omnis"
 	government "cheat"
 
 	object "omnis gateway"
-			sprite "sprite/wisp_red"
+			sprite "sprite/wisp_green"
 	object Plugins
 		sprite "sprite/station8"
 		distance 444
@@ -386,9 +386,11 @@ system "Omnis"
 		distance 6000
 		offset 28
 	object Peregrine
-		sprite "ship/Peregrine/Peregrine"
+		sprite "ship/peregrine/peregrine"
+			"frame rate" 3
+			"rewind"
 		distance 6000
-		offest 32
+		offset 32
 	object Starling
 		sprite "ship/starling"
 		distance 6000
