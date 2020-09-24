@@ -26,7 +26,7 @@ ship "Caster"
 		"tactical scan power" 1000000
 		"asteroid scan power" 1000000
 		"scan interference" 1000000
-		turn 3000000
+		turn 4000000
 		thrust 200000
 		hyperdrive 1
 		"jump drive" 1
