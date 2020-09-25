@@ -467,7 +467,7 @@ fleet "pelican"
 		Pelican
 
 fleet "peregrine"
-	goverment "arena"
+	government "arena"
 	personality
 		heroic
 	variant
