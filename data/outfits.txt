@@ -32,7 +32,7 @@ outfit "Remote Pilot"
 
 outfit "Crux Stone"
 	category "Special"
-	thumbnail "outfit/keystone"
+	thumbnail "outfit/crux_stone"
 	Omnis 1
 	description "Enables use of the Omnis nexus wormholes."
 	
