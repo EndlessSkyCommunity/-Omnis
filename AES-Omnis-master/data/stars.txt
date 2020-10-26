@@ -1,3 +1,0 @@
-star "sprite/everything"
-	power 0.06
-	wind 0.06

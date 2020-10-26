@@ -494,6 +494,13 @@ fleet "starling"
 	variant
 		Starling
 
+fleet "heron"
+	government "arena"
+	personality
+		heroic
+	variant
+		Heron
+
 # ----------
 #   KA'HET
 # ----------
@@ -897,3 +904,14 @@ fleet "void sprite"
 		heroic
 	variant
 		"Void Sprite"
+		
+# --------
+#   SHERAGI
+# --------
+
+fleet "emerald sword"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Emerald Sword"

@@ -267,6 +267,9 @@ shipyard "remnant"
 	"Starling"
 	"Tern"
 
+shipyard "sheragi"
+	"Emerald Sword"
+
 shipyard "vanilla"
 	"Aerie"
 	"Albatross"
