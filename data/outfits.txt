@@ -407,7 +407,15 @@ outfitter "remnant"
 	"Thrasher Turret"
 	"Tuning Rifle"
 	"Void Rifle"
-
+	
+outfitter "sheragi"
+	"Electromagnetic Battery"
+	"Fusion Drive"
+	"Sheragi Cooling Unit"
+	"Dragonflame Cannon"
+	"Sheragi Anti-Missile"
+	"Particle Waveform Turret"
+	
 outfitter "vanilla"
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"

@@ -395,6 +395,10 @@ system "Omnis"
 		sprite "ship/starling"
 		distance 6000
 		offset 36
+	object Heron
+		sprite "ship/heron"
+		distance 6000
+		offset 40
 
 	object Ka'het
 		sprite "sprite/black-hole-core-land"
@@ -649,6 +653,14 @@ system "Omnis"
 		sprite "ship/archon"
 		distance 13000
 		offset 10
+		
+	object "Sheragi"
+		sprite "sprite/black-hole-core-land"
+		distance 14000
+	object "Emerald Sword"
+		sprite "ship/emeraldsword"
+		distance 14000
+		offset 4
 
 # ------------
 #   OVERRIDE 
@@ -1315,6 +1327,13 @@ planet "Starling"
 	tribute 1
 		threshold 0
 		fleet "starling"
+		
+planet "Heron"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heron"
 
 # ------------------
 #   PLANETS KA'HET
@@ -1770,3 +1789,22 @@ planet "Void Sprite"
 	tribute 1
 		threshold 0
 		fleet "void sprite"
+		
+# ----------------
+#   PLANETS SHERAGI
+# ----------------
+
+planet "Sheragi"
+	landscape "landscape/station6"
+	description `TBD description of Sheragi`
+	spaceport `TBD description of Sheragi`
+	outfitter "sheragi"
+	shipyard "sheragi"
+	bribe 0
+
+planet "Emerald Sword"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "emerald sword"
