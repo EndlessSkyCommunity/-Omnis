@@ -905,9 +905,9 @@ fleet "void sprite"
 	variant
 		"Void Sprite"
 		
-# --------
+# -----------
 #   SHERAGI
-# --------
+# -----------
 
 fleet "emerald sword"
 	government "arena"
