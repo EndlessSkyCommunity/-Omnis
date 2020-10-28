@@ -661,6 +661,10 @@ system "Omnis"
 		sprite "ship/emeraldsword"
 		distance 14000
 		offset 4
+	object "Black Diamond"
+		sprite "ship/blackdiamond"
+		distance 14000
+		offset 8
 
 # ------------
 #   OVERRIDE 
@@ -1808,3 +1812,10 @@ planet "Emerald Sword"
 	tribute 1
 		threshold 0
 		fleet "emerald sword"
+		
+planet "Black Diamond"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "black diamond"

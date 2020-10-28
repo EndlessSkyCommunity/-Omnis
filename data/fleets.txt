@@ -914,4 +914,12 @@ fleet "emerald sword"
 	personality
 		heroic
 	variant
-		"Emerald Sword"
+		"Emerald Sword (Fixed)"
+		"Black Diamond" 6
+		
+fleet "black diamond"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Black Diamond"
