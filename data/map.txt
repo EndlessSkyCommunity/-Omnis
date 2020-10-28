@@ -2,10 +2,6 @@
 #   GALAXY  
 # ----------
 
-galaxy "galaxy omnis"
-	sprite "galaxy/omnis"
-	pos 0 -10000
-
 galaxy "label omnis"
 	sprite "label/omnis"
 	pos -110 -9880
@@ -14,17 +10,18 @@ galaxy "label omnis"
 #   INHABITED 
 # -------------
 
-system "Omnis"
-	pos -10 -10016
+system "Everything"
+	pos 0 -10000
 	government "cheat"
+	link "Sheragi"
 
-	object "omnis gateway"
+	object "everything gateway"
 			sprite "sprite/wisp_green"
-	object Plugins
+	object "Plugins"
 		sprite "sprite/station8"
 		distance 444
 		offset 45
-	object Experimental
+	object "Experimental"
 		sprite "sprite/station8"
 		distance 444
 		offset 135
@@ -32,10 +29,11 @@ system "Omnis"
 		sprite "sprite/station8"
 		distance 444
 		offset 225
-	object Vanilla
+	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
 		offset 315
+
 	object "Everything"
 		sprite "sprite/everything"
 		distance 1218
@@ -108,11 +106,177 @@ system "Omnis"
 		distance 1218
 		offset 340
 
-	object Human
-		sprite "sprite/black-hole-core-land"
-		distance 4000
-		object "human gateway"
-			sprite "sprite/wisp_green"
+
+system "Sheragi"
+	pos 0 -10050
+	government "cheat"
+	link "Everything"
+	link "Human"
+
+	object "sheragi gateway"
+		sprite "sprite/wisp_green"
+
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
+	object "Emerald Sword"
+		sprite "ship/emeraldsword"
+		distance 14000
+		offset 4
+
+
+system "Human"
+	pos 50 -10100
+	government "cheat"
+	link "Sheragi"
+	link "Hai"
+	link "Ka'het"
+	link "Korath"
+
+	object "human gateway"
+		sprite "sprite/wisp_green"
+
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Bulk Freighter"
 		sprite "ship/bulk freighter"
 		distance 4000
@@ -314,11 +478,91 @@ system "Omnis"
 		distance 4000
 		offset 208
 
-	object Hai
-		sprite "sprite/black-hole-core-land"
-		distance 5000
-		object "hai gateway"
-			sprite "sprite/wisp_green"
+
+system "Hai"
+	pos 0 -10100
+	government "cheat"
+	link "Sheragi"
+	link "Human"
+	link "Remnant"
+	link "Korath"
+	link "Wanderer"
+
+	object "hai gateway"
+		sprite "sprite/wisp_green"
+
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Lightning Bug"
 		sprite "ship/hai lightning bug"
 		distance 5000
@@ -356,11 +600,90 @@ system "Omnis"
 		distance 5000
 		offset 40
 
-	object Remnant
-		sprite "sprite/black-hole-core-land"
-		distance 6000
-		object "remnant gateway"
-			sprite "sprite/wisp_green"
+
+system "Remnant"
+	pos -50 -10100
+	government "cheat"
+	link "Sheragi"
+	link "Hai"
+	link "Wanderer"
+	link "Coalition"
+
+	object "remnant gateway"
+		sprite "sprite/wisp_green"
+
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Albatross "
 		sprite "ship/albatross"
 		distance 6000
@@ -400,11 +723,88 @@ system "Omnis"
 		distance 6000
 		offset 40
 
-	object Ka'het
-		sprite "sprite/black-hole-core-land"
-		distance 7000
-		object "ka'het gateway"
-			sprite "sprite/wisp_green"
+
+system "Ka'het"
+	pos 75 -10150
+	government "cheat"
+	link "Human"
+	link "Korath"
+
+	object "ka'het gateway"
+		sprite "sprite/wisp_green"
+
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Ka'het"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object Maeri'het
 		sprite "ship/maeri'het"
 		distance 7000
@@ -414,11 +814,91 @@ system "Omnis"
 		distance 7000
 		offset 9
 
-	object Korath
-		sprite "sprite/black-hole-core-land"
-		distance 8000
-		object "korath gateway"
-			sprite "sprite/wisp_green"
+
+system "Korath"
+	pos 25 -10150
+	government "cheat"
+	link "Human"
+	link "Hai"
+	link "Ka'het"
+	link "Wanderer"
+	link "Quarg"
+
+	object "korath gateway"
+		sprite "sprite/wisp_green"
+
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Kar Ik Vot 349"
 		sprite "ship/kar ik vot 349"
 		distance 8000
@@ -476,11 +956,91 @@ system "Omnis"
 		distance 8000
 		offset 45
 
-	object Wanderer
-		sprite "sprite/black-hole-core-land"
-		distance 9000
-		object "wanderer gateway"
-			sprite "sprite/wisp_green"
+
+system "Wanderer"
+	pos -25 -10150
+	government "cheat"
+	link "Hai"
+	link "Remnant"
+	link "Korath"
+	link "Coalition"
+	link "Quarg"
+
+	object "wanderer gateway"
+		sprite "sprite/wisp_green"
+
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Autumn Leaf"
 		sprite "ship/autumn leaf"
 		distance 9000
@@ -526,11 +1086,88 @@ system "Omnis"
 		distance 9000
 		offset 36
 
+
+system "Coalition"
+	pos -75 -10150
+	government "cheat"
+	link "Remnant"
+	link "Wanderer"
+
+	object "coalition gateway"
+		sprite "sprite/wisp_green"
+
 	object "Coalition"
-		sprite "sprite/black-hole-core-land"
-		distance 10000
-		object "coalition gateway"
-			sprite "sprite/wisp_green"
+		sprite planet/ringworld
+		distance 812
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Arach Courier"
 		sprite "ship/arach courier"
 		distance 10000
@@ -596,11 +1233,90 @@ system "Omnis"
 		distance 10000
 		offset 34
 
-	object Quarg
-		sprite "sprite/black-hole-core-land"
-		distance 11000
-		object "quarg gateway"
-			sprite "sprite/wisp_green"
+
+system "Quarg"
+	pos 0 -10200
+	government "cheat"
+	link "Korath"
+	link "Wanderer"
+	link "Drak"
+	link "Pug"
+
+	object "quarg gateway"
+		sprite "sprite/wisp_green"
+
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Quarg Skylark"
 		sprite "ship/skylark"
 		distance 11000
@@ -610,11 +1326,187 @@ system "Omnis"
 		distance 11000
 		offset 6
 
-	object Pug
-		sprite "sprite/black-hole-core-land"
-		distance 12000
-		object "pug gateway"
-			sprite "sprite/wisp_green"
+
+system "Drak"
+	pos 25 -10250
+	government "cheat"
+	link "Quarg"
+	link "Pug"
+
+	object "drak gateway"
+		sprite "sprite/wisp_green"
+
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
+	object "Void Sprite Infant"
+		sprite "ship/void sprite infant"
+		distance 13000
+		offset 4
+	object "Void Sprite"
+		sprite "ship/void sprite adult"
+		distance 13000
+		offset 6
+	object "Ember Waste Node"
+		sprite "ship/ember waste node/ember waste node"
+		distance 13000
+		offset 8
+	object "Archon"
+		sprite "ship/archon"
+		distance 13000
+		offset 10
+
+
+system "Pug"
+	pos -25 -10250
+	government "cheat"
+	link "Quarg"
+	link "Drak"
+
+	object "pug gateway"
+		sprite "sprite/wisp_green"
+
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+
 	object "Pug Arfecta"
 		sprite "ship/pug arfecta"
 		distance 12000
@@ -632,82 +1524,18 @@ system "Omnis"
 		distance 12000
 		offset 10
 
-	object "Drak"
-		sprite "sprite/black-hole-core-land"
-		distance 13000
-		object "drak gateway"
-			sprite "sprite/wisp_green"
-	object "Void Sprite Infant"
-		sprite "ship/void sprite infant"
-		distance 13000
-		offset 4
-	object "Void Sprite"
-		sprite "ship/void sprite adult"
-		distance 13000
-		offset 6
-	object "Ember Waste Node"
-		sprite "ship/ember waste node/ember waste node"
-		distance 13000
-		offset 8
-	object "Archon"
-		sprite "ship/archon"
-		distance 13000
-		offset 10
-		
-	object "Sheragi"
-		sprite "sprite/black-hole-core-land"
-		distance 14000
-	object "Emerald Sword"
-		sprite "ship/emeraldsword"
-		distance 14000
-		offset 4
 
 # ------------
 #   OVERRIDE 
 # ------------
 
-system "Cinxia"
-	add object "remnant gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Hevru Hai"
-	add object "quarg gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-		
-system "Ka'ch'chrai"
-	add object "wanderer gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Kashikt"
-	add object "korath gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Nenia"
-	add object "drak gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Nona"
-	add object "ka'het gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Pug Iyik"
-	add object "pug gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
-system "Quaru"
-	add object "coalition gateway"
-		sprite "sprite/wisp_green"
-		distance 2000
-
 system "Rutilicus"
-	add object "omnis gateway"
+	add object "everything gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Zubenelhakrabi"
+	add object "sheragi gateway"
 		sprite "sprite/wisp_green"
 		distance 2000
 
@@ -718,6 +1546,46 @@ system "Sol"
 
 system "Ya Hai"
 	add object "hai gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Cinxia"
+	add object "remnant gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Nona"
+	add object "ka'het gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Kashikt"
+	add object "korath gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Ka'ch'chrai"
+	add object "wanderer gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Quaru"
+	add object "coalition gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Hevru Hai"
+	add object "quarg gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Nenia"
+	add object "drak gateway"
+		sprite "sprite/wisp_green"
+		distance 2000
+
+system "Pug Iyik"
+	add object "pug gateway"
 		sprite "sprite/wisp_green"
 		distance 2000
 
