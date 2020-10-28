@@ -909,9 +909,17 @@ fleet "void sprite"
 #   SHERAGI
 # -----------
 
+fleet "black diamond"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Black Diamond"
+		
 fleet "emerald sword"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Emerald Sword"
+		"Emerald Sword (Fixed)"
+		"Black Diamond" 6
