@@ -1794,9 +1794,9 @@ planet "Void Sprite"
 		threshold 0
 		fleet "void sprite"
 		
-# -------------------
+# ----------------
 #   PLANETS SHERAGI
-# -------------------
+# ----------------
 
 planet "Sheragi"
 	landscape "landscape/station6"
