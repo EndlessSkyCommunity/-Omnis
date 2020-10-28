@@ -268,8 +268,8 @@ shipyard "remnant"
 	"Tern"
 
 shipyard "sheragi"
-	"Emerald Sword (Fixed)"
 	"Black Diamond"
+	"Emerald Sword (Fixed)"
 
 shipyard "vanilla"
 	"Aerie"

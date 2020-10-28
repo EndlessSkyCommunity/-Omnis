@@ -1806,16 +1806,16 @@ planet "Sheragi"
 	shipyard "sheragi"
 	bribe 0
 
-planet "Emerald Sword"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "emerald sword"
-		
 planet "Black Diamond"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "black diamond"
+
+planet "Emerald Sword"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "emerald sword"
