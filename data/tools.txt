@@ -10,7 +10,7 @@ mission "licenses give"
 	to offer
 		not "all licenses"
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		set "all licenses"
 		set "license: Aben Technology"
@@ -38,7 +38,7 @@ mission "licenses take"
 	to offer
 		has "all licenses"
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		clear "all licenses"
 		clear "license: Aben Technology"
@@ -86,7 +86,7 @@ mission "reveal map"
 	to fail
 		has "reveal map: Active"
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		set "revealed map"
 		event "reveal map"
@@ -884,7 +884,7 @@ mission "swizzle 0"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 0"
 
@@ -898,7 +898,7 @@ mission "swizzle 1"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 1"
 
@@ -912,7 +912,7 @@ mission "swizzle 2"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 2"
 
@@ -926,7 +926,7 @@ mission "swizzle 3"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 3"
 
@@ -940,7 +940,7 @@ mission "swizzle 4"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 4"
 
@@ -954,7 +954,7 @@ mission "swizzle 5"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 5"
 
@@ -968,7 +968,7 @@ mission "swizzle 6"
 	job
 	repeat
 	source
-		system "Omnis"
+		government "cheat"
 	on accept
 		event "swizzle 6"
 

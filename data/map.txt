@@ -17,6 +17,7 @@ system "Everything"
 
 	object "everything gateway"
 			sprite "sprite/wisp_green"
+
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
@@ -112,6 +113,15 @@ system "Sheragi"
 
 	object "sheragi gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Sheragi Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Sheragi Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Sheragi"
 		sprite planet/ringworld
@@ -201,6 +211,15 @@ system "Human"
 
 	object "human gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Human Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Human Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Human"
 		sprite planet/ringworld
@@ -487,6 +506,15 @@ system "Hai"
 
 	object "hai gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Hai Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Hai Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Hai"
 		sprite planet/ringworld
@@ -608,6 +636,15 @@ system "Remnant"
 
 	object "remnant gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Remnant Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Remnant Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Remnant"
 		sprite planet/ringworld
@@ -729,6 +766,15 @@ system "Ka'het"
 
 	object "ka'het gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Ka'het Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Ka'het Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Ka'het"
 		sprite planet/ringworld
@@ -823,6 +869,15 @@ system "Korath"
 
 	object "korath gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Korath Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Korath Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Korath"
 		sprite planet/ringworld
@@ -965,6 +1020,15 @@ system "Wanderer"
 
 	object "wanderer gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Wanderer Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Wanderer Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Wanderer"
 		sprite planet/ringworld
@@ -1092,6 +1156,15 @@ system "Coalition"
 
 	object "coalition gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Coalition Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Coalition Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Coalition"
 		sprite planet/ringworld
@@ -1241,6 +1314,15 @@ system "Quarg"
 
 	object "quarg gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Quarg Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Quarg Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Quarg"
 		sprite planet/ringworld
@@ -1332,6 +1414,15 @@ system "Drak"
 
 	object "drak gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Drak Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Drak Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Drak"
 		sprite planet/ringworld
@@ -1431,6 +1522,15 @@ system "Pug"
 
 	object "pug gateway"
 		sprite "sprite/wisp_green"
+			
+	object "Pug Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
+	object "Pug Vanilla"
+		sprite "sprite/station8"
+		distance 444
+		offset 270
 
 	object "Pug"
 		sprite planet/ringworld
@@ -1590,6 +1690,62 @@ system "Pug Iyik"
 #   PLANETS
 # -----------
 
+planet "Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "coalition vanilla"
+	outfitter "deprecated vanilla"
+	outfitter "drak vanilla"
+	outfitter "hai vanilla"
+	outfitter "human vanilla"
+	outfitter "ka'het vanilla"
+	outfitter "korath vanilla"
+	outfitter "pug vanilla"
+	outfitter "quarg vanilla"
+	outfitter "remnant vanilla"
+	outfitter "wanderer vanilla"
+	shipyard "coalition vanilla"
+	shipyard "drak vanilla"
+	shipyard "hai vanilla"
+	shipyard "human vanilla"
+	shipyard "ka'het vanilla"
+	shipyard "korath vanilla"
+	shipyard "pug vanilla"
+	shipyard "quarg vanilla"
+	shipyard "remnant vanilla"
+	shipyard "wanderer vanilla"
+	bribe 0
+
+planet "Plugins"
+	landscape "landscape/station6"
+	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
+	spaceport `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
+	outfitter "coalition plugins"
+	outfitter "deprecated plugins"
+	outfitter "developer"
+	outfitter "drak plugins"
+	outfitter "hai plugins"
+	outfitter "human plugins"
+	outfitter "ka'het plugins"
+	outfitter "korath plugins"
+	outfitter "pug plugins"
+	outfitter "quarg plugins"
+	outfitter "remnant plugins"
+	outfitter "wanderer plugins"
+	shipyard "coalition plugins"
+	shipyard "developer"
+	shipyard "drak plugins"
+	shipyard "hai plugins"
+	shipyard "human plugins"
+	shipyard "ka'het plugins"
+	shipyard "korath plugins"
+	shipyard "pug plugins"
+	shipyard "quarg plugins"
+	shipyard "remnant plugins"
+	shipyard "wanderer plugins"
+	bribe 0
+
 planet "Deprecated"
 	landscape landscape/station6
 	description ``
@@ -1601,47 +1757,50 @@ planet "Everything"
 	landscape "landscape/station6"
 	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
 	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
-	outfitter "coalition"
-	outfitter "deprecated"
-	outfitter "drak"
-	outfitter "hai"
-	outfitter "human"
-	outfitter "ka'het"
-	outfitter "korath"
-	outfitter "plugin"
-	outfitter "pug"
-	outfitter "quarg"
-	outfitter "remnant"
-	outfitter "vanilla"
-	outfitter "wanderer"
-	shipyard "coalition"
-	shipyard "drak"
-	shipyard "hai"
-	shipyard "human"
-	shipyard "ka'het"
-	shipyard "korath"
-	shipyard "plugin"
-	shipyard "pug"
-	shipyard "quarg"
-	shipyard "remnant"
-	shipyard "vanilla"
-	shipyard "wanderer"
-	bribe 0
-
-planet "Plugins"
-	landscape "landscape/station6"
-	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
-	spaceport `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
-	outfitter "plugin"
-	shipyard "plugin"
-	bribe 0
-
-planet "Vanilla"
-	landscape "landscape/station6"
-	description ``
-	spaceport ``
-	outfitter "vanilla"
-	shipyard "vanilla"
+	outfitter "coalition plugins"
+	outfitter "coalition vanilla"
+	outfitter "deprecated plugins"
+	outfitter "deprecated vanilla"
+	outfitter "developer"
+	outfitter "drak plugins"
+	outfitter "drak vanilla"
+	outfitter "hai plugins"
+	outfitter "hai vanilla"
+	outfitter "human plugins"
+	outfitter "human vanilla"
+	outfitter "ka'het plugins"
+	outfitter "ka'het vanilla"
+	outfitter "korath plugins"
+	outfitter "korath vanilla"
+	outfitter "pug plugins"
+	outfitter "pug vanilla"
+	outfitter "quarg plugins"
+	outfitter "quarg vanilla"
+	outfitter "remnant plugins"
+	outfitter "remnant vanilla"
+	outfitter "wanderer plugins"
+	outfitter "wanderer vanilla"
+	shipyard "coalition plugins"
+	shipyard "coalition vanilla"
+	shipyard "developer"
+	shipyard "drak plugins"
+	shipyard "drak vanilla"
+	shipyard "hai plugins"
+	shipyard "hai vanilla"
+	shipyard "human plugins"
+	shipyard "human vanilla"
+	shipyard "ka'het plugins"
+	shipyard "ka'het vanilla"
+	shipyard "korath plugins"
+	shipyard "korath vanilla"
+	shipyard "pug plugins"
+	shipyard "pug vanilla"
+	shipyard "quarg plugins"
+	shipyard "quarg vanilla"
+	shipyard "remnant plugins"
+	shipyard "remnant vanilla"
+	shipyard "wanderer plugins"
+	shipyard "wanderer vanilla"
 	bribe 0
 
 # -------------
@@ -1678,6 +1837,43 @@ planet "pug gateway"
 planet "drak gateway"
 	attributes "requires: Omnis"
 
+# -------------------
+#   PLANETS SHERAGI
+# -------------------
+
+planet "Sheragi"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "sheragi plugins"
+	outfitter "sheragi vanilla"
+	shipyard "sheragi plugins"
+	shipyard "sheragi vanilla"
+	bribe 0
+
+planet "Sheragi Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "sheragi plugins"
+	shipyard "sheragi plugins"
+	bribe 0
+
+planet "Sheragi Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "sheragi vanilla"
+	shipyard "sheragi vanilla"
+	bribe 0
+
+planet "Emerald Sword"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "emerald sword"
+
 # -----------------
 #   PLANETS HUMAN
 # -----------------
@@ -1686,8 +1882,26 @@ planet "Human"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
-	outfitter "human"
-	shipyard "human"
+	outfitter "human plugins"
+	outfitter "human vanilla"
+	shipyard "human plugins"
+	shipyard "human vanilla"
+	bribe 0
+
+planet "Human Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "human plugins"
+	shipyard "human plugins"
+	bribe 0
+
+planet "Human Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "human vanilla"
+	shipyard "human vanilla"
 	bribe 0
 
 planet "Aerie"
@@ -2048,8 +2262,26 @@ planet "Hai"
 	landscape "landscape/station6"
 	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
 	spaceport `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
-	outfitter "hai"
-	shipyard "hai"
+	outfitter "hai plugins"
+	outfitter "hai vanilla"
+	shipyard "hai plugins"
+	shipyard "hai vanilla"
+	bribe 0
+
+planet "Hai Plugins"
+	landscape "landscape/station6"
+	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	spaceport `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	outfitter "hai plugins"
+	shipyard "hai plugins"
+	bribe 0
+
+planet "Hai Vanilla"
+	landscape "landscape/station6"
+	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	spaceport `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	outfitter "hai vanilla"
+	shipyard "hai vanilla"
 	bribe 0
 
 planet "Aphid"
@@ -2123,8 +2355,26 @@ planet "Remnant"
 	landscape "landscape/station6"
 	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
 	spaceport `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
-	outfitter "remnant"
-	shipyard "remnant"
+	outfitter "remnant plugins"
+	outfitter "remnant vanilla"
+	shipyard "remnant plugins"
+	shipyard "remnant vanilla"
+	bribe 0
+
+planet "Remnant Plugins"
+	landscape "landscape/station6"
+	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	spaceport `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	outfitter "remnant plugins"
+	shipyard "remnant plugins"
+	bribe 0
+
+planet "Remnant Vanilla"
+	landscape "landscape/station6"
+	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	spaceport `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	outfitter "remnant vanilla"
+	shipyard "remnant vanilla"
 	bribe 0
 
 planet "Albatross "
@@ -2195,12 +2445,30 @@ planet "Heron"
 # ------------------
 
 planet "Ka'het"
-	bribe 0
-	description ``
 	landscape landscape/station6
-	outfitter "ka'het"
-	shipyard "ka'het"
+	description ``
 	spaceport ``
+	outfitter "ka'het plugins"
+	outfitter "ka'het vanilla"
+	shipyard "ka'het plugins"
+	shipyard "ka'het vanilla"
+	bribe 0
+
+planet "Ka'het Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "ka'het plugins"
+	shipyard "ka'het plugins"
+	bribe 0
+
+planet "Ka'het Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "ka'het vanilla"
+	shipyard "ka'het vanilla"
+	bribe 0
 
 planet "Maeri'het"
 	bribe 0
@@ -2224,8 +2492,26 @@ planet "Korath"
 	landscape "landscape/station6"
 	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
 	spaceport `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
-	outfitter "korath"
-	shipyard "korath"
+	outfitter "korath plugins"
+	outfitter "korath vanilla"
+	shipyard "korath plugins"
+	shipyard "korath vanilla"
+	bribe 0
+
+planet "Korath Plugins"
+	landscape "landscape/station6"
+	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	spaceport `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	outfitter "korath plugins"
+	shipyard "korath plugins"
+	bribe 0
+
+planet "Korath Vanilla"
+	landscape "landscape/station6"
+	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	spaceport `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	outfitter "korath vanilla"
+	shipyard "korath vanilla"
 	bribe 0
 
 planet "Kar Ik Vot 349"
@@ -2334,8 +2620,26 @@ planet "Wanderer"
 	landscape "landscape/station6"
 	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
 	spaceport `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
-	outfitter "wanderer"
-	shipyard "wanderer"
+	outfitter "wanderer plugins"
+	outfitter "wanderer vanilla"
+	shipyard "wanderer plugins"
+	shipyard "wanderer vanilla"
+	bribe 0
+
+planet "Wanderer Plugins"
+	landscape "landscape/station6"
+	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	spaceport `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	outfitter "wanderer plugins"
+	shipyard "wanderer plugins"
+	bribe 0
+
+planet "Wanderer Vanilla"
+	landscape "landscape/station6"
+	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	spaceport `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	outfitter "wanderer vanilla"
+	shipyard "wanderer vanilla"
 	bribe 0
 
 planet "Autumn Leaf"
@@ -2423,8 +2727,26 @@ planet "Coalition"
 	landscape "landscape/station6"
 	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
 	spaceport `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
-	outfitter "coalition"
-	shipyard "coalition"
+	outfitter "coalition plugins"
+	outfitter "coalition vanilla"
+	shipyard "coalition plugins"
+	shipyard "coalition vanilla"
+	bribe 0
+
+planet "Coalition Plugins"
+	landscape "landscape/station6"
+	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	spaceport `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	outfitter "coalition plugins"
+	shipyard "coalition plugins"
+	bribe 0
+
+planet "Coalition Vanilla"
+	landscape "landscape/station6"
+	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	spaceport `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	outfitter "coalition vanilla"
+	shipyard "coalition vanilla"
 	bribe 0
 
 planet "Arach Courier"
@@ -2547,8 +2869,26 @@ planet "Quarg"
 	landscape landscape/station6
 	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
 	spaceport `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
-	outfitter "quarg"
-	shipyard "quarg"
+	outfitter "quarg plugins"
+	outfitter "quarg vanilla"
+	shipyard "quarg plugins"
+	shipyard "quarg vanilla"
+	bribe 0
+
+planet "Quarg Plugins"
+	landscape "landscape/station6"
+	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	spaceport `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	outfitter "quarg plugins"
+	shipyard "quarg plugins"
+	bribe 0
+
+planet "Quarg Vanilla"
+	landscape "landscape/station6"
+	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	spaceport `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	outfitter "quarg vanilla"
+	shipyard "quarg vanilla"
 	bribe 0
 
 planet "Quarg Skylark"
@@ -2565,46 +2905,6 @@ planet "Quarg Wardragon"
 		threshold 0
 		fleet "quarg wardragon"
 
-# ---------------
-#   PLANETS PUG
-# ---------------
-
-planet "Pug"
-	landscape "landscape/station6"
-	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
-	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
-	outfitter "pug"
-	shipyard "pug"
-	bribe 0
-
-planet "Pug Arfecta"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "pug arfecta"
-
-planet "Pug Enfolta"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "pug enfolta"
-
-planet "Pug Maboro"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "pug maboro"
-
-planet "Pug Zibruka"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "pug zibruka"
-
 # ----------------
 #   PLANETS DRAK
 # ----------------
@@ -2613,8 +2913,26 @@ planet "Drak"
 	landscape "landscape/station6"
 	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
 	spaceport `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
-	outfitter "drak"
-	shipyard "drak"
+	outfitter "drak plugins"
+	outfitter "drak vanilla"
+	shipyard "drak plugins"
+	shipyard "drak vanilla"
+	bribe 0
+
+planet "Drak Plugins"
+	landscape "landscape/station6"
+	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	spaceport `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	outfitter "drak plugins"
+	shipyard "drak plugins"
+	bribe 0
+
+planet "Drak Vanilla"
+	landscape "landscape/station6"
+	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	spaceport `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	outfitter "drak vanilla"
+	shipyard "drak vanilla"
 	bribe 0
 
 planet "Archon"
@@ -2644,22 +2962,61 @@ planet "Void Sprite"
 	tribute 1
 		threshold 0
 		fleet "void sprite"
-		
-# -------------------
-#   PLANETS SHERAGI
-# -------------------
 
-planet "Sheragi"
+# ---------------
+#   PLANETS PUG
+# ---------------
+
+planet "Pug"
 	landscape "landscape/station6"
-	description `TBD description of Sheragi`
-	spaceport `TBD description of Sheragi`
-	outfitter "sheragi"
-	shipyard "sheragi"
+	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	outfitter "pug plugins"
+	outfitter "pug vanilla"
+	shipyard "pug plugins"
+	shipyard "pug vanilla"
 	bribe 0
 
-planet "Emerald Sword"
+planet "Pug Plugins"
+	landscape "landscape/station6"
+	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	outfitter "pug plugins"
+	shipyard "pug plugins"
+	bribe 0
+
+planet "Pug Vanilla"
+	landscape "landscape/station6"
+	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	outfitter "pug vanilla"
+	shipyard "pug vanilla"
+	bribe 0
+
+planet "Pug Arfecta"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "emerald sword"
+		fleet "pug arfecta"
+
+planet "Pug Enfolta"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "pug enfolta"
+
+planet "Pug Maboro"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "pug maboro"
+
+planet "Pug Zibruka"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "pug zibruka"
