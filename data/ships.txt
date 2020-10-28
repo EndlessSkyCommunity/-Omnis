@@ -95,9 +95,6 @@ shipyard "coalition"
 	"Saryd Sojourner"
 	"Saryd Traveler"
 	"Saryd Visitor"
-	
-shipyard "developer"
-	"Caster"
 
 shipyard "drak"
 	"Archon"
@@ -243,6 +240,9 @@ shipyard "korath"
 	"Tek Far 109"
 	"Tek Far 71 - Lek"
 	"Tek Far 78 - Osk"
+
+shipyard "plugin"
+	"Caster"
 
 shipyard "pug"
 	"Pug Arfecta"

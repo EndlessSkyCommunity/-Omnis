@@ -17,22 +17,17 @@ system "Everything"
 
 	object "everything gateway"
 			sprite "sprite/wisp_green"
-	object "Plugins"
-		sprite "sprite/station8"
-		distance 444
-		offset 45
-	object "Experimental"
-		sprite "sprite/station8"
-		distance 444
-		offset 135
-	object "Deprecated"
-		sprite "sprite/station8"
-		distance 444
-		offset 225
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
-		offset 315
+	object "Plugins"
+		sprite "sprite/station8"
+		distance 444
+		offset 120
+	object "Deprecated"
+		sprite "sprite/station8"
+		distance 444
+		offset 240
 
 	object "Everything"
 		sprite "sprite/everything"
@@ -112,6 +107,8 @@ system "Sheragi"
 	government "cheat"
 	link "Everything"
 	link "Human"
+	link "Hai"
+	link "Remnant"
 
 	object "sheragi gateway"
 		sprite "sprite/wisp_green"
@@ -1629,16 +1626,6 @@ planet "Everything"
 	shipyard "remnant"
 	shipyard "vanilla"
 	shipyard "wanderer"
-	bribe 0
-
-planet "Experimental"
-	landscape landscape/station6
-	description ``
-	spaceport ``
-	outfitter "developer"
-	outfitter "experimental"
-	shipyard "developer"
-	shipyard "experimental"
 	bribe 0
 
 planet "Plugins"
