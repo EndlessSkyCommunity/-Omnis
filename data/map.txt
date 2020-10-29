@@ -917,12 +917,12 @@ system "Hai"
 		distance 1400
 		offset 40
 #
-	object "Geocoris"
-		sprite "ship/hai geocoris"
-		distance 1500
-		offset 73
 	object "Water Bug"
 		sprite "ship/hai water bug"
+		distance 1500
+		offset 73
+	object "Geocoris"
+		sprite "ship/hai geocoris"
 		distance 1500
 		offset 87
 #
@@ -1090,12 +1090,12 @@ system "Remnant"
 		distance 1200
 		offset 320
 #
-	object Penguin
-		sprite "ship/penguin/penguin"
-		distance 1450
-		offset -5
 	object Puffin
 		sprite "ship/puffin"
+		distance 1450
+		offset -5
+	object Penguin
+		sprite "ship/penguin/penguin"
 		distance 1450
 		offset 5
 
@@ -1419,64 +1419,91 @@ system "Korath"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
-	object "Kar Ik Vot 349"
-		sprite "ship/kar ik vot 349"
-		distance 8000
-		offset 6
-	object "Korath Raider"
-		sprite "ship/raider"
-		distance 8000
-		offset 9
+#
 	object "Korath World-Ship A"
 		sprite "ship/world-ship a"
-		distance 8000
-		offset 12
-	object "Met Par Tek 53"
-		sprite "ship/met par tek 53"
-		distance 8000
-		offset 15
-	object "Model 128"
-		sprite "ship/model 128"
-		distance 8000
-		offset 18
-	object "Model 16"
-		sprite "ship/model 16"
-		distance 8000
-		offset 21
-	object "Model 256"
-		sprite "ship/model 256"
-		distance 8000
-		offset 24
-	object "Model 32"
-		sprite "ship/model 32"
-		distance 8000
-		offset 27
-	object "Model 512"
-		sprite "ship/model 512"
-		distance 8000
-		offset 30
-	object "Model 64"
-		sprite "ship/model 64"
-		distance 8000
-		offset 33
+		distance 1700
+		offset -10
+	object "Korath World-Ship B"
+		sprite "ship/world-ship b"
+		distance 1700
+	object "Korath World-Ship C"
+		sprite "ship/world-ship c"
+		distance 1700
+		offset 10
+#
 	object "Model 8"
 		sprite "ship/model 8"
-		distance 8000
-		offset 36
+		distance 1500
+		offset 120
+#
+	object "Model 16"
+		sprite "ship/model 16"
+		distance 1550
+		offset 154
+	object "Model 32"
+		sprite "ship/model 32"
+		distance 1550
+		offset 160
+	object "Met Par Tek 53"
+		sprite "ship/met par tek 53"
+		distance 1550
+		offset 166
+#
+	object "Model 64"
+		sprite "ship/model 64"
+		distance 1650
+		offset 196
+	object "Model 128"
+		sprite "ship/model 128"
+		distance 1650
+		offset 204
+
 	object "Tek Far 109"
 		sprite "ship/tek far 109"
-		distance 8000
-		offset 39
+		distance 2150
+		offset 193
 	object "Tek Far 71 - Lek"
 		sprite "ship/tek far 71 lek"
-		distance 8000
-		offset 42
+		distance 2150
+		offset 200
 	object "Tek Far 78 - Osk"
 		sprite "ship/tek far 78 osk"
-		distance 8000
-		offset 45
+		distance 2150
+		offset 207
+#
+	object "Korath Raider"
+		sprite "ship/raider"
+		distance 1650
+		offset 235
+	object "Model 256"
+		sprite "ship/model 256"
+		distance 1650
+		offset 245
 
+	object "Model 512"
+		sprite "ship/model 512"
+		distance 2200
+		offset 235
+	object "Kar Ik Vot 349"
+		sprite "ship/kar ik vot 349"
+		distance 2200
+		offset 245
+#
+	object "Korath Chaser"
+		sprite "ship/chaser"
+		distance 1500
+		offset 277
+	object "Far Osk 27"
+		sprite "ship/far osk 27"
+		distance 1500
+		offset 283
+#
+	object "Far Lek 14"
+		sprite "ship/far lek 14"
+		distance 1500
+		offset 320
+#
 
 system "Wanderer"
 	pos 25 -10150
@@ -3520,12 +3547,33 @@ planet "Korath Vanilla"
 	shipyard "korath vanilla"
 	bribe 0
 
+planet "Far Lek 14"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "far lek 14"
+
+planet "Far Osk 27"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "far osk 27"
+
 planet "Kar Ik Vot 349"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "kar ik vot 349"
+
+planet "Korath Chaser"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "korath chaser"
 
 planet "Korath Raider"
 	bribe 0
@@ -3540,6 +3588,20 @@ planet "Korath World-Ship A"
 	tribute 1
 		threshold 0
 		fleet "korath world-ship a"
+
+planet "Korath World-Ship B"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "korath world-ship b"
+
+planet "Korath World-Ship C"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "korath world-ship c"
 
 planet "Met Par Tek 53"
 	bribe 0
