@@ -1,3 +1,21 @@
+# -----------
+#   SHERAGI
+# -----------
+
+fleet "emerald sword"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Emerald Sword (Fixed)"
+
+fleet "black diamond"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Black Diamond"
+
 # ---------
 #   HUMAN
 # ---------
@@ -841,38 +859,6 @@ fleet "quarg wardragon"
 	variant
 		"Quarg Wardragon"
 
-# -------
-#   PUG
-# -------
-
-fleet "pug arfecta"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Pug Arfecta"
-
-fleet "pug enfolta"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Pug Enfolta"
-
-fleet "pug maboro"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Pug Maboro"
-
-fleet "pug zibruka"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Pug Zibruka"
-
 # --------
 #   DRAK
 # --------
@@ -904,14 +890,35 @@ fleet "void sprite"
 		heroic
 	variant
 		"Void Sprite"
-		
-# -----------
-#   SHERAGI
-# -----------
 
-fleet "emerald sword"
+# -------
+#   PUG
+# -------
+
+fleet "pug arfecta"
 	government "arena"
 	personality
 		heroic
 	variant
-		"Emerald Sword"
+		"Pug Arfecta"
+
+fleet "pug enfolta"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Pug Enfolta"
+
+fleet "pug maboro"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Pug Maboro"
+
+fleet "pug zibruka"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Pug Zibruka"
