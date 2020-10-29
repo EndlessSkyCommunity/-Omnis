@@ -1089,46 +1089,61 @@ system "Remnant"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
-	object "Albatross "
-		sprite "ship/albatross"
-		distance 6000
-		offset 8
-	object Puffin
-		sprite "ship/puffin"
-		distance 6000
-		offset 12
-	object Gull
-		sprite "ship/gull"
-		distance 6000
-		offset 16
-	object Ibis
-		sprite "ship/ibis"
-		distance 6000
-		offset 20
-	object Pelican
-		sprite "ship/pelican"
-		distance 6000
-		offset 24
+#
 	object Penguin
 		sprite "ship/penguin/penguin"
-		distance 6000
-		offset 28
+		distance 1450
+		offset -5
+	object Puffin
+		sprite "ship/puffin"
+		distance 1450
+		offset 5
+
+	object Heron
+		sprite "ship/heron"
+		distance 1900
+#
+	object Gull
+		sprite "ship/gull"
+		distance 1500
+		offset 40
+#
+	object Pelican
+		sprite "ship/pelican"
+		distance 1550
+		offset 80
+#
+	object Starling
+		sprite "ship/starling"
+		distance 1500
+		offset 160
+#
+	object Ibis
+		sprite "ship/ibis"
+		distance 1550
+		offset 200
 	object Peregrine
 		sprite "ship/peregrine/peregrine"
 			"frame rate" 3
 			"rewind"
-		distance 6000
-		offset 32
-	object Starling
-		sprite "ship/starling"
-		distance 6000
-		offset 36
-	object Heron
-		sprite "ship/heron"
-		distance 6000
-		offset 40
-
+		distance 1550
+		offset 200
+#
+	object "Albatross "
+		sprite "ship/albatross"
+		distance 1600
+		offset 240
+#
+	object "Petrel"
+		sprite "ship/petrel"
+		distance 1400
+		offset 280
+#
+	object "Tern"
+		sprite "ship/tern"
+		distance 1400
+		offset 320
+#
 
 system "Ka'het"
 	pos -75 -10150
@@ -3343,6 +3358,13 @@ planet "Gull"
 	tribute 1
 		threshold 0
 		fleet "gull"
+		
+planet "Heron"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heron"
 
 planet "Ibis"
 	bribe 0
@@ -3371,6 +3393,13 @@ planet "Peregrine"
 	tribute 1
 		threshold 0
 		fleet "peregrine"
+		
+planet "Petrel"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "petrel"
 
 planet "Puffin"
 	bribe 0
@@ -3386,12 +3415,12 @@ planet "Starling"
 		threshold 0
 		fleet "starling"
 		
-planet "Heron"
+planet "Tern"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "heron"
+		fleet "tern"
 
 # ------------------
 #   PLANETS KA'HET

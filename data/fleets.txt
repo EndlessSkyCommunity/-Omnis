@@ -797,6 +797,13 @@ fleet "gull"
 	variant
 		Gull
 
+fleet "heron"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heron"
+
 fleet "ibis"
 	government "arena"
 	personality
@@ -827,6 +834,13 @@ fleet "penguin"
 	variant
 		Penguin
 
+fleet "petrel"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Petrel"
+
 fleet "puffin"
 	government "arena"
 	personality
@@ -841,12 +855,12 @@ fleet "starling"
 	variant
 		Starling
 
-fleet "heron"
+fleet "tern"
 	government "arena"
 	personality
 		heroic
 	variant
-		Heron
+		"Tern"
 
 # ----------
 #   KA'HET
