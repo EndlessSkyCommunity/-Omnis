@@ -178,7 +178,6 @@ shipyard "human vanilla"
 	"Star Barge"
 	"Star Queen"
 	"Surveillance Drone"
-	"Unknown Ship Type"
 	"Vanguard"
 	"Wasp"
 

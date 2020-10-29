@@ -334,207 +334,450 @@ system "Human"
 		distance 812
 		offset 340
 
-	object "Bulk Freighter"
-		sprite "ship/bulk freighter"
-		distance 4000
-		offset 8
-	object "Hauler II"
-		sprite "ship/hauler ii"
-		distance 4000
-		offset 12
-	object "Hauler III"
-		sprite "ship/hauler iii"
-		distance 4000
-		offset 16
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+#
+	object "Flivver"
+		sprite "ship/flivver"
+		distance 1400
+		offset -10
+	object "Shuttle"
+		sprite "ship/shuttle"
+		distance 1400
+		offset -5
 	object "Heavy Shuttle"
 		sprite "ship/heavy shuttle"
-		distance 4000
-		offset 20
-	object "Modified Argosy"
-		sprite "ship/modified argosy"
-		distance 4000
-		offset 24
-	object "Quicksilver "
-		sprite "ship/quicksilver"
-		distance 4000
-		offset 28
-	object "Star Barge"
-		sprite "ship/star barge"
-		distance 4000
-		offset 32
-	object "Star Queen"
-		sprite "ship/star queen"
-		distance 4000
-		offset 36
-	object "Aerie"
-		sprite "ship/aerie"
-		distance 4000
-		offset 40
-	object "Argosy"
-		sprite "ship/argosy"
-		distance 4000
-		offset 44
+		distance 1400
 	object "Arrow"
 		sprite "ship/arrow"
-		distance 4000
-		offset 48
-	object "Auxiliary"
-		sprite "ship/auxiliaryh"
-		distance 4000
-		offset 52
-	object "Bactrian"
-		sprite "ship/bactrian"
-		distance 4000
-		offset 56
-	object "Bastion"
-		sprite "ship/bastion"
-		distance 4000
-		offset 60
-	object "Behemoth"
-		sprite "ship/behemoth"
-		distance 4000
-		offset 64
-	object "Berserker"
-		sprite "ship/berserker"
-		distance 4000
-		offset 68
-	object "Blackbird"
-		sprite "ship/blackbird"
-		distance 4000
-		offset 72
+		distance 1400
+		offset 5
+	object "Scout"
+		sprite "ship/scout"
+		distance 1400
+		offset 10
+
 	object "Bounder"
 		sprite "ship/bounder"
-		distance 4000
-		offset 76
-	object "Carrier"
-		sprite "ship/carrier"
-		distance 4000
-		offset 80
+		distance 1700
+		offset -7
+	object "Blackbird"
+		sprite "ship/blackbird"
+		distance 1700
+	object "Star Queen"
+		sprite "ship/star queen"
+		distance 1700
+		offset 7
+
+	object "AuxiliaryH"
+		sprite "ship/auxiliaryh"
+		distance 2100
+	object "AuxiliaryC"
+		sprite "ship/auxiliaryc"
+		distance 2100
+		offset -6
+	object "AuxiliaryT"
+		sprite "ship/auxiliaryt"
+		distance 2100
+		offset 6
+
+	object "Bactrian"
+		sprite "ship/bactrian"
+		distance 2600
+#
+	object "Star Barge"
+		sprite "ship/star barge"
+		distance 1450
+		offset 37
 	object "Clipper"
 		sprite "ship/clipper"
-		distance 4000
-		offset 84
+		distance 1450
+		offset 43
+
+	object "Freighter"
+		sprite "ship/freighter"
+		distance 1700
+		offset 32
+	object "Argosy"
+		sprite "ship/argosy"
+		distance 1700
+		offset 40
+	object "Hauler"
+		sprite "ship/hauler i"
+		distance 1700
+		offset 48
+#
+	object "Lampyrid-Class Transport"
+		sprite "ship/lampyrid"
+		distance 1600
+		offset 70
+	object "Hauler II"
+		sprite "ship/hauler ii"
+		distance 1600
+		offset 80
+	object "Hauler III"
+		sprite "ship/hauler iii"
+		distance 1600
+		offset 90
+
+	object "Behemoth"
+		sprite "ship/behemoth"
+		distance 2100
+		offset 75
+	object "Bulk Freighter"
+		sprite "ship/bulk freighter"
+		distance 2100
+		offset 85
+#
+	object "Sparrow"
+		sprite "ship/sparrow"
+		distance 1500
+		offset 111
+	object "Wasp"
+		sprite "ship/wasp"
+		distance 1500
+		offset 117
+	object "Fury"
+		sprite "ship/fury"
+		distance 1500
+		offset 123
+	object "Berserker"
+		sprite "ship/berserker"
+		distance 1500
+		offset 129
+
+	object "Hawk"
+		sprite "ship/hawk"
+		distance 1700
+		offset 116
+	object "Marauder Fury"
+		sprite "ship/mfury"
+		distance 1700
+		offset 124
+
+	object "Marauder Arrow Shields"
+		sprite "ship/marrows"
+		distance 1950
+		offset 116
+	object "Marauder Arrow Engines"
+		sprite "ship/marrowe"
+		distance 1950
+		offset 120
+	object "Marauder Arrow Weapons"
+		sprite "ship/marroww"
+		distance 1950
+		offset 124
+
+	object "Marauder Bounder Shields"
+		sprite "ship/mbounders"
+		distance 2200
+		offset 116
+	object "Marauder Bounder Engines"
+		sprite "ship/mboundere"
+		distance 2200
+		offset 120
+	object "Marauder Bounder Weapons"
+		sprite "ship/mbounderw"
+		distance 2200
+		offset 124
+#
+	object "Quicksilver "
+		sprite "ship/quicksilver"
+		distance 1550
+		offset 154
+	object "Headhunter"
+		sprite "ship/headhunter"
+		distance 1550
+		offset 160
+	object "Rainmaker"
+		sprite "ship/rainmaker"
+		distance 1550
+		offset 166
+
+	object "Marauder Quicksilver Shields"
+		sprite "ship/mquicksilvers"
+		distance 1750
+		offset 155
+	object "Marauder Quicksilver Engines"
+		sprite "ship/mquicksilvere"
+		distance 1750
+		offset 160
+	object "Marauder Quicksilver Weapons"
+		sprite "ship/mquicksilverw"
+		distance 1750
+		offset 165
+
+	object "Raven"
+		sprite "ship/raven"
+		distance 1950
+		offset 157
+	object "Gunboat"
+		sprite "ship/gunboat"
+		distance 1950
+		offset 163
+
+	object "Marauder Raven Shields"
+		sprite "ship/mravens"
+		distance 2200
+		offset 154
+	object "Marauder Raven Engines"
+		sprite "ship/mravene"
+		distance 2200
+		offset 160
+	object "Marauder Raven Weapons"
+		sprite "ship/mravenw"
+		distance 2200
+		offset 166
+
+	object "Modified Argosy"
+		sprite "ship/modified argosy"
+		distance 2450
+		offset 160
+#
+	object "Manta"
+		sprite "ship/manta"
+		distance 1550
+		offset 193
+	object "Aerie"
+		sprite "ship/aerie"
+		distance 1550
+		offset 200
 	object "Corvette"
 		sprite "ship/corvette"
-		distance 4000
-		offset 88
+		distance 1550
+		offset 207
+
+	object "Marauder Manta Shields"
+		sprite "ship/mmantas"
+		distance 1800
+		offset 193
+	object "Marauder Manta Engines"
+		sprite "ship/mmantae"
+		distance 1800
+		offset 200
+	object "Marauder Manta Weapons"
+		sprite "ship/mmantaw"
+		distance 1800
+		offset 207
+
+	object "Splinter"
+		sprite "ship/splinter"
+		distance 2100
+		offset 194
+	object "Nest"
+		sprite "ship/nest"
+		distance 2100
+		offset 200
+	object "Firebird"
+		sprite "ship/firebird"
+		distance 2100
+		offset 206
+
+	object "Frigate"
+		sprite "ship/frigate"
+		distance 2400
+		offset 197
+	object "Osprey"
+		sprite "ship/osprey"
+		distance 2400
+		offset 203
+
+	object "Marauder Splinter Shields"
+		sprite "ship/msplinters"
+		distance 2700
+		offset 195
+	object "Marauder Splinter Engines"
+		sprite "ship/msplintere"
+		distance 2700
+		offset 200
+	object "Marauder Splinter Weapons"
+		sprite "ship/msplinterw"
+		distance 2700
+		offset 205
+
+	object "Mule"
+		sprite "ship/mule"
+		distance 3100
+		offset 197
+	object "Roost"
+		sprite "ship/roost"
+		distance 3100
+		offset 203
+
+	object "Marauder Firebird Shields"
+		sprite "ship/mfirebirds"
+		distance 3450
+		offset 196
+	object "Marauder Firebird Engines"
+		sprite "ship/mfirebirde"
+		distance 3450
+		offset 200
+	object "Marauder Firebird Weapons"
+		sprite "ship/mfirebirdw"
+		distance 3450
+		offset 204
+
+	object "Skein"
+		sprite "ship/skein"
+		distance 3850
+		offset 202
+	object "Bastion"
+		sprite "ship/bastion"
+		distance 3850
+		offset 198
+#
+	object "Vanguard"
+		sprite "ship/vanguard"
+		distance 1600
+		offset 232
+	object "Leviathan"
+		sprite "ship/leviathan"
+		distance 1600
+		offset 240
+	object "Protector"
+		sprite "ship/protector"
+		distance 1600
+		offset 248
+
+	object "Falcon"
+		sprite "ship/falcon"
+		distance 1950
+		offset 240
+
+	object "Marauder Falcon Shields"
+		sprite "ship/mfalcons"
+		distance 2350
+		offset 235
+	object "Marauder Falcon Engines"
+		sprite "ship/mfalcone"
+		distance 2350
+		offset 240
+	object "Marauder Falcon Weapons"
+		sprite "ship/mfalconw"
+		distance 2350
+		offset 245
+
+	object "Class C Freighter"
+		sprite "ship/bulk freighter"
+		distance 2800
+		offset 240
+
+	object "Marauder Leviathan Shields"
+		sprite "ship/mleviathans"
+		distance 3200
+		offset 236
+	object "Marauder Leviathan Engines"
+		sprite "ship/mleviathane"
+		distance 3200
+		offset 240
+	object "Marauder Leviathan Weapons"
+		sprite "ship/mleviathanw"
+		distance 3200
+		offset 244
+
 	object "Cruiser"
 		sprite "ship/cruiser"
-		distance 4000
-		offset 92
+		distance 3600
+		offset 235
 	object "Dreadnought"
 		sprite "ship/dreadnought"
-		distance 4000
-		offset 96
-	object Falcon
-		sprite "ship/falcon"
-		distance 4000
-		offset 100
-	object Firebird
-		sprite "ship/firebird"
-		distance 4000
-		offset 104
-	object Flivver
-		sprite "ship/flivver"
-		distance 4000
-		offset 108
-	object Freighter
-		sprite "ship/freighter"
-		distance 4000
-		offset 112
-	object Frigate
-		sprite "ship/frigate"
-		distance 4000
-		offset 116
-	object Fury
-		sprite "ship/fury"
-		distance 4000
-		offset 120
-	object Gunboat
-		sprite "ship/gunboat"
-		distance 4000
-		offset 124
-	object Hauler
-		sprite "ship/hauler i"
-		distance 4000
-		offset 128
-	object Hawk
-		sprite "ship/hawk"
-		distance 4000
-		offset 132
-	object Headhunter
-		sprite "ship/headhunter"
-		distance 4000
-		offset 136
-	object Kestrel
+		distance 3600
+		offset 240
+	object "Kestrel"
 		sprite "ship/kestrel"
-		distance 4000
-		offset 140
-	object Leviathan
-		sprite "ship/leviathan"
-		distance 4000
-		offset 148
-	object Manta
-		sprite "ship/manta"
-		distance 4000
-		offset 152
-	object Mule
-		sprite "ship/mule"
-		distance 4000
-		offset 156
-	object Nest
-		sprite "ship/nest"
-		distance 4000
-		offset 160
-	object Osprey
-		sprite "ship/osprey"
-		distance 4000
-		offset 164
-	object Protector
-		sprite "ship/protector"
-		distance 4000
-		offset 168
-	object Rainmaker
-		sprite "ship/rainmaker"
-		distance 4000
-		offset 172
-	object Raven
-		sprite "ship/raven"
-		distance 4000
-		offset 176
-	object Roost
-		sprite "ship/roost"
-		distance 4000
-		offset 180
-	object Scout
-		sprite "ship/scout"
-		distance 4000
-		offset 184
-	object Shuttle
-		sprite "ship/shuttle"
-		distance 4000
-		offset 188
-	object Skein
-		sprite "ship/skein"
-		distance 4000
-		offset 192
-	object Sparrow
-		sprite "ship/sparrow"
-		distance 4000
-		offset 196
-	object Splinter
-		sprite "ship/splinter"
-		distance 4000
-		offset 200
-	object Vanguard
-		sprite "ship/vanguard"
-		distance 4000
-		offset 204
-	object Wasp
-		sprite "ship/wasp"
-		distance 4000
-		offset 208
+		distance 3600
+		offset 245
 
+	object "Kestrel (More Engines)"
+		sprite "ship/kestrel"
+		distance 4050
+		offset 235
+	object "Kestrel (More Shields)"
+		sprite "ship/kestrel"
+		distance 4050
+		offset 240
+	object "Kestrel (More Weapons)"
+		sprite "ship/kestrel"
+		distance 4050
+		offset 245
+
+	object "Carrier"
+		sprite "ship/carrier"
+		distance 4550
+		offset 240
+#
+	object "Boxwing"
+		sprite "ship/boxwing"
+		distance 1500
+		offset 274
+	object "Barb"
+		sprite "ship/barb"
+		distance 1500
+		offset 278
+	object "Barb (Proton)"
+		sprite "ship/barbp"
+		distance 1500
+		offset 282
+	object "Dagger"
+		sprite "ship/dagger"
+		distance 1500
+		offset 286
+
+	object "Dropship"
+		sprite "ship/dropship"
+		distance 1650
+		offset 276
+	object "Finch"
+		sprite "ship/finch"
+		distance 1650
+		offset 280
+	object "Lance"
+		sprite "ship/lance"
+		distance 1650
+		offset 284
+#
+	object "Combat Drone"
+		sprite "ship/combat drone"
+		distance 1450
+		offset 318
+	object "Surveillance Drone"
+		sprite "ship/surveillance drone"
+		distance 1450
+		offset 322
+#
 
 system "Hai"
 	pos 0 -10100
@@ -1973,12 +2216,40 @@ planet "Arrow"
 		threshold 0
 		fleet "arrow"
 
-planet "Auxiliary"
+planet "AuxiliaryH"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "auxiliary"
+		fleet "auxiliaryh"
+
+planet "AuxiliaryC"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "auxiliaryc"
+
+planet "AuxiliaryT"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "auxiliaryt"
+
+planet "Barb"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "barb"
+
+planet "Barb (Proton)"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "barb (proton)"
 
 planet "Bactrian"
 	bribe 0
@@ -2022,6 +2293,13 @@ planet "Bounder"
 		threshold 0
 		fleet "bounder"
 
+planet "Boxwing"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "boxwing"
+
 planet "Bulk Freighter"
 	bribe 0
 	government "arena"
@@ -2036,12 +2314,26 @@ planet "Carrier"
 		threshold 0
 		fleet "carrier"
 
+planet "Class C Freighter"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "class c freighter"
+
 planet "Clipper"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "clipper"
+
+planet "Combat Drone"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "combat drone"
 
 planet "Corvette"
 	bribe 0
@@ -2057,6 +2349,13 @@ planet "Cruiser"
 		threshold 0
 		fleet "cruiser"
 
+planet "Dagger"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "dagger"
+
 planet "Dreadnought"
 	bribe 0
 	government "arena"
@@ -2064,12 +2363,26 @@ planet "Dreadnought"
 		threshold 0
 		fleet "dreadnought"
 
+planet "Dropship"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "dropship"
+
 planet "Falcon"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "falcon"
+
+planet "Finch"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "finch"
 
 planet "Firebird"
 	bribe 0
@@ -2162,6 +2475,41 @@ planet "Kestrel"
 		threshold 0
 		fleet "kestrel"
 
+planet "Kestrel (More Engines)"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "kestrel"
+
+planet "Kestrel (More Shields)"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "kestrel"
+
+planet "Kestrel (More Weapons)"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "kestrel"
+
+planet "Lampyrid-Class Transport"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "lampyrid"
+
+planet "Lance"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "lance"
+
 planet "Leviathan"
 	bribe 0
 	government "arena"
@@ -2175,6 +2523,202 @@ planet "Manta"
 	tribute 1
 		threshold 0
 		fleet "manta"
+
+planet "Marauder Arrow Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder arrow shields"
+
+planet "Marauder Arrow Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder arrow engines"
+
+planet "Marauder Arrow Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder arrow weapons"
+
+planet "Marauder Bounder Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder bounder shields"
+
+planet "Marauder Bounder Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder bounder engines"
+
+planet "Marauder Bounder Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder bounder weapons"
+
+planet "Marauder Falcon Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder falcon shields"
+
+planet "Marauder Falcon Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder falcon engines"
+
+planet "Marauder Falcon Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder falcon weapons"
+
+planet "Marauder Firebird Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder firebird shields"
+
+planet "Marauder Firebird Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder firebird engines"
+
+planet "Marauder Firebird Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder firebird weapons"
+
+planet "Marauder Fury"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder fury"
+
+planet "Marauder Leviathan Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder leviathan shields"
+
+planet "Marauder Leviathan Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder leviathan engines"
+
+planet "Marauder Leviathan Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder leviathan weapons"
+
+planet "Marauder Manta Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder manta shields"
+
+planet "Marauder Manta Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder manta engines"
+
+planet "Marauder Manta Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder manta weapons"
+
+planet "Marauder Quicksilver Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder quicksilver shields"
+
+planet "Marauder Quicksilver Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder quicksilver engines"
+
+planet "Marauder Quicksilver Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder quicksilver weapons"
+
+planet "Marauder Raven Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder raven shields"
+
+planet "Marauder Raven Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder raven engines"
+
+planet "Marauder Raven Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder raven weapons"
+
+planet "Marauder Splinter Shields"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder splinter shields"
+
+planet "Marauder Splinter Engines"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder splinter engines"
+
+planet "Marauder Splinter Weapons"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauder splinter weapons"
 
 planet "Modified Argosy"
 	bribe 0
@@ -2287,6 +2831,13 @@ planet "Star Queen"
 	tribute 1
 		threshold 0
 		fleet "star queen"
+
+planet "Surveillance Drone"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "surveillance drone"
 
 planet "Vanguard"
 	bribe 0
