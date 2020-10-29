@@ -195,14 +195,51 @@ system "Sheragi"
 		distance 812
 		offset 340
 
-	object "Emerald Sword"
-		sprite "ship/emeraldsword"
-		distance 14000
-		offset 4
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+
 	object "Black Diamond"
 		sprite "ship/blackdiamond"
-		distance 14000
-		offset 8
+		distance 1400
+		offset 280
+
+	object "Emerald Sword"
+		sprite "ship/emeraldsword"
+		distance 1700
+		offset 240
 
 
 system "Human"
@@ -1871,19 +1908,19 @@ planet "Sheragi Vanilla"
 	shipyard "sheragi vanilla"
 	bribe 0
 
-planet "Emerald Sword"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "emerald sword"
-
 planet "Black Diamond"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "black diamond"
+
+planet "Emerald Sword"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "emerald sword"
 
 # -----------------
 #   PLANETS HUMAN

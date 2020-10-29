@@ -2,19 +2,20 @@
 #   SHERAGI
 # -----------
 
-fleet "emerald sword"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Emerald Sword (Fixed)"
-
 fleet "black diamond"
 	government "arena"
 	personality
 		heroic
 	variant
 		"Black Diamond"
+
+fleet "emerald sword"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Emerald Sword (Fixed)"
+		"Black Diamond" 6
 
 # ---------
 #   HUMAN
