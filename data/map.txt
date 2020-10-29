@@ -243,7 +243,7 @@ system "Sheragi"
 
 
 system "Human"
-	pos 50 -10100
+	pos -50 -10100
 	government "cheat"
 	link "Sheragi"
 	link "Hai"
@@ -668,7 +668,7 @@ system "Hai"
 
 
 system "Remnant"
-	pos -50 -10100
+	pos 50 -10100
 	government "cheat"
 	link "Sheragi"
 	link "Hai"
@@ -800,7 +800,7 @@ system "Remnant"
 
 
 system "Ka'het"
-	pos 75 -10150
+	pos -75 -10150
 	government "cheat"
 	link "Human"
 	link "Korath"
@@ -900,7 +900,7 @@ system "Ka'het"
 
 
 system "Korath"
-	pos 25 -10150
+	pos -25 -10150
 	government "cheat"
 	link "Human"
 	link "Hai"
@@ -1051,7 +1051,7 @@ system "Korath"
 
 
 system "Wanderer"
-	pos -25 -10150
+	pos 25 -10150
 	government "cheat"
 	link "Hai"
 	link "Remnant"
@@ -1190,7 +1190,7 @@ system "Wanderer"
 
 
 system "Coalition"
-	pos -75 -10150
+	pos 75 -10150
 	government "cheat"
 	link "Remnant"
 	link "Wanderer"
@@ -1448,7 +1448,7 @@ system "Quarg"
 
 
 system "Drak"
-	pos 25 -10250
+	pos -25 -10250
 	government "cheat"
 	link "Quarg"
 	link "Pug"
@@ -1556,7 +1556,7 @@ system "Drak"
 
 
 system "Pug"
-	pos -25 -10250
+	pos 25 -10250
 	government "cheat"
 	link "Quarg"
 	link "Drak"
