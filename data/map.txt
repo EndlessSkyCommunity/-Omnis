@@ -872,42 +872,94 @@ system "Hai"
 		distance 812
 		offset 340
 
-	object "Lightning Bug"
-		sprite "ship/hai lightning bug"
-		distance 5000
-		offset 8
-	object "Pond Strider"
-		sprite "ship/hai pond strider"
-		distance 5000
-		offset 12
-	object "Shield Beetle"
-		sprite "ship/hai shield beetle"
-		distance 5000
-		offset 16
-	object "Water Bug"
-		sprite "ship/hai water bug"
-		distance 5000
-		offset 20
-	object "Aphid"
-		sprite "ship/hai aphid"
-		distance 5000
-		offset 24
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+#
 	object "Centipede"
 		sprite "ship/hai centipede"
-		distance 5000
-		offset 28
-	object Geocoris
-		sprite "ship/hai geocoris"
-		distance 5000
-		offset 32
-	object Grasshopper
-		sprite "ship/hai grasshopper"
-		distance 5000
-		offset 36
-	object Solifuge
-		sprite "ship/hai solifuge"
-		distance 5000
+		distance 1450
+#
+	object "Aphid"
+		sprite "ship/hai aphid"
+		distance 1400
 		offset 40
+#
+	object "Geocoris"
+		sprite "ship/hai geocoris"
+		distance 1500
+		offset 73
+	object "Water Bug"
+		sprite "ship/hai water bug"
+		distance 1500
+		offset 87
+#
+	object "Grasshopper"
+		sprite "ship/hai grasshopper"
+		distance 1400
+		offset 120
+#
+	object "Lightning Bug"
+		sprite "ship/hai lightning bug"
+		distance 1450
+		offset 160
+#
+	object "Pond Strider"
+		sprite "ship/hai pond strider"
+		distance 1450
+		offset 200
+#
+	object "Shield Beetle"
+		sprite "ship/hai shield beetle"
+		distance 1500
+		offset 234
+	object "Solifuge"
+		sprite "ship/hai solifuge"
+		distance 1500
+		offset 246
+#
+	object "Violin Spider"
+		sprite "ship/hai violin spider"
+		distance 1350
+		offset 280
+#
+	object "Flea"
+		sprite "ship/hai flea"
+		distance 1350
+		offset 320
+#
 
 
 system "Remnant"
@@ -1001,6 +1053,42 @@ system "Remnant"
 		sprite planet/ringworld
 		distance 812
 		offset 340
+
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
 
 	object "Albatross "
 		sprite "ship/albatross"
@@ -1132,6 +1220,42 @@ system "Ka'het"
 		distance 812
 		offset 340
 
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+
 	object Maeri'het
 		sprite "ship/maeri'het"
 		distance 7000
@@ -1234,6 +1358,42 @@ system "Korath"
 		sprite planet/ringworld
 		distance 812
 		offset 340
+
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
 
 	object "Kar Ik Vot 349"
 		sprite "ship/kar ik vot 349"
@@ -1386,6 +1546,42 @@ system "Wanderer"
 		distance 812
 		offset 340
 
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+
 	object "Autumn Leaf"
 		sprite "ship/autumn leaf"
 		distance 9000
@@ -1521,6 +1717,42 @@ system "Coalition"
 		sprite planet/ringworld
 		distance 812
 		offset 340
+
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
 
 	object "Arach Courier"
 		sprite "ship/arach courier"
@@ -1680,6 +1912,42 @@ system "Quarg"
 		distance 812
 		offset 340
 
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+
 	object "Quarg Skylark"
 		sprite "ship/skylark"
 		distance 11000
@@ -1779,6 +2047,42 @@ system "Drak"
 		sprite planet/ringworld
 		distance 812
 		offset 340
+
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
 
 	object "Void Sprite Infant"
 		sprite "ship/void sprite infant"
@@ -1887,6 +2191,42 @@ system "Pug"
 		sprite planet/ringworld
 		distance 812
 		offset 340
+
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
 
 	object "Pug Arfecta"
 		sprite "ship/pug arfecta"
@@ -2897,6 +3237,13 @@ planet "Centipede"
 		threshold 0
 		fleet "centipede"
 
+planet "Flea"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "flea"
+
 planet "Geocoris"
 	bribe 0
 	government "arena"
@@ -2945,6 +3292,13 @@ planet "Water Bug"
 	tribute 1
 		threshold 0
 		fleet "water bug"
+
+planet "Violin Spider"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "violin spider"
 
 # -------------------
 #   PLANETS REMNANT

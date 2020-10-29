@@ -714,6 +714,13 @@ fleet "centipede"
 	variant
 		Centipede
 
+fleet "flea"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Flea"
+
 fleet "geocoris"
 	government "arena"
 	personality
@@ -764,6 +771,13 @@ fleet "water bug"
 		heroic
 	variant
 		"Water Bug"
+
+fleet "violin spider"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Violin Spider"
 
 # -----------
 #   REMNANT
