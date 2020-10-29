@@ -866,12 +866,26 @@ fleet "tern"
 #   KA'HET
 # ----------
 
+fleet "faes'mar"
+	government "arena"
+	personality
+		heroic
+	variant
+		Faes'mar
+
 fleet "maeri'het"
 	government "arena"
 	personality
 		heroic
 	variant
 		Maeri'het
+
+fleet "selii'mar"
+	government "arena"
+	personality
+		heroic
+	variant
+		Selii'mar
 
 fleet "telis'het"
 	government "arena"

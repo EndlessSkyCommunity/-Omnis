@@ -1270,16 +1270,26 @@ system "Ka'het"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
+#
 	object Maeri'het
 		sprite "ship/maeri'het"
-		distance 7000
-		offset 6
-	object Telis'het
+		distance 1450
+		offset 160
+#
+	object "Telis'het"
 		sprite "ship/telis'het"
-		distance 7000
-		offset 9
-
+		distance 1500
+		offset 240
+#
+	object "Faes'mar"
+		sprite "ship/faes'mar"
+		distance 1450
+		offset 316
+	object "Selii'mar"
+		sprite "ship/selii'mar"
+		distance 1450
+		offset 324
+#
 
 system "Korath"
 	pos -25 -10150
@@ -3452,12 +3462,26 @@ planet "Ka'het Vanilla"
 	shipyard "ka'het vanilla"
 	bribe 0
 
+planet "Faes'mar"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "faes'mar"
+
 planet "Maeri'het"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "maeri'het"
+
+planet "Selii'mar"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "selii'mar"
 
 planet "Telis'het"
 	bribe 0
