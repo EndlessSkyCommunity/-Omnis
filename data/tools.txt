@@ -79,6 +79,28 @@ mission "money"
 #   MAPPING
 # -----------
 
+mission "reveal omnis"
+	invisible
+	landing
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis"
+
+event "reveal omnis"
+	visit "Coalition"
+	visit "Drak"
+	visit "Everything"
+	visit "Hai"
+	visit "Human"
+	visit "Ka'het"
+	visit "Korath"
+	visit "Pug"
+	visit "Quarg"
+	visit "Remnant"
+	visit "Sheragi"
+	visit "Wanderer"
+
 mission "reveal map"
 	name `Reveal Map`
 	job
@@ -88,7 +110,6 @@ mission "reveal map"
 	source
 		government "cheat"
 	on accept
-		set "revealed map"
 		event "reveal map"
 
 event "reveal map"
