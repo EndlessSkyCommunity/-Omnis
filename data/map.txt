@@ -1434,7 +1434,7 @@ system "Korath"
 #
 	object "Model 8"
 		sprite "ship/model 8"
-		distance 1500
+		distance 1450
 		offset 120
 #
 	object "Model 16"
@@ -1492,16 +1492,16 @@ system "Korath"
 #
 	object "Korath Chaser"
 		sprite "ship/chaser"
-		distance 1500
+		distance 1450
 		offset 277
 	object "Far Osk 27"
 		sprite "ship/far osk 27"
-		distance 1500
+		distance 1450
 		offset 283
 #
 	object "Far Lek 14"
 		sprite "ship/far lek 14"
-		distance 1500
+		distance 1450
 		offset 320
 #
 
@@ -1633,52 +1633,66 @@ system "Wanderer"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
-	object "Autumn Leaf"
-		sprite "ship/autumn leaf"
-		distance 9000
-		offset 6
-	object "Cool Breeze"
-		sprite "ship/cool breeze"
-		distance 9000
-		offset 9
-	object "Deep River"
-		sprite "ship/deep river"
-		distance 9000
-		offset 12
-	object "Earth Shaper"
-		sprite "ship/earth shaper"
-		distance 9000
-		offset 15
-	object "Strong Wind"
-		sprite "ship/strong wind"
-		distance 9000
-		offset 18
-	object "Summer Leaf"
-		sprite "ship/summer leaf"
-		distance 9000
-		offset 21
-	object "Winter Gale"
-		sprite "ship/winter gale"
-		distance 9000
-		offset 24
-	object "Derecho"
-		sprite "ship/derecho"
-		distance 9000
-		offset 27
-	object Hurricane
-		sprite "ship/hurricane"
-		distance 9000
-		offset 30
+#
 	object Riptide
 		sprite "ship/riptide"
-		distance 9000
-		offset 33
-	object Tempest
+		distance 1550
+#
+	object "Earth Shaper"
+		sprite "ship/earth shaper"
+		distance 1450
+		offset 40
+#
+	object "Deep River Transport"
+		sprite "ship/deep river"
+		distance 1750
+		offset 74
+	object "Deep River"
+		sprite "ship/deep river"
+		distance 1750
+		offset 86
+#
+	object "Cool Breeze"
+		sprite "ship/cool breeze"
+		distance 1400
+		offset 120
+#
+	object "Summer Leaf"
+		sprite "ship/summer leaf"
+		distance 1500
+		offset 153
+	object "Autumn Leaf"
+		sprite "ship/autumn leaf"
+		distance 1500
+		offset 160
+	object "Winter Gale"
+		sprite "ship/winter gale"
+		distance 1500
+		offset 167
+#
+	object "Strong Wind"
+		sprite "ship/strong wind"
+		distance 1550
+		offset 196
+	object "Tempest"
 		sprite "ship/tempest"
-		distance 9000
-		offset 36
-
+		distance 1550
+		offset 204
+#
+	object "Derecho"
+		sprite "ship/derecho"
+		distance 1600
+		offset 234
+	object "Hurricane"
+		sprite "ship/hurricane"
+		distance 1600
+		offset 246
+#
+	object "Flycatcher"
+		sprite "ship/flycatcher"
+		distance 1400
+		offset 320
+#
 
 system "Coalition"
 	pos 75 -10150
@@ -1805,72 +1819,78 @@ system "Coalition"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
-	object "Arach Courier"
-		sprite "ship/arach courier"
-		distance 10000
-		offset 4
-	object "Arach Freighter"
-		sprite "ship/arach freighter"
-		distance 10000
-		offset 6
-	object "Arach Hulk"
-		sprite "ship/arach hulk"
-		distance 10000
-		offset 8
-	object "Arach Spindle"
-		sprite "ship/arach spindle"
-		distance 10000
-		offset 10
-	object "Arach Transport"
-		sprite "ship/arach transport"
-		distance 10000
-		offset 12
-	object "Heliarch Interdictor"
-		sprite "ship/heliarch interdictor"
-		distance 10000
-		offset 14
-	object "Heliarch Neutralizer"
-		sprite "ship/heliarch neutralizer"
-		distance 10000
-		offset 16
-	object "Heliarch Punisher"
-		sprite "ship/heliarch punisher"
-		distance 10000
-		offset 18
-	object "Kimek Briar"
-		sprite "ship/kimek briar"
-		distance 10000
-		offset 20
-	object "Kimek Spire"
-		sprite "ship/kimek spire"
-		distance 10000
-		offset 22
-	object "Kimek Thistle"
-		sprite "ship/kimek thistle"
-		distance 10000
-		offset 24
+#
 	object "Kimek Thorn"
 		sprite "ship/kimek thorn"
-		distance 10000
-		offset 26
+		distance 1450
+		offset -6
+	object "Kimek Briar"
+		sprite "ship/kimek briar"
+		distance 1450
+	object "Kimek Thistle"
+		sprite "ship/kimek thistle"
+		distance 1450
+		offset 6
+
+	object "Kimek Spire"
+		sprite "ship/kimek spire"
+		distance 1850
+#
+	object "Arach Courier"
+		sprite "ship/arach courier"
+		distance 1450
+		offset 33
 	object "Saryd Runabout"
 		sprite "ship/saryd runabout"
-		distance 10000
-		offset 28
-	object "Saryd Sojourner"
-		sprite "ship/saryd sojourner"
-		distance 10000
-		offset 30
-	object "Saryd Traveler"
-		sprite "ship/saryd traveler"
-		distance 10000
-		offset 32
+		distance 1450
+		offset 40
 	object "Saryd Visitor"
 		sprite "ship/saryd visitor"
-		distance 10000
-		offset 34
+		distance 1450
+		offset 47
 
+	object "Arach Transport"
+		sprite "ship/arach transport"
+		distance 1750
+		offset 37
+	object "Arach Freighter"
+		sprite "ship/arach freighter"
+		distance 1750
+		offset 43
+#
+	object "Saryd Traveler"
+		sprite "ship/saryd traveler"
+		distance 1500
+		offset 80
+
+	object "Arach Spindle"
+		sprite "ship/arach spindle"
+		distance 1950
+		offset 72
+	object "Arach Hulk"
+		sprite "ship/arach hulk"
+		distance 1950
+		offset 80
+	object "Saryd Sojourner"
+		sprite "ship/saryd sojourner"
+		distance 1950
+		offset 88
+#
+	object "Heliarch Neutralizer"
+		sprite "ship/heliarch neutralizer"
+		distance 1500
+		offset 160
+#
+	object "Heliarch Interdictor"
+		sprite "ship/heliarch interdictor"
+		distance 1600
+		offset 200
+#
+	object "Heliarch Punisher"
+		sprite "ship/heliarch punisher"
+		distance 1650
+		offset 240
+#
 
 system "Quarg"
 	pos 0 -10200
@@ -1999,16 +2019,16 @@ system "Quarg"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
+#
 	object "Quarg Skylark"
 		sprite "ship/skylark"
-		distance 11000
-		offset 4
+		distance 1550
+		offset 236
 	object "Quarg Wardragon"
 		sprite "ship/wardragon"
-		distance 11000
-		offset 6
-
+		distance 1550
+		offset 244
+#
 
 system "Drak"
 	pos -25 -10250
@@ -3731,6 +3751,13 @@ planet "Deep River"
 		threshold 0
 		fleet "deep river"
 
+planet "Deep River Transport"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "deep river transport"
+
 planet "Derecho"
 	bribe 0
 	government "arena"
@@ -3744,6 +3771,13 @@ planet "Earth Shaper"
 	tribute 1
 		threshold 0
 		fleet "earth shaper"
+
+planet "Flycatcher"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "flycatcher"
 
 planet "Hurricane"
 	bribe 0

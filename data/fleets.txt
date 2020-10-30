@@ -1061,6 +1061,13 @@ fleet "deep river"
 	variant
 		"Deep River"
 
+fleet "deep river transport"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Deep River Transport"
+
 fleet "derecho"
 	government "arena"
 	personality
@@ -1074,6 +1081,13 @@ fleet "earth shaper"
 		heroic
 	variant
 		"Earth Shaper"
+
+fleet "flycatcher"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Flycatcher"
 
 fleet "hurricane"
 	government "arena"
