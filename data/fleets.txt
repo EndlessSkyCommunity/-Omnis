@@ -1283,6 +1283,13 @@ fleet "ember waste node"
 	variant
 		"Ember Waste Node"
 
+fleet "subsidurial"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Subsidurial"
+
 fleet "void sprite infant"
 	government "arena"
 	personality
