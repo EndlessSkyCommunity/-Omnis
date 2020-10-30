@@ -1090,39 +1090,39 @@ system "Remnant"
 		distance 1200
 		offset 320
 #
-	object Puffin
+	object "Puffin"
 		sprite "ship/puffin"
 		distance 1450
 		offset -5
-	object Penguin
+	object "Penguin"
 		sprite "ship/penguin/penguin"
 		distance 1450
 		offset 5
 
-	object Heron
+	object "Heron"
 		sprite "ship/heron"
 		distance 1900
 #
-	object Gull
+	object "Gull"
 		sprite "ship/gull"
 		distance 1500
 		offset 40
 #
-	object Pelican
+	object "Pelican"
 		sprite "ship/pelican"
 		distance 1550
 		offset 80
 #
-	object Starling
+	object "Starling"
 		sprite "ship/starling"
 		distance 1500
 		offset 160
 #
-	object Ibis
+	object "Ibis"
 		sprite "ship/ibis"
 		distance 1550
 		offset 200
-	object Peregrine
+	object "Peregrine"
 		sprite "ship/peregrine/peregrine"
 			"frame rate" 3
 			"rewind"
@@ -1271,7 +1271,7 @@ system "Ka'het"
 		distance 1200
 		offset 320
 #
-	object Maeri'het
+	object "Maeri'het"
 		sprite "ship/maeri'het"
 		distance 1450
 		offset 160
@@ -1634,7 +1634,7 @@ system "Wanderer"
 		distance 1200
 		offset 320
 #
-	object Riptide
+	object "Riptide"
 		sprite "ship/riptide"
 		distance 1550
 #
