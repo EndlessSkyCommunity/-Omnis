@@ -500,6 +500,8 @@ fleet "heron"
 		heroic
 	variant
 		Heron
+		Petrel 4
+		Tern 32
 
 # ----------
 #   KA'HET
@@ -923,3 +925,89 @@ fleet "emerald sword"
 	variant
 		"Emerald Sword (Fixed)"
 		"Black Diamond" 6
+
+# ----------
+#   PERSON
+# ----------
+
+fleet "michael zahniser"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kestrel (More Zahniser)"
+		"Finch (MZ)" 2
+
+fleet "cap'n pester"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Quarg Wardragon (Pester)"
+
+fleet "marauding max"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Fury"
+
+fleet "captain nate"
+	government "arena"
+	personality
+		heroic
+	variant
+		Pointedstick
+
+fleet "tranquility"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Lampyrid-Class Transport"
+
+fleet "power of the people"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Modified Osprey"
+
+fleet "local god"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ursa Polaris"
+
+fleet "subsidurial"
+	government "arena"
+	personality
+		heroic
+	variant
+		Subsidurial
+
+fleet "prototype b3-cc4"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Shooting Star"
+
+fleet "rais iris xviii"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Bactrian"
+
+fleet "zitchas"
+	government "arena"
+	personality
+		heroic
+	variant
+		Heron
+		Peregrine
+		Petrel 4
+		Tern 32
+

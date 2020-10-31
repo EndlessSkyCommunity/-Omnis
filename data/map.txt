@@ -664,7 +664,55 @@ system "Omnis"
 	object "Black Diamond"
 		sprite "ship/blackdiamond"
 		distance 14000
+		offset 6
+	
+	object "Person"
+		sprite "sprite/black-hole-core-land"
+		distance 15000
+	object "Michael Zahniser"
+		sprite "ship/kestrel"
+		distance 15000
+		offset 4
+	object "Cap'n Pester"
+		sprite "ship/wardragon"
+		distance 15000
+		offset 6
+	object "Marauding Max"
+		sprite "ship/mfury"
+		distance 15000
 		offset 8
+	object "Captain Nate"
+		sprite "ship/pointedstick_vanguard"
+		distance 15000
+		offset 10
+	object "Tranquility"
+		sprite "ship/lampyrid"
+		distance 15000
+		offset 12
+	object "Power of the People"
+		sprite "ship/mosprey"
+		distance 15000
+		offset 14
+	object "Local God"
+		sprite "ship/localworldship"
+		distance 15000
+		offset 16
+	object "Subsidurial"
+		sprite "ship/subsidurial"
+		distance 15000
+		offset 18
+	object "Prototype B3-CC4"
+		sprite "ship/shooting star/shooting star"
+		distance 15000
+		offset 20
+	object "Rais Iris XVIII"
+		sprite "ship/mbactriane"
+		distance 15000
+		offset 22
+	object "Zitchas"
+		sprite "ship/heron"
+		distance 15000
+		offset 24
 
 # ------------
 #   OVERRIDE 
@@ -1819,3 +1867,92 @@ planet "Emerald Sword"
 	tribute 1
 		threshold 0
 		fleet "emerald sword"
+
+# ------------------
+#   PLANETS PERSON
+# ------------------
+
+planet "Person"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "person"
+	shipyard "person"
+	bribe 0
+
+planet "Michael Zahniser"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "michael zahniser"
+
+planet "Cap'n Pester"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "cap'n pester"
+
+planet "Marauding Max"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "marauding max"
+
+planet "Captain Nate"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "captain nate"
+
+planet "Tranquility"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "tranquility"
+
+planet "Power of the People"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "power of the people"
+
+planet "Local God"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "local god"
+
+planet "Subsidurial"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "subsidurial"
+
+planet "Prototype B3-CC4"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "prototype b3-cc4"
+
+planet "Rais Iris XVIII"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "rais iris xviii"
+
+planet "Zitchas"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "zitchas"
