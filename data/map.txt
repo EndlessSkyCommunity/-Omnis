@@ -10,12 +10,12 @@ galaxy "label omnis"
 #   INHABITED 
 # -------------
 
-system "Everything"
+system "Omnis"
 	pos 0 -10000
 	government "cheat"
 	link "Sheragi"
 
-	object "everything gateway"
+	object "omnis gateway"
 			sprite "sprite/wisp_green"
 
 	object "Vanilla"
@@ -106,7 +106,7 @@ system "Everything"
 system "Sheragi"
 	pos 0 -10050
 	government "cheat"
-	link "Everything"
+	link "Omnis"
 	link "Human"
 	link "Hai"
 	link "Remnant"
@@ -2332,7 +2332,7 @@ system "Pug"
 # ------------
 
 system "Rutilicus"
-	add object "everything gateway"
+	add object "omnis gateway"
 		sprite "sprite/wisp_green"
 		distance 2000
 
