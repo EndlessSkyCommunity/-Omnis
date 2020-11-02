@@ -21,14 +21,18 @@ system "Omnis"
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
+	object "Persons"
+		sprite "sprite/station8"
+		distance 444
+		offset 90
 	object "Plugins"
 		sprite "sprite/station8"
 		distance 444
-		offset 120
+		offset 180
 	object "Deprecated"
 		sprite "sprite/station8"
 		distance 444
-		offset 240
+		offset 270
 
 	object "Everything"
 		sprite "sprite/everything"
@@ -2406,6 +2410,7 @@ planet "Vanilla"
 	outfitter "human vanilla"
 	outfitter "ka'het vanilla"
 	outfitter "korath vanilla"
+	outfitter "persons"
 	outfitter "pug vanilla"
 	outfitter "quarg vanilla"
 	outfitter "remnant vanilla"
@@ -2416,10 +2421,19 @@ planet "Vanilla"
 	shipyard "human vanilla"
 	shipyard "ka'het vanilla"
 	shipyard "korath vanilla"
+	shipyard "persons"
 	shipyard "pug vanilla"
 	shipyard "quarg vanilla"
 	shipyard "remnant vanilla"
 	shipyard "wanderer vanilla"
+	bribe 0
+
+planet "Persons"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "persons"
+	shipyard "persons"
 	bribe 0
 
 planet "Plugins"
@@ -2477,6 +2491,7 @@ planet "Everything"
 	outfitter "ka'het vanilla"
 	outfitter "korath plugins"
 	outfitter "korath vanilla"
+	outfitter "persons"
 	outfitter "pug plugins"
 	outfitter "pug vanilla"
 	outfitter "quarg plugins"
@@ -2498,6 +2513,7 @@ planet "Everything"
 	shipyard "ka'het vanilla"
 	shipyard "korath plugins"
 	shipyard "korath vanilla"
+	shipyard "persons"
 	shipyard "pug plugins"
 	shipyard "pug vanilla"
 	shipyard "quarg plugins"

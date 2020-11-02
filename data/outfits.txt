@@ -41,6 +41,13 @@ outfit "Crux Stone"
 #   SALES
 # ---------
 
+outfitter "persons"
+	"LG Gridfire Turret"
+	"Shooting Star Flare"
+	"Shooting Star Hit"
+	"Shooting Star Impact"
+	"Shooting Star Mover"
+
 outfitter "developer"
 	"Extra Engine"
 	"Extra Outfit"
