@@ -82,6 +82,7 @@ mission "money"
 mission "reveal omnis"
 	invisible
 	landing
+	repeat
 	source
 		government "cheat"
 	on accept
