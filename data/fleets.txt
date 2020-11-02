@@ -1,3 +1,22 @@
+# -----------
+#   SHERAGI
+# -----------
+
+fleet "black diamond"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Black Diamond"
+
+fleet "emerald sword"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Emerald Sword (Fixed)"
+		"Black Diamond" 6
+
 # ---------
 #   HUMAN
 # ---------
@@ -24,7 +43,7 @@ fleet "arrow"
 	variant
 		Arrow
 
-fleet "auxiliary"
+fleet "auxiliaryh"
 	government "arena"
 	personality
 		heroic
@@ -32,13 +51,43 @@ fleet "auxiliary"
 		Auxiliary
 		Dropship 4
 
+fleet "auxiliaryc"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Auxiliary (Cargo)"
+		Dropship 4
+
+fleet "auxiliaryt"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Auxiliary (Transport)"
+		Dropship 4
+
 fleet "bactrian"
 	government "arena"
 	personality
 		heroic
 	variant
-		Bactrian
-		Dagger 3
+		"Bactrian"
+		"Dagger" 3
+
+fleet "barb"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Barb"
+
+fleet "barb (proton)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Barb (Proton)"
 
 fleet "bastion"
 	government "arena"
@@ -75,6 +124,13 @@ fleet "bounder"
 	variant
 		Bounder
 
+fleet "boxwing"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Boxwing"
+
 fleet "bulk freighter"
 	government "arena"
 	personality
@@ -91,12 +147,27 @@ fleet "carrier"
 		"Combat Drone" 6
 		Lance 4
 
+fleet "class c freighter"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Class C Freighter"
+		"Combat Drone" 12
+
 fleet "clipper"
 	government "arena"
 	personality
 		heroic
 	variant
 		Clipper
+
+fleet "combat drone"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Combat Drone"
 
 fleet "corvette"
 	government "arena"
@@ -113,6 +184,13 @@ fleet "cruiser"
 		Cruiser
 		"Combat Drone" 4
 
+fleet "dagger"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dagger"
+
 fleet "dreadnought"
 	government "arena"
 	personality
@@ -120,12 +198,26 @@ fleet "dreadnought"
 	variant
 		Dreadnought
 
+fleet "dropship"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Dropship"
+
 fleet "falcon"
 	government "arena"
 	personality
 		heroic
 	variant
 		Falcon
+
+fleet "finch"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Finch"
 
 fleet "firebird"
 	government "arena"
@@ -219,6 +311,44 @@ fleet "kestrel"
 		Kestrel
 		Finch 2
 
+fleet "kestrel (More Engines)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kestrel (More Engines)"
+		Finch 2
+
+fleet "kestrel (More Shields)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kestrel (More Shields)"
+		Finch 2
+
+fleet "kestrel (More Weapons)"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Kestrel (More Weapons)"
+		Finch 2
+
+fleet "lampyrid"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Lampyrid-Class Transport"
+
+fleet "lance"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Lance"
+
 fleet "leviathan"
 	government "arena"
 	personality
@@ -232,6 +362,202 @@ fleet "manta"
 		heroic
 	variant
 		Manta
+
+fleet "marauder arrow shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Arrow"
+
+fleet "marauder arrow engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Arrow (Engines)"
+
+fleet "marauder arrow weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Arrow (Weapons)"
+
+fleet "marauder bounder shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Bounder"
+
+fleet "marauder bounder engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Bounder (Engines)"
+
+fleet "marauder bounder weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Bounder (Weapons)"
+
+fleet "marauder falcon shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Falcon"
+
+fleet "marauder falcon engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Falcon (Engines)"
+
+fleet "marauder falcon weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Falcon (Weapons)"
+
+fleet "marauder firebird shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Firebird"
+
+fleet "marauder firebird engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Firebird (Engines)"
+
+fleet "marauder firebird weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Firebird (Weapons)"
+
+fleet "marauder fury"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Fury"
+
+fleet "marauder leviathan shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Leviathan"
+
+fleet "marauder leviathan engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Leviathan (Engines)"
+
+fleet "marauder leviathan weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Leviathan (Weapons)"
+
+fleet "marauder manta shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Manta"
+
+fleet "marauder manta engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Manta (Engines)"
+
+fleet "marauder manta weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Manta (Weapons)"
+
+fleet "marauder quicksilver shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Quicksilver"
+
+fleet "marauder quicksilver engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Quicksilver (Engines)"
+
+fleet "marauder quicksilver weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Quicksilver (Weapons)"
+
+fleet "marauder raven shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Raven"
+
+fleet "marauder raven engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Raven (Engines)"
+
+fleet "marauder raven weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Raven (Weapons)"
+
+fleet "marauder splinter shields"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Splinter"
+
+fleet "marauder splinter engines"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Splinter (Engines)"
+
+fleet "marauder splinter weapons"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Marauder Splinter (Weapons)"
 
 fleet "modified argosy"
 	government "arena"
@@ -349,6 +675,13 @@ fleet "star queen"
 	variant
 		"Star Queen"
 
+fleet "surveillance drone"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Surveillance Drone"
+
 fleet "vanguard"
 	government "arena"
 	personality
@@ -380,6 +713,13 @@ fleet "centipede"
 		heroic
 	variant
 		Centipede
+
+fleet "flea"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Flea"
 
 fleet "geocoris"
 	government "arena"
@@ -432,6 +772,13 @@ fleet "water bug"
 	variant
 		"Water Bug"
 
+fleet "violin spider"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Violin Spider"
+
 # -----------
 #   REMNANT
 # -----------
@@ -449,6 +796,15 @@ fleet "gull"
 		heroic
 	variant
 		Gull
+
+fleet "heron"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heron"
+		"Petrel" 4
+		"Tern" 32
 
 fleet "ibis"
 	government "arena"
@@ -480,6 +836,13 @@ fleet "penguin"
 	variant
 		Penguin
 
+fleet "petrel"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Petrel"
+
 fleet "puffin"
 	government "arena"
 	personality
@@ -494,16 +857,23 @@ fleet "starling"
 	variant
 		Starling
 
-fleet "heron"
+fleet "tern"
 	government "arena"
 	personality
 		heroic
 	variant
-		Heron
+		"Tern"
 
 # ----------
 #   KA'HET
 # ----------
+
+fleet "faes'mar"
+	government "arena"
+	personality
+		heroic
+	variant
+		Faes'mar
 
 fleet "maeri'het"
 	government "arena"
@@ -511,6 +881,13 @@ fleet "maeri'het"
 		heroic
 	variant
 		Maeri'het
+
+fleet "selii'mar"
+	government "arena"
+	personality
+		heroic
+	variant
+		Selii'mar
 
 fleet "telis'het"
 	government "arena"
@@ -523,12 +900,33 @@ fleet "telis'het"
 #   KORATH
 # ----------
 
+fleet "far lek 14"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Far Lek 14"
+
+fleet "far osk 27"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Far Osk 27"
+
 fleet "kar ik vot 349"
 	government "arena"
 	personality
 		heroic
 	variant
 		"Kar Ik Vot 349"
+
+fleet "korath chaser"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Korath Chaser"
 
 fleet "korath raider"
 	government "arena"
@@ -544,6 +942,20 @@ fleet "korath world-ship a"
 		heroic
 	variant
 		"Korath World-Ship"
+
+fleet "korath world-ship b"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Korath World-Ship B"
+
+fleet "korath world-ship c"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Korath World-Ship C"
 
 fleet "met par tek 53"
 	government "arena"
@@ -651,6 +1063,13 @@ fleet "deep river"
 	variant
 		"Deep River"
 
+fleet "deep river transport"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Deep River Transport"
+
 fleet "derecho"
 	government "arena"
 	personality
@@ -664,6 +1083,13 @@ fleet "earth shaper"
 		heroic
 	variant
 		"Earth Shaper"
+
+fleet "flycatcher"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Flycatcher"
 
 fleet "hurricane"
 	government "arena"
@@ -841,6 +1267,45 @@ fleet "quarg wardragon"
 	variant
 		"Quarg Wardragon"
 
+# --------
+#   DRAK
+# --------
+
+fleet "archon"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Archon"
+
+fleet "ember waste node"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Ember Waste Node"
+
+fleet "subsidurial"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Subsidurial"
+
+fleet "void sprite infant"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Void Sprite (Infant)"
+
+fleet "void sprite"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Void Sprite"
+
 # -------
 #   PUG
 # -------
@@ -872,54 +1337,3 @@ fleet "pug zibruka"
 		heroic
 	variant
 		"Pug Zibruka"
-
-# --------
-#   DRAK
-# --------
-
-fleet "archon"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Archon"
-
-fleet "ember waste node"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Ember Waste Node"
-
-fleet "void sprite infant"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Void Sprite (Infant)"
-
-fleet "void sprite"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Void Sprite"
-		
-# -----------
-#   SHERAGI
-# -----------
-
-fleet "black diamond"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Black Diamond"
-		
-fleet "emerald sword"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Emerald Sword (Fixed)"
-		"Black Diamond" 6
