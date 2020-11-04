@@ -1125,13 +1125,13 @@ system "Remnant"
 	object "Ibis"
 		sprite "ship/ibis"
 		distance 1550
-		offset 200
+		offset 196
 	object "Peregrine"
 		sprite "ship/peregrine/peregrine"
 			"frame rate" 3
 			"rewind"
 		distance 1550
-		offset 200
+		offset 204
 #
 	object "Albatross "
 		sprite "ship/albatross"
