@@ -38,6 +38,7 @@ ship "Caster"
 		"afterburner thrust" -200000
 		"slowing resistance" 1000000
 		"force protection" 1000000
+		"hull protection" 1000000
 		Omnis 1
 	outfits
 		"Deterrence"
