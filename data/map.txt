@@ -2337,62 +2337,62 @@ system "Pug"
 
 system "Rutilicus"
 	add object "omnis gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Zubenelhakrabi"
 	add object "sheragi gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Sol"
 	add object "human gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Ya Hai"
 	add object "hai gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Cinxia"
 	add object "remnant gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Nona"
 	add object "ka'het gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Kashikt"
 	add object "korath gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Ka'ch'chrai"
 	add object "wanderer gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Quaru"
 	add object "coalition gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Hevru Hai"
 	add object "quarg gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Nenia"
 	add object "drak gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 system "Pug Iyik"
 	add object "pug gateway"
-		sprite "sprite/wisp_green"
+		sprite "planet/wisp"
 		distance 2000
 
 # -----------
