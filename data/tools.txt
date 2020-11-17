@@ -87,6 +87,7 @@ mission "reveal omnis"
 		government "cheat"
 	on accept
 		event "reveal omnis"
+		set "Omnis" 1
 
 event "reveal omnis"
 	visit "Coalition"

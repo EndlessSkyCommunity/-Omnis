@@ -2331,6 +2331,40 @@ system "Pug"
 		offset 240
 #
 
+# -------------
+#   WORMHOLES
+# -------------
+
+planet "human gateway"
+	attributes "requires: Omnis"
+
+planet "hai gateway"
+	attributes "requires: Omnis"
+
+planet "remnant gateway"
+	attributes "requires: Omnis"
+
+planet "ka'het gateway"
+	attributes "requires: Omnis"
+
+planet "korath gateway"
+	attributes "requires: Omnis"
+
+planet "wanderer gateway"
+	attributes "requires: Omnis"
+
+planet "coalition gateway"
+	attributes "requires: Omnis"
+
+planet "quarg gateway"
+	attributes "requires: Omnis"
+
+planet "pug gateway"
+	attributes "requires: Omnis"
+
+planet "drak gateway"
+	attributes "requires: Omnis"
+
 # ------------
 #   OVERRIDE 
 # ------------
@@ -2531,40 +2565,6 @@ planet "Everything"
 	shipyard "wanderer plugins"
 	shipyard "wanderer vanilla"
 	bribe 0
-
-# -------------
-#   WORMHOLES
-# -------------
-
-planet "human gateway"
-	attributes "requires: Omnis"
-
-planet "hai gateway"
-	attributes "requires: Omnis"
-
-planet "remnant gateway"
-	attributes "requires: Omnis"
-
-planet "ka'het gateway"
-	attributes "requires: Omnis"
-
-planet "korath gateway"
-	attributes "requires: Omnis"
-
-planet "wanderer gateway"
-	attributes "requires: Omnis"
-
-planet "coalition gateway"
-	attributes "requires: Omnis"
-
-planet "quarg gateway"
-	attributes "requires: Omnis"
-
-planet "pug gateway"
-	attributes "requires: Omnis"
-
-planet "drak gateway"
-	attributes "requires: Omnis"
 
 # -------------------
 #   PLANETS SHERAGI
