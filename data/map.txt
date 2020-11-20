@@ -417,10 +417,6 @@ system "Human"
 		sprite "ship/auxiliaryt"
 		distance 2100
 		offset 6
-
-	object "Bactrian"
-		sprite "ship/bactrian"
-		distance 2600
 #
 	object "Star Barge"
 		sprite "ship/star barge"
@@ -738,9 +734,14 @@ system "Human"
 		distance 4050
 		offset 245
 
+	object "Bactrian"
+		sprite "ship/bactrian"
+		distance 4550
+		offset 240
+
 	object "Carrier"
 		sprite "ship/carrier"
-		distance 4550
+		distance 5050
 		offset 240
 #
 	object "Boxwing"
@@ -1427,14 +1428,15 @@ system "Korath"
 	object "Korath World-Ship A"
 		sprite "ship/world-ship a"
 		distance 1700
-		offset -10
+		offset 70
 	object "Korath World-Ship B"
 		sprite "ship/world-ship b"
 		distance 1700
+		offset 80
 	object "Korath World-Ship C"
 		sprite "ship/world-ship c"
 		distance 1700
-		offset 10
+		offset 90
 #
 	object "Model 8"
 		sprite "ship/model 8"
