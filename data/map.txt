@@ -234,17 +234,17 @@ system "Sheragi"
 		sprite "sprite/category_drone"
 		distance 1200
 		offset 320
-
+#
 	object "Black Diamond"
 		sprite "ship/blackdiamond"
 		distance 1400
 		offset 280
-
+#
 	object "Emerald Sword"
 		sprite "ship/emeraldsword"
 		distance 1700
 		offset 240
-
+#
 
 system "Human"
 	pos -50 -10100
