@@ -1172,12 +1172,34 @@ fleet "arach transport"
 	variant
 		"Arach Transport"
 
+fleet "heliarch breacher"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Breacher"
+
+fleet "heliarch hunter"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Hunter"
+
 fleet "heliarch interdictor"
 	government "arena"
 	personality
 		heroic
 	variant
 		"Heliarch Interdictor"
+
+fleet "heliarch judicator"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Judicator"
+		"Heliarch Stalker" 6
 
 fleet "heliarch neutralizer"
 	government "arena"
@@ -1192,6 +1214,27 @@ fleet "heliarch punisher"
 		heroic
 	variant
 		"Heliarch Punisher"
+
+fleet "heliarch pursuer"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Pursuer"
+
+fleet "heliarch rover"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Rover"
+
+fleet "heliarch stalker"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Heliarch Stalker"
 
 fleet "kimek briar"
 	government "arena"

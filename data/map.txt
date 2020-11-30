@@ -1885,17 +1885,42 @@ system "Coalition"
 	object "Heliarch Neutralizer"
 		sprite "ship/heliarch neutralizer"
 		distance 1500
-		offset 160
+		offset 155
+	object "Heliarch Breacher"
+		sprite "ship/heliarch breacher"
+		distance 1500
+		offset 165
 #
 	object "Heliarch Interdictor"
 		sprite "ship/heliarch interdictor"
 		distance 1600
+		offset 193
+	object "Heliarch Hunter"
+		sprite "ship/heliarch hunter"
+		distance 1600
 		offset 200
+	object "Heliarch Judicator"
+		sprite "ship/heliarch judicator"
+		distance 1600
+		offset 207
 #
 	object "Heliarch Punisher"
 		sprite "ship/heliarch punisher"
 		distance 1650
 		offset 240
+#
+	object "Heliarch Pursuer"
+		sprite "ship/heliarch pursuer"
+		distance 1450
+		offset 275
+	object "Heliarch Rover"
+		sprite "ship/heliarch rover"
+		distance 1450
+		offset 280
+	object "Heliarch Stalker"
+		sprite "ship/heliarch stalker"
+		distance 1450
+		offset 285
 #
 
 system "Quarg"
@@ -3921,12 +3946,33 @@ planet "Arach Transport"
 		threshold 0
 		fleet "arach transport"
 
+planet "Heliarch Breacher"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch breacher"
+
+planet "Heliarch Hunter"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch hunter"
+
 planet "Heliarch Interdictor"
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "heliarch interdictor"
+
+planet "Heliarch Judicator"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch judicator"
 
 planet "Heliarch Neutralizer"
 	bribe 0
@@ -3941,6 +3987,27 @@ planet "Heliarch Punisher"
 	tribute 1
 		threshold 0
 		fleet "heliarch punisher"
+
+planet "Heliarch Pursuer"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch pursuer"
+
+planet "Heliarch Rover"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch rover"
+
+planet "Heliarch Stalker"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch stalker"
 
 planet "Kimek Briar"
 	bribe 0
