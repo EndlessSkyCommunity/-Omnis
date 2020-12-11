@@ -13,7 +13,7 @@ ship "Caster"
 		mass 1000000
 		drag 11111.1
 		"heat dissipation" .1667
-		"fuel capacity" 300
+		"fuel capacity" 100
 		"cargo space" 1000000
 		"outfit space" 1000000
 		"weapon capacity" 1000000
@@ -29,7 +29,9 @@ ship "Caster"
 		turn 4000000
 		thrust 200000
 		hyperdrive 1
+		"jump fuel" 1
 		"jump drive" 1
+		"jump range" 3000
 		"jump speed" 1000000
 		"fuel generation" 1000000
 		"quantum keystone" 1
