@@ -231,6 +231,7 @@ outfitter "hai vanilla"
 	"Quantum Keystone"
 	"Railgun Slug"
 	"Railgun"
+ 	"Railgun Slug Rack"
 	"Sand Cell"
 	"Tracker Storage Pod"
 	`"Baellie" Atomic Engines`
