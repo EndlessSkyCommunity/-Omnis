@@ -10,8 +10,8 @@ outfit "Deterrence"
 		velocity 100000
 		"turret turn" 12
 		reload 1
-		"hull damage" 16666666.6667
-		piercing 1
+		"relative shield damage" 1
+		"relative hull damage" 1
 
 outfit "Extra Engine"
 	category "Special"
