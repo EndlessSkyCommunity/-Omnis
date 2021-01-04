@@ -230,67 +230,67 @@ ship "Marauder Fury" "Marauding Max"
 	"final explode" "final explosion small"
 	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."
 
-	ship "Vanguard" "Captain Nate"
-		sprite "ship/pointedstick_vanguard"
-		"never disabled"
-		attributes
-			category "Heavy Warship"
-			"cost" 7200000
-			"shields" 20000
-			"hull" 8000
-			"required crew" 23
-			"bunks" 45
-			"mass" 500
-			"drag" 8
-			"heat dissipation" .6
-			"fuel capacity" 400
-			"cargo space" 50
-			"outfit space" 1215
-			"weapon capacity" 450
-			"engine capacity" 330
-			weapon
-				"blast radius" 160
-				"shield damage" 1600
-				"hull damage" 800
-				"hit force" 2400
-		outfits
-			"A860 Atomic Thruster"
-			"A865 Atomic Steering"
-			"Anti-Missile Turret"
-			"Armageddon Core" 2
-			"D67-TM Shield Generator" 2
-			"Heavy Rocket Launcher" 4
-			"Heavy Rocket" 400
-			"Hyperdrive"
-			"Ionic Afterburner"
-			"KP-6 Photovoltaic Array" 4
-			"Liquid Helium Cooler" 2
-			"LP072a Battery Pack"
-			"Proton Gun" 11
-		engine 0 130
-		engine -31 128 .7
-		engine 31 128 .7
-		gun 0 -132 "Proton Gun"
-		gun 0 -132 "Proton Gun"
-		gun 0 -132 "Proton Gun"
-		gun -22 -122 "Proton Gun"
-		gun -22 -122 "Proton Gun"
-		gun 22 -122 "Proton Gun"
-		gun 22 -122 "Proton Gun"
-		gun -21 -45 "Proton Gun"
-		gun -21 -45 "Proton Gun"
-		gun 21 -45 "Proton Gun"
-		gun 21 -45 "Proton Gun"
-		gun -31 -45 "Heavy Rocket Launcher"
-		gun -31 -45 "Heavy Rocket Launcher"
-		gun 31 -45 "Heavy Rocket Launcher"
-		gun 31 -45 "Heavy Rocket Launcher"
-		turret 0 42 "Anti-Missile Turret"
-		explode "tiny explosion" 18
-		explode "small explosion" 36
-		explode "medium explosion" 24
-		explode "large explosion" 8
-		"final explode" "final explosion large"
+ship "Vanguard" "Captain Nate"
+	sprite "ship/pointedstick vanguard"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 7200000
+		"shields" 20000
+		"hull" 8000
+		"required crew" 23
+		"bunks" 45
+		"mass" 500
+		"drag" 8
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 1215
+		"weapon capacity" 450
+		"engine capacity" 330
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Anti-Missile Turret"
+		"Armageddon Core" 2
+		"D67-TM Shield Generator" 2
+		"Heavy Rocket Launcher" 4
+		"Heavy Rocket" 400
+		"Hyperdrive"
+		"Ionic Afterburner"
+		"KP-6 Photovoltaic Array" 4
+		"Liquid Helium Cooler" 2
+		"LP072a Battery Pack"
+		"Proton Gun" 11
+	engine 0 130
+	engine -31 128 .7
+	engine 31 128 .7
+	gun 0 -132 "Proton Gun"
+	gun 0 -132 "Proton Gun"
+	gun 0 -132 "Proton Gun"
+	gun -22 -122 "Proton Gun"
+	gun -22 -122 "Proton Gun"
+	gun 22 -122 "Proton Gun"
+	gun 22 -122 "Proton Gun"
+	gun -21 -45 "Proton Gun"
+	gun -21 -45 "Proton Gun"
+	gun 21 -45 "Proton Gun"
+	gun 21 -45 "Proton Gun"
+	gun -31 -45 "Heavy Rocket Launcher"
+	gun -31 -45 "Heavy Rocket Launcher"
+	gun 31 -45 "Heavy Rocket Launcher"
+	gun 31 -45 "Heavy Rocket Launcher"
+	turret 0 42 "Anti-Missile Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
 
 ship "Lampyrid-Class Transport" "Tranquility"
 	sprite "ship/lampyrid"
