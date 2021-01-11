@@ -2362,6 +2362,12 @@ system "Pug"
 #   WORMHOLES
 # -------------
 
+planet "omnis gateway"
+	attributes ""
+
+planet "sheragi gateway"
+	attributes "requires: Omnis"
+
 planet "human gateway"
 	attributes "requires: Omnis"
 
@@ -2465,7 +2471,7 @@ planet "Vanilla"
 	description ``
 	spaceport ``
 	outfitter "coalition vanilla"
-	outfitter "deprecated vanilla"
+	outfitter "deprecated"
 	outfitter "drak vanilla"
 	outfitter "hai vanilla"
 	outfitter "human vanilla"
@@ -2504,7 +2510,6 @@ planet "Plugins"
 	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
 	spaceport `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
 	outfitter "coalition plugins"
-	outfitter "deprecated plugins"
 	outfitter "developer"
 	outfitter "drak plugins"
 	outfitter "hai plugins"
@@ -2543,8 +2548,7 @@ planet "Everything"
 	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
-	outfitter "deprecated plugins"
-	outfitter "deprecated vanilla"
+	outfitter "deprecated"
 	outfitter "developer"
 	outfitter "drak plugins"
 	outfitter "drak vanilla"

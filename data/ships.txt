@@ -623,9 +623,15 @@ shipyard "persons"
 shipyard "developer"
 	"Caster"
 
+shipyard "sheragi plugins"
+	"Caster"
+
 shipyard "sheragi vanilla"
 	"Black Diamond"
 	"Emerald Sword (Fixed)"
+
+shipyard "human plugins"
+	"Caster"
 
 shipyard "human vanilla"
 	"Aerie"
@@ -723,6 +729,9 @@ shipyard "human vanilla"
 	"Vanguard"
 	"Wasp"
 
+shipyard "hai plugins"
+	"Caster"
+
 shipyard "hai vanilla"
 	"Aphid"
 	"Centipede"
@@ -735,6 +744,9 @@ shipyard "hai vanilla"
 	"Solifuge"
 	"Violin Spider"
 	"Water Bug"
+
+shipyard "remnant plugins"
+	"Caster"
 
 shipyard "remnant vanilla"
 	"Albatross"
@@ -749,11 +761,17 @@ shipyard "remnant vanilla"
 	"Starling"
 	"Tern"
 
+shipyard "ka'het plugins"
+	"Caster"
+
 shipyard "ka'het vanilla"
 	"Faes'mar"
 	"Maeri'het"
 	"Selii'mar"
 	"Telis'het"
+
+shipyard "korath plugins"
+	"Caster"
 
 shipyard "korath vanilla"
 	"Far Lek 14"
@@ -776,6 +794,9 @@ shipyard "korath vanilla"
 	"Tek Far 109"
 	"Tek Far 71 - Lek"
 	"Tek Far 78 - Osk"
+
+shipyard "wanderer plugins"
+	"Caster"
 	
 shipyard "wanderer vanilla"
 	"Autumn Leaf"
@@ -791,6 +812,9 @@ shipyard "wanderer vanilla"
 	"Summer Leaf"
 	"Tempest"
 	"Winter Gale"
+
+shipyard "coalition plugins"
+	"Caster"
 
 shipyard "coalition vanilla"
 	"Arach Courier"
@@ -816,9 +840,15 @@ shipyard "coalition vanilla"
 	"Saryd Traveler"
 	"Saryd Visitor"
 
+shipyard "quarg plugins"
+	"Caster"
+
 shipyard "quarg vanilla"
 	"Quarg Skylark"
 	"Quarg Wardragon"
+
+shipyard "drak plugins"
+	"Caster"
 
 shipyard "drak vanilla"
 	"Archon"
@@ -826,6 +856,9 @@ shipyard "drak vanilla"
 	"Subsidurial"
 	"Void Sprite (Infant)"
 	"Void Sprite"
+
+shipyard "pug plugins"
+	"Caster"
 
 shipyard "pug vanilla"
 	"Pug Arfecta"
