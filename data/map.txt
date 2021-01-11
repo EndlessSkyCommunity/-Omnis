@@ -2399,62 +2399,62 @@ planet "drak gateway"
 system "Rutilicus"
 	add object "omnis gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Zubenelhakrabi"
 	add object "sheragi gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Sol"
 	add object "human gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Ya Hai"
 	add object "hai gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Cinxia"
 	add object "remnant gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Nona"
 	add object "ka'het gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Kashikt"
 	add object "korath gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Ka'ch'chrai"
 	add object "wanderer gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Quaru"
 	add object "coalition gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Hevru Hai"
 	add object "quarg gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Nenia"
 	add object "drak gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 system "Pug Iyik"
 	add object "pug gateway"
 		sprite "planet/wisp"
-		distance 2000
+		distance 4000
 
 # -----------
 #   PLANETS
