@@ -42,11 +42,12 @@ outfit "Crux Stone"
 # ---------
 
 outfitter "persons"
+	"Crystal Projector"
+	"Crystalline Formation"
+	"Floating Crystal"
+	"Hexagonal Crystal"
 	"LG Gridfire Turret"
-	"Shooting Star Flare"
-	"Shooting Star Hit"
-	"Shooting Star Impact"
-	"Shooting Star Mover"
+	"Tree Skeleton Key Stone"
 	
 outfitter "deprecated"
 	"Bullfrog Anti-Missile Turret"
