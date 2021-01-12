@@ -769,6 +769,7 @@ shipyard "ka'het vanilla"
 	"Maeri'het"
 	"Selii'mar"
 	"Telis'het"
+	"Vareti'het"
 
 shipyard "korath plugins"
 	"Caster"
