@@ -6,25 +6,20 @@ mission "omnis marker"
 	invisible
 	landing
 
-# ---------
-#   TOOLS
-# ---------
+# ------------
+#   LICENSES
+# ------------
 
-mission "licenses give"
-	name `Licenses- Give`
+mission "licenses add"
+	name `Add all Licenses`
 	description `Gives all licenses to the player.`
 	job
 	repeat
-	to offer
-		not "all licenses"
 	source
-		government "cheat"
+		system "Omnis"
 	on accept
-		set "all licenses"
-		set "license: Aben Technology"
 		set "license: City-Ship"
 		set "license: Coalition"
-		set "license: Hai Trust"
 		set "license: Heliarch"
 		set "license: Militia"
 		set "license: Navy Auxiliary"
@@ -38,21 +33,16 @@ mission "licenses give"
 		set "license: Wanderer Outfits"
 		set "license: Wanderer"
 
-mission "licenses take"
-	name `Licenses- Remove`
+mission "licenses remove"
+	name `Remove all Licenses`
 	description `Take all licenses from the player.`
 	job
 	repeat
-	to offer
-		has "all licenses"
 	source
-		government "cheat"
+		system "Omnis"
 	on accept
-		clear "all licenses"
-		clear "license: Aben Technology"
 		clear "license: City-Ship"
 		clear "license: Coalition"
-		clear "license: Hai Trust"
 		clear "license: Heliarch"
 		clear "license: Militia"
 		clear "license: Navy Auxiliary"
@@ -65,6 +55,128 @@ mission "licenses take"
 		clear "license: Wanderer Military"
 		clear "license: Wanderer Outfits"
 		clear "license: Wanderer"
+
+mission "human licenses add"
+	name `Add all Human Licenses`
+	description `Gives all human licenses to the player.`
+	job
+	repeat
+	source
+		system "Human"
+	on accept
+		set "license: City-Ship"
+		set "license: Militia"
+		set "license: Navy Auxiliary"
+		set "license: Navy Carrier"
+		set "license: Navy Cruiser"
+		set "license: Navy"
+
+mission "human licenses remove"
+	name `Remove all Human Licenses`
+	description `Take all human licenses from the player.`
+	job
+	repeat
+	source
+		system "Human"
+	on accept
+		clear "license: City-Ship"
+		clear "license: Militia"
+		clear "license: Navy Auxiliary"
+		clear "license: Navy Carrier"
+		clear "license: Navy Cruiser"
+		clear "license: Navy"
+
+mission "hai licenses add"
+	name `Add all Hai Licenses`
+	description `Gives all hai licenses to the player.`
+	job
+	repeat
+	source
+		system "Hai"
+	on accept
+		set "license: Unfettered Militia"
+
+mission "hai licenses remove"
+	name `Remove all Hai Licenses`
+	description `Take all hai licenses from the player.`
+	job
+	repeat
+	source
+		system "Hai"
+	on accept
+		clear "license: Unfettered Militia"
+
+mission "remnant licenses add"
+	name `Add all Remnant Licenses`
+	description `Gives all remnant licenses to the player.`
+	job
+	repeat
+	source
+		system "Remnant"
+	on accept
+		set "license: Remnant Capital"
+		set "license: Remnant"
+
+mission "remnant licenses remove"
+	name `Remove all Remnant Licenses`
+	description `Take all remnant licenses from the player.`
+	job
+	repeat
+	source
+		system "Remnant"
+	on accept
+		clear "license: Remnant Capital"
+		clear "license: Remnant"
+
+mission "wanderer licenses add"
+	name `Add all Wanderer Licenses`
+	description `Gives all wanderer licenses to the player.`
+	job
+	repeat
+	source
+		system "Wanderer"
+	on accept
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+
+mission "wanderer licenses remove"
+	name `Remove all Wanderer Licenses`
+	description `Take all wanderer licenses from the player.`
+	job
+	repeat
+	source
+		system "Wanderer"
+	on accept
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+
+mission "coalition licenses add"
+	name `Add all Coalition Licenses`
+	description `Gives all coalition licenses to the player.`
+	job
+	repeat
+	source
+		system "Coalition"
+	on accept
+		set "license: Coalition"
+		set "license: Heliarch"
+
+mission "coalition licenses remove"
+	name `Remove all Coalition Licenses`
+	description `Take all coalition licenses from the player.`
+	job
+	repeat
+	source
+		system "Coalition"
+	on accept
+		clear "license: Coalition"
+		clear "license: Heliarch"
+
+# ---------
+#   TOOLS
+# ---------
 
 mission "money"
 	invisible
