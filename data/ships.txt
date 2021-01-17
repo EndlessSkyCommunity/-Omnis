@@ -495,20 +495,22 @@ ship "Ursa Polaris" "Local God"
 	explode "huge explosion" 50
 
 ship "Shooting Star" "Prototype B3-CC4"
+	noun "genocidal maniac"
 	sprite "ship/shooting star/shooting star"
 		"frame time" 3
-	"never disabled"
 	attributes
 		category "Heavy Warship"
 		"hull" 31500
-		"required crew" 1
-		"bunks" 2
+		"threshold percentage" 0.05
+		"automaton" 200
+		"cost" -49500000
 		"energy capacity" 100
 		"mass" 450
 		"drag" 3.9
 		"heat dissipation" 10
-		"fuel capacity" 100
-		"outfit space" 273
+		"fuel capacity" 200
+		"outfit space" 329
+		"weapon capacity" 156
 		"cargo space" 10
 		"hull repair" 3
 		"thrust" 15.6
@@ -519,31 +521,33 @@ ship "Shooting Star" "Prototype B3-CC4"
 		"jump fuel" 50
 		"hyperdrive" 1
 		"energy generation" 1
-		"outfit scan power" 24
-		"outfit scan speed" 1
-		"asteroid scan power" 30
 		"atmosphere scan" 100
+		"spinal mount" 1
+		"crystal projector" 1
+		"shooting star" 2
+		"core crystal" -2
 		weapon
-			"blast radius" 180
-			"shield damage" 720
-			"hull damage" 360
-			"hit force" 1080
+			"blast radius" 20000
+			"hull damage" 79999
+			"piercing" 1
+			"hit force" -8200
 	outfits
-		"Quantum Key Stone"
-		"Shooting Star Flare"
-		"Shooting Star Hit"
-		"Shooting Star Impact"
-		"Shooting Star Mover"
+		"Crystal Projector"
+		"Crystalline Formation"
+		"Hexagonal Crystal"
+		"Floating Crystal"
+		"Tree Skeleton Key Stone"
 	gun 0 0
 	turret 0 0
 	turret 0 0
 	turret 0 0
-	explode "tiny explosion" 5
-	explode "small explosion" 20
-	explode "medium explosion" 25
-	explode "large explosion" 15
+	explode "pug tiny explosion" 5
+	explode "pug small explosion" 20
+	explode "pug medium explosion" 25
+	explode "pug large explosion" 15
 	"final explode" "final explosion medium"
 	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
+	description "	Its advanced properties also allow it to reject the influence of enemy command centers, nullifying their effect."
 
 ship "Marauder Bactrian" "Rais Iris XVIII"
 	sprite ship/mbactriane
@@ -554,7 +558,7 @@ ship "Marauder Bactrian" "Rais Iris XVIII"
 		category "Transport"
 		"cost" 17600000
 		"shields" 30000
-		"hull" 1200
+		"hull" 12000
 		"required crew" 70
 		"bunks" 93
 		"mass" 650
