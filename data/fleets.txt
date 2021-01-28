@@ -896,6 +896,13 @@ fleet "telis'het"
 	variant
 		Telis'het
 
+fleet "vareti'het"
+	government "arena"
+	personality
+		heroic
+	variant
+		Vareti'het
+
 # ----------
 #   KORATH
 # ----------

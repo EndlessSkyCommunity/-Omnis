@@ -1284,6 +1284,11 @@ system "Ka'het"
 	object "Telis'het"
 		sprite "ship/telis'het"
 		distance 1500
+		offset 200
+#
+	object "Vareti'het"
+		sprite "ship/vareti'het"
+		distance 1550
 		offset 240
 #
 	object "Faes'mar"
@@ -3600,6 +3605,13 @@ planet "Telis'het"
 	tribute 1
 		threshold 0
 		fleet "telis'het"
+
+planet "Vareti'het"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "vareti'het"
 
 # ------------------
 #   PLANETS KORATH
