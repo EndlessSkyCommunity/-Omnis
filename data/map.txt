@@ -1283,12 +1283,13 @@ system "Ka'het"
 #
 	object "Telis'het"
 		sprite "ship/telis'het"
-		distance 1650
-		offset 235
+		distance 1500
+		offset 200
+#
 	object "Vareti'het"
 		sprite "ship/vareti'het"
-		distance 1650
-		offset 245
+		distance 1550
+		offset 240
 #
 	object "Faes'mar"
 		sprite "ship/faes'mar"
