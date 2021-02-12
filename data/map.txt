@@ -2202,12 +2202,12 @@ system "Drak"
 		offset 40
 #
 	object "Void Sprite Infant"
-		sprite "ship/void sprite infant"
+		sprite "ship/void sprite/void sprite infant"
 		distance 1450
 		offset 160
 #
 	object "Void Sprite"
-		sprite "ship/void sprite adult"
+		sprite "ship/void sprite/void sprite adult"
 		distance 1500
 		offset 200
 #
