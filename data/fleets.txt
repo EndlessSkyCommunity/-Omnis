@@ -943,6 +943,14 @@ fleet "korath raider"
 		"Korath Raider"
 		"Korath Chaser" 2
 
+fleet "korath dredger"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Korath Dredger"
+		"Korath Chaser" 4
+
 fleet "korath world-ship a"
 	government "arena"
 	personality
