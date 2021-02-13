@@ -1430,17 +1430,21 @@ system "Korath"
 		distance 1200
 		offset 320
 #
+	object "Korath Dredger"
+		sprite "ship/dredger"
+		distance 1650
+		offset 80
 	object "Korath World-Ship A"
 		sprite "ship/world-ship a"
-		distance 1700
+		distance 2300
 		offset 70
 	object "Korath World-Ship B"
 		sprite "ship/world-ship b"
-		distance 1700
+		distance 2300
 		offset 80
 	object "Korath World-Ship C"
 		sprite "ship/world-ship c"
-		distance 1700
+		distance 2300
 		offset 90
 #
 	object "Model 8"
@@ -2198,12 +2202,12 @@ system "Drak"
 		offset 40
 #
 	object "Void Sprite Infant"
-		sprite "ship/void sprite infant"
+		sprite "ship/void sprite/void sprite infant"
 		distance 1450
 		offset 160
 #
 	object "Void Sprite"
-		sprite "ship/void sprite adult"
+		sprite "ship/void sprite/void sprite adult"
 		distance 1500
 		offset 200
 #
@@ -3677,6 +3681,13 @@ planet "Korath Raider"
 	tribute 1
 		threshold 0
 		fleet "korath raider"
+
+planet "Korath Dredger"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "korath dredger"
 
 planet "Korath World-Ship A"
 	bribe 0

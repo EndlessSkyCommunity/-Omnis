@@ -227,7 +227,7 @@ mission "reveal map"
 	job
 	repeat
 	to fail
-		has "reveal map: Active"
+		has "reveal map: active"
 	source
 		government "cheat"
 	on accept
@@ -608,9 +608,7 @@ event "reveal map"
 	"visit planet" "Windblain"
 	"visit planet" "Winter"
 	"visit planet" "Wormhole Alpha"
-	"visit planet" "wormhole_barren"
-	"visit planet" "wormhole_barren2"
-	"visit planet" "wormhole_link"
+	"visit planet" "Wormhole Link"
 	"visit planet" "Wyvern Station"
 	"visit planet" "Xerolophos"
 	"visit planet" "Yedikule"
