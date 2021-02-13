@@ -227,7 +227,7 @@ mission "reveal map"
 	job
 	repeat
 	to fail
-		has "reveal map: Active"
+		has "reveal map: active"
 	source
 		government "cheat"
 	on accept

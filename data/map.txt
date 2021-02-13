@@ -1432,7 +1432,7 @@ system "Korath"
 #
 	object "Korath Dredger"
 		sprite "ship/dredger"
-		distance 1700
+		distance 1650
 		offset 80
 	object "Korath World-Ship A"
 		sprite "ship/world-ship a"
