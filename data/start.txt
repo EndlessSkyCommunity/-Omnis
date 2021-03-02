@@ -1,6 +1,8 @@
 start "omnis"
 	name "Omnis"
-	description `<Placeholder Omnis Start>`
+	description `You will begin on a ringworld with all tech in the game, various jobs that give useful benefits, and a portal in-system that will take you to Rutilicus.`
+	description `	Every faction in the game has a system you can jump to, as well. Along with a ringworld that is filtered to just have their tech, there are "ships" in system you can hail, which will create a copy of that ship to fight.`
+	description `	Have fun!`
 	thumbnail "landscape/station6"
 	date 16 11 3013
 	system "Omnis"
