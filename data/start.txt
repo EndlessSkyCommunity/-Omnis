@@ -26,8 +26,6 @@ start "omnis"
 	set "license: Wanderer Military"
 	set "license: Wanderer Outfits"
 	set "license: Wanderer"
-	set "money: offered"
-	set "money: completed"
 	set "omnis start"
 	ship "Caster" "Caster"
 
