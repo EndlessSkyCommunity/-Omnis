@@ -169,6 +169,13 @@ fleet "combat drone"
 	variant
 		"Combat Drone"
 
+fleet "container transport"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Container Transport"
+
 fleet "corvette"
 	government "arena"
 	personality
