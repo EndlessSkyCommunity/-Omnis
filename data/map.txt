@@ -453,14 +453,18 @@ system "Human"
 		distance 1600
 		offset 90
 
-	object "Behemoth"
-		sprite "ship/behemoth"
-		distance 2100
-		offset 75
 	object "Bulk Freighter"
 		sprite "ship/bulk freighter"
 		distance 2100
-		offset 85
+		offset 72
+	object "Behemoth"
+		sprite "ship/behemoth"
+		distance 2100
+		offset 80
+	object "Container Transport"
+		sprite "ship/container transport"
+		distance 2100
+		offset 88
 #
 	object "Sparrow"
 		sprite "ship/sparrow"
@@ -2819,6 +2823,13 @@ planet "Combat Drone"
 	tribute 1
 		threshold 0
 		fleet "combat drone"
+
+planet "Container Transport"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "container transport"
 
 planet "Corvette"
 	bribe 0
