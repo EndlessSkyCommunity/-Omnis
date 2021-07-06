@@ -674,7 +674,7 @@ event "reveal map"
 #   SWIZZLE
 # -----------
 
-mission "swizzle 0"
+mission "swizzle 00"
 	name `Swizzle- 0`
 	description `Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow.`
 	job
@@ -688,7 +688,7 @@ event "swizzle 0"
 	government "Escort"
 		swizzle 0
 
-mission "swizzle 1"
+mission "swizzle 01"
 	name `Swizzle- 1`
 	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
 	job
@@ -702,7 +702,7 @@ event "swizzle 1"
 	government "Escort"
 		swizzle 1
 
-mission "swizzle 2"
+mission "swizzle 02"
 	name `Swizzle- 2`
 	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
 	job
@@ -716,7 +716,7 @@ event "swizzle 2"
 	government "Escort"
 		swizzle 2
 
-mission "swizzle 3"
+mission "swizzle 03"
 	name `Swizzle- 3`
 	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
 	job
@@ -730,7 +730,7 @@ event "swizzle 3"
 	government "Escort"
 		swizzle 3
 
-mission "swizzle 4"
+mission "swizzle 04"
 	name `Swizzle- 4`
 	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
 	job
@@ -744,7 +744,7 @@ event "swizzle 4"
 	government "Escort"
 		swizzle 4
 
-mission "swizzle 5"
+mission "swizzle 05"
 	name `Swizzle- 5`
 	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
 	job
@@ -758,7 +758,7 @@ event "swizzle 5"
 	government "Escort"
 		swizzle 5
 
-mission "swizzle 6"
+mission "swizzle 06"
 	name `Swizzle- 6`
 	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
 	job
@@ -771,3 +771,311 @@ mission "swizzle 6"
 event "swizzle 6"
 	government "Escort"
 		swizzle 6
+
+mission "swizzle 07"
+	name `Swizzle- 7`
+	description `Changes ships appearance to have a color swizzle of G->B. Full Red.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 7"
+
+event "swizzle 7"
+	government "Escort"
+		swizzle 7
+
+mission "swizzle 08"
+	name `Swizzle- 8`
+	description `Changes ships appearance to have a color swizzle of B->G. Faded Red.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 8"
+
+event "swizzle 8"
+	government "Escort"
+		swizzle 8
+
+mission "swizzle 09"
+	name `Swizzle- 9`
+	description `Changes ships appearance to have a color swizzle of B->B, G->B. Pure Black.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 9"
+
+event "swizzle 9"
+	government "Escort"
+		swizzle 9
+
+mission "swizzle 10"
+	name `Swizzle- 10`
+	description `Changes ships appearance to have a color swizzle of R->G, B->G. Faded Black/Gray.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 10"
+
+event "swizzle 10"
+	government "Escort"
+		swizzle 10
+
+mission "swizzle 11"
+	name `Swizzle- 11`
+	description `Changes ships appearance to have a color swizzle of G->R, B->R. Pure White.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 11"
+
+event "swizzle 11"
+	government "Escort"
+		swizzle 11
+
+mission "swizzle 12"
+	name `Swizzle- 12`
+	description `Changes ships appearance to have a color swizzle of R->B, G->B, B->G. Dark Blue.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 12"
+
+event "swizzle 12"
+	government "Escort"
+		swizzle 12
+
+mission "swizzle 13"
+	name `Swizzle- 13`
+	description `Changes ships appearance to have a color swizzle of R->B, G->B, G->R. Pure Blue.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 13"
+
+event "swizzle 13"
+	government "Escort"
+		swizzle 13
+
+mission "swizzle 14"
+	name `Swizzle- 14`
+	description `Changes ships appearance to have a color swizzle of R->G, B->R. Faded Blue.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 14"
+
+event "swizzle 14"
+	government "Escort"
+		swizzle 14
+
+mission "swizzle 15"
+	name `Swizzle- 15`
+	description `Changes ships appearance to have a color swizzle of R->B, B->G. Dark Cyan.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 15"
+
+event "swizzle 15"
+	government "Escort"
+		swizzle 15
+
+mission "swizzle 16"
+	name `Swizzle- 16`
+	description `Changes ships appearance to have a color swizzle of R->B, G->R, B->R. Pure Cyan.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 16"
+
+event "swizzle 16"
+	government "Escort"
+		swizzle 16
+
+mission "swizzle 17"
+	name `Swizzle- 17`
+	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->R. Faded Cyan.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 17"
+
+event "swizzle 17"
+	government "Escort"
+		swizzle 17
+
+mission "swizzle 18"
+	name `Swizzle- 18`
+	description `Changes ships appearance to have a color swizzle of R->B. Dark Green.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 18"
+
+event "swizzle 18"
+	government "Escort"
+		swizzle 18
+
+mission "swizzle 19"
+	name `Swizzle- 19`
+	description `Changes ships appearance to have a color swizzle of R->B, G->R. Pure Green.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 19"
+
+event "swizzle 19"
+	government "Escort"
+		swizzle 19
+
+mission "swizzle 20"
+	name `Swizzle- 20`
+	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->G. Faded Green.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 20"
+
+event "swizzle 20"
+	government "Escort"
+		swizzle 20
+
+mission "swizzle 21"
+	name `Swizzle- 21`
+	description `Changes ships appearance to have a color swizzle of R->G. Dark Yellow.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 21"
+
+event "swizzle 21"
+	government "Escort"
+		swizzle 21
+
+mission "swizzle 22"
+	name `Swizzle- 22`
+	description `Changes ships appearance to have a color swizzle of G->R. Pure Yellow.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 22"
+
+event "swizzle 22"
+	government "Escort"
+		swizzle 22
+
+mission "swizzle 23"
+	name `Swizzle- 23`
+	description `Changes ships appearance to have a color swizzle of G->R, B->G. Faded Yellow.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 23"
+
+event "swizzle 23"
+	government "Escort"
+		swizzle 23
+
+mission "swizzle 24"
+	name `Swizzle- 24`
+	description `Changes ships appearance to have a color swizzle of R->G, G->B, B->G. Dark Magenta.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 24"
+
+event "swizzle 24"
+	government "Escort"
+		swizzle 24
+
+mission "swizzle 25"
+	name `Swizzle- 25`
+	description `Changes ships appearance to have a color swizzle of G->B, B->R. Pure Magenta.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 25"
+
+event "swizzle 25"
+	government "Escort"
+		swizzle 25
+
+mission "swizzle 26"
+	name `Swizzle- 26`
+	description `Changes ships appearance to have a color swizzle of B->R. Faded Magenta.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 26"
+
+event "swizzle 26"
+	government "Escort"
+		swizzle 26
+
+mission "swizzle 27"
+	name `Swizzle- 27`
+	description `Changes ships appearance to have a color swizzle of G->X, B->X. E.g. Cloaked Appearance.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 27"
+
+event "swizzle 27"
+	government "Escort"
+		swizzle 27
+
+mission "swizzle 28"
+	name `Swizzle- 28`
+	description `Changes ships appearance to completely black.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "swizzle 28"
+
+event "swizzle 28"
+	government "Escort"
+		swizzle 28
