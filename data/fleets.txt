@@ -573,6 +573,13 @@ fleet "modified argosy"
 	variant
 		"Modified Argosy"
 
+fleet "modified boxwing"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Modified Boxwing"
+
 fleet "mule"
 	government "arena"
 	personality

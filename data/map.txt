@@ -486,11 +486,15 @@ system "Human"
 	object "Hawk"
 		sprite "ship/hawk"
 		distance 1700
-		offset 116
+		offset 114
+	object "Modified Boxwing"
+		sprite "ship/modified boxwing"
+		distance 1700
+		offset 120
 	object "Marauder Fury"
 		sprite "ship/mfury"
 		distance 1700
-		offset 124
+		offset 126
 
 	object "Marauder Arrow Shields"
 		sprite "ship/marrows"
@@ -3222,6 +3226,13 @@ planet "Modified Argosy"
 	tribute 1
 		threshold 0
 		fleet "modified argosy"
+
+planet "Modified Boxwing"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "modified boxwing"
 
 planet "Mule"
 	bribe 0
