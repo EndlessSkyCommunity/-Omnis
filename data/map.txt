@@ -21,18 +21,14 @@ system "Omnis"
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
-	object "Persons"
-		sprite "sprite/station8"
-		distance 444
-		offset 90
 	object "Plugins"
 		sprite "sprite/station8"
 		distance 444
-		offset 180
+		offset 120
 	object "Deprecated"
 		sprite "sprite/station8"
 		distance 444
-		offset 270
+		offset 240
 
 	object "Everything"
 		sprite "sprite/everything"
@@ -2512,14 +2508,6 @@ planet "Vanilla"
 	shipyard "remnant vanilla"
 	shipyard "sheragi vanilla"
 	shipyard "wanderer vanilla"
-	bribe 0
-
-planet "Persons"
-	landscape "landscape/station6"
-	description ``
-	spaceport ``
-	outfitter "persons"
-	shipyard "persons"
 	bribe 0
 
 planet "Plugins"
