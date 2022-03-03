@@ -829,6 +829,13 @@ fleet "ibis"
 		Petrel 2
 		Tern 4
 
+fleet "merganser"
+	government "arena"
+	personality
+		heroic
+	variant
+		Merganser
+
 fleet "pelican"
 	government "arena"
 	personality
