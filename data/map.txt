@@ -726,15 +726,15 @@ system "Human"
 		offset 245
 
 	object "Kestrel (More Engines)"
-		sprite "ship/kestrel"
+		sprite "ship/kestrele"
 		distance 4050
 		offset 235
 	object "Kestrel (More Shields)"
-		sprite "ship/kestrel"
+		sprite "ship/kestrels"
 		distance 4050
 		offset 240
 	object "Kestrel (More Weapons)"
-		sprite "ship/kestrel"
+		sprite "ship/kestrelw"
 		distance 4050
 		offset 245
 
@@ -1121,6 +1121,11 @@ system "Remnant"
 		sprite "ship/pelican"
 		distance 1550
 		offset 80
+#
+	object "Merganser"
+		sprite "ship/merganser"
+		distance 1450
+		offset 120
 #
 	object "Starling"
 		sprite "ship/starling"
@@ -2205,10 +2210,14 @@ system "Drak"
 		distance 1500
 		offset 40
 #
+	object "Embershade"
+		sprite "ship/embershade/embershade"
+		distance 1450
+		offset 156
 	object "Void Sprite Infant"
 		sprite "ship/void sprite/void sprite infant"
 		distance 1450
-		offset 160
+		offset 166
 #
 	object "Void Sprite"
 		sprite "ship/void sprite/void sprite adult"
@@ -3513,6 +3522,13 @@ planet "Ibis"
 		threshold 0
 		fleet "ibis"
 
+planet "Merganser"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "merganser"
+
 planet "Pelican"
 	bribe 0
 	government "arena"
@@ -4189,6 +4205,13 @@ planet "Ember Waste Node"
 	tribute 1
 		threshold 0
 		fleet "ember waste node"
+
+planet "Embershade"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "embershade"
 
 planet "Subsidurial"
 	bribe 0
