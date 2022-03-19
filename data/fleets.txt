@@ -1357,6 +1357,13 @@ fleet "archon"
 	variant
 		"Archon"
 
+fleet "embershade"
+	government "arena"
+	personality
+		heroic
+	variant
+		"Embershade"
+
 fleet "ember waste node"
 	government "arena"
 	personality

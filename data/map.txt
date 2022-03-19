@@ -2210,10 +2210,14 @@ system "Drak"
 		distance 1500
 		offset 40
 #
+	object "Embershade"
+		sprite "ship/embershade/embershade"
+		distance 1450
+		offset 156
 	object "Void Sprite Infant"
 		sprite "ship/void sprite/void sprite infant"
 		distance 1450
-		offset 160
+		offset 166
 #
 	object "Void Sprite"
 		sprite "ship/void sprite/void sprite adult"
@@ -4201,6 +4205,13 @@ planet "Ember Waste Node"
 	tribute 1
 		threshold 0
 		fleet "ember waste node"
+
+planet "Embershade"
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "embershade"
 
 planet "Subsidurial"
 	bribe 0

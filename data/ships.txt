@@ -329,6 +329,7 @@ shipyard "drak plugins"
 
 shipyard "drak vanilla"
 	"Archon"
+	"Embershade"
 	"Ember Waste Node"
 	"Subsidurial"
 	"Void Sprite (Infant)"
