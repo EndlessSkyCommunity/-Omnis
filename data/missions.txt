@@ -1,14 +1,10 @@
-# -----------------
-#   PLUGIN MARKER
-# -----------------
+#	Marker
 
 mission "omnis marker"
 	invisible
 	landing
 
-# ------------
-#   LICENSES
-# ------------
+#	Licenses
 
 mission "licenses add"
 	name `Add all Licenses`
@@ -174,9 +170,7 @@ mission "coalition licenses remove"
 		clear "license: Coalition"
 		clear "license: Heliarch"
 
-# ---------
-#   TOOLS
-# ---------
+#	Credits
 
 mission "Abandon Pride"
 	invisible
@@ -206,9 +200,7 @@ mission "Wealth Stimulant"
 	on accept
 		payment 922e16
 
-# -----------
-#   MAPPING
-# -----------
+#	Mapping
 
 mission "reveal omnis"
 	invisible
@@ -670,9 +662,7 @@ event "reveal map"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
 
-# -----------
-#   SWIZZLE
-# -----------
+#	Swizzle
 
 mission "swizzle 00"
 	name `Swizzle- 0`

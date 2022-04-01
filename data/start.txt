@@ -29,8 +29,6 @@ start "omnis"
 	set "omnis start"
 	ship "Caster" "Caster"
 
-
-
 conversation "omnis_intro"
 	`Welcome to Omnis! Please enter your name.`
 	name

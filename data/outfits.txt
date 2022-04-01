@@ -1,6 +1,4 @@
-# -----------
-#   SPECIAL
-# -----------
+#	Outfits sorted by category
 
 outfit "Deterrence"
 	category "Special"
@@ -36,10 +34,7 @@ outfit "Crux Stone"
 	Omnis 1
 	description "Enables use of the Omnis nexus wormholes."
 	
-
-# ---------
-#   SALES
-# ---------
+#	Sales
 
 outfitter "persons"
 	"Crystal Projector"

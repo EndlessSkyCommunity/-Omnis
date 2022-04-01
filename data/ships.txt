@@ -1,6 +1,4 @@
-# -------------
-#   TRANSPORT
-# -------------
+#	Ships sorted by category
 
 ship "Caster"
 	sprite "ship/caster"
@@ -81,9 +79,7 @@ ship "Caster"
 	turret 0 116
 	turret 0 116
 
-# ---------
-#   SALES
-# ---------
+#	Sales
 
 shipyard "persons"
 	"Lampyrid-Class Transport"
