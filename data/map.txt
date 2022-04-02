@@ -110,7 +110,6 @@ planet "Everything"
 	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
-	outfitter "deprecated"
 	outfitter "developer"
 	outfitter "drak plugins"
 	outfitter "drak vanilla"
@@ -194,7 +193,6 @@ planet "Vanilla"
 	description ``
 	spaceport ``
 	outfitter "coalition vanilla"
-	outfitter "deprecated"
 	outfitter "drak vanilla"
 	outfitter "hai vanilla"
 	outfitter "human vanilla"
