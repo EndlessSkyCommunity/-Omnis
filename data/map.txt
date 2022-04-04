@@ -9,8 +9,6 @@ system "Omnis"
 	pos 0 -10000
 	government "cheat"
 	link "Sheragi"
-	object "omnis gateway"
-			sprite "sprite/wisp_green"
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
@@ -93,9 +91,6 @@ system "Omnis"
 		sprite "sprite/everything"
 		distance 1218
 		offset 340
-
-planet "omnis gateway"
-	attributes ""
 
 planet "Deprecated"
 	landscape landscape/station6
@@ -225,8 +220,6 @@ system "Sheragi"
 	link "Human"
 	link "Hai"
 	link "Remnant"
-	object "sheragi gateway"
-		sprite "sprite/wisp_green"
 	object "Sheragi"
 		sprite planet/ringworld
 		distance 812
@@ -342,9 +335,6 @@ system "Sheragi"
 		distance 1700
 		offset 240
 
-planet "sheragi gateway"
-	attributes "requires: Omnis"
-
 planet "Sheragi"
 	landscape "landscape/station6"
 	description ``
@@ -362,8 +352,6 @@ system "Human"
 	link "Hai"
 	link "Ka'het"
 	link "Korath"
-	object "human gateway"
-		sprite "sprite/wisp_green"
 	object "Human"
 		sprite planet/ringworld
 		distance 812
@@ -887,9 +875,6 @@ system "Human"
 		distance 1450
 		offset 322
 
-planet "human gateway"
-	attributes "requires: Omnis"
-
 planet "Human"
 	landscape "landscape/station6"
 	description ``
@@ -908,8 +893,6 @@ system "Hai"
 	link "Remnant"
 	link "Korath"
 	link "Wanderer"
-	object "hai gateway"
-		sprite "sprite/wisp_green"
 	object "Hai"
 		sprite planet/ringworld
 		distance 812
@@ -1068,9 +1051,6 @@ system "Hai"
 		distance 1350
 		offset 320
 
-planet "hai gateway"
-	attributes "requires: Omnis"
-
 planet "Hai"
 	landscape "landscape/station6"
 	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
@@ -1088,8 +1068,6 @@ system "Remnant"
 	link "Hai"
 	link "Wanderer"
 	link "Coalition"
-	object "remnant gateway"
-		sprite "sprite/wisp_green"
 	object "Remnant"
 		sprite planet/ringworld
 		distance 812
@@ -1255,9 +1233,6 @@ system "Remnant"
 		distance 1400
 		offset 320
 
-planet "remnant gateway"
-	attributes "requires: Omnis"
-
 planet "Remnant"
 	landscape "landscape/station6"
 	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
@@ -1273,8 +1248,6 @@ system "Ka'het"
 	government "cheat"
 	link "Human"
 	link "Korath"
-	object "ka'het gateway"
-		sprite "sprite/wisp_green"
 	object "Ka'het"
 		sprite planet/ringworld
 		distance 812
@@ -1405,9 +1378,6 @@ system "Ka'het"
 		distance 1450
 		offset 324
 
-planet "ka'het gateway"
-	attributes "requires: Omnis"
-
 planet "Ka'het"
 	landscape landscape/station6
 	description ``
@@ -1426,8 +1396,6 @@ system "Korath"
 	link "Ka'het"
 	link "Wanderer"
 	link "Quarg"
-	object "korath gateway"
-		sprite "sprite/wisp_green"
 	object "Korath"
 		sprite planet/ringworld
 		distance 812
@@ -1623,9 +1591,6 @@ system "Korath"
 		distance 1450
 		offset 320
 
-planet "korath gateway"
-	attributes "requires: Omnis"
-
 planet "Korath"
 	landscape "landscape/station6"
 	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
@@ -1644,8 +1609,6 @@ system "Wanderer"
 	link "Korath"
 	link "Coalition"
 	link "Quarg"
-	object "wanderer gateway"
-		sprite "sprite/wisp_green"
 	object "Wanderer"
 		sprite planet/ringworld
 		distance 812
@@ -1812,9 +1775,6 @@ system "Wanderer"
 		distance 1400
 		offset 320
 
-planet "wanderer gateway"
-	attributes "requires: Omnis"
-
 planet "Wanderer"
 	landscape "landscape/station6"
 	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
@@ -1830,8 +1790,6 @@ system "Coalition"
 	government "cheat"
 	link "Remnant"
 	link "Wanderer"
-	object "coalition gateway"
-		sprite "sprite/wisp_green"
 	object "Coalition"
 		sprite planet/ringworld
 		distance 812
@@ -2034,9 +1992,6 @@ system "Coalition"
 		distance 1450
 		offset 285
 
-planet "coalition gateway"
-	attributes "requires: Omnis"
-
 planet "Coalition"
 	landscape "landscape/station6"
 	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
@@ -2054,8 +2009,6 @@ system "Quarg"
 	link "Wanderer"
 	link "Drak"
 	link "Pug"
-	object "quarg gateway"
-		sprite "sprite/wisp_green"
 	object "Quarg"
 		sprite planet/ringworld
 		distance 812
@@ -2171,9 +2124,6 @@ system "Quarg"
 		distance 1550
 		offset 244
 
-planet "quarg gateway"
-	attributes "requires: Omnis"
-
 planet "Quarg"
 	landscape landscape/station6
 	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
@@ -2189,8 +2139,6 @@ system "Drak"
 	government "cheat"
 	link "Quarg"
 	link "Pug"
-	object "drak gateway"
-		sprite "sprite/wisp_green"
 	object "Drak"
 		sprite planet/ringworld
 		distance 812
@@ -2325,9 +2273,6 @@ system "Drak"
 		distance 1600
 		offset 246
 
-planet "drak gateway"
-	attributes "requires: Omnis"
-
 planet "Drak"
 	landscape "landscape/station6"
 	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
@@ -2343,8 +2288,6 @@ system "Pug"
 	government "cheat"
 	link "Quarg"
 	link "Drak"
-	object "pug gateway"
-		sprite "sprite/wisp_green"
 	object "Pug"
 		sprite planet/ringworld
 		distance 812
@@ -2470,9 +2413,6 @@ system "Pug"
 		distance 1550
 		offset 240
 
-planet "pug gateway"
-	attributes "requires: Omnis"
-
 planet "Pug"
 	landscape "landscape/station6"
 	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
@@ -2482,68 +2422,6 @@ planet "Pug"
 	shipyard "pug plugins"
 	shipyard "pug vanilla"
 	bribe 0
-
-#	Override
-
-system "Rutilicus"
-	add object "omnis gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Zubenelhakrabi"
-	add object "sheragi gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Sol"
-	add object "human gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Ya Hai"
-	add object "hai gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Cinxia"
-	add object "remnant gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Nona"
-	add object "ka'het gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Kashikt"
-	add object "korath gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Ka'ch'chrai"
-	add object "wanderer gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Quaru"
-	add object "coalition gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Hevru Hai"
-	add object "quarg gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Nenia"
-	add object "drak gateway"
-		sprite "planet/wisp"
-		distance 4000
-
-system "Pug Iyik"
-	add object "pug gateway"
-		sprite "planet/wisp"
-		distance 4000
 
 # -------------------
 #   PLANETS SHERAGI
