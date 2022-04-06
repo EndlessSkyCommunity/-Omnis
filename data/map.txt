@@ -16,88 +16,90 @@ system "Omnis"
 	link "Sheragi"
 	object "omnis gateway"
 			sprite "sprite/wisp_green"
-	object "Vanilla"
-		sprite "sprite/station8"
-		distance 444
 	object "Plugins"
 		sprite "sprite/station8"
-		distance 444
+		distance 300
 		offset 120
 	object "Deprecated"
 		sprite "sprite/station8"
-		distance 444
+		distance 300
 		offset 240
+	object "Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 360
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
-	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 20
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 40
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 60
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 80
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 100
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 120
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 140
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 160
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 180
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 200
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 220
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 240
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 260
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 280
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 300
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 320
 	object "Everything"
-		sprite "sprite/everything"
-		distance 1218
+		sprite planet/ringworld
+		distance 812
 		offset 340
+	object "Everything"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 
 planet "omnis gateway"
 	attributes ""
