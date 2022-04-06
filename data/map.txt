@@ -19,15 +19,27 @@ system "Omnis"
 	object "Plugins"
 		sprite "sprite/station8"
 		distance 300
-		offset 120
+		offset 60
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
 	object "Deprecated"
 		sprite "sprite/station8"
 		distance 300
-		offset 240
+		offset 180
+	object
+		sprite "sprite/section_deprecated"
+		distance 450
+		offset 180
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 300
-		offset 360
+		offset 300
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Everything"
 		sprite planet/ringworld
 		distance 812
@@ -103,51 +115,99 @@ system "Omnis"
 	object "Sheragi"
 		sprite "sprite/station8"
 		distance 1050
-		offset 30
+		offset 15
+	object
+		sprite "sprite/faction_sheragi"
+		distance 1200
+		offset 15
 	object "Human"
 		sprite "sprite/station8"
 		distance 1050
-		offset 60
+		offset 45
+	object
+		sprite "sprite/faction_human"
+		distance 1200
+		offset 45
 	object "Hai"
 		sprite "sprite/station8"
 		distance 1050
-		offset 90
+		offset 75
+	object
+		sprite "sprite/faction_hai"
+		distance 1200
+		offset 75
 	object "Remnant"
 		sprite "sprite/station8"
 		distance 1050
-		offset 120
+		offset 105
+	object
+		sprite "sprite/faction_remnant"
+		distance 1200
+		offset 105
 	object "Ka'het"
 		sprite "sprite/station8"
 		distance 1050
-		offset 150
+		offset 135
+	object
+		sprite "sprite/faction_kahet"
+		distance 1200
+		offset 135
 	object "Korath"
 		sprite "sprite/station8"
 		distance 1050
-		offset 180
+		offset 165
+	object
+		sprite "sprite/faction_korath"
+		distance 1200
+		offset 165
 	object "Wanderer"
 		sprite "sprite/station8"
 		distance 1050
-		offset 210
+		offset 195
+	object
+		sprite "sprite/faction_wanderer"
+		distance 1200
+		offset 195
 	object "Coalition"
 		sprite "sprite/station8"
 		distance 1050
-		offset 240
+		offset 225
+	object
+		sprite "sprite/faction_coalition"
+		distance 1200
+		offset 225
 	object "Quarg"
 		sprite "sprite/station8"
 		distance 1050
-		offset 270
+		offset 255
+	object
+		sprite "sprite/faction_quarg"
+		distance 1200
+		offset 255
 	object "Drak"
 		sprite "sprite/station8"
 		distance 1050
-		offset 300
+		offset 285
+	object
+		sprite "sprite/faction_drak"
+		distance 1200
+		offset 285
 	object "Pug"
 		sprite "sprite/station8"
 		distance 1050
-		offset 330
+		offset 315
+	object
+		sprite "sprite/faction_pug"
+		distance 1200
+		offset 315
 	object "Unknown"
 		sprite "sprite/station8"
 		distance 1050
-		offset 360
+		offset 345
+	object
+		sprite "sprite/faction_unknown"
+		distance 1200
+		offset 345
 
 planet "omnis gateway"
 	attributes ""
