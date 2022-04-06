@@ -81,13 +81,6 @@ ship "Caster"
 
 #	Sales
 
-shipyard "persons"
-	"Lampyrid-Class Transport"
-	"Marauder Bactrian"
-	"Modified Osprey"
-	"Shooting Star"
-	"Ursa Polaris"
-
 shipyard "developer"
 	"Caster"
 

@@ -35,14 +35,6 @@ outfit "Crux Stone"
 	description "Enables use of the Omnis nexus wormholes."
 	
 #	Sales
-
-outfitter "persons"
-	"Crystal Projector"
-	"Crystalline Formation"
-	"Floating Crystal"
-	"Hexagonal Crystal"
-	"LG Gridfire Turret"
-	"Tree Skeleton Key Stone"
 	
 outfitter "deprecated"
 	"Bullfrog Anti-Missile Turret"
