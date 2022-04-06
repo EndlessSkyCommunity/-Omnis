@@ -45,39 +45,11 @@ ship "Caster"
 		"slowing protection" 1000000
 		Omnis 1
 	outfits
-		"Deterrence"
+		"Disable All"
+		"Kill All"
 	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	gun 0 -172
-	turret 0 116 Deterrence
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
-	turret 0 116
+	turret 0 116 "Disable All"
+	turret 0 116 "Kill All"
 
 #	Sales
 
