@@ -5,10 +5,17 @@ galaxy "label omnis"
 	sprite "label/omnis"
 	pos -110 -9880
 
+system "Rutilicus"
+	add object "omnis gateway"
+		sprite "planet/wisp"
+		distance 4000
+
 system "Omnis"
 	pos 0 -10000
 	government "cheat"
 	link "Sheragi"
+	object "omnis gateway"
+			sprite "sprite/wisp_green"
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 444
@@ -91,6 +98,9 @@ system "Omnis"
 		sprite "sprite/everything"
 		distance 1218
 		offset 340
+
+planet "omnis gateway"
+	attributes ""
 
 planet "Deprecated"
 	landscape landscape/station6
