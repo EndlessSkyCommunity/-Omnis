@@ -542,7 +542,6 @@ outfitter "drak vanilla"
 	"Jump Drive"
 	"Medium Graviton Steering"
 	"Medium Graviton Thruster"
-	"Mouthparts?"
 
 outfitter "pug plugins"
 	"Extra Engine"
@@ -570,3 +569,5 @@ outfitter "pug vanilla"
 	"Pug Zapper"
 	"Tier 3 Anti-Missile"
 
+outfitter "unknown vanilla"
+	"Mouthparts?"
