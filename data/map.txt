@@ -221,8 +221,8 @@ planet "Deprecated"
 
 planet "Everything"
 	landscape "landscape/station6"
-	description `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
-	spaceport `This ringworld is much bigger than any previously seen, consuming well over a whole systems worth of materials to construct. Here the outfitters and shipyards stock anything from vanilla content to plugin content. There is no need to go running about to find some superior technology, it's all right here!`
+	description ``
+	spaceport ``
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
 	outfitter "developer"
@@ -273,8 +273,8 @@ planet "Everything"
 
 planet "Plugins"
 	landscape "landscape/station6"
-	description `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
-	spaceport `This station orbits the spacial phenomenon at the very center of this system, how this system is held together to be so stable is a mystery. There is no need to go running about to find some superior technology, it's all right here!`
+	description ``
+	spaceport ``
 	outfitter "coalition plugins"
 	outfitter "developer"
 	outfitter "drak plugins"
@@ -351,8 +351,8 @@ planet "Human"
 
 planet "Hai"
 	landscape "landscape/station6"
-	description `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
-	spaceport `The Hai are a species of giant, intelligent rodents, who live to the north of human space. They allow any humans who discover their territory to live alongside them, and to trade with them and purchase their technology.`
+	description ``
+	spaceport ``
 	outfitter "hai plugins"
 	outfitter "hai vanilla"
 	shipyard "hai plugins"
@@ -361,8 +361,8 @@ planet "Hai"
 
 planet "Remnant"
 	landscape "landscape/station6"
-	description `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
-	spaceport `The Remnant are a group of unusual-looking humans that live in a secluded section of the galaxy. It is unclear how long they have lived apart from the rest of humanity, but they have been free of human influences for long enough that their culture is wildly different from any found in human record. Their buildings seem to be alien in origin, and they communicate amongst each other primarily with sign language. When they do use their voices they sing or chant, rather than speak.`
+	description ``
+	spaceport ``
 	outfitter "remnant plugins"
 	outfitter "remnant vanilla"
 	shipyard "remnant plugins"
@@ -381,8 +381,8 @@ planet "Ka'het"
 
 planet "Korath"
 	landscape "landscape/station6"
-	description `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
-	spaceport `The Korath are reptilian, bipedal aliens whose territory is almost entirely in ruins: cities destroyed and entire planets scarred by what appears to have been a vicious civil war. Several factions of Korath survive. The "Kor Efreti" live in the shelter of a Quarg ringworld and are on peaceful terms with the Quarg. Other Korath, living as exiles near the galactic core, have been raiding human worlds to steal food and supplies. And deeper in Korath space, two massive armies of automated war drones, known as the Kor Mereti and the Kor Sestor, are locked in an unending struggle. They attack any visitors to their region of space, including the Quarg.`
+	description ``
+	spaceport ``
 	outfitter "korath plugins"
 	outfitter "korath vanilla"
 	shipyard "korath plugins"
@@ -391,8 +391,8 @@ planet "Korath"
 
 planet "Wanderer"
 	landscape "landscape/station6"
-	description `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
-	spaceport `The Wanderers are a bird-like species who inhabit a small region of space adjacent to the Hai. They have been under attack by the "Unfettered" Hai for some time. The Wanderers claim to be peaceful, and most of their ships are not designed for military use.`
+	description ``
+	spaceport ``
 	outfitter "wanderer plugins"
 	outfitter "wanderer vanilla"
 	shipyard "wanderer plugins"
@@ -401,8 +401,8 @@ planet "Wanderer"
 
 planet "Coalition"
 	landscape "landscape/station6"
-	description `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
-	spaceport `The Coalition is an alliance of three different alien species living in peace with each other: the Saryds, the Kimek, and the Arachi. On many Coalition worlds, all three species live together in harmony, which is made easier by the fact that each species prefers a very different climate and thus gravitates to different parts of a planet. They are ruled by individuals known as the Heliarchs.`
+	description ``
+	spaceport ``
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
 	shipyard "coalition plugins"
@@ -411,8 +411,8 @@ planet "Coalition"
 
 planet "Quarg"
 	landscape landscape/station6
-	description `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
-	spaceport `The Quarg are tall, thin, inscrutable aliens who evolved on a very small planet and can live comfortably on worlds with atmosphere so thin that a human being could not breathe it. They discovered spaceflight millions of years ago. Many of them live on artificially constructed ringworlds, including one in human space. They live at peace with most sentient species and claim to be in communication with an even older species named the Drak.`
+	description ``
+	spaceport ``
 	outfitter "quarg plugins"
 	outfitter "quarg vanilla"
 	shipyard "quarg plugins"
@@ -421,8 +421,8 @@ planet "Quarg"
 
 planet "Drak"
 	landscape "landscape/station6"
-	description `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
-	spaceport `The Drak are supposedly the oldest living species in the galaxy. The Quarg say that the Drak act as something like galactic peacekeepers or police, and will intervene if a species invents a weapon so terrible that it could drive that species to extinction.`
+	description ``
+	spaceport ``
 	outfitter "drak plugins"
 	outfitter "drak vanilla"
 	shipyard "drak plugins"
@@ -431,8 +431,8 @@ planet "Drak"
 
 planet "Pug"
 	landscape "landscape/station6"
-	description `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
-	spaceport `The Quarg claim that the Pug are powerful enough that they could defeat the Quarg, or even the Drak, if they chose to. But the Pug treat warfare like a game. When battling another species, the Pug will limit themselves to ships and weapons that are weak enough that the other species has a chance of defeating them.`
+	description ``
+	spaceport ``
 	outfitter "pug plugins"
 	outfitter "pug vanilla"
 	shipyard "pug plugins"
