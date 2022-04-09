@@ -7,8 +7,11 @@ galaxy "label omnis"
 
 system "Rutilicus"
 	add object "omnis gateway"
-		sprite "planet/wisp"
+		sprite "sprite/wisp_green"
 		distance 4000
+	add object
+		sprite "sprite/gateway_omnis"
+		distance 4150
 
 system "Omnis"
 	pos 0 -10000
@@ -210,7 +213,7 @@ system "Omnis"
 		offset 345
 
 planet "omnis gateway"
-	attributes ""
+	attributes "requires: Omnis"
 
 planet "Deprecated"
 	landscape landscape/station6
