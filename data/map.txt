@@ -343,7 +343,7 @@ planet "Sheragi"
 	bribe 0
 
 planet "Human"
-	landscape "landscape/station6"
+	landscape "landscape/navy_poster_ion"
 	description ``
 	spaceport ``
 	outfitter "human plugins"
