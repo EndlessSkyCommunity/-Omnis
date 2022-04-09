@@ -29,18 +29,6 @@ outfit "Kill All"
 		"relative hull damage" 1
 		"hit force" 10000
 
-outfit "Extra Engine"
-	category "Special"
-	"engine capacity" 1
-
-outfit "Extra Outfit"
-	category "Special"
-	"outfit space" 1
-
-outfit "Extra Weapon"
-	category "Special"
-	"weapon capacity" 1
-
 outfit "Remote Pilot"
 	category "Special"
 	automaton -1
@@ -70,11 +58,7 @@ outfitter "deprecated"
 	"Reverse Thruster"
 
 outfitter "developer"
-	"Extra Engine"
-	"Extra Outfit"
-	"Extra Weapon"
 	"Remote Pilot"
-	"Deterrence"
 	"Crux Stone"
 
 outfitter "sheragi vanilla"
