@@ -15,6 +15,18 @@ outfit "Disable All"
 		"piercing" 1
 		"relative hull damage" .75
 
+outfit "Extra Engine"
+	category "Special"
+	"engine capacity" 1
+
+outfit "Extra Outfit"
+	category "Special"
+	"outfit space" 1
+
+outfit "Extra Weapon"
+	category "Special"
+	"weapon capacity" 1
+
 outfit "Kill All"
 	category "Special"
 	"turret mounts" -1
@@ -58,8 +70,11 @@ outfitter "deprecated"
 	"Reverse Thruster"
 
 outfitter "developer"
-	"Remote Pilot"
 	"Crux Stone"
+	"Extra Engine"
+	"Extra Outfit"
+	"Extra Weapon"
+	"Remote Pilot"
 
 outfitter "sheragi vanilla"
 	"Dragonflame Cannon"
