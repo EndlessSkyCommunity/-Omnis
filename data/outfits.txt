@@ -41,11 +41,6 @@ outfit "Kill All"
 		"relative hull damage" 1
 		"hit force" 10000
 
-outfit "Remote Pilot"
-	category "Special"
-	automaton -1
-	bunks 100
-
 outfit "Crux Stone"
 	category "Special"
 	thumbnail "outfit/crux_stone"
@@ -74,7 +69,6 @@ outfitter "developer"
 	"Extra Engine"
 	"Extra Outfit"
 	"Extra Weapon"
-	"Remote Pilot"
 
 outfitter "sheragi vanilla"
 	"Dragonflame Cannon"
