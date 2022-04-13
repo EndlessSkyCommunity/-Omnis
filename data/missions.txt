@@ -542,7 +542,7 @@ event "swizzle 0"
 		swizzle 0
 
 mission "swizzle 01"
-	name `Swizzle- 1`
+	name `Swizzle- 01`
 	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
 	job
 	repeat
@@ -556,7 +556,7 @@ event "swizzle 1"
 		swizzle 1
 
 mission "swizzle 02"
-	name `Swizzle- 2`
+	name `Swizzle- 02`
 	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
 	job
 	repeat
@@ -570,7 +570,7 @@ event "swizzle 2"
 		swizzle 2
 
 mission "swizzle 03"
-	name `Swizzle- 3`
+	name `Swizzle- 03`
 	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
 	job
 	repeat
@@ -584,7 +584,7 @@ event "swizzle 3"
 		swizzle 3
 
 mission "swizzle 04"
-	name `Swizzle- 4`
+	name `Swizzle- 04`
 	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
 	job
 	repeat
@@ -598,7 +598,7 @@ event "swizzle 4"
 		swizzle 4
 
 mission "swizzle 05"
-	name `Swizzle- 5`
+	name `Swizzle- 05`
 	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
 	job
 	repeat
@@ -612,7 +612,7 @@ event "swizzle 5"
 		swizzle 5
 
 mission "swizzle 06"
-	name `Swizzle- 6`
+	name `Swizzle- 06`
 	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
 	job
 	repeat
@@ -626,7 +626,7 @@ event "swizzle 6"
 		swizzle 6
 
 mission "swizzle 07"
-	name `Swizzle- 7`
+	name `Swizzle- 07`
 	description `Changes ships appearance to have a color swizzle of G->B. Full Red.`
 	job
 	repeat
@@ -640,7 +640,7 @@ event "swizzle 7"
 		swizzle 7
 
 mission "swizzle 08"
-	name `Swizzle- 8`
+	name `Swizzle- 08`
 	description `Changes ships appearance to have a color swizzle of B->G. Faded Red.`
 	job
 	repeat
@@ -654,7 +654,7 @@ event "swizzle 8"
 		swizzle 8
 
 mission "swizzle 09"
-	name `Swizzle- 9`
+	name `Swizzle- 09`
 	description `Changes ships appearance to have a color swizzle of B->B, G->B. Pure Black.`
 	job
 	repeat
