@@ -1,5 +1,11 @@
 #	Outfits sorted by category
 
+outfit " Crux Stone"
+	category "Special"
+	thumbnail "outfit/crux_stone"
+	Omnis 1
+	description "Enables use of the Omnis nexus wormholes."
+
 outfit " Extra Engine"
 	category "Special"
 	"engine capacity" 1
@@ -26,11 +32,14 @@ outfit " Kill All"
 		"relative hull damage" 1
 		"hit force" 10000
 
-outfit " Crux Stone"
+outfit " Omniscience"
 	category "Special"
-	thumbnail "outfit/crux_stone"
-	Omnis 1
-	description "Enables use of the Omnis nexus wormholes."
+	"outfit scan power" 1000000
+	"outfit scan speed" 1000000
+	"cargo scan power" 1000000
+	"cargo scan speed" 1000000
+	"tactical scan power" 1000000
+	"asteroid scan power" 1000000
 	
 #	Sales
 	
@@ -55,6 +64,7 @@ outfitter "omnis"
 	" Extra Outfit"
 	" Extra Weapon"
 	" Kill All"
+	" Omniscience"
 
 outfitter "sheragi vanilla"
 # Guns
