@@ -57,219 +57,285 @@ shipyard "developer"
 	"Caster"
 
 shipyard "sheragi vanilla"
-	"Black Diamond"
+# Heavy Warship
 	"Emerald Sword (Fixed)"
+# Fighter
+	"Black Diamond"
 
 shipyard "human vanilla"
-	"Aerie"
-	"Argosy"
+# Transport
 	"Arrow"
 	"Auxiliary (Cargo)"
 	"Auxiliary (Transport)"
 	"Auxiliary"
-	"Bactrian"
-	"Barb (Proton)"
-	"Barb"
-	"Bastion"
-	"Behemoth"
-	"Berserker"
 	"Blackbird"
 	"Bounder"
-	"Boxwing"
-	"Bulk Freighter"
-	"Carrier"
-	"Class C Freighter"
-	"Clipper"
-	"Combat Drone"
-	"Container Transport"
-	"Corvette"
-	"Cruiser"
-	"Dagger"
-	"Dreadnought"
-	"Dropship"
-	"Falcon"
-	"Finch"
-	"Firebird"
 	"Flivver"
+	"Heavy Shuttle"
+	"Scout"
+	"Shuttle"
+	"Star Queen"
+# Light Freighter
+	"Argosy"
+	"Clipper"
 	"Freighter"
-	"Frigate"
-	"Fury"
-	"Gunboat"
+	"Hauler"
+	"Star Barge"
+# Heavy Freighter
+	"Behemoth"
+	"Bulk Freighter"
+	"Container Transport"
 	"Hauler II"
 	"Hauler III"
-	"Hauler"
-	"Hawk"
-	"Headhunter"
-	"Heavy Shuttle"
-	"Kestrel (More Engines)"
-	"Kestrel (More Shields)"
-	"Kestrel (More Weapons)"
-	"Kestrel"
 	"Lampyrid-Class Transport"
-	"Lance"
-	"Leviathan"
-	"Manta"
+# Interceptor
+	"Berserker"
+	"Fury"
+	"Hawk"
 	"Marauder Arrow (Engines)"
 	"Marauder Arrow (Weapons)"
 	"Marauder Arrow"
 	"Marauder Bounder (Engines)"
 	"Marauder Bounder (Weapons)"
 	"Marauder Bounder"
-	"Marauder Falcon (Engines)"
-	"Marauder Falcon (Weapons)"
-	"Marauder Falcon"
-	"Marauder Firebird (Engines)"
-	"Marauder Firebird (Weapons)"
-	"Marauder Firebird"
 	"Marauder Fury"
-	"Marauder Leviathan (Engines)"
-	"Marauder Leviathan (Weapons)"
-	"Marauder Leviathan"
-	"Marauder Manta (Engines)"
-	"Marauder Manta (Weapons)"
-	"Marauder Manta"
+	"Modified Boxwing"
+	"Sparrow"
+	"Wasp"
+# Light Warship
+	"Gunboat"
+	"Headhunter"
 	"Marauder Quicksilver (Engines)"
 	"Marauder Quicksilver (Weapons)"
 	"Marauder Quicksilver"
 	"Marauder Raven (Engines)"
 	"Marauder Raven (Weapons)"
 	"Marauder Raven"
-	"Marauder Splinter (Engines)"
-	"Marauder Splinter (Weapons)"
-	"Marauder Splinter"
 	"Modified Argosy"
-	"Modified Boxwing"
-	"Mule"
-	"Nest"
-	"Osprey"
-	"Protector"
 	"Quicksilver"
 	"Rainmaker"
 	"Raven"
+# Medium Warship
+	"Aerie"
+	"Bastion"
+	"Corvette"
+	"Firebird"
+	"Frigate"
+	"Manta"
+	"Marauder Firebird (Engines)"
+	"Marauder Firebird (Weapons)"
+	"Marauder Firebird"
+	"Marauder Manta (Engines)"
+	"Marauder Manta (Weapons)"
+	"Marauder Manta"
+	"Marauder Splinter (Engines)"
+	"Marauder Splinter (Weapons)"
+	"Marauder Splinter"
+	"Mule"
+	"Nest"
+	"Osprey"
 	"Roost"
-	"Scout"
-	"Shuttle"
 	"Skein"
-	"Sparrow"
 	"Splinter"
-	"Star Barge"
-	"Star Queen"
-	"Surveillance Drone"
+# Heavy Warship
+	"Bactrian"
+	"Carrier"
+	"Class C Freighter"
+	"Cruiser"
+	"Dreadnought"
+	"Falcon"
+	"Kestrel (More Engines)"
+	"Kestrel (More Shields)"
+	"Kestrel (More Weapons)"
+	"Kestrel"
+	"Leviathan"
+	"Marauder Falcon (Engines)"
+	"Marauder Falcon (Weapons)"
+	"Marauder Falcon"
+	"Marauder Leviathan (Engines)"
+	"Marauder Leviathan (Weapons)"
+	"Marauder Leviathan"
+	"Protector"
 	"Vanguard"
-	"Wasp"
+# Fighter
+	"Barb (Proton)"
+	"Barb"
+	"Boxwing"
+	"Dagger"
+	"Dropship"
+	"Finch"
+	"Lance"
+# Drone
+	"Combat Drone"
+	"Surveillance Drone"
 
 shipyard "hai vanilla"
-	"Aphid"
+# Transport
 	"Centipede"
-	"Flea"
+# Light Freighter
+	"Aphid"
+# Heavy Freighter
 	"Geocoris"
+	"Water Bug"
+# Interceptor
 	"Grasshopper"
+# Light Warship
 	"Lightning Bug"
+# Medium Warship
 	"Pond Strider"
+# Heavy Warship
 	"Shield Beetle"
 	"Solifuge"
+# Fighter
 	"Violin Spider"
-	"Water Bug"
+# Drone
+	"Flea"
 
 shipyard "remnant vanilla"
-	"Albatross"
-	"Gull"
+# Transport
 	"Heron"
-	"Ibis"
-	"Merganser"
-	"Pelican"
 	"Penguin"
-	"Peregrine"
-	"Petrel"
 	"Puffin"
+# Light Freighter
+	"Gull"
+# Heavy Freighter
+	"Pelican"
+# Interceptor
+	"Merganser"
+# Light Warship
 	"Starling"
+# Medium Warship
+	"Ibis"
+	"Peregrine"
+# Heavy Warship
+	"Albatross"
+# Fighter
+	"Petrel"
+# Drone
 	"Tern"
 
 shipyard "builder vanilla"
-	"Faes'mar"
+# Light Warship
 	"Maeri'het"
-	"Selii'mar"
+# Medium Warship
 	"Telis'het"
+# Heavy Warship
 	"Vareti'het"
+# Drone
+	"Faes'mar"
+	"Selii'mar"
 
 shipyard "korath vanilla"
-	"Far Lek 14"
-	"Far Osk 27"
-	"Kar Ik Vot 349"
-	"Korath Chaser"
-	"Korath Raider"
+# Heavy Freighter
 	"Korath Dredger"
 	"Korath World-Ship B"
 	"Korath World-Ship C"
 	"Korath World-Ship"
-	"Met Par Tek 53"
-	"Model 128"
-	"Model 16"
-	"Model 256"
-	"Model 32"
-	"Model 512"
-	"Model 64"
+# Interceptor
 	"Model 8"
-	"Nanobot"
+# Light Warship
+	"Met Par Tek 53"
+	"Model 16"
+	"Model 32"
+# Medium Warship
+	"Model 128"
+	"Model 64"
 	"Tek Far 109"
 	"Tek Far 71 - Lek"
 	"Tek Far 78 - Osk"
+# Heavy Warship
+	"Kar Ik Vot 349"
+	"Korath Raider"
+	"Model 256"
+	"Model 512"
+# Fighter
+	"Far Osk 27"
+	"Korath Chaser"
+# Drone
+	"Far Lek 14"
 	
 shipyard "wanderer vanilla"
-	"Autumn Leaf"
-	"Cool Breeze"
+# Transport
+	"Riptide"
+# Light Freighter
+	"Earth Shaper"
+# Heavy Freighter
 	"Deep River Transport"
 	"Deep River"
-	"Derecho"
-	"Earth Shaper"
-	"Flycatcher"
-	"Hurricane"
-	"Riptide"
-	"Strong Wind"
+# Interceptor
+	"Cool Breeze"
+# Light Warship
+	"Autumn Leaf"
 	"Summer Leaf"
-	"Tempest"
 	"Winter Gale"
+# Medium Warship
+	"Strong Wind"
+	"Tempest"
+# Heavy Warship
+	"Derecho"
+	"Hurricane"
+# Drone
+	"Flycatcher"
 
 shipyard "coalition vanilla"
-	"Arach Courier"
-	"Arach Freighter"
-	"Arach Hulk"
-	"Arach Spindle"
-	"Arach Transport"
-	"Heliarch Breacher"
-	"Heliarch Hunter"
-	"Heliarch Interdictor"
-	"Heliarch Judicator"
-	"Heliarch Neutralizer"
-	"Heliarch Punisher"
-	"Heliarch Pursuer"
-	"Heliarch Rover"
-	"Heliarch Stalker"
+# Transport
 	"Kimek Briar"
 	"Kimek Spire"
 	"Kimek Thistle"
 	"Kimek Thorn"
+# Light Freighter
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Transport"
 	"Saryd Runabout"
+	"Saryd Visitor"
+# Heavy Freighter
+	"Arach Hulk"
+	"Arach Spindle"
 	"Saryd Sojourner"
 	"Saryd Traveler"
-	"Saryd Visitor"
+# Light Warship
+	"Heliarch Breacher"
+	"Heliarch Neutralizer"
+# Medium Warship
+	"Heliarch Hunter"
+	"Heliarch Interdictor"
+	"Heliarch Judicator"
+# Heavy Warship
+	"Heliarch Punisher"
+# Fighter
+	"Heliarch Pursuer"
+	"Heliarch Rover"
+	"Heliarch Stalker"
 
 shipyard "quarg vanilla"
+# Heavy Warship
 	"Quarg Skylark"
 	"Quarg Wardragon"
 
 shipyard "drak vanilla"
+# Heavy Warship
 	"Archon"
 
 shipyard "pug vanilla"
+# Transport
+# Light Freighter
+# Heavy Freighter
+# Interceptor
+# Light Warship
+	"Pug Zibruka"
+# Medium Warship
 	"Pug Arfecta"
 	"Pug Enfolta"
+# Heavy Warship
 	"Pug Maboro"
-	"Pug Zibruka"
 
 shipyard "unknown vanilla"
-	"Ember Waste Node"
-	"Embershade"
+# Light Freighter
 	"Subsidurial"
+# Light Warship
 	"Void Sprite (Infant)"
+# Medium Warship
 	"Void Sprite"
+# Heavy Warship
+	"Ember Waste Node"
