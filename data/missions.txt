@@ -42,7 +42,7 @@ event "open gateways"
 			sprite "sprite/gateway_omnis"
 			distance 4150
 	system "Nona"
-		add object "kahet gateway"
+		add object "builder gateway"
 			sprite "sprite/wisp_green"
 			distance 4000
 		add object

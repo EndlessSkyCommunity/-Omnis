@@ -185,7 +185,7 @@ shipyard "remnant vanilla"
 	"Starling"
 	"Tern"
 
-shipyard "ka'het vanilla"
+shipyard "builder vanilla"
 	"Faes'mar"
 	"Maeri'het"
 	"Selii'mar"

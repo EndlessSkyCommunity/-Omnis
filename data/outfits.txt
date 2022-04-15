@@ -305,7 +305,7 @@ outfitter "remnant vanilla"
 	"Tuning Rifle"
 	"Void Rifle"
 
-outfitter "ka'het vanilla"
+outfitter "builder vanilla"
 	"Ka'het Annihilator Turret"
 	"Ka'het Annihilator"
 	"Ka'het Compact Engine"
