@@ -1,20 +1,5 @@
 #	Outfits sorted by category
 
-outfit "Disable All"
-	category "Special"
-	"turret mounts" -1
-	weapon
-		ammo "Disable All" 0
-		icon "icon/flamethrower"
-		"turret turn" 180
-		velocity 1
-		lifetime 1
-		reload 240
-		"blast radius" 10000
-		"trigger radius" 10000
-		"piercing" 1
-		"relative hull damage" .75
-
 outfit "Extra Engine"
 	category "Special"
 	"engine capacity" 1
