@@ -1,8 +1,14 @@
-#	Marker
+#	Initialisation
 
-mission "omnis marker"
+mission "omnis start"
 	invisible
 	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis"
+		event "reveal map"
 
 #	Licenses
 
@@ -65,15 +71,6 @@ mission "Wealth Stimulant"
 
 #	Mapping
 
-mission "reveal omnis"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis"
-
 event "reveal omnis"
 	visit "Coalition"
 	visit "Drak"
@@ -87,16 +84,6 @@ event "reveal omnis"
 	visit "Remnant"
 	visit "Sheragi"
 	visit "Wanderer"
-
-mission "reveal map"
-	invisible
-	landing
-	source
-		government "cheat"
-	to offer
-		has "omnis start"
-	on accept
-		event "reveal map"
 
 event "reveal map"
 	galaxy "label arachi"
@@ -115,7 +102,6 @@ event "reveal map"
 		sprite "label/wanderers"
 	galaxy "label waste"
 		sprite "label/waste"
-		
 	"visit planet" "Ember Graveyard"
 	"visit planet" "Ember Reaches"
 	"visit planet" "Ember Threshold"
