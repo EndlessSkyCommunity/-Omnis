@@ -8,6 +8,74 @@ mission "omnis start"
 		government "cheat"
 	on accept
 		event "reveal map"
+		event "open gateways"
+
+#	Gateways
+
+event "open gateways"
+	system "Zubenelhakrabi"
+		add object "sheragi gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Sol"
+		add object "human gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Ya Hai"
+		add object "hai gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Cinxia"
+		add object "remnant gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Nona"
+		add object "kahet gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Sevrelect"
+		add object "korath gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Ka'ch'chrai"
+		add object "wanderer gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Quaru"
+		add object "coalition gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Nenia"
+		add object "unknown gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
 
 #	Mapping
 
