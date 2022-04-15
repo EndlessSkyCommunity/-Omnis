@@ -64,7 +64,7 @@ outfitter "deprecated"
 	"NDR-114 Android"
 	"Reverse Thruster"
 
-outfitter "developer"
+outfitter "omnis"
 	"Crux Stone"
 	"Extra Engine"
 	"Extra Outfit"

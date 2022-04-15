@@ -1,6 +1,6 @@
 #	Ships sorted by category
 
-ship "Caster"
+ship " Caster"
 	sprite "ship/caster"
 	thumbnail "thumbnail/caster"
 	attributes
@@ -53,8 +53,8 @@ ship "Caster"
 
 #	Sales
 
-shipyard "developer"
-	"Caster"
+shipyard "omnis"
+	" Caster"
 
 shipyard "sheragi vanilla"
 # Heavy Warship
