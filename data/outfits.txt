@@ -1,18 +1,18 @@
 #	Outfits sorted by category
 
-outfit "Extra Engine"
+outfit " Extra Engine"
 	category "Special"
 	"engine capacity" 1
 
-outfit "Extra Outfit"
+outfit " Extra Outfit"
 	category "Special"
 	"outfit space" 1
 
-outfit "Extra Weapon"
+outfit " Extra Weapon"
 	category "Special"
 	"weapon capacity" 1
 
-outfit "Kill All"
+outfit " Kill All"
 	category "Special"
 	"turret mounts" -1
 	weapon
@@ -26,7 +26,7 @@ outfit "Kill All"
 		"relative hull damage" 1
 		"hit force" 10000
 
-outfit "Crux Stone"
+outfit " Crux Stone"
 	category "Special"
 	thumbnail "outfit/crux_stone"
 	Omnis 1
@@ -50,11 +50,11 @@ outfitter "deprecated"
 	"Reverse Thruster"
 
 outfitter "omnis"
-	"Crux Stone"
-	"Extra Engine"
-	"Extra Outfit"
-	"Extra Weapon"
-	"Kill All"
+	" Crux Stone"
+	" Extra Engine"
+	" Extra Outfit"
+	" Extra Weapon"
+	" Kill All"
 
 outfitter "sheragi vanilla"
 # Guns

@@ -359,6 +359,7 @@ planet "Vanilla"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "coalition vanilla"
 	outfitter "drak vanilla"
 	outfitter "hai vanilla"
@@ -388,6 +389,7 @@ planet "Sheragi"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "sheragi plugins"
 	outfitter "sheragi vanilla"
 	shipyard "omnis"
@@ -399,6 +401,7 @@ planet "Human"
 	landscape "landscape/navy_poster_ion"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "human plugins"
 	outfitter "human vanilla"
 	shipyard "omnis"
@@ -410,6 +413,7 @@ planet "Hai"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "hai plugins"
 	outfitter "hai vanilla"
 	shipyard "omnis"
@@ -421,6 +425,7 @@ planet "Remnant"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "remnant plugins"
 	outfitter "remnant vanilla"
 	shipyard "omnis"
@@ -432,6 +437,7 @@ planet "Builder"
 	landscape landscape/station6
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "builder plugins"
 	outfitter "builder vanilla"
 	shipyard "omnis"
@@ -443,6 +449,7 @@ planet "Korath"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "korath plugins"
 	outfitter "korath vanilla"
 	shipyard "omnis"
@@ -454,6 +461,7 @@ planet "Wanderer"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "wanderer plugins"
 	outfitter "wanderer vanilla"
 	shipyard "omnis"
@@ -465,6 +473,7 @@ planet "Coalition"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
 	shipyard "omnis"
@@ -476,6 +485,7 @@ planet "Quarg"
 	landscape landscape/station6
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "quarg plugins"
 	outfitter "quarg vanilla"
 	shipyard "omnis"
@@ -487,6 +497,7 @@ planet "Drak"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "drak plugins"
 	outfitter "drak vanilla"
 	shipyard "omnis"
@@ -498,6 +509,7 @@ planet "Pug"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "pug plugins"
 	outfitter "pug vanilla"
 	shipyard "omnis"
@@ -509,6 +521,7 @@ planet "Unknown"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
+	outfitter "omnis"
 	outfitter "unknown plugins"
 	outfitter "unknown vanilla"
 	shipyard "omnis"
