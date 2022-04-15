@@ -7,83 +7,9 @@ mission "omnis start"
 	source
 		government "cheat"
 	on accept
-		event "reveal omnis"
 		event "reveal map"
 
-#	Licenses
-
-mission "licenses add"
-	name `Add all Licenses`
-	description `Gives all licenses to the player.`
-	job
-	repeat
-	source
-		system "Omnis"
-	on accept
-		set "license: City-Ship"
-		set "license: Coalition"
-		set "license: Heliarch"
-		set "license: Militia"
-		set "license: Navy Auxiliary"
-		set "license: Navy Carrier"
-		set "license: Navy Cruiser"
-		set "license: Navy"
-		set "license: Remnant Capital"
-		set "license: Remnant"
-		set "license: Unfettered Militia"
-		set "license: Wanderer Military"
-		set "license: Wanderer Outfits"
-		set "license: Wanderer"
-
-mission "licenses remove"
-	name `Remove all Licenses`
-	description `Take all licenses from the player.`
-	job
-	repeat
-	source
-		system "Omnis"
-	on accept
-		clear "license: City-Ship"
-		clear "license: Coalition"
-		clear "license: Heliarch"
-		clear "license: Militia"
-		clear "license: Navy Auxiliary"
-		clear "license: Navy Carrier"
-		clear "license: Navy Cruiser"
-		clear "license: Navy"
-		clear "license: Remnant Capital License"
-		clear "license: Remnant"
-		clear "license: Unfettered Militia"
-		clear "license: Wanderer Military"
-		clear "license: Wanderer Outfits"
-		clear "license: Wanderer"
-
-#	Credits
-
-mission "Wealth Stimulant"
-	description `You should never need this, never. Just in case however, this will be available to replenish your available credits.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		payment 922e16
-
 #	Mapping
-
-event "reveal omnis"
-	visit "Coalition"
-	visit "Drak"
-	visit "Hai"
-	visit "Human"
-	visit "Ka'het"
-	visit "Korath"
-	visit "Omnis"
-	visit "Pug"
-	visit "Quarg"
-	visit "Remnant"
-	visit "Sheragi"
-	visit "Wanderer"
 
 event "reveal map"
 	galaxy "label arachi"
@@ -510,6 +436,65 @@ event "reveal map"
 	visit "Zubenelgenubi"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
+
+#	Credits
+
+mission "Wealth Stimulant"
+	description `You should never need this, never. Just in case however, this will be available to replenish your available credits.`
+	job
+	repeat
+	source
+		government "cheat"
+	on accept
+		payment 922e16
+
+#	Licenses
+
+mission "licenses add"
+	name `Add all Licenses`
+	description `Gives all licenses to the player.`
+	job
+	repeat
+	source
+		system "Omnis"
+	on accept
+		set "license: City-Ship"
+		set "license: Coalition"
+		set "license: Heliarch"
+		set "license: Militia"
+		set "license: Navy Auxiliary"
+		set "license: Navy Carrier"
+		set "license: Navy Cruiser"
+		set "license: Navy"
+		set "license: Remnant Capital"
+		set "license: Remnant"
+		set "license: Unfettered Militia"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+
+mission "licenses remove"
+	name `Remove all Licenses`
+	description `Take all licenses from the player.`
+	job
+	repeat
+	source
+		system "Omnis"
+	on accept
+		clear "license: City-Ship"
+		clear "license: Coalition"
+		clear "license: Heliarch"
+		clear "license: Militia"
+		clear "license: Navy Auxiliary"
+		clear "license: Navy Carrier"
+		clear "license: Navy Cruiser"
+		clear "license: Navy"
+		clear "license: Remnant Capital License"
+		clear "license: Remnant"
+		clear "license: Unfettered Militia"
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
 
 #	Swizzle
 
