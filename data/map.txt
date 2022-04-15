@@ -16,7 +16,6 @@ system "Rutilicus"
 system "Omnis"
 	pos 0 -10000
 	government "cheat"
-	link "Sheragi"
 	object "omnis gateway"
 			sprite "sprite/wisp_green"
 	object "Plugins"
