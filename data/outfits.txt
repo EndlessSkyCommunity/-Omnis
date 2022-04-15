@@ -54,6 +54,7 @@ outfitter "omnis"
 	"Extra Engine"
 	"Extra Outfit"
 	"Extra Weapon"
+	"Kill All"
 
 outfitter "sheragi vanilla"
 # Guns
