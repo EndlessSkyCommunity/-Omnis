@@ -46,7 +46,7 @@ ship " Caster"
 		Omnis 1
 	outfits
 		" Kill All"
-	turret 0 116 "Kill All"
+	turret 0 116 " Kill All"
 
 #	Sales
 
