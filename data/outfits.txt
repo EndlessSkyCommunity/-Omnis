@@ -529,9 +529,6 @@ outfitter "drak vanilla"
 # Systems
 	"Hyperdrive"
 	"Jump Drive"
-# Engines
-	"Medium Graviton Steering"
-	"Medium Graviton Thruster"
 
 outfitter "pug vanilla"
 # Guns
