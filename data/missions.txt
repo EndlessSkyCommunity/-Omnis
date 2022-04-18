@@ -3,7 +3,6 @@
 mission "omnis start"
 	invisible
 	landing
-	repeat
 	source
 		government "cheat"
 	on accept
