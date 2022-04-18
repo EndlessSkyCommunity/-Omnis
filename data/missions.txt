@@ -77,6 +77,56 @@ event "open gateways"
 			sprite "sprite/gateway_omnis"
 			distance 4150
 
+mission "alternative human gateway"
+	invisible
+	landing
+	repeat
+	to offer
+		"reputation: Republic" < 0
+	on offer
+		event "alternative human gateway"
+
+event "alternative human gateway"
+	system "Sol"
+		remove object "human gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		remove object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Sabik"
+		add object "human gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+
+mission "original human gateway"
+	invisible
+	landing
+	repeat
+	to offer
+		"reputation: Republic" > 0
+	on offer
+		event "original human gateway"
+
+event "original human gateway"
+	system "Sol"
+		add object "human gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+	system "Sabik"
+		remove object "human gateway"
+			sprite "sprite/wisp_green"
+			distance 4000
+		remove object
+			sprite "sprite/gateway_omnis"
+			distance 4150
+
 #	Mapping
 
 event "reveal map"
