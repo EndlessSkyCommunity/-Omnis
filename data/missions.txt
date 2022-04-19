@@ -76,12 +76,11 @@ mission "alternative human gateway"
 	repeat
 	to offer
 		and
-			"original human gateway" == 1
+			"original human gateway" > 0
 			"reputation: Republic" < 0
 	on offer
 		event "alternative human gateway"
 		"original human gateway" = -1
-		dialog "Sabik"
 
 event "alternative human gateway"
 	system "Sol"
@@ -173,12 +172,11 @@ mission "original human gateway"
 	repeat
 	to offer
 		and
-			"original human gateway" == -1
+			"original human gateway" <= 0
 			"reputation: Republic" > 0
 	on offer
 		event "original human gateway"
 		"original human gateway" = 1
-		dialog "Sol"
 
 event "original human gateway"
 	system "Sol"
