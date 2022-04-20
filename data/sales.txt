@@ -407,11 +407,12 @@ shipyard "unknown vanilla"
 #		Central
 	
 outfitter "omnis"
-	" Crux Stone"
 	" Extra Engine"
 	" Extra Outfit"
 	" Extra Weapon"
 	" Kill All"
+	" Omnipotence"
+	" Omnipresence"
 	" Omniscience"
 outfitter "deprecated"
 	"Bullfrog Anti-Missile Turret"

@@ -10,39 +10,16 @@ ship " Caster"
 		bunks 10000
 		mass 1000000
 		drag 11111.1
-		"heat dissipation" .1667
+		"heat dissipation" 1
 		"fuel capacity" 100
-		"cargo space" 1000000
-		"outfit space" 1000000
-		"weapon capacity" 1000000
-		"hull repair rate" 16666.6667
-		cloak 1
-		"outfit scan power" 1000000
-		"outfit scan speed" 1000000
-		"cargo scan power" 1000000
-		"cargo scan speed" 1000000
-		"tactical scan power" 1000000
-		"asteroid scan power" 1000000
-		"scan interference" 1000000
 		turn 4000000
 		thrust 200000
-		hyperdrive 1
-		"jump fuel" 1
-		"jump drive" 1
-		"jump range" 3000
-		"jump speed" 1000000
-		"fuel generation" 1000000
-		"quantum keystone" 1
-		gaslining 1
-		"energy generation" 16666.6667
+		"fuel generation" 1
+		"energy generation" 1
 		"afterburner thrust" -200000
-		"energy protection" 1000000
-		"force protection" 1000000
-		"fuel protection" 1000000
-		"heat protection" 1000000
-		"hull protection" 1000000
-		"ion protection" 1000000
-		"slowing protection" 1000000
 	outfits
 		" Kill All"
+		" Omnipotence"
+		" Omnipresence"
+		" Omniscience"
 	turret 0 116 " Kill All"

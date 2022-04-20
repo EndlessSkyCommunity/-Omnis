@@ -26,6 +26,33 @@ outfit " Kill All"
 		"piercing" 1
 		"relative hull damage" 1
 		"hit force" 10000
+outfit " Omnipotence"
+	category "Special"
+	cloak 1
+	"disruption protection" 1000000
+	"energy protection" 1000000
+	"force protection" 1000000
+	"fuel protection" 1000000
+	"heat protection" 1000000
+	"hull protection" 1000000
+	"ion protection" 1000000
+	"piercing protection" 1000000
+	"shield protection" 1000000
+	"slowing protection" 1000000
+	"discharge protection" 1000000
+	"corrosion protection" 1000000
+	"leak protection" 1000000
+	"burn protection" 1000000
+outfit " Omnipresence"
+	category "Special"
+	hyperdrive 1
+	"scram drive" 1000000
+	"jump drive" 1
+	"jump speed" 1000000
+	"jump fuel" 1
+	"jump range" 3000
+	"quantum keystone" 1
+	gaslining 1
 outfit " Omniscience"
 	category "Special"
 	"outfit scan power" 1000000
