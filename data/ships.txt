@@ -43,7 +43,6 @@ ship " Caster"
 		"hull protection" 1000000
 		"ion protection" 1000000
 		"slowing protection" 1000000
-		Omnis 1
 	outfits
 		" Kill All"
 	turret 0 116 " Kill All"

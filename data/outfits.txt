@@ -13,11 +13,6 @@ outfit " Extra Engine"
 
 #		God facade
 
-outfit " Crux Stone"
-	category "Special"
-	thumbnail "outfit/crux_stone"
-	Omnis 1
-	description "Enables use of the Omnis nexus wormholes."
 outfit " Kill All"
 	category "Special"
 	"turret mounts" -1
