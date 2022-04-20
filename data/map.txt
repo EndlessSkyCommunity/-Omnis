@@ -1,11 +1,10 @@
-#	Unsorted planets to the top
-
-#	Galaxies followed by region labels followed by systems
-#	Systems followed by planets held within
+#	Labels
 
 galaxy "label omnis"
 	sprite "label/omnis"
 	pos -110 -9880
+
+#	Systems
 
 system "Omnis"
 	pos 0 -10000
@@ -239,12 +238,8 @@ system "Omnis"
 		distance 1350
 		offset 345
 
-planet "Deprecated"
-	landscape landscape/station6
-	description ``
-	spaceport ``
-	outfitter "deprecated"
-	bribe 0
+#	Planets
+#		Central stations
 
 planet "Everything"
 	landscape "landscape/station6"
@@ -297,37 +292,6 @@ planet "Everything"
 	shipyard "wanderer plugins"
 	shipyard "wanderer vanilla"
 	bribe 0
-
-planet "Plugins"
-	landscape "landscape/station6"
-	description ``
-	spaceport ``
-	outfitter "omnis"
-	outfitter "coalition plugins"
-	outfitter "drak plugins"
-	outfitter "hai plugins"
-	outfitter "human plugins"
-	outfitter "builder plugins"
-	outfitter "korath plugins"
-	outfitter "pug plugins"
-	outfitter "quarg plugins"
-	outfitter "remnant plugins"
-	outfitter "sheragi plugins"
-	outfitter "wanderer plugins"
-	shipyard "omnis"
-	shipyard "coalition plugins"
-	shipyard "drak plugins"
-	shipyard "hai plugins"
-	shipyard "human plugins"
-	shipyard "builder plugins"
-	shipyard "korath plugins"
-	shipyard "pug plugins"
-	shipyard "quarg plugins"
-	shipyard "remnant plugins"
-	shipyard "sheragi plugins"
-	shipyard "wanderer plugins"
-	bribe 0
-
 planet "Vanilla"
 	landscape "landscape/station6"
 	description ``
@@ -357,6 +321,43 @@ planet "Vanilla"
 	shipyard "sheragi vanilla"
 	shipyard "wanderer vanilla"
 	bribe 0
+planet "Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "coalition plugins"
+	outfitter "drak plugins"
+	outfitter "hai plugins"
+	outfitter "human plugins"
+	outfitter "builder plugins"
+	outfitter "korath plugins"
+	outfitter "pug plugins"
+	outfitter "quarg plugins"
+	outfitter "remnant plugins"
+	outfitter "sheragi plugins"
+	outfitter "wanderer plugins"
+	shipyard "omnis"
+	shipyard "coalition plugins"
+	shipyard "drak plugins"
+	shipyard "hai plugins"
+	shipyard "human plugins"
+	shipyard "builder plugins"
+	shipyard "korath plugins"
+	shipyard "pug plugins"
+	shipyard "quarg plugins"
+	shipyard "remnant plugins"
+	shipyard "sheragi plugins"
+	shipyard "wanderer plugins"
+	bribe 0
+planet "Deprecated"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter "deprecated"
+	bribe 0
+
+#		Species specific
 
 planet "Sheragi"
 	landscape "landscape/station6"
@@ -369,7 +370,6 @@ planet "Sheragi"
 	shipyard "sheragi plugins"
 	shipyard "sheragi vanilla"
 	bribe 0
-
 planet "Human"
 	landscape "landscape/navy_poster_ion"
 	description ``
@@ -381,7 +381,6 @@ planet "Human"
 	shipyard "human plugins"
 	shipyard "human vanilla"
 	bribe 0
-
 planet "Hai"
 	landscape "landscape/station6"
 	description ``
@@ -393,7 +392,6 @@ planet "Hai"
 	shipyard "hai plugins"
 	shipyard "hai vanilla"
 	bribe 0
-
 planet "Remnant"
 	landscape "landscape/station6"
 	description ``
@@ -405,7 +403,6 @@ planet "Remnant"
 	shipyard "remnant plugins"
 	shipyard "remnant vanilla"
 	bribe 0
-
 planet "Builder"
 	landscape landscape/station6
 	description ``
@@ -417,7 +414,6 @@ planet "Builder"
 	shipyard "builder plugins"
 	shipyard "builder vanilla"
 	bribe 0
-
 planet "Korath"
 	landscape "landscape/station6"
 	description ``
@@ -429,7 +425,6 @@ planet "Korath"
 	shipyard "korath plugins"
 	shipyard "korath vanilla"
 	bribe 0
-
 planet "Wanderer"
 	landscape "landscape/station6"
 	description ``
@@ -441,7 +436,6 @@ planet "Wanderer"
 	shipyard "wanderer plugins"
 	shipyard "wanderer vanilla"
 	bribe 0
-
 planet "Coalition"
 	landscape "landscape/station6"
 	description ``
@@ -453,7 +447,6 @@ planet "Coalition"
 	shipyard "coalition plugins"
 	shipyard "coalition vanilla"
 	bribe 0
-
 planet "Quarg"
 	landscape landscape/station6
 	description ``
@@ -465,7 +458,6 @@ planet "Quarg"
 	shipyard "quarg plugins"
 	shipyard "quarg vanilla"
 	bribe 0
-
 planet "Drak"
 	landscape "landscape/station6"
 	description ``
@@ -477,7 +469,6 @@ planet "Drak"
 	shipyard "drak plugins"
 	shipyard "drak vanilla"
 	bribe 0
-
 planet "Pug"
 	landscape "landscape/station6"
 	description ``
@@ -489,7 +480,6 @@ planet "Pug"
 	shipyard "pug plugins"
 	shipyard "pug vanilla"
 	bribe 0
-
 planet "Unknown"
 	landscape "landscape/station6"
 	description ``
