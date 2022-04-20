@@ -239,33 +239,6 @@ system "Omnis"
 		distance 1350
 		offset 345
 
-planet "sheragi gateway"
-	attributes "requires: Omnis"
-
-planet "human gateway"
-	attributes "requires: Omnis"
-
-planet "hai gateway"
-	attributes "requires: Omnis"
-
-planet "remnant gateway"
-	attributes "requires: Omnis"
-
-planet "builder gateway"
-	attributes "requires: Omnis"
-
-planet "korath gateway"
-	attributes "requires: Omnis"
-
-planet "wanderer gateway"
-	attributes "requires: Omnis"
-
-planet "coalition gateway"
-	attributes "requires: Omnis"
-
-planet "unknown gateway"
-	attributes "requires: Omnis"
-
 planet "Deprecated"
 	landscape landscape/station6
 	description ``
