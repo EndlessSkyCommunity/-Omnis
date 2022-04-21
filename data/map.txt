@@ -1249,6 +1249,8 @@ planet "Coalition Vanilla"
 system "Quarg"
 	pos -89 -9751
 	government "cheat"
+	object "quarg gateway"
+		sprite "sprite/wisp_green"
 	object
 		sprite "sprite/faction_quarg"
 		distance 150
@@ -1374,6 +1376,8 @@ planet "Quarg Vanilla"
 system "Drak"
 	pos 125 -10138
 	government "cheat"
+	object "drak gateway"
+		sprite "sprite/wisp_green"
 	object
 		sprite "sprite/faction_drak"
 		distance 150
@@ -1499,6 +1503,8 @@ planet "Drak Vanilla"
 system "Pug"
 	pos -174 -9887
 	government "cheat"
+	object "pug gateway"
+		sprite "sprite/wisp_green"
 	object
 		sprite "sprite/faction_pug"
 		distance 150
@@ -1758,6 +1764,22 @@ system "Cinxia"
 			sprite "sprite/gateway_omnis"
 			distance 150
 
+planet "pug gateway"
+system "Deneb"
+	add object "pug gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "quarg gateway"
+system "Enif"
+	add object "quarg gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
 planet "wanderer gateway"
 system "Ka'ch'chrai"
 	add object "wanderer gateway"
@@ -1772,9 +1794,9 @@ system "Nenia"
 		sprite "sprite/wisp_green"
 		distance 37.2996
 		period 9.64933
-		object
-			sprite "sprite/gateway_omnis"
-			distance 150
+	add object
+		sprite "sprite/gateway_omnis"
+		distance 150
 
 planet "builder gateway"
 system "Nona"
@@ -1791,6 +1813,16 @@ system "Quaru"
 		object
 			sprite "sprite/gateway_omnis"
 			distance 150
+
+planet "drak gateway"
+system "Sayaiban"
+	add object "drak gateway"
+		sprite "sprite/wisp_green"
+		distance 10.0252
+		period 8.31775
+	add object
+		sprite "sprite/gateway_omnis"
+		distance 150
 
 planet "korath gateway"
 system "Sevrelect"
