@@ -16,66 +16,6 @@ mission "omnis start"
 		event "reveal omnis"
 		event "reveal map"
 
-#	Gateways
-
-event "open gateways"
-	system "Zubenelhakrabi"
-		add object "sheragi gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Sol"
-		add object "human gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Ya Hai"
-		add object "hai gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Cinxia"
-		add object "remnant gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Nona"
-		add object "builder gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Sevrelect"
-		add object "korath gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Ka'ch'chrai"
-		add object "wanderer gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Quaru"
-		add object "coalition gateway"
-			sprite "sprite/wisp_green"
-			object
-				sprite "sprite/gateway_omnis"
-				distance 150
-	system "Nenia"
-		add object "unknown gateway"
-			sprite "sprite/wisp_green"
-			distance 37.2996
-			period 9.64933
-		add object
-			sprite "sprite/gateway_omnis"
-			distance 150
-
 #	Mapping
 
 event "reveal omnis"
@@ -91,7 +31,6 @@ event "reveal omnis"
 	visit "Drak"
 	visit "Pug"
 	visit "Unknown"
-
 event "reveal map"
 
 	#	Labels
@@ -526,17 +465,6 @@ event "reveal map"
 	visit "Zubenelgenubi"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
-
-#	Credits
-
-mission "Wealth Stimulant"
-	description `You should never need this, never. Just in case however, this will be available to replenish your available credits.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		payment 922e16
 
 #	Licenses
 
