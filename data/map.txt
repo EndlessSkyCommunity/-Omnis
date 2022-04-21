@@ -129,6 +129,10 @@ system "Omnis"
 		sprite "sprite/wisp_green"
 		distance 1350
 		offset 45
+	object "human gateway 2"
+		sprite "sprite/wisp_green"
+		distance 1500
+		offset 45
 	object "Hai"
 		sprite "sprite/station8"
 		distance 1050
@@ -541,6 +545,13 @@ system "Sevrelect"
 planet "human gateway"
 system "Sol"
 	add object "human gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+planet "human gateway 2"
+system "Sabik"
+	add object "human gateway 2"
 		sprite "sprite/wisp_green"
 		object
 			sprite "sprite/gateway_omnis"
