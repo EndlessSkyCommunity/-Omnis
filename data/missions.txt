@@ -6,7 +6,7 @@ mission "omnis marker"
 	source
 		government "cheat"
 	on offer
-		"omnis marker"
+		"omnis marker" = 1
 mission "omnis start"
 	invisible
 	landing
