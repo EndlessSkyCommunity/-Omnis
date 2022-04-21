@@ -4,7 +4,7 @@ galaxy "label omnis"
 	sprite "label/omnis"
 	pos -110 -9880
 
-#	Systems
+#	Central
 
 system "Omnis"
 	pos 0 -10000
@@ -237,10 +237,6 @@ system "Omnis"
 		sprite "sprite/wisp_green"
 		distance 1350
 		offset 345
-
-#	Planets
-#		Central stations
-
 planet "Everything"
 	landscape "landscape/station6"
 	description ``
@@ -356,8 +352,6 @@ planet "Deprecated"
 	spaceport ``
 	outfitter "deprecated"
 	bribe 0
-
-#		Species specific
 
 planet "Sheragi"
 	landscape "landscape/station6"
@@ -491,3 +485,79 @@ planet "Unknown"
 	shipyard "unknown plugins"
 	shipyard "unknown vanilla"
 	bribe 0
+
+#	Gateways
+
+planet "remnant gateway"
+system "Cinxia"
+	add object "remnant gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "wanderer gateway"
+system "Ka'ch'chrai"
+	add object "wanderer gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "unknown gateway"
+system "Nenia"
+	add object "unknown gateway"
+		sprite "sprite/wisp_green"
+		distance 37.2996
+		period 9.64933
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "builder gateway"
+system "Nona"
+	add object "builder gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "coalition gateway"
+system "Quaru"
+	add object "coalition gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "korath gateway"
+system "Sevrelect"
+	add object "korath gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "human gateway"
+system "Sol"
+	add object "human gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "hai gateway"
+system "Ya Hai"
+	add object "hai gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "sheragi gateway"
+system "Zubenelhakrabi"
+	add object "sheragi gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150

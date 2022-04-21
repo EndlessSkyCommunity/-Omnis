@@ -1,10 +1,32 @@
-#	Ships
-#		Central
+#	Central
 
 shipyard "omnis"
 	" Caster"
+outfitter "omnis"
+	" Extra Engine"
+	" Extra Outfit"
+	" Extra Weapon"
+	" Kill All"
+	" Omnipotence"
+	" Omnipresence"
+	" Omniscience"
 
-#		Species specific
+outfitter "deprecated"
+	"Bullfrog Anti-Missile Turret"
+	"Chameleon Anti-Missile Turret"
+	"Korath Ark'parat Steering"
+	"Korath Ark'torbal Thruster"
+	"Korath Heat Shunt"
+	"Korath Jak'parat Steering"
+	"Korath Jak'torbal Thruster"
+	"Korath Shield Generator"
+	"Korath Tek'far Reactor"
+	"Korath Tek'nel Reactor"
+	"Mass Expansion"
+	"NDR-114 Android"
+	"Reverse Thruster"
+
+#	Species
 
 shipyard "sheragi vanilla"
 	#	Heavy Warship
@@ -14,6 +36,37 @@ shipyard "sheragi vanilla"
 	#	Fighter
 
 	"Black Diamond"
+outfitter "sheragi vanilla"
+	#	Guns
+
+	"Heavy Ion Cyclotron"
+
+	#	Turrets
+
+	"Particle Waveform Turret"
+	"Sheragi Anti-Missile"
+
+	#	Secondary Weapons
+
+	"Dragonflame Cannon"
+	"Shard Fabricator"
+
+	#	Systems
+
+	"Electronic Warfare System"
+	"Large Hybrid Cooling"
+	"Small Hybrid Cooling"
+
+	#	Power
+
+	"Large EM Battery"
+	"Small EM Battery"
+
+	#	Engines
+
+	"Fission Drive"
+	"Fusion Drive"
+
 shipyard "human vanilla"
 	#	Transport
 
@@ -137,330 +190,6 @@ shipyard "human vanilla"
 
 	"Combat Drone"
 	"Surveillance Drone"
-shipyard "hai vanilla"
-	#	Transport
-
-	"Centipede"
-
-	#	Light Freighter
-
-	"Aphid"
-
-	#	Heavy Freighter
-
-	"Geocoris"
-	"Water Bug"
-
-	#	Interceptor
-
-	"Grasshopper"
-
-	#	Light Warship
-
-	"Lightning Bug"
-
-	#	Medium Warship
-
-	"Pond Strider"
-
-	#	Heavy Warship
-
-	"Shield Beetle"
-	"Solifuge"
-
-	#	Fighter
-
-	"Violin Spider"
-
-	#	Drone
-
-	"Flea"
-shipyard "remnant vanilla"
-	#	Transport
-
-	"Heron"
-	"Penguin"
-	"Puffin"
-
-	#	Light Freighter
-
-	"Gull"
-
-	#	Heavy Freighter
-
-	"Pelican"
-
-	#	Interceptor
-
-	"Merganser"
-
-	#	Light Warship
-
-	"Starling"
-
-	#	Medium Warship
-
-	"Ibis"
-	"Peregrine"
-
-	#	Heavy Warship
-
-	"Albatross"
-
-	#	Fighter
-
-	"Petrel"
-
-	#	Drone
-
-	"Tern"
-shipyard "builder vanilla"
-	#	Light Warship
-
-	"Maeri'het"
-
-	#	Medium Warship
-
-	"Telis'het"
-
-	#	Heavy Warship
-
-	"Vareti'het"
-
-	#	Drone
-
-	"Faes'mar"
-	"Selii'mar"
-shipyard "korath vanilla"
-	#	Heavy Freighter
-
-	"Korath Dredger"
-	"Korath World-Ship B"
-	"Korath World-Ship C"
-	"Korath World-Ship"
-
-	#	Interceptor
-
-	"Model 8"
-
-	#	Light Warship
-
-	"Met Par Tek 53"
-	"Model 16"
-	"Model 32"
-
-	#	Medium Warship
-
-	"Model 128"
-	"Model 64"
-	"Tek Far 109"
-	"Tek Far 71 - Lek"
-	"Tek Far 78 - Osk"
-
-	#	Heavy Warship
-
-	"Kar Ik Vot 349"
-	"Korath Raider"
-	"Model 256"
-	"Model 512"
-
-	#	Fighter
-
-	"Far Osk 27"
-	"Korath Chaser"
-
-	#	Drone
-
-	"Far Lek 14"
-shipyard "wanderer vanilla"
-	#	Transport
-
-	"Riptide"
-
-	#	Light Freighter
-
-	"Earth Shaper"
-
-	#	Heavy Freighter
-
-	"Deep River Transport"
-	"Deep River"
-
-	#	Interceptor
-
-	"Cool Breeze"
-
-	#	Light Warship
-
-	"Autumn Leaf"
-	"Summer Leaf"
-	"Winter Gale"
-
-	#	Medium Warship
-
-	"Strong Wind"
-	"Tempest"
-
-	#	Heavy Warship
-
-	"Derecho"
-	"Hurricane"
-
-	#	Drone
-
-	"Flycatcher"
-shipyard "coalition vanilla"
-	#	Transport
-
-	"Kimek Briar"
-	"Kimek Spire"
-	"Kimek Thistle"
-	"Kimek Thorn"
-
-	#	Light Freighter
-
-	"Arach Courier"
-	"Arach Freighter"
-	"Arach Transport"
-	"Saryd Runabout"
-	"Saryd Visitor"
-
-	#	Heavy Freighter
-
-	"Arach Hulk"
-	"Arach Spindle"
-	"Saryd Sojourner"
-	"Saryd Traveler"
-
-	#	Light Warship
-
-	"Heliarch Breacher"
-	"Heliarch Neutralizer"
-
-	#	Medium Warship
-
-	"Heliarch Hunter"
-	"Heliarch Interdictor"
-	"Heliarch Judicator"
-
-	#	Heavy Warship
-
-	"Heliarch Punisher"
-
-	#	Fighter
-
-	"Heliarch Pursuer"
-	"Heliarch Rover"
-	"Heliarch Stalker"
-shipyard "quarg vanilla"
-	#	Heavy Warship
-
-	"Quarg Skylark"
-	"Quarg Wardragon"
-shipyard "drak vanilla"
-	#	Heavy Warship
-
-	"Archon"
-shipyard "pug vanilla"
-	#	Transport
-
-
-	#	Light Freighter
-
-
-	#	Heavy Freighter
-
-
-	#	Interceptor
-
-
-	#	Light Warship
-
-	"Pug Zibruka"
-
-	#	Medium Warship
-
-	"Pug Arfecta"
-	"Pug Enfolta"
-
-	#	Heavy Warship
-
-	"Pug Maboro"
-shipyard "unknown vanilla"
-	#	Light Freighter
-
-	"Subsidurial"
-
-	#	Light Warship
-
-	"Void Sprite (Infant)"
-
-	#	Medium Warship
-
-	"Void Sprite"
-
-	#	Heavy Warship
-
-	"Ember Waste Node"
-
-#	Outfits
-#		Central
-	
-outfitter "omnis"
-	" Extra Engine"
-	" Extra Outfit"
-	" Extra Weapon"
-	" Kill All"
-	" Omnipotence"
-	" Omnipresence"
-	" Omniscience"
-outfitter "deprecated"
-	"Bullfrog Anti-Missile Turret"
-	"Chameleon Anti-Missile Turret"
-	"Korath Ark'parat Steering"
-	"Korath Ark'torbal Thruster"
-	"Korath Heat Shunt"
-	"Korath Jak'parat Steering"
-	"Korath Jak'torbal Thruster"
-	"Korath Shield Generator"
-	"Korath Tek'far Reactor"
-	"Korath Tek'nel Reactor"
-	"Mass Expansion"
-	"NDR-114 Android"
-	"Reverse Thruster"
-
-#		Species specific
-
-outfitter "sheragi vanilla"
-	#	Guns
-
-	"Heavy Ion Cyclotron"
-
-	#	Turrets
-
-	"Particle Waveform Turret"
-	"Sheragi Anti-Missile"
-
-	#	Secondary Weapons
-
-	"Dragonflame Cannon"
-	"Shard Fabricator"
-
-	#	Systems
-
-	"Electronic Warfare System"
-	"Large Hybrid Cooling"
-	"Small Hybrid Cooling"
-
-	#	Power
-
-	"Large EM Battery"
-	"Small EM Battery"
-
-	#	Engines
-
-	"Fission Drive"
-	"Fusion Drive"
 outfitter "human vanilla"
 	#	Guns
 
@@ -630,6 +359,45 @@ outfitter "human vanilla"
 
 	"Local Map"
 	"Secret Cargo"
+
+shipyard "hai vanilla"
+	#	Transport
+
+	"Centipede"
+
+	#	Light Freighter
+
+	"Aphid"
+
+	#	Heavy Freighter
+
+	"Geocoris"
+	"Water Bug"
+
+	#	Interceptor
+
+	"Grasshopper"
+
+	#	Light Warship
+
+	"Lightning Bug"
+
+	#	Medium Warship
+
+	"Pond Strider"
+
+	#	Heavy Warship
+
+	"Shield Beetle"
+	"Solifuge"
+
+	#	Fighter
+
+	"Violin Spider"
+
+	#	Drone
+
+	"Flea"
 outfitter "hai vanilla"
 	#	Guns
 
@@ -693,6 +461,46 @@ outfitter "hai vanilla"
 	#	Hand to Hand
 
 	"Pulse Rifle"
+
+shipyard "remnant vanilla"
+	#	Transport
+
+	"Heron"
+	"Penguin"
+	"Puffin"
+
+	#	Light Freighter
+
+	"Gull"
+
+	#	Heavy Freighter
+
+	"Pelican"
+
+	#	Interceptor
+
+	"Merganser"
+
+	#	Light Warship
+
+	"Starling"
+
+	#	Medium Warship
+
+	"Ibis"
+	"Peregrine"
+
+	#	Heavy Warship
+
+	"Albatross"
+
+	#	Fighter
+
+	"Petrel"
+
+	#	Drone
+
+	"Tern"
 outfitter "remnant vanilla"
 	#	Guns
 
@@ -751,6 +559,24 @@ outfitter "remnant vanilla"
 
 	"Tuning Rifle"
 	"Void Rifle"
+
+shipyard "builder vanilla"
+	#	Light Warship
+
+	"Maeri'het"
+
+	#	Medium Warship
+
+	"Telis'het"
+
+	#	Heavy Warship
+
+	"Vareti'het"
+
+	#	Drone
+
+	"Faes'mar"
+	"Selii'mar"
 outfitter "builder vanilla"
 	#	Guns
 
@@ -791,6 +617,48 @@ outfitter "builder vanilla"
 	"Maeri Engine Nacelles"
 	"Telis Engine Nacelles"
 	"Vareti Engine Block"
+
+shipyard "korath vanilla"
+	#	Heavy Freighter
+
+	"Korath Dredger"
+	"Korath World-Ship B"
+	"Korath World-Ship C"
+	"Korath World-Ship"
+
+	#	Interceptor
+
+	"Model 8"
+
+	#	Light Warship
+
+	"Met Par Tek 53"
+	"Model 16"
+	"Model 32"
+
+	#	Medium Warship
+
+	"Model 128"
+	"Model 64"
+	"Tek Far 109"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
+
+	#	Heavy Warship
+
+	"Kar Ik Vot 349"
+	"Korath Raider"
+	"Model 256"
+	"Model 512"
+
+	#	Fighter
+
+	"Far Osk 27"
+	"Korath Chaser"
+
+	#	Drone
+
+	"Far Lek 14"
 outfitter "korath vanilla"
 	#	Guns
 
@@ -861,6 +729,44 @@ outfitter "korath vanilla"
 	#	Hand to Hand
 
 	"Korath Repeater Rifle"
+
+shipyard "wanderer vanilla"
+	#	Transport
+
+	"Riptide"
+
+	#	Light Freighter
+
+	"Earth Shaper"
+
+	#	Heavy Freighter
+
+	"Deep River Transport"
+	"Deep River"
+
+	#	Interceptor
+
+	"Cool Breeze"
+
+	#	Light Warship
+
+	"Autumn Leaf"
+	"Summer Leaf"
+	"Winter Gale"
+
+	#	Medium Warship
+
+	"Strong Wind"
+	"Tempest"
+
+	#	Heavy Warship
+
+	"Derecho"
+	"Hurricane"
+
+	#	Drone
+
+	"Flycatcher"
 outfitter "wanderer vanilla"
 	#	Guns
 
@@ -911,6 +817,50 @@ outfitter "wanderer vanilla"
 	"Type 3 Radiant Thruster"
 	"Type 4 Radiant Steering"
 	"Type 4 Radiant Thruster"
+
+shipyard "coalition vanilla"
+	#	Transport
+
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+
+	#	Light Freighter
+
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Transport"
+	"Saryd Runabout"
+	"Saryd Visitor"
+
+	#	Heavy Freighter
+
+	"Arach Hulk"
+	"Arach Spindle"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+
+	#	Light Warship
+
+	"Heliarch Breacher"
+	"Heliarch Neutralizer"
+
+	#	Medium Warship
+
+	"Heliarch Hunter"
+	"Heliarch Interdictor"
+	"Heliarch Judicator"
+
+	#	Heavy Warship
+
+	"Heliarch Punisher"
+
+	#	Fighter
+
+	"Heliarch Pursuer"
+	"Heliarch Rover"
+	"Heliarch Stalker"
 outfitter "coalition vanilla"
 	#	Guns
 
@@ -969,6 +919,12 @@ outfitter "coalition vanilla"
 
 	"Enforcer Confrontation Gear"
 	"Enforcer Riot Staff"
+
+shipyard "quarg vanilla"
+	#	Heavy Warship
+
+	"Quarg Skylark"
+	"Quarg Wardragon"
 outfitter "quarg vanilla"
 	#	Turrets
 
@@ -993,6 +949,11 @@ outfitter "quarg vanilla"
 	#	Hand to Hand
 
 	"Intrusion Countermeasures"
+
+shipyard "drak vanilla"
+	#	Heavy Warship
+
+	"Archon"
 outfitter "drak vanilla"
 	#	Guns
 
@@ -1013,6 +974,32 @@ outfitter "drak vanilla"
 
 	"Hyperdrive"
 	"Jump Drive"
+
+shipyard "pug vanilla"
+	#	Transport
+
+
+	#	Light Freighter
+
+
+	#	Heavy Freighter
+
+
+	#	Interceptor
+
+
+	#	Light Warship
+
+	"Pug Zibruka"
+
+	#	Medium Warship
+
+	"Pug Arfecta"
+	"Pug Enfolta"
+
+	#	Heavy Warship
+
+	"Pug Maboro"
 outfitter "pug vanilla"
 	#	Guns
 
@@ -1044,6 +1031,23 @@ outfitter "pug vanilla"
 
 	"Pug Biodefenses"
 	"Pug Peacekeeping Staff"
+
+shipyard "unknown vanilla"
+	#	Light Freighter
+
+	"Subsidurial"
+
+	#	Light Warship
+
+	"Void Sprite (Infant)"
+
+	#	Medium Warship
+
+	"Void Sprite"
+
+	#	Heavy Warship
+
+	"Ember Waste Node"
 outfitter "unknown vanilla"
 	#	Guns
 

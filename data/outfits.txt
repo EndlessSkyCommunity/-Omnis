@@ -1,5 +1,4 @@
-#	Outfits
-#		Developer tools
+#		Developer
 
 outfit " Extra Outfit"
 	category "Special"
@@ -11,7 +10,7 @@ outfit " Extra Engine"
 	category "Special"
 	"engine capacity" 1
 
-#		God facade
+#		Ascension
 
 outfit " Kill All"
 	category "Special"

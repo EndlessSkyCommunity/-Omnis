@@ -1,5 +1,3 @@
-#	Alternate starts
-
 start "omnis"
 	name "Omnis"
 	description `You will begin on a ringworld with all ships and outfits in the game, various jobs that give useful benefits, and portals in-system that will take you to whichever species capital you need..`
@@ -28,8 +26,6 @@ start "omnis"
 	set "license: Wanderer Outfits"
 	set "license: Wanderer"
 	ship " Caster" "Caster"
-
-#	Conversations
 
 conversation "omnis_intro"
 	`Welcome to Omnis! Please enter your name.`

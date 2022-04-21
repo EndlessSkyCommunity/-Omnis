@@ -1,5 +1,3 @@
-#	Ships
-
 ship " Caster"
 	sprite "ship/caster"
 	thumbnail "thumbnail/caster"
