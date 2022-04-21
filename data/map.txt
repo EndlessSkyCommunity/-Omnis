@@ -16,22 +16,22 @@ system "Omnis"
 		sprite "sprite/station8"
 		distance 300
 		offset 60
-	object
-		sprite "sprite/section_plugins"
-		distance 450
-		offset 60
 	object "Deprecated"
 		sprite "sprite/station8"
 		distance 300
-		offset 180
-	object
-		sprite "sprite/section_deprecated"
-		distance 450
 		offset 180
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 300
 		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_deprecated"
+		distance 450
+		offset 180
 	object
 		sprite "sprite/section_vanilla"
 		distance 450
@@ -232,6 +232,23 @@ system "Sheragi"
 	object
 		sprite "sprite/faction_sheragi"
 		distance 150
+		offset 180
+	object "Sheragi Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Sheragi Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Sheragi"
 		sprite planet/ringworld
 		distance 812
@@ -304,6 +321,24 @@ system "Sheragi"
 		sprite planet/ringworld
 		distance 812
 		offset 360
+planet "Sheragi Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "sheragi plugins"
+	shipyard "omnis"
+	shipyard "sheragi plugins"
+	bribe 0
+planet "Sheragi Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "sheragi vanilla"
+	shipyard "omnis"
+	shipyard "sheragi vanilla"
+	bribe 0
 planet "Sheragi"
 	landscape "landscape/station6"
 	description ``
@@ -330,6 +365,23 @@ system "Human"
 	object
 		sprite "sprite/faction_human"
 		distance 150
+		offset 180
+	object "Human Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Human Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Human"
 		sprite planet/ringworld
 		distance 812
@@ -413,6 +465,24 @@ planet "Human"
 	shipyard "human plugins"
 	shipyard "human vanilla"
 	bribe 0
+planet "Human Plugins"
+	landscape "landscape/navy_poster_ion"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "human plugins"
+	shipyard "omnis"
+	shipyard "human plugins"
+	bribe 0
+planet "Human Vanilla"
+	landscape "landscape/navy_poster_ion"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "human vanilla"
+	shipyard "omnis"
+	shipyard "human vanilla"
+	bribe 0
 
 system "Hai"
 	pos -13 -10253
@@ -422,6 +492,23 @@ system "Hai"
 	object
 		sprite "sprite/faction_hai"
 		distance 150
+		offset 180
+	object "Hai Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Hai Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Hai"
 		sprite planet/ringworld
 		distance 812
@@ -505,6 +592,24 @@ planet "Hai"
 	shipyard "hai plugins"
 	shipyard "hai vanilla"
 	bribe 0
+planet "Hai Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "hai plugins"
+	shipyard "omnis"
+	shipyard "hai plugins"
+	bribe 0
+planet "Hai Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "hai vanilla"
+	shipyard "omnis"
+	shipyard "hai vanilla"
+	bribe 0
 
 system "Remnant"
 	pos 133 -9792
@@ -514,6 +619,23 @@ system "Remnant"
 	object
 		sprite "sprite/faction_remnant"
 		distance 150
+		offset 180
+	object "Remnant Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Remnant Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Remnant"
 		sprite planet/ringworld
 		distance 812
@@ -597,6 +719,24 @@ planet "Remnant"
 	shipyard "remnant plugins"
 	shipyard "remnant vanilla"
 	bribe 0
+planet "Remnant Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "remnant plugins"
+	shipyard "omnis"
+	shipyard "remnant plugins"
+	bribe 0
+planet "Remnant Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "remnant vanilla"
+	shipyard "omnis"
+	shipyard "remnant vanilla"
+	bribe 0
 
 system "Builder"
 	pos 83 -9721
@@ -606,6 +746,23 @@ system "Builder"
 	object
 		sprite "sprite/faction_builder"
 		distance 150
+		offset 180
+	object "Builder Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Builder Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Builder"
 		sprite planet/ringworld
 		distance 812
@@ -689,6 +846,24 @@ planet "Builder"
 	shipyard "builder plugins"
 	shipyard "builder vanilla"
 	bribe 0
+planet "Builder Plugins"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "builder plugins"
+	shipyard "omnis"
+	shipyard "builder plugins"
+	bribe 0
+planet "Builder Vanilla"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "builder vanilla"
+	shipyard "omnis"
+	shipyard "builder vanilla"
+	bribe 0
 
 system "Korath"
 	pos -58 -10120
@@ -698,6 +873,23 @@ system "Korath"
 	object
 		sprite "sprite/faction_korath"
 		distance 150
+		offset 180
+	object "Korath Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Korath Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Korath"
 		sprite planet/ringworld
 		distance 812
@@ -781,6 +973,24 @@ planet "Korath"
 	shipyard "korath plugins"
 	shipyard "korath vanilla"
 	bribe 0
+planet "Korath Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "korath plugins"
+	shipyard "omnis"
+	shipyard "korath plugins"
+	bribe 0
+planet "Korath Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "korath vanilla"
+	shipyard "omnis"
+	shipyard "korath vanilla"
+	bribe 0
 
 system "Wanderer"
 	pos -120 -10411
@@ -790,6 +1000,23 @@ system "Wanderer"
 	object
 		sprite "sprite/faction_wanderer"
 		distance 150
+		offset 180
+	object "Wanderer Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Wanderer Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Wanderer"
 		sprite planet/ringworld
 		distance 812
@@ -873,6 +1100,24 @@ planet "Wanderer"
 	shipyard "wanderer plugins"
 	shipyard "wanderer vanilla"
 	bribe 0
+planet "Wanderer Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "wanderer plugins"
+	shipyard "omnis"
+	shipyard "wanderer plugins"
+	bribe 0
+planet "Wanderer Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "wanderer vanilla"
+	shipyard "omnis"
+	shipyard "wanderer vanilla"
+	bribe 0
 
 system "Coalition"
 	pos -541 -9776
@@ -882,6 +1127,23 @@ system "Coalition"
 	object
 		sprite "sprite/faction_coalition"
 		distance 150
+		offset 180
+	object "Coalition Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Coalition Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Coalition"
 		sprite planet/ringworld
 		distance 812
@@ -965,6 +1227,24 @@ planet "Coalition"
 	shipyard "coalition plugins"
 	shipyard "coalition vanilla"
 	bribe 0
+planet "Coalition Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "coalition plugins"
+	shipyard "omnis"
+	shipyard "coalition plugins"
+	bribe 0
+planet "Coalition Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "coalition vanilla"
+	shipyard "omnis"
+	shipyard "coalition vanilla"
+	bribe 0
 
 system "Quarg"
 	pos -89 -9751
@@ -972,6 +1252,23 @@ system "Quarg"
 	object
 		sprite "sprite/faction_quarg"
 		distance 150
+		offset 180
+	object "Quarg Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Quarg Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Quarg"
 		sprite planet/ringworld
 		distance 812
@@ -1055,6 +1352,24 @@ planet "Quarg"
 	shipyard "quarg plugins"
 	shipyard "quarg vanilla"
 	bribe 0
+planet "Quarg Plugins"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "quarg plugins"
+	shipyard "omnis"
+	shipyard "quarg plugins"
+	bribe 0
+planet "Quarg Vanilla"
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "quarg vanilla"
+	shipyard "omnis"
+	shipyard "quarg vanilla"
+	bribe 0
 
 system "Drak"
 	pos 125 -10138
@@ -1062,6 +1377,23 @@ system "Drak"
 	object
 		sprite "sprite/faction_drak"
 		distance 150
+		offset 180
+	object "Drak Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Drak Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Drak"
 		sprite planet/ringworld
 		distance 812
@@ -1145,6 +1477,24 @@ planet "Drak"
 	shipyard "drak plugins"
 	shipyard "drak vanilla"
 	bribe 0
+planet "Drak Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "drak plugins"
+	shipyard "omnis"
+	shipyard "drak plugins"
+	bribe 0
+planet "Drak Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "drak vanilla"
+	shipyard "omnis"
+	shipyard "drak vanilla"
+	bribe 0
 
 system "Pug"
 	pos -174 -9887
@@ -1152,6 +1502,23 @@ system "Pug"
 	object
 		sprite "sprite/faction_pug"
 		distance 150
+		offset 180
+	object "Pug Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Pug Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Pug"
 		sprite planet/ringworld
 		distance 812
@@ -1235,6 +1602,24 @@ planet "Pug"
 	shipyard "pug plugins"
 	shipyard "pug vanilla"
 	bribe 0
+planet "Pug Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "pug plugins"
+	shipyard "omnis"
+	shipyard "pug plugins"
+	bribe 0
+planet "Pug Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "pug vanilla"
+	shipyard "omnis"
+	shipyard "pug vanilla"
+	bribe 0
 
 system "Unknown"
 	pos -20 -9766
@@ -1244,6 +1629,23 @@ system "Unknown"
 	object
 		sprite "sprite/faction_unknown"
 		distance 150
+		offset 180
+	object "Unknown Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 90
+	object "Unknown Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 270
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
 	object "Unknown"
 		sprite planet/ringworld
 		distance 812
@@ -1325,6 +1727,24 @@ planet "Unknown"
 	outfitter "unknown vanilla"
 	shipyard "omnis"
 	shipyard "unknown plugins"
+	shipyard "unknown vanilla"
+	bribe 0
+planet "Unknown Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "unknown plugins"
+	shipyard "omnis"
+	shipyard "unknown plugins"
+	bribe 0
+planet "Unknown Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "unknown vanilla"
+	shipyard "omnis"
 	shipyard "unknown vanilla"
 	bribe 0
 
