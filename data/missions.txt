@@ -1,11 +1,18 @@
 #	Initialisation
 
+mission "omnis marker"
+	invisible
+	landing
+	source
+		government "cheat"
+	on offer
+		"omnis marker"
 mission "omnis start"
 	invisible
 	landing
 	source
 		government "cheat"
-	on accept
+	on offer
 		event "reveal omnis"
 		event "reveal map"
 
