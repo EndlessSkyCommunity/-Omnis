@@ -2,12 +2,15 @@
 
 galaxy "label omnis"
 	sprite "label/omnis"
-	pos -110 -9880
+	pos 56 -9989
+galaxy "omnis"
+	sprite "sprite/galaxy half"
+	pos 0 -10000
 
 #	Central
 
 system "Omnis"
-	pos 0 -10000
+	pos 56 -9989
 	government "cheat"
 	object "Plugins"
 		sprite "sprite/station8"
@@ -105,142 +108,6 @@ system "Omnis"
 		sprite planet/ringworld
 		distance 812
 		offset 360
-	object "Sheragi"
-		sprite "sprite/station8"
-		distance 1050
-		offset 15
-	object
-		sprite "sprite/faction_sheragi"
-		distance 1200
-		offset 15
-	object "sheragi gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 15
-	object "Human"
-		sprite "sprite/station8"
-		distance 1050
-		offset 45
-	object
-		sprite "sprite/faction_human"
-		distance 1200
-		offset 45
-	object "human gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 45
-	object "human gateway 2"
-		sprite "sprite/wisp_green"
-		distance 1500
-		offset 45
-	object "Hai"
-		sprite "sprite/station8"
-		distance 1050
-		offset 75
-	object
-		sprite "sprite/faction_hai"
-		distance 1200
-		offset 75
-	object "hai gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 75
-	object "Remnant"
-		sprite "sprite/station8"
-		distance 1050
-		offset 105
-	object
-		sprite "sprite/faction_remnant"
-		distance 1200
-		offset 105
-	object "remnant gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 105
-	object "Builder"
-		sprite "sprite/station8"
-		distance 1050
-		offset 135
-	object
-		sprite "sprite/faction_builder"
-		distance 1200
-		offset 135
-	object "builder gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 135
-	object "Korath"
-		sprite "sprite/station8"
-		distance 1050
-		offset 165
-	object
-		sprite "sprite/faction_korath"
-		distance 1200
-		offset 165
-	object "korath gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 165
-	object "Wanderer"
-		sprite "sprite/station8"
-		distance 1050
-		offset 195
-	object
-		sprite "sprite/faction_wanderer"
-		distance 1200
-		offset 195
-	object "wanderer gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 195
-	object "Coalition"
-		sprite "sprite/station8"
-		distance 1050
-		offset 225
-	object
-		sprite "sprite/faction_coalition"
-		distance 1200
-		offset 225
-	object "coalition gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 225
-	object "Quarg"
-		sprite "sprite/station8"
-		distance 1050
-		offset 255
-	object
-		sprite "sprite/faction_quarg"
-		distance 1200
-		offset 255
-	object "Drak"
-		sprite "sprite/station8"
-		distance 1050
-		offset 285
-	object
-		sprite "sprite/faction_drak"
-		distance 1200
-		offset 285
-	object "Pug"
-		sprite "sprite/station8"
-		distance 1050
-		offset 315
-	object
-		sprite "sprite/faction_pug"
-		distance 1200
-		offset 315
-	object "Unknown"
-		sprite "sprite/station8"
-		distance 1050
-		offset 345
-	object
-		sprite "sprite/faction_unknown"
-		distance 1200
-		offset 345
-	object "unknown gateway"
-		sprite "sprite/wisp_green"
-		distance 1350
-		offset 345
 planet "Everything"
 	landscape "landscape/station6"
 	description ``
@@ -357,6 +224,86 @@ planet "Deprecated"
 	outfitter "deprecated"
 	bribe 0
 
+system "Sheragi"
+	pos -378 -9817
+	government "cheat"
+	object "sheragi gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_sheragi"
+		distance 150
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Sheragi"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Sheragi"
 	landscape "landscape/station6"
 	description ``
@@ -368,6 +315,93 @@ planet "Sheragi"
 	shipyard "sheragi plugins"
 	shipyard "sheragi vanilla"
 	bribe 0
+
+system "Human"
+	pos -269 -9880
+	government "cheat"
+	object "human gateway"
+		sprite "sprite/wisp_green"
+		distance 75
+		offset 270
+	object "human gateway 2"
+		sprite "sprite/wisp_green"
+		distance 75
+		offset 90
+	object
+		sprite "sprite/faction_human"
+		distance 150
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Human"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Human"
 	landscape "landscape/navy_poster_ion"
 	description ``
@@ -379,6 +413,87 @@ planet "Human"
 	shipyard "human plugins"
 	shipyard "human vanilla"
 	bribe 0
+
+system "Hai"
+	pos -13 -10253
+	government "cheat"
+	object "hai gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_hai"
+		distance 150
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Hai"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Hai"
 	landscape "landscape/station6"
 	description ``
@@ -390,6 +505,87 @@ planet "Hai"
 	shipyard "hai plugins"
 	shipyard "hai vanilla"
 	bribe 0
+
+system "Remnant"
+	pos 133 -9792
+	government "cheat"
+	object "remnant gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_remnant"
+		distance 150
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Remnant"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Remnant"
 	landscape "landscape/station6"
 	description ``
@@ -401,6 +597,87 @@ planet "Remnant"
 	shipyard "remnant plugins"
 	shipyard "remnant vanilla"
 	bribe 0
+
+system "Builder"
+	pos 83 -9721
+	government "cheat"
+	object "builder gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_builder"
+		distance 150
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Builder"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Builder"
 	landscape landscape/station6
 	description ``
@@ -412,6 +689,87 @@ planet "Builder"
 	shipyard "builder plugins"
 	shipyard "builder vanilla"
 	bribe 0
+
+system "Korath"
+	pos -58 -10120
+	government "cheat"
+	object "korath gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_korath"
+		distance 150
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Korath"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Korath"
 	landscape "landscape/station6"
 	description ``
@@ -423,6 +781,87 @@ planet "Korath"
 	shipyard "korath plugins"
 	shipyard "korath vanilla"
 	bribe 0
+
+system "Wanderer"
+	pos -120 -10411
+	government "cheat"
+	object "wanderer gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_wanderer"
+		distance 150
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Wanderer"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Wanderer"
 	landscape "landscape/station6"
 	description ``
@@ -434,6 +873,87 @@ planet "Wanderer"
 	shipyard "wanderer plugins"
 	shipyard "wanderer vanilla"
 	bribe 0
+
+system "Coalition"
+	pos -541 -9776
+	government "cheat"
+	object "coalition gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_coalition"
+		distance 150
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Coalition"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Coalition"
 	landscape "landscape/station6"
 	description ``
@@ -445,6 +965,85 @@ planet "Coalition"
 	shipyard "coalition plugins"
 	shipyard "coalition vanilla"
 	bribe 0
+
+system "Quarg"
+	pos -89 -9751
+	government "cheat"
+	object
+		sprite "sprite/faction_quarg"
+		distance 150
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Quarg"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Quarg"
 	landscape landscape/station6
 	description ``
@@ -456,6 +1055,85 @@ planet "Quarg"
 	shipyard "quarg plugins"
 	shipyard "quarg vanilla"
 	bribe 0
+
+system "Drak"
+	pos 125 -10138
+	government "cheat"
+	object
+		sprite "sprite/faction_drak"
+		distance 150
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Drak"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Drak"
 	landscape "landscape/station6"
 	description ``
@@ -467,6 +1145,85 @@ planet "Drak"
 	shipyard "drak plugins"
 	shipyard "drak vanilla"
 	bribe 0
+
+system "Pug"
+	pos -174 -9887
+	government "cheat"
+	object
+		sprite "sprite/faction_pug"
+		distance 150
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Pug"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Pug"
 	landscape "landscape/station6"
 	description ``
@@ -478,6 +1235,87 @@ planet "Pug"
 	shipyard "pug plugins"
 	shipyard "pug vanilla"
 	bribe 0
+
+system "Unknown"
+	pos -20 -9766
+	government "cheat"
+	object "unknown gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_unknown"
+		distance 150
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "Unknown"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 planet "Unknown"
 	landscape "landscape/station6"
 	description ``

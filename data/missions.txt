@@ -6,8 +6,8 @@ mission "omnis start"
 	source
 		government "cheat"
 	on accept
+		event "reveal omnis"
 		event "reveal map"
-		"original human gateway" = 1
 
 #	Gateways
 
@@ -70,6 +70,20 @@ event "open gateways"
 			distance 150
 
 #	Mapping
+
+event "reveal omnis"
+	visit "Sheragi"
+	visit "Human"
+	visit "Hai"
+	visit "Remnant"
+	visit "Builder"
+	visit "Korath"
+	visit "Wanderer"
+	visit "Coalition"
+	visit "Quarg"
+	visit "Drak"
+	visit "Pug"
+	visit "Unknown"
 
 event "reveal map"
 
