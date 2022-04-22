@@ -363,12 +363,6 @@ system "Human"
 	link "Sheragi"
 	object "human gateway"
 		sprite "sprite/wisp_green"
-		distance 75
-		offset 270
-	object "human gateway 2"
-		sprite "sprite/wisp_green"
-		distance 75
-		offset 90
 	object
 		sprite "sprite/faction_human"
 		distance 150
@@ -1867,13 +1861,6 @@ system "Sol"
 		object
 			sprite "sprite/gateway_omnis"
 			distance 150
-planet "human gateway 2"
-system "Sabik"
-	add object "human gateway 2"
-		sprite "sprite/wisp_green"
-		object
-			sprite "sprite/gateway_omnis"
-			distance 150
 
 planet "hai gateway"
 system "Ya Hai"
@@ -1884,9 +1871,11 @@ system "Ya Hai"
 			distance 150
 
 planet "sheragi gateway"
-system "Zubenelhakrabi"
+system "Zubeneschamali"
 	add object "sheragi gateway"
 		sprite "sprite/wisp_green"
-		object
-			sprite "sprite/gateway_omnis"
-			distance 150
+		distance 53.7398
+		period 12.6065
+	add object
+		sprite "sprite/gateway_omnis"
+		distance 150
