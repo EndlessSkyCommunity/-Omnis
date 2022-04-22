@@ -1,4 +1,4 @@
-#		Developer
+#	Developer
 
 outfit " Extra Outfit"
 	category "Special"
@@ -10,7 +10,7 @@ outfit " Extra Engine"
 	category "Special"
 	"engine capacity" 1
 
-#		Ascension
+#	Ascension
 
 outfit " Kill All"
 	category "Special"

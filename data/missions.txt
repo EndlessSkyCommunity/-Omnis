@@ -32,7 +32,6 @@ event "reveal omnis"
 	visit "Pug"
 	visit "Unknown"
 event "reveal map"
-
 	#	Labels
 
 	galaxy "label arachi"
