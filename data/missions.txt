@@ -3,8 +3,6 @@
 mission "omnis marker"
 	invisible
 	landing
-	source
-		government "cheat"
 	on offer
 		"omnis marker" = 1
 mission "omnis start"
@@ -19,6 +17,7 @@ mission "omnis start"
 #	Mapping
 
 event "reveal omnis"
+	visit "Omnis"
 	visit "Sheragi"
 	visit "Human"
 	visit "Hai"

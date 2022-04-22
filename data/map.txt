@@ -227,6 +227,10 @@ planet "Deprecated"
 system "Sheragi"
 	pos -378 -9817
 	government "cheat"
+	link "Coalition"
+	link "Human"
+	link "Pug"
+	link "Quarg"
 	object "sheragi gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -352,8 +356,11 @@ planet "Sheragi"
 	bribe 0
 
 system "Human"
-	pos -269 -9880
+	pos -200 -9950
 	government "cheat"
+	link "Korath"
+	link "Pug"
+	link "Sheragi"
 	object "human gateway"
 		sprite "sprite/wisp_green"
 		distance 75
@@ -487,6 +494,8 @@ planet "Human Vanilla"
 system "Hai"
 	pos -13 -10253
 	government "cheat"
+	link "Korath"
+	link "Wanderer"
 	object "hai gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -614,6 +623,8 @@ planet "Hai Vanilla"
 system "Remnant"
 	pos 133 -9792
 	government "cheat"
+	link "Builder"
+	link "Unknown"
 	object "remnant gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -741,6 +752,8 @@ planet "Remnant Vanilla"
 system "Builder"
 	pos 83 -9721
 	government "cheat"
+	link "Remnant"
+	link "Unknown"
 	object "builder gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -868,6 +881,9 @@ planet "Builder Vanilla"
 system "Korath"
 	pos -58 -10120
 	government "cheat"
+	link "Drak"
+	link "Hai"
+	link "Human"
 	object "korath gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -995,6 +1011,7 @@ planet "Korath Vanilla"
 system "Wanderer"
 	pos -120 -10411
 	government "cheat"
+	link "Hai"
 	object "wanderer gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -1122,6 +1139,7 @@ planet "Wanderer Vanilla"
 system "Coalition"
 	pos -541 -9776
 	government "cheat"
+	link "Sheragi"
 	object "coalition gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -1249,6 +1267,9 @@ planet "Coalition Vanilla"
 system "Quarg"
 	pos -89 -9751
 	government "cheat"
+	link "Pug"
+	link "Sheragi"
+	link "Unknown"
 	object "quarg gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -1376,6 +1397,7 @@ planet "Quarg Vanilla"
 system "Drak"
 	pos 125 -10138
 	government "cheat"
+	link "Korath"
 	object "drak gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -1503,6 +1525,9 @@ planet "Drak Vanilla"
 system "Pug"
 	pos -174 -9887
 	government "cheat"
+	link "Human"
+	link "Quarg"
+	link "Sheragi"
 	object "pug gateway"
 		sprite "sprite/wisp_green"
 	object
@@ -1630,6 +1655,9 @@ planet "Pug Vanilla"
 system "Unknown"
 	pos -20 -9766
 	government "cheat"
+	link "Builder"
+	link "Quarg"
+	link "Remnant"
 	object "unknown gateway"
 		sprite "sprite/wisp_green"
 	object
