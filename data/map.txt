@@ -1,8 +1,5 @@
 #	Labels
 
-galaxy "label omnis"
-	sprite "label/omnis"
-	pos 56 -9989
 galaxy "omnis"
 	sprite "sprite/galaxy half"
 	pos 0 -10000
