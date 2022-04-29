@@ -1,5 +1,3 @@
-#	Central
-
 shipyard "omnis"
 	" Caster"
 outfitter "omnis"
@@ -26,50 +24,17 @@ outfitter "deprecated"
 	"NDR-114 Android"
 	"Reverse Thruster"
 
-#	Species
+#		-	-	-	-	-	-	-	-	-	-
+#	Species shipyards
+#		-	-	-	-	-	-	-	-	-	-
 
 shipyard "sheragi vanilla"
-	#	Heavy Warship
-
+#		HW
 	"Emerald Sword (Fixed)"
-
-	#	Fighter
-
+#		Fi
 	"Black Diamond"
-outfitter "sheragi vanilla"
-	#	Guns
-
-	"Heavy Ion Cyclotron"
-
-	#	Turrets
-
-	"Particle Waveform Turret"
-	"Sheragi Anti-Missile"
-
-	#	Secondary Weapons
-
-	"Dragonflame Cannon"
-	"Shard Fabricator"
-
-	#	Systems
-
-	"Electronic Warfare System"
-	"Large Hybrid Cooling"
-	"Small Hybrid Cooling"
-
-	#	Power
-
-	"Large EM Battery"
-	"Small EM Battery"
-
-	#	Engines
-
-	"Fission Drive"
-	"Fusion Drive"
-
 shipyard "human vanilla"
-	#	Transport
-
+#		Tr
 	"Arrow"
 	"Auxiliary (Cargo)"
 	"Auxiliary (Transport)"
@@ -81,26 +46,20 @@ shipyard "human vanilla"
 	"Scout"
 	"Shuttle"
 	"Star Queen"
-
-	#	Light Freighter
-
+#		LF
 	"Argosy"
 	"Clipper"
 	"Freighter"
 	"Hauler"
 	"Star Barge"
-
-	#	Heavy Freighter
-
+#		HF
 	"Behemoth"
 	"Bulk Freighter"
 	"Container Transport"
 	"Hauler II"
 	"Hauler III"
 	"Lampyrid-Class Transport"
-
-	#	Interceptor
-
+#		In
 	"Berserker"
 	"Fury"
 	"Hawk"
@@ -114,9 +73,7 @@ shipyard "human vanilla"
 	"Modified Boxwing"
 	"Sparrow"
 	"Wasp"
-
-	#	Light Warship
-
+#		LW
 	"Gunboat"
 	"Headhunter"
 	"Marauder Quicksilver (Engines)"
@@ -129,9 +86,7 @@ shipyard "human vanilla"
 	"Quicksilver"
 	"Rainmaker"
 	"Raven"
-
-	#	Medium Warship
-
+#		MW
 	"Aerie"
 	"Bastion"
 	"Corvette"
@@ -153,9 +108,7 @@ shipyard "human vanilla"
 	"Roost"
 	"Skein"
 	"Splinter"
-
-	#	Heavy Warship
-
+#		HW
 	"Bactrian"
 	"Carrier"
 	"Class C Freighter"
@@ -175,9 +128,7 @@ shipyard "human vanilla"
 	"Marauder Leviathan"
 	"Protector"
 	"Vanguard"
-
-	#	Fighter
-
+#		Fi
 	"Barb (Proton)"
 	"Barb"
 	"Boxwing"
@@ -185,14 +136,192 @@ shipyard "human vanilla"
 	"Dropship"
 	"Finch"
 	"Lance"
-
-	#	Drone
-
+#		Dr
 	"Combat Drone"
 	"Surveillance Drone"
-outfitter "human vanilla"
-	#	Guns
+shipyard "hai vanilla"
+#		Tr
+	"Centipede"
+#		LF
+	"Aphid"
+#		HF
+	"Geocoris"
+	"Water Bug"
+#		In
+	"Grasshopper"
+#		LW
+	"Lightning Bug"
+#		MW
+	"Pond Strider"
+#		HW
+	"Shield Beetle"
+	"Solifuge"
+#		Fi
+	"Violin Spider"
+#		Dr
+	"Flea"
+shipyard "remnant vanilla"
+#		Tr
+	"Heron"
+	"Penguin"
+	"Puffin"
+#		LF
+	"Gull"
+#		HF
+	"Pelican"
+#		In
+	"Merganser"
+#		LW
+	"Starling"
+#		MW
+	"Ibis"
+	"Peregrine"
+#		HW
+	"Albatross"
+#		Fi
+	"Petrel"
+#		Dr
+	"Tern"
+shipyard "builder vanilla"
+#		LW
+	"Maeri'het"
+#		MW
+	"Telis'het"
+#		HW
+	"Vareti'het"
+#		Dr
+	"Faes'mar"
+	"Selii'mar"
+shipyard "korath vanilla"
+#		HF
+	"Korath Dredger"
+	"Korath World-Ship B"
+	"Korath World-Ship C"
+	"Korath World-Ship"
+#		In
+	"Model 8"
+#		LW
+	"Met Par Tek 53"
+	"Model 16"
+	"Model 32"
+#		MW
+	"Model 128"
+	"Model 64"
+	"Tek Far 109"
+	"Tek Far 71 - Lek"
+	"Tek Far 78 - Osk"
+#		HW
+	"Kar Ik Vot 349"
+	"Korath Raider"
+	"Model 256"
+	"Model 512"
+#		Fi
+	"Far Osk 27"
+	"Korath Chaser"
+#		Dr
+	"Far Lek 14"
+shipyard "wanderer vanilla"
+#		Tr
+	"Riptide"
+#		LF
+	"Earth Shaper"
+#		HF
+	"Deep River Transport"
+	"Deep River"
+#		In
+	"Cool Breeze"
+#		LW
+	"Autumn Leaf"
+	"Summer Leaf"
+	"Winter Gale"
+#		MW
+	"Strong Wind"
+	"Tempest"
+#		HW
+	"Derecho"
+	"Hurricane"
+#		Dr
+	"Flycatcher"
+shipyard "coalition vanilla"
+#		Tr
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+#		LF
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Transport"
+	"Saryd Runabout"
+	"Saryd Visitor"
+#		HF
+	"Arach Hulk"
+	"Arach Spindle"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+#		LW
+	"Heliarch Breacher"
+	"Heliarch Neutralizer"
+#		MW
+	"Heliarch Hunter"
+	"Heliarch Interdictor"
+	"Heliarch Judicator"
+#		HW
+	"Heliarch Punisher"
+#		Fi
+	"Heliarch Pursuer"
+	"Heliarch Rover"
+	"Heliarch Stalker"
+shipyard "quarg vanilla"
+#		HW
+	"Quarg Skylark"
+	"Quarg Wardragon"
+shipyard "drak vanilla"
+#		HW
+	"Archon"
+shipyard "pug vanilla"
+#		LW
+	"Pug Zibruka"
+#		MW
+	"Pug Arfecta"
+	"Pug Enfolta"
+#		HW
+	"Pug Maboro"
+shipyard "unknown vanilla"
+#		LF
+	"Subsidurial"
+#		LW
+	"Void Sprite (Infant)"
+#		MW
+	"Void Sprite"
+#		HW
+	"Ember Waste Node"
 
+#		-	-	-	-	-	-	-	-	-	-
+#	Species outfitters
+#		-	-	-	-	-	-	-	-	-	-
+
+outfitter "sheragi vanilla"
+#		Gu
+	"Heavy Ion Cyclotron"
+#		Tu
+	"Particle Waveform Turret"
+	"Sheragi Anti-Missile"
+#		SW
+	"Dragonflame Cannon"
+	"Shard Fabricator"
+#		Sy
+	"Electronic Warfare System"
+	"Large Hybrid Cooling"
+	"Small Hybrid Cooling"
+#		Po
+	"Large EM Battery"
+	"Small EM Battery"
+#		En
+	"Fission Drive"
+	"Fusion Drive"
+outfitter "human vanilla"
+#		Gu
 	"Beam Laser"
 	"Electron Beam"
 	"Energy Blaster"
@@ -202,9 +331,7 @@ outfitter "human vanilla"
 	"Plasma Cannon"
 	"Plasma Repeater"
 	"Proton Gun"
-
-	#	Turrets
-
+#		Tu
 	"Anti-Missile Turret"
 	"Blaster Turret"
 	"Electron Turret"
@@ -215,9 +342,7 @@ outfitter "human vanilla"
 	"Plasma Turret"
 	"Proton Turret"
 	"Quad Blaster Turret"
-
-	#	Secondary Weapons
-
+#		SW
 	"Flamethrower"
 	"Gatling Gun"
 	"Heavy Rocket Launcher"
@@ -233,9 +358,7 @@ outfitter "human vanilla"
 	"Torpedo Pod"
 	"Typhoon Launcher"
 	"Typhoon Pod"
-
-	#	Ammunition
-
+#		Am
 	"Bullet Boxes"
 	"Gatling Gun Ammo"
 	"Heavy Rocket Rack"
@@ -250,9 +373,7 @@ outfitter "human vanilla"
 	"Torpedo"
 	"Typhoon Storage Tube"
 	"Typhoon Torpedo"
-
-	#	Systems
-
+#		Sy
 	"Asteroid Scanner"
 	"Brig"
 	"Bunk Room"
@@ -283,9 +404,7 @@ outfitter "human vanilla"
 	"Surveillance Pod"
 	"Tactical Scanner"
 	"Water Coolant System"
-
-	#	Power
-
+#		Po
 	"Armageddon Core"
 	"Breeder Reactor"
 	"Dwarf Core"
@@ -308,9 +427,7 @@ outfitter "human vanilla"
 	"S3 Thermionic"
 	"Stack Core"
 	"Supercapacitor"
-
-	#	Engines
-
+#		En
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -347,83 +464,31 @@ outfitter "human vanilla"
 	"X4700 Ion Thruster"
 	"X5200 Ion Steering"
 	"X5700 Ion Thruster"
-
-	#	Hand to Hand
-
+#		HH
 	"Fragmentation Grenades"
 	"Laser Rifle"
 	"Nerve Gas"
 	"Security Station"
-
-	#	Special
-
+#		Sp
 	"Local Map"
 	"Secret Cargo"
-
-shipyard "hai vanilla"
-	#	Transport
-
-	"Centipede"
-
-	#	Light Freighter
-
-	"Aphid"
-
-	#	Heavy Freighter
-
-	"Geocoris"
-	"Water Bug"
-
-	#	Interceptor
-
-	"Grasshopper"
-
-	#	Light Warship
-
-	"Lightning Bug"
-
-	#	Medium Warship
-
-	"Pond Strider"
-
-	#	Heavy Warship
-
-	"Shield Beetle"
-	"Solifuge"
-
-	#	Fighter
-
-	"Violin Spider"
-
-	#	Drone
-
-	"Flea"
 outfitter "hai vanilla"
-	#	Guns
-
+#		Gu
 	"Ion Cannon"
 	"Pulse Cannon"
-
-	#	Turrets
-
+#		Tu
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
 	"Pulse Turret"
-
-	#	Secondary Weapons
-
+#		SW
 	"Hai Tracker Pod"
 	"Railgun"
-
-	#	Ammunition
-
+#		Am
 	"Hai Tracker"
 	"Railgun Slug"
 	"Railgun Slug Rack"
 	"Tracker Storage Pod"
-
-	#	Systems
-
+#		Sy
 	"Fuel Pod"
 	"Hai Corundum Regenerator"
 	"Hai Diamond Regenerator"
@@ -431,9 +496,7 @@ outfitter "hai vanilla"
 	"Hyperdrive"
 	"Outfits Expansion"
 	"Quantum Keystone"
-
-	#	Power
-
+#		Po
 	"Boulder Reactor"
 	"Geode Reactor"
 	"Hai Chasm Batteries"
@@ -443,9 +506,7 @@ outfitter "hai vanilla"
 	"Hai Valley Batteries"
 	"Pebble Core"
 	"Sand Cell"
-
-	#	Engines
-
+#		En
 	`"Baellie" Atomic Engines`
 	`"Basrem" Atomic Steering`
 	`"Basrem" Atomic Thruster`
@@ -457,74 +518,23 @@ outfitter "hai vanilla"
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
-
-	#	Hand to Hand
-
+#		HH
 	"Pulse Rifle"
-
-shipyard "remnant vanilla"
-	#	Transport
-
-	"Heron"
-	"Penguin"
-	"Puffin"
-
-	#	Light Freighter
-
-	"Gull"
-
-	#	Heavy Freighter
-
-	"Pelican"
-
-	#	Interceptor
-
-	"Merganser"
-
-	#	Light Warship
-
-	"Starling"
-
-	#	Medium Warship
-
-	"Ibis"
-	"Peregrine"
-
-	#	Heavy Warship
-
-	"Albatross"
-
-	#	Fighter
-
-	"Petrel"
-
-	#	Drone
-
-	"Tern"
 outfitter "remnant vanilla"
-	#	Guns
-
+#		Gu
 	"Inhibitor Cannon"
 	"Thrasher Cannon"
-
-	#	Turrets
-
+#		Tu
 	"Inhibitor Turret"
 	"Point Defense Turret"
 	"Thrasher Turret"
-
-	#	Secondary Weapons
-
+#		SW
 	"EMP Torpedo Bay"
 	"Ember Tear"
-
-	#	Ammunition
-
+#		Am
 	"EMP Torpedo Storage Bay"
 	"EMP Torpedo"
-
-	#	Systems
-
+#		Sy
 	"Bunk Room"
 	"Cargo Expansion"
 	"Emergency Ramscoop"
@@ -536,16 +546,12 @@ outfitter "remnant vanilla"
 	"Salvage Scanner"
 	"Scram Drive"
 	"Thermoelectric Cooler"
-
-	#	Power
-
+#		Po
 	"Aeon Cell"
 	"Crystal Capacitor"
 	"Epoch Cell"
 	"Millennium Cell"
-
-	#	Engines
-
+#		En
 	"Anvil-Class Engine"
 	"Bellows-Class Afterburner"
 	"Crucible-Class Steering"
@@ -554,143 +560,59 @@ outfitter "remnant vanilla"
 	"Forge-Class Thruster"
 	"Smelter-Class Steering"
 	"Smelter-Class Thruster"
-
-	#	Hand to Hand
-
+#		HH
 	"Tuning Rifle"
 	"Void Rifle"
-
-shipyard "builder vanilla"
-	#	Light Warship
-
-	"Maeri'het"
-
-	#	Medium Warship
-
-	"Telis'het"
-
-	#	Heavy Warship
-
-	"Vareti'het"
-
-	#	Drone
-
-	"Faes'mar"
-	"Selii'mar"
 outfitter "builder vanilla"
-	#	Guns
-
+#		Gu
 	"Ka'het Annihilator"
 	"Ka'het Nullifier"
 	"Ka'het Ravager Beam"
-
-	#	Turrets
-
+#		Tu
 	"Ka'het Annihilator Turret"
 	"Ka'het Ravager Turret"
-
-	#	Secondary Weapons
-
+#		SW
 	"Ka'het Emergency Deployer"
 	"Ka'het EMP Deployer"
-
-	#	Ammunition
-
+#		Am
 	"EMP Torpedo"
-
-	#	Systems
-
+#		Sy
 	"Ka'het Grand Restorer"
 	"Ka'het Primary Cooling"
 	"Ka'het Shield Restorer"
 	"Ka'het Support Cooling"
-
-	#	Power
-
+#		Po
 	"Ka'het MHD Generator"
 	"Ka'het Reserve Accumulator"
-
-	#	Engines
-
+#		En
 	"Ka'het Compact Engine"
 	"Ka'het Sustainer Nacelles"
 	"Maeri Engine Nacelles"
 	"Telis Engine Nacelles"
 	"Vareti Engine Block"
-
-shipyard "korath vanilla"
-	#	Heavy Freighter
-
-	"Korath Dredger"
-	"Korath World-Ship B"
-	"Korath World-Ship C"
-	"Korath World-Ship"
-
-	#	Interceptor
-
-	"Model 8"
-
-	#	Light Warship
-
-	"Met Par Tek 53"
-	"Model 16"
-	"Model 32"
-
-	#	Medium Warship
-
-	"Model 128"
-	"Model 64"
-	"Tek Far 109"
-	"Tek Far 71 - Lek"
-	"Tek Far 78 - Osk"
-
-	#	Heavy Warship
-
-	"Kar Ik Vot 349"
-	"Korath Raider"
-	"Model 256"
-	"Model 512"
-
-	#	Fighter
-
-	"Far Osk 27"
-	"Korath Chaser"
-
-	#	Drone
-
-	"Far Lek 14"
 outfitter "korath vanilla"
-	#	Guns
-
+#		Gu
 	"Korath Detainer"
 	"Korath Fire-Lance"
 	"Korath Repeater"
 	"Korath Slicer"
 	"Nano Strike"
-
-	#	Turrets
-
+#		Tu
 	"Korath Banisher"
 	"Korath Disruptor"
 	"Korath Grab-Strike"
 	"Korath Repeater Turret"
 	"Korath Slicer Turret"
 	"Korath Warder"
-
-	#	Secondary Weapons
-
+#		SW
 	"Korath Minelayer"
 	"Korath Piercer Launcher"
-
-	#	Ammunition
-
+#		Am
 	"Korath Mine Rack"
 	"Korath Mine"
 	"Korath Piercer Rack"
 	"Korath Piercer"
-
-	#	Systems
-
+#		Sy
 	"Command Center"
 	"Control Transceiver"
 	"Fuel Processor"
@@ -703,18 +625,14 @@ outfitter "korath vanilla"
 	"Systems Core (Large)"
 	"Systems Core (Medium)"
 	"Systems Core (Small)"
-
-	#	Power
-
+#		Po
 	"Double Plasma Core"
 	"Generator (Candle Class)"
 	"Generator (Furnace Class)"
 	"Generator (Inferno Class)"
 	"Plasma Core"
 	"Triple Plasma Core"
-
-	#	Engines
-
+#		En
 	"Steering (Asteroid Class)"
 	"Steering (Comet Class)"
 	"Steering (Lunar Class)"
@@ -725,90 +643,37 @@ outfitter "korath vanilla"
 	"Thruster (Lunar Class)"
 	"Thruster (Planetary Class)"
 	"Thruster (Stellar Class)"
-
-	#	Hand to Hand
-
+#		HH
 	"Korath Repeater Rifle"
-
-shipyard "wanderer vanilla"
-	#	Transport
-
-	"Riptide"
-
-	#	Light Freighter
-
-	"Earth Shaper"
-
-	#	Heavy Freighter
-
-	"Deep River Transport"
-	"Deep River"
-
-	#	Interceptor
-
-	"Cool Breeze"
-
-	#	Light Warship
-
-	"Autumn Leaf"
-	"Summer Leaf"
-	"Winter Gale"
-
-	#	Medium Warship
-
-	"Strong Wind"
-	"Tempest"
-
-	#	Heavy Warship
-
-	"Derecho"
-	"Hurricane"
-
-	#	Drone
-
-	"Flycatcher"
 outfitter "wanderer vanilla"
-	#	Guns
-
+#		Gu
 	"Moonbeam"
 	"Sunbeam"
-
-	#	Turrets
-
+#		Tu
 	"Dual Sunbeam Turret"
 	"Moonbeam Turret"
 	"Sunbeam Turret"
 	"Wanderer Anti-Missile"
-
-	#	Secondary Weapons
-
+#		SW
 	"Thunderhead Launcher"
-
-	#	Ammunition
-
+#		Am
 	"Thunderhead Missile"
 	"Thunderhead Storage Array"
-
-	#	Systems
-
+#		Sy
 	"Bright Cloud Shielding"
 	"Dark Storm Shielding"
 	"Hyperdrive"
 	"Outfits Expansion"
 	"Wanderer Heat Sink"
 	"Wanderer Ramscoop"
-
-	#	Power
-
+#		Po
 	"Blue Sun Reactor"
 	"Large Biochemical Cell"
 	"Red Sun Reactor"
 	"Small Biochemical Cell"
 	"White Sun Reactor"
 	"Yellow Sun Reactor"
-
-	#	Engines
-
+#		En
 	"Type 1 Radiant Steering"
 	"Type 1 Radiant Thruster"
 	"Type 2 Radiant Steering"
@@ -817,74 +682,21 @@ outfitter "wanderer vanilla"
 	"Type 3 Radiant Thruster"
 	"Type 4 Radiant Steering"
 	"Type 4 Radiant Thruster"
-
-shipyard "coalition vanilla"
-	#	Transport
-
-	"Kimek Briar"
-	"Kimek Spire"
-	"Kimek Thistle"
-	"Kimek Thorn"
-
-	#	Light Freighter
-
-	"Arach Courier"
-	"Arach Freighter"
-	"Arach Transport"
-	"Saryd Runabout"
-	"Saryd Visitor"
-
-	#	Heavy Freighter
-
-	"Arach Hulk"
-	"Arach Spindle"
-	"Saryd Sojourner"
-	"Saryd Traveler"
-
-	#	Light Warship
-
-	"Heliarch Breacher"
-	"Heliarch Neutralizer"
-
-	#	Medium Warship
-
-	"Heliarch Hunter"
-	"Heliarch Interdictor"
-	"Heliarch Judicator"
-
-	#	Heavy Warship
-
-	"Heliarch Punisher"
-
-	#	Fighter
-
-	"Heliarch Pursuer"
-	"Heliarch Rover"
-	"Heliarch Stalker"
 outfitter "coalition vanilla"
-	#	Guns
-
+#		Gu
 	"Bombardment Cannon"
 	"Ion Rain Gun"
-
-	#	Turrets
-
+#		Tu
 	"Bombardment Turret"
 	"Heliarch Attractor"
 	"Heliarch Repulsor"
 	"Ion Hail Turret"
-
-	#	Secondary Weapons
-
+#		SW
 	"Finisher Pod"
-
-	#	Ammunition
-
+#		Am
 	"Finisher Storage Tube"
 	"Finisher Torpedo"
-
-	#	Systems
-
+#		Sy
 	"Cooling Module"
 	"Fuel Module"
 	"Hyperdrive"
@@ -896,9 +708,7 @@ outfitter "coalition vanilla"
 	"Scanning Module"
 	"Small Repair Module"
 	"Small Shield Module"
-
-	#	Power
-
+#		Po
 	"Large Battery Module"
 	"Large Cogeneration Module"
 	"Large Collector Module"
@@ -907,61 +717,34 @@ outfitter "coalition vanilla"
 	"Small Collector Module"
 	"Small Cogeneration Module"
 	"Small Reactor Module"
-
-	#	Engines
-
+#		En
 	"Large Steering Module"
 	"Large Thrust Module"
 	"Small Steering Module"
 	"Small Thrust Module"
-
-	#	Hand to Hand
-
+#		HH
 	"Enforcer Confrontation Gear"
 	"Enforcer Riot Staff"
-
-shipyard "quarg vanilla"
-	#	Heavy Warship
-
-	"Quarg Skylark"
-	"Quarg Wardragon"
 outfitter "quarg vanilla"
-	#	Turrets
-
+#		Tu
 	"Quarg Anti-Missile"
 	"Quarg Skylance"
-
-	#	Systems
-
+#		Sy
 	"Jump Drive"
 	"Quantum Shield Generator"
-
-	#	Power
-
+#		Po
 	"Antimatter Core"
 	"Nanotech Battery"
-
-	#	Engines
-
+#		En
 	"Medium Graviton Steering"
 	"Medium Graviton Thruster"
-
-	#	Hand to Hand
-
+#		HH
 	"Intrusion Countermeasures"
-
-shipyard "drak vanilla"
-	#	Heavy Warship
-
-	"Archon"
 outfitter "drak vanilla"
-	#	Guns
-
+#		Gu
 	"Drak Antimatter Cannon"
 	"Drak Antimatter Cannon (Augmented)"
-
-	#	Turrets
-
+#		Tu
 	"Drak Anti-Missile Field"
 	"Drak Anti-Missile Field (Augmented)"
 	"Drak Distancer"
@@ -969,86 +752,31 @@ outfitter "drak vanilla"
 	"Drak Draining Field (Augmented)"
 	"Drak Turret"
 	"Drak Turret (Augmented)"
-
-	#	Systems
-
+#		Sy
 	"Hyperdrive"
 	"Jump Drive"
-
-shipyard "pug vanilla"
-	#	Transport
-
-
-	#	Light Freighter
-
-
-	#	Heavy Freighter
-
-
-	#	Interceptor
-
-
-	#	Light Warship
-
-	"Pug Zibruka"
-
-	#	Medium Warship
-
-	"Pug Arfecta"
-	"Pug Enfolta"
-
-	#	Heavy Warship
-
-	"Pug Maboro"
 outfitter "pug vanilla"
-	#	Guns
-
+#		Gu
 	"Pug Seeker"
 	"Pug Zapper"
-
-	#	Turrets
-
+#		Tu
 	"Pug Anti-Missile"
 	"Pug Gridfire Turret"
 	"Pug Zapper Turret"
 	"Tier 3 Anti-Missile"
-
-	#	Systems
-
+#		Sy
 	"Cloaking Device"
 	"Jump Drive"
-
-	#	Engines
-
+#		En
 	"Pug Akfar Steering"
 	"Pug Akfar Thruster"
 	"Pug Cormet Steering"
 	"Pug Cormet Thruster"
 	"Pug Lohmar Steering"
 	"Pug Lohmar Thruster"
-
-	#	Hand to Hand
-
+#		HH
 	"Pug Biodefenses"
 	"Pug Peacekeeping Staff"
-
-shipyard "unknown vanilla"
-	#	Light Freighter
-
-	"Subsidurial"
-
-	#	Light Warship
-
-	"Void Sprite (Infant)"
-
-	#	Medium Warship
-
-	"Void Sprite"
-
-	#	Heavy Warship
-
-	"Ember Waste Node"
 outfitter "unknown vanilla"
-	#	Guns
-
+#		Gu
 	"Mouthparts?"

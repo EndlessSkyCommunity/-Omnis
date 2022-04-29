@@ -1,10 +1,10 @@
-#	Labels
-
 galaxy "omnis"
 	sprite "sprite/galaxy half"
 	pos 0 -10000
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Central
+#		-	-	-	-	-	-	-	-	-	-
 
 system "Omnis"
 	pos 56 -9989
@@ -1773,7 +1773,9 @@ planet "Unknown Vanilla"
 	shipyard "unknown vanilla"
 	bribe 0
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Gateways
+#		-	-	-	-	-	-	-	-	-	-
 
 planet "remnant gateway"
 system "Cinxia"

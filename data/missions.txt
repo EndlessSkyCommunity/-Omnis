@@ -1,4 +1,6 @@
+#		-	-	-	-	-	-	-	-	-	-
 #	Initialisation
+#		-	-	-	-	-	-	-	-	-	-
 
 mission "omnis marker"
 	invisible
@@ -14,7 +16,9 @@ mission "omnis start"
 		event "reveal omnis"
 		event "reveal map"
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Mapping
+#		-	-	-	-	-	-	-	-	-	-
 
 event "reveal omnis"
 	visit "Omnis"
@@ -31,8 +35,7 @@ event "reveal omnis"
 	visit "Pug"
 	visit "Unknown"
 event "reveal map"
-	#	Labels
-
+#		Labels
 	galaxy "label arachi"
 		sprite "label/arachi"
 	galaxy "label graveyard"
@@ -49,9 +52,7 @@ event "reveal map"
 		sprite "label/wanderers"
 	galaxy "label waste"
 		sprite "label/waste"
-
-	#	Wormholes
-
+#		Wormholes
 	"visit planet" "Ember Graveyard"
 	"visit planet" "Ember Reaches"
 	"visit planet" "Ember Threshold"
@@ -61,9 +62,7 @@ event "reveal map"
 	"visit planet" "Remnant Wormhole"
 	"visit planet" "Wormhole Alpha"
 	"visit planet" "Wormhole Link"
-
-	#	Systems
-
+#		Systems
 	visit "1 Axis"
 	visit "10 Pole"
 	visit "11 Autumn Above"
@@ -464,7 +463,9 @@ event "reveal map"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Licenses
+#		-	-	-	-	-	-	-	-	-	-
 
 mission "licenses add"
 	name `Add all Licenses`
@@ -511,7 +512,9 @@ mission "licenses remove"
 		clear "license: Wanderer Outfits"
 		clear "license: Wanderer"
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Swizzles
+#		-	-	-	-	-	-	-	-	-	-
 
 mission "swizzle 00"
 	name `Swizzle- 00`
