@@ -9,21 +9,6 @@ outfitter "omnis"
 	" Omnipresence"
 	" Omniscience"
 
-outfitter "deprecated"
-	"Bullfrog Anti-Missile Turret"
-	"Chameleon Anti-Missile Turret"
-	"Korath Ark'parat Steering"
-	"Korath Ark'torbal Thruster"
-	"Korath Heat Shunt"
-	"Korath Jak'parat Steering"
-	"Korath Jak'torbal Thruster"
-	"Korath Shield Generator"
-	"Korath Tek'far Reactor"
-	"Korath Tek'nel Reactor"
-	"Mass Expansion"
-	"NDR-114 Android"
-	"Reverse Thruster"
-
 #		-	-	-	-	-	-	-	-	-	-
 #	Species shipyards
 #		-	-	-	-	-	-	-	-	-	-

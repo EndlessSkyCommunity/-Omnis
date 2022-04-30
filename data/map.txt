@@ -13,10 +13,6 @@ system "Omnis"
 		sprite "sprite/station8"
 		distance 300
 		offset 60
-	object "Deprecated"
-		sprite "sprite/station8"
-		distance 300
-		offset 180
 	object "Vanilla"
 		sprite "sprite/station8"
 		distance 300
@@ -25,10 +21,6 @@ system "Omnis"
 		sprite "sprite/section_plugins"
 		distance 450
 		offset 60
-	object
-		sprite "sprite/section_deprecated"
-		distance 450
-		offset 180
 	object
 		sprite "sprite/section_vanilla"
 		distance 450
@@ -213,12 +205,6 @@ planet "Plugins"
 	shipyard "remnant plugins"
 	shipyard "sheragi plugins"
 	shipyard "wanderer plugins"
-	bribe 0
-planet "Deprecated"
-	landscape landscape/station6
-	description ``
-	spaceport ``
-	outfitter "deprecated"
 	bribe 0
 
 system "Sheragi"
