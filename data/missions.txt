@@ -467,7 +467,7 @@ event "reveal map"
 #	Licenses
 #		-	-	-	-	-	-	-	-	-	-
 
-mission "Add all Licenses"
+mission "Add All Licenses"
 	description `Give all licenses to the player.`
 	job
 	repeat
@@ -488,7 +488,57 @@ mission "Add all Licenses"
 		set "license: Wanderer"
 		set "license: Coalition"
 		set "license: Heliarch"
-mission "Remove all Licenses"
+mission "Add Human Licenses"
+	description `Give all Human licenses to the player.`
+	job
+	repeat
+	source
+		system "Human"
+	on accept
+		set "license: City-Ship"
+		set "license: Militia"
+		set "license: Navy Auxiliary"
+		set "license: Navy Carrier"
+		set "license: Navy Cruiser"
+		set "license: Navy"
+mission "Add Hai Licenses"
+	description `Give all Hai licenses to the player.`
+	job
+	repeat
+	source
+		system "Hai"
+	on accept
+		set "license: Unfettered Militia"
+mission "Add Remnant Licenses"
+	description `Give all Remmnant licenses to the player.`
+	job
+	repeat
+	source
+		system "Remnant"
+	on accept
+		set "license: Remnant Capital"
+		set "license: Remnant"
+mission "Add Wanderer Licenses"
+	description `Give all Wanderer licenses to the player.`
+	job
+	repeat
+	source
+		system "Wanderer"
+	on accept
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+mission "Add Coalition Licenses"
+	description `Give all Coalition licenses to the player.`
+	job
+	repeat
+	source
+		system "Coalition"
+	on accept
+		set "license: Coalition"
+		set "license: Heliarch"
+
+mission "Remove All Licenses"
 	description `Take all licenses from the player.`
 	job
 	repeat
@@ -509,20 +559,6 @@ mission "Remove all Licenses"
 		clear "license: Wanderer"
 		clear "license: Coalition"
 		clear "license: Heliarch"
-
-mission "Add Human Licenses"
-	description `Give all Human licenses to the player.`
-	job
-	repeat
-	source
-		system "Human"
-	on accept
-		set "license: City-Ship"
-		set "license: Militia"
-		set "license: Navy Auxiliary"
-		set "license: Navy Carrier"
-		set "license: Navy Cruiser"
-		set "license: Navy"
 mission "Remove Human Licenses"
 	description `Take all Human licenses from the player.`
 	job
@@ -536,15 +572,6 @@ mission "Remove Human Licenses"
 		clear "license: Navy Carrier"
 		clear "license: Navy Cruiser"
 		clear "license: Navy"
-
-mission "Add Hai Licenses"
-	description `Give all Hai licenses to the player.`
-	job
-	repeat
-	source
-		system "Hai"
-	on accept
-		set "license: Unfettered Militia"
 mission "Remove Hai Licenses"
 	description `Take all Hai licenses from the player.`
 	job
@@ -553,16 +580,6 @@ mission "Remove Hai Licenses"
 		system "Hai"
 	on accept
 		clear "license: Unfettered Militia"
-
-mission "Add Remnant Licenses"
-	description `Give all Remmnant licenses to the player.`
-	job
-	repeat
-	source
-		system "Remnant"
-	on accept
-		set "license: Remnant Capital"
-		set "license: Remnant"
 mission "Remove Remnant Licenses"
 	description `Take all Remmnant licenses from the player.`
 	job
@@ -572,17 +589,6 @@ mission "Remove Remnant Licenses"
 	on accept
 		clear "license: Remnant Capital"
 		clear "license: Remnant"
-
-mission "Add Wanderer Licenses"
-	description `Give all Wanderer licenses to the player.`
-	job
-	repeat
-	source
-		system "Wanderer"
-	on accept
-		set "license: Wanderer Military"
-		set "license: Wanderer Outfits"
-		set "license: Wanderer"
 mission "Remove Wanderer Licenses"
 	description `Take all Wanderer licenses from the player.`
 	job
@@ -593,16 +599,6 @@ mission "Remove Wanderer Licenses"
 		clear "license: Wanderer Military"
 		clear "license: Wanderer Outfits"
 		clear "license: Wanderer"
-
-mission "Add Coalition Licenses"
-	description `Give all Coalition licenses to the player.`
-	job
-	repeat
-	source
-		system "Coalition"
-	on accept
-		set "license: Coalition"
-		set "license: Heliarch"
 mission "Remove Coalition Licenses"
 	description `Take all Coalition licenses from the player.`
 	job
@@ -617,8 +613,7 @@ mission "Remove Coalition Licenses"
 #	Swizzles
 #		-	-	-	-	-	-	-	-	-	-
 
-mission "swizzle 00"
-	name `Swizzle- 00`
+mission "Swizzle- 00"
 	description `Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow.`
 	job
 	repeat
@@ -626,8 +621,7 @@ mission "swizzle 00"
 		government "cheat"
 	on accept
 		event "swizzle 00"
-mission "swizzle 01"
-	name `Swizzle- 01`
+mission "Swizzle- 01"
 	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
 	job
 	repeat
@@ -635,8 +629,7 @@ mission "swizzle 01"
 		government "cheat"
 	on accept
 		event "swizzle 01"
-mission "swizzle 02"
-	name `Swizzle- 02`
+mission "Swizzle- 02"
 	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
 	job
 	repeat
@@ -644,8 +637,7 @@ mission "swizzle 02"
 		government "cheat"
 	on accept
 		event "swizzle 02"
-mission "swizzle 03"
-	name `Swizzle- 03`
+mission "Swizzle- 03"
 	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
 	job
 	repeat
@@ -653,8 +645,7 @@ mission "swizzle 03"
 		government "cheat"
 	on accept
 		event "swizzle 03"
-mission "swizzle 04"
-	name `Swizzle- 04`
+mission "Swizzle- 04"
 	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
 	job
 	repeat
@@ -662,8 +653,8 @@ mission "swizzle 04"
 		government "cheat"
 	on accept
 		event "swizzle 04"
-mission "swizzle 05"
-	name `Swizzle- 05`
+mission "Swizzle- 05"
+	name ``
 	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
 	job
 	repeat
@@ -671,8 +662,7 @@ mission "swizzle 05"
 		government "cheat"
 	on accept
 		event "swizzle 05"
-mission "swizzle 06"
-	name `Swizzle- 06`
+mission "Swizzle- 06"
 	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
 	job
 	repeat
@@ -680,8 +670,7 @@ mission "swizzle 06"
 		government "cheat"
 	on accept
 		event "swizzle 06"
-mission "swizzle 07"
-	name `Swizzle- 07`
+mission "Swizzle- 07"
 	description `Changes ships appearance to have a color swizzle of G->B. Full Red.`
 	job
 	repeat
@@ -689,8 +678,7 @@ mission "swizzle 07"
 		government "cheat"
 	on accept
 		event "swizzle 07"
-mission "swizzle 08"
-	name `Swizzle- 08`
+mission "Swizzle- 08"
 	description `Changes ships appearance to have a color swizzle of B->G. Faded Red.`
 	job
 	repeat
@@ -698,8 +686,7 @@ mission "swizzle 08"
 		government "cheat"
 	on accept
 		event "swizzle 08"
-mission "swizzle 09"
-	name `Swizzle- 09`
+mission "Swizzle- 09"
 	description `Changes ships appearance to have a color swizzle of B->B, G->B. Pure Black.`
 	job
 	repeat
@@ -707,8 +694,7 @@ mission "swizzle 09"
 		government "cheat"
 	on accept
 		event "swizzle 09"
-mission "swizzle 10"
-	name `Swizzle- 10`
+mission "Swizzle- 10"
 	description `Changes ships appearance to have a color swizzle of R->G, B->G. Faded Black/Gray.`
 	job
 	repeat
@@ -716,8 +702,7 @@ mission "swizzle 10"
 		government "cheat"
 	on accept
 		event "swizzle 10"
-mission "swizzle 11"
-	name `Swizzle- 11`
+mission "Swizzle- 11"
 	description `Changes ships appearance to have a color swizzle of G->R, B->R. Pure White.`
 	job
 	repeat
@@ -725,8 +710,7 @@ mission "swizzle 11"
 		government "cheat"
 	on accept
 		event "swizzle 11"
-mission "swizzle 12"
-	name `Swizzle- 12`
+mission "Swizzle- 12"
 	description `Changes ships appearance to have a color swizzle of R->B, G->B, B->G. Dark Blue.`
 	job
 	repeat
@@ -734,8 +718,7 @@ mission "swizzle 12"
 		government "cheat"
 	on accept
 		event "swizzle 12"
-mission "swizzle 13"
-	name `Swizzle- 13`
+mission "Swizzle- 13"
 	description `Changes ships appearance to have a color swizzle of R->B, G->B, G->R. Pure Blue.`
 	job
 	repeat
@@ -743,8 +726,7 @@ mission "swizzle 13"
 		government "cheat"
 	on accept
 		event "swizzle 13"
-mission "swizzle 14"
-	name `Swizzle- 14`
+mission "Swizzle- 14"
 	description `Changes ships appearance to have a color swizzle of R->G, B->R. Faded Blue.`
 	job
 	repeat
@@ -752,8 +734,7 @@ mission "swizzle 14"
 		government "cheat"
 	on accept
 		event "swizzle 14"
-mission "swizzle 15"
-	name `Swizzle- 15`
+mission "Swizzle- 15"
 	description `Changes ships appearance to have a color swizzle of R->B, B->G. Dark Cyan.`
 	job
 	repeat
@@ -761,8 +742,7 @@ mission "swizzle 15"
 		government "cheat"
 	on accept
 		event "swizzle 15"
-mission "swizzle 16"
-	name `Swizzle- 16`
+mission "Swizzle- 16"
 	description `Changes ships appearance to have a color swizzle of R->B, G->R, B->R. Pure Cyan.`
 	job
 	repeat
@@ -770,8 +750,7 @@ mission "swizzle 16"
 		government "cheat"
 	on accept
 		event "swizzle 16"
-mission "swizzle 17"
-	name `Swizzle- 17`
+mission "Swizzle- 17"
 	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->R. Faded Cyan.`
 	job
 	repeat
@@ -779,8 +758,7 @@ mission "swizzle 17"
 		government "cheat"
 	on accept
 		event "swizzle 17"
-mission "swizzle 18"
-	name `Swizzle- 18`
+mission "Swizzle- 18"
 	description `Changes ships appearance to have a color swizzle of R->B. Dark Green.`
 	job
 	repeat
@@ -788,8 +766,7 @@ mission "swizzle 18"
 		government "cheat"
 	on accept
 		event "swizzle 18"
-mission "swizzle 19"
-	name `Swizzle- 19`
+mission "Swizzle- 19"
 	description `Changes ships appearance to have a color swizzle of R->B, G->R. Pure Green.`
 	job
 	repeat
@@ -797,8 +774,7 @@ mission "swizzle 19"
 		government "cheat"
 	on accept
 		event "swizzle 19"
-mission "swizzle 20"
-	name `Swizzle- 20`
+mission "Swizzle- 20"
 	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->G. Faded Green.`
 	job
 	repeat
@@ -806,8 +782,7 @@ mission "swizzle 20"
 		government "cheat"
 	on accept
 		event "swizzle 20"
-mission "swizzle 21"
-	name `Swizzle- 21`
+mission "Swizzle- 21"
 	description `Changes ships appearance to have a color swizzle of R->G. Dark Yellow.`
 	job
 	repeat
@@ -815,8 +790,7 @@ mission "swizzle 21"
 		government "cheat"
 	on accept
 		event "swizzle 21"
-mission "swizzle 22"
-	name `Swizzle- 22`
+mission "Swizzle- 22"
 	description `Changes ships appearance to have a color swizzle of G->R. Pure Yellow.`
 	job
 	repeat
@@ -824,8 +798,7 @@ mission "swizzle 22"
 		government "cheat"
 	on accept
 		event "swizzle 22"
-mission "swizzle 23"
-	name `Swizzle- 23`
+mission "Swizzle- 23"
 	description `Changes ships appearance to have a color swizzle of G->R, B->G. Faded Yellow.`
 	job
 	repeat
@@ -833,8 +806,7 @@ mission "swizzle 23"
 		government "cheat"
 	on accept
 		event "swizzle 23"
-mission "swizzle 24"
-	name `Swizzle- 24`
+mission "Swizzle- 24"
 	description `Changes ships appearance to have a color swizzle of R->G, G->B, B->G. Dark Magenta.`
 	job
 	repeat
@@ -842,8 +814,7 @@ mission "swizzle 24"
 		government "cheat"
 	on accept
 		event "swizzle 24"
-mission "swizzle 25"
-	name `Swizzle- 25`
+mission "Swizzle- 25"
 	description `Changes ships appearance to have a color swizzle of G->B, B->R. Pure Magenta.`
 	job
 	repeat
@@ -851,8 +822,7 @@ mission "swizzle 25"
 		government "cheat"
 	on accept
 		event "swizzle 25"
-mission "swizzle 26"
-	name `Swizzle- 26`
+mission "Swizzle- 26"
 	description `Changes ships appearance to have a color swizzle of B->R. Faded Magenta.`
 	job
 	repeat
@@ -860,8 +830,7 @@ mission "swizzle 26"
 		government "cheat"
 	on accept
 		event "swizzle 26"
-mission "swizzle 27"
-	name `Swizzle- 27`
+mission "Swizzle- 27"
 	description `Changes ships appearance to have a color swizzle of G->X, B->X. E.g. Cloaked Appearance.`
 	job
 	repeat
@@ -869,8 +838,7 @@ mission "swizzle 27"
 		government "cheat"
 	on accept
 		event "swizzle 27"
-mission "swizzle 28"
-	name `Swizzle- 28`
+mission "Swizzle- 28"
 	description `Changes ships appearance to completely black.`
 	job
 	repeat
