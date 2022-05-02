@@ -467,30 +467,28 @@ event "reveal map"
 #	Licenses
 #		-	-	-	-	-	-	-	-	-	-
 
-mission "licenses add"
-	name `Add all Licenses`
-	description `Gives all licenses to the player.`
+mission "Add all Licenses"
+	description `Give all licenses to the player.`
 	job
 	repeat
 	source
 		system "Omnis"
 	on accept
 		set "license: City-Ship"
-		set "license: Coalition"
-		set "license: Heliarch"
 		set "license: Militia"
 		set "license: Navy Auxiliary"
 		set "license: Navy Carrier"
 		set "license: Navy Cruiser"
 		set "license: Navy"
+		set "license: Unfettered Militia"
 		set "license: Remnant Capital"
 		set "license: Remnant"
-		set "license: Unfettered Militia"
 		set "license: Wanderer Military"
 		set "license: Wanderer Outfits"
 		set "license: Wanderer"
-mission "licenses remove"
-	name `Remove all Licenses`
+		set "license: Coalition"
+		set "license: Heliarch"
+mission "Remove all Licenses"
 	description `Take all licenses from the player.`
 	job
 	repeat
@@ -498,19 +496,122 @@ mission "licenses remove"
 		system "Omnis"
 	on accept
 		clear "license: City-Ship"
-		clear "license: Coalition"
-		clear "license: Heliarch"
 		clear "license: Militia"
 		clear "license: Navy Auxiliary"
 		clear "license: Navy Carrier"
 		clear "license: Navy Cruiser"
 		clear "license: Navy"
-		clear "license: Remnant Capital License"
-		clear "license: Remnant"
 		clear "license: Unfettered Militia"
+		clear "license: Remnant Capital"
+		clear "license: Remnant"
 		clear "license: Wanderer Military"
 		clear "license: Wanderer Outfits"
 		clear "license: Wanderer"
+		clear "license: Coalition"
+		clear "license: Heliarch"
+
+mission "Add Human Licenses"
+	description `Give all Human licenses to the player.`
+	job
+	repeat
+	source
+		system "Human"
+	on accept
+		set "license: City-Ship"
+		set "license: Militia"
+		set "license: Navy Auxiliary"
+		set "license: Navy Carrier"
+		set "license: Navy Cruiser"
+		set "license: Navy"
+mission "Remove Human Licenses"
+	description `Take all Human licenses from the player.`
+	job
+	repeat
+	source
+		system "Human"
+	on accept
+		clear "license: City-Ship"
+		clear "license: Militia"
+		clear "license: Navy Auxiliary"
+		clear "license: Navy Carrier"
+		clear "license: Navy Cruiser"
+		clear "license: Navy"
+
+mission "Add Hai Licenses"
+	description `Give all Hai licenses to the player.`
+	job
+	repeat
+	source
+		system "Hai"
+	on accept
+		set "license: Unfettered Militia"
+mission "Remove Hai Licenses"
+	description `Take all Hai licenses from the player.`
+	job
+	repeat
+	source
+		system "Hai"
+	on accept
+		clear "license: Unfettered Militia"
+
+mission "Add Remnant Licenses"
+	description `Give all Remmnant licenses to the player.`
+	job
+	repeat
+	source
+		system "Remnant"
+	on accept
+		set "license: Remnant Capital"
+		set "license: Remnant"
+mission "Remove Remnant Licenses"
+	description `Take all Remmnant licenses from the player.`
+	job
+	repeat
+	source
+		system "Remnant"
+	on accept
+		clear "license: Remnant Capital"
+		clear "license: Remnant"
+
+mission "Add Wanderer Licenses"
+	description `Give all Wanderer licenses to the player.`
+	job
+	repeat
+	source
+		system "Wanderer"
+	on accept
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+mission "Remove Wanderer Licenses"
+	description `Take all Wanderer licenses from the player.`
+	job
+	repeat
+	source
+		system "Wanderer"
+	on accept
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+
+mission "Add Coalition Licenses"
+	description `Give all Coalition licenses to the player.`
+	job
+	repeat
+	source
+		system "Coalition"
+	on accept
+		set "license: Coalition"
+		set "license: Heliarch"
+mission "Remove Coalition Licenses"
+	description `Take all Coalition licenses from the player.`
+	job
+	repeat
+	source
+		system "Coalition"
+	on accept
+		clear "license: Coalition"
+		clear "license: Heliarch"
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Swizzles
