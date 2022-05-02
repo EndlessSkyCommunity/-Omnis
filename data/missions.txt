@@ -22,18 +22,18 @@ mission "omnis start"
 
 event "reveal omnis"
 	visit "Omnis"
-	visit "Sheragi"
-	visit "Human"
-	visit "Hai"
-	visit "Remnant"
-	visit "Builder"
-	visit "Korath"
-	visit "Wanderer"
-	visit "Coalition"
-	visit "Quarg"
-	visit "Drak"
-	visit "Pug"
-	visit "Unknown"
+	visit "Sheragi "
+	visit "Human "
+	visit "Hai "
+	visit "Remnant "
+	visit "Builder "
+	visit "Korath "
+	visit "Wanderer "
+	visit "Coalition "
+	visit "Quarg "
+	visit "Drak "
+	visit "Pug "
+	visit "Unknown "
 event "reveal map"
 #		Labels
 	galaxy "label arachi"
@@ -493,7 +493,7 @@ mission "Add Human Licenses"
 	job
 	repeat
 	source
-		system "Human"
+		system "Human "
 	on accept
 		set "license: City-Ship"
 		set "license: Militia"
@@ -506,7 +506,7 @@ mission "Add Hai Licenses"
 	job
 	repeat
 	source
-		system "Hai"
+		system "Hai "
 	on accept
 		set "license: Unfettered Militia"
 mission "Add Remnant Licenses"
@@ -514,7 +514,7 @@ mission "Add Remnant Licenses"
 	job
 	repeat
 	source
-		system "Remnant"
+		system "Remnant "
 	on accept
 		set "license: Remnant Capital"
 		set "license: Remnant"
@@ -523,7 +523,7 @@ mission "Add Wanderer Licenses"
 	job
 	repeat
 	source
-		system "Wanderer"
+		system "Wanderer "
 	on accept
 		set "license: Wanderer Military"
 		set "license: Wanderer Outfits"
@@ -533,7 +533,7 @@ mission "Add Coalition Licenses"
 	job
 	repeat
 	source
-		system "Coalition"
+		system "Coalition "
 	on accept
 		set "license: Coalition"
 		set "license: Heliarch"
@@ -564,7 +564,7 @@ mission "Remove Human Licenses"
 	job
 	repeat
 	source
-		system "Human"
+		system "Human "
 	on accept
 		clear "license: City-Ship"
 		clear "license: Militia"
@@ -577,7 +577,7 @@ mission "Remove Hai Licenses"
 	job
 	repeat
 	source
-		system "Hai"
+		system "Hai "
 	on accept
 		clear "license: Unfettered Militia"
 mission "Remove Remnant Licenses"
@@ -585,7 +585,7 @@ mission "Remove Remnant Licenses"
 	job
 	repeat
 	source
-		system "Remnant"
+		system "Remnant "
 	on accept
 		clear "license: Remnant Capital"
 		clear "license: Remnant"
@@ -594,7 +594,7 @@ mission "Remove Wanderer Licenses"
 	job
 	repeat
 	source
-		system "Wanderer"
+		system "Wanderer "
 	on accept
 		clear "license: Wanderer Military"
 		clear "license: Wanderer Outfits"
@@ -604,7 +604,7 @@ mission "Remove Coalition Licenses"
 	job
 	repeat
 	source
-		system "Coalition"
+		system "Coalition "
 	on accept
 		clear "license: Coalition"
 		clear "license: Heliarch"
