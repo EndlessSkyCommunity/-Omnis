@@ -2,22 +2,22 @@
 #	Developer
 #		-	-	-	-	-	-	-	-	-	-
 
-outfit " Extra Outfit"
-	category "Special"
+outfit "Extra Outfit"
+	category "Cheat"
 	"outfit space" 1
-outfit " Extra Weapon"
-	category "Special"
+outfit "Extra Weapon"
+	category "Cheat"
 	"weapon capacity" 1
-outfit " Extra Engine"
-	category "Special"
+outfit "Extra Engine"
+	category "Cheat"
 	"engine capacity" 1
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Ascension
 #		-	-	-	-	-	-	-	-	-	-
 
-outfit " Kill All"
-	category "Special"
+outfit "Kill All"
+	category "Cheat"
 	"turret mounts" -1
 	weapon
 		"turret turn" 180
@@ -29,8 +29,8 @@ outfit " Kill All"
 		"piercing" 1
 		"relative hull damage" 1
 		"hit force" 10000
-outfit " Omnipotence"
-	category "Special"
+outfit "Omnipotence"
+	category "Cheat"
 	cloak 1
 	"disruption protection" 1000000
 	"energy protection" 1000000
@@ -46,8 +46,8 @@ outfit " Omnipotence"
 	"corrosion protection" 1000000
 	"leak protection" 1000000
 	"burn protection" 1000000
-outfit " Omnipresence"
-	category "Special"
+outfit "Omnipresence"
+	category "Cheat"
 	hyperdrive 1
 	"scram drive" 1000000
 	"jump drive" 1
@@ -56,8 +56,8 @@ outfit " Omnipresence"
 	"jump range" 3000
 	"quantum keystone" 1
 	gaslining 1
-outfit " Omniscience"
-	category "Special"
+outfit "Omniscience"
+	category "Cheat"
 	"outfit scan power" 1000000
 	"outfit scan speed" 1000000
 	"cargo scan power" 1000000

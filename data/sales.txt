@@ -1,13 +1,13 @@
 shipyard "omnis"
-	" Caster"
+	"Caster"
 outfitter "omnis"
-	" Extra Engine"
-	" Extra Outfit"
-	" Extra Weapon"
-	" Kill All"
-	" Omnipotence"
-	" Omnipresence"
-	" Omniscience"
+	"Extra Engine"
+	"Extra Outfit"
+	"Extra Weapon"
+	"Kill All"
+	"Omnipotence"
+	"Omnipresence"
+	"Omniscience"
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Species shipyards

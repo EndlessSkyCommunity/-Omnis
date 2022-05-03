@@ -1,8 +1,8 @@
-ship " Caster"
+ship "Caster"
 	sprite "ship/caster"
 	thumbnail "thumbnail/caster"
 	attributes
-		category "Transport"
+		category "Cheat"
 		hull 1000000
 		"required crew" 1
 		bunks 10000
@@ -16,8 +16,8 @@ ship " Caster"
 		"energy generation" 1
 		"afterburner thrust" -200000
 	outfits
-		" Kill All"
-		" Omnipotence"
-		" Omnipresence"
-		" Omniscience"
+		"Kill All"
+		"Omnipotence"
+		"Omnipresence"
+		"Omniscience"
 	turret 0 116 " Kill All"

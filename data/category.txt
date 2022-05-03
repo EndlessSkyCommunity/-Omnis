@@ -1,0 +1,4 @@
+category "outfit"
+	"Cheat"
+category "ship"
+	"Cheat"
