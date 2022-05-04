@@ -166,6 +166,18 @@ planet "Vareti'het "
 		threshold 0
 		fleet "vareti'het "
 
+system "Coalition "
+	add object "Heliarch Punisher "
+		sprite "ship/heliarch punisher"
+		distance 1200
+		offset 360
+planet "Heliarch Punisher "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heliarch punisher "
+
 system "Quarg "
 	add object "Quarg Skylark "
 		sprite "ship/skylark"

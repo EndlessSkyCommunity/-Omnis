@@ -122,6 +122,17 @@ fleet "vareti'het "
 		"Vareti'het"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Coalition
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "heliarch punisher "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Heliarch Punisher"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Quarg
 #		-	-	-	-	-	-	-	-	-	-
 
