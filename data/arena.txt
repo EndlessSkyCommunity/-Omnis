@@ -1,0 +1,81 @@
+system "Human "
+	add object "Auxiliary "
+		sprite "ship/auxiliaryt"
+		distance 1640
+		offset 360
+	add object "Carrier "
+		sprite "ship/carrier"
+		distance 1200
+		offset 360
+	add object "Combat Drone "
+		sprite "ship/combat drone"
+		distance 1320
+		offset 356
+	add object "Cruiser "
+		sprite "ship/cruiser"
+		distance 1180
+		offset 12
+	add object "Frigate "
+		sprite "ship/frigate"
+		distance 1140
+		offset 348
+	add object "Gunboat "
+		sprite "ship/gunboat"
+		distance 1420
+		offset 352
+	add object "Lance "
+		sprite "ship/lance"
+		distance 1320
+		offset 4
+	add object "Rainmaker "
+		sprite "ship/rainmaker"
+		distance 1420
+		offset 8
+planet "Auxiliary "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "auxiliary "
+planet "Carrier "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "carrier "
+planet "Combat Drone "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "combat drone "
+planet "Cruiser "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "cruiser "
+planet "Frigate "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "frigate "
+planet "Gunboat "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "gunboat "
+planet "Lance "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "lance "
+planet "Rainmaker "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "rainmaker "

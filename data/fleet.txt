@@ -1,0 +1,56 @@
+#		-	-	-	-	-	-	-	-	-	-
+#	Human
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "auxiliary "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Auxiliary (Transport)"
+		"Lance" 4
+fleet "carrier "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Carrier"
+		"Combat Drone" 6
+		"Lance" 4
+fleet "combat drone "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Combat Drone"
+fleet "cruiser "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Cruiser"
+		"Combat Drone" 4
+fleet "frigate "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Frigate"
+fleet "gunboat "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Gunboat"
+fleet "lance "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Lance"
+fleet "rainmaker "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Rainmaker"
