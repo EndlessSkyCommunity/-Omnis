@@ -79,3 +79,25 @@ planet "Rainmaker "
 	tribute 1
 		threshold 0
 		fleet "rainmaker "
+
+system "Quarg "
+	add object "Quarg Skylark "
+		sprite "ship/skylark"
+		distance 1200
+		offset 355
+	add object "Quarg Wardragon "
+		sprite "ship/wardragon"
+		distance 1140
+		offset 5
+planet "Quarg Skylark "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "quarg skylark "
+planet "Quarg Wardragon "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "quarg wardragon "

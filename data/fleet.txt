@@ -54,3 +54,20 @@ fleet "rainmaker "
 		"heroic"
 	variant
 		"Rainmaker"
+
+#		-	-	-	-	-	-	-	-	-	-
+#	Quarg
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "quarg skylark "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Quarg Skylark"
+fleet "quarg wardragon "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Quarg Wardragon"
