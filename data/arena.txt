@@ -102,6 +102,48 @@ planet "Rainmaker "
 		threshold 0
 		fleet "rainmaker "
 
+system "Remnant "
+	add object "Albatross "
+		sprite "ship/albatross"
+		distance 1760
+		offset 360
+	add object "Heron "
+		sprite "ship/heron"
+		distance 1200
+		offset 360
+	add object "Petrel "
+		sprite "ship/petrel"
+		distance 1520
+		offset 356
+	add object "Tern "
+		sprite "ship/tern"
+		distance 1520
+		offset 4
+planet "Albatross "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "albatross "
+planet "Heron "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "heron "
+planet "Petrel "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "petrel "
+planet "Tern "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "tern "
+
 system "Quarg "
 	add object "Quarg Skylark "
 		sprite "ship/skylark"

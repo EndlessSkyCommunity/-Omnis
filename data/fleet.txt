@@ -74,6 +74,37 @@ fleet "rainmaker "
 		"Rainmaker"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Remnant
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "albatross "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Albatross"
+fleet "heron "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Heron"
+		"Petrel" 4
+		"Tern" 32
+fleet "pretrel "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Petrel"
+fleet "tern "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Tern"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Quarg
 #		-	-	-	-	-	-	-	-	-	-
 
