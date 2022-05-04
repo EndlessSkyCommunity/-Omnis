@@ -201,6 +201,18 @@ planet "Archon "
 		threshold 0
 		fleet "archon "
 
+system "Pug "
+	add object "Pug Arfecta "
+		sprite "ship/pug arfecta"
+		distance 1200
+		offset 360
+planet "Pug Arfecta "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "pug arfecta "
+
 system "Unknown "
 	add object "Void Sprite "
 		sprite "ship/void sprite/void sprite adult"

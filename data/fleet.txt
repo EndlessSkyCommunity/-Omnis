@@ -150,6 +150,17 @@ fleet "archon "
 		"Archon"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Pug
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "pug arfecta "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Pug Arfecta"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Unknown
 #		-	-	-	-	-	-	-	-	-	-
 
