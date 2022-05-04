@@ -166,6 +166,18 @@ planet "Vareti'het "
 		threshold 0
 		fleet "vareti'het "
 
+system "Wanderer "
+	add object "Hurricane "
+		sprite "ship/hurricane"
+		distance 1200
+		offset 360
+planet "Hurricane "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "hurricane "
+
 system "Coalition "
 	add object "Heliarch Punisher "
 		sprite "ship/heliarch punisher"

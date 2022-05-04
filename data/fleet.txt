@@ -122,6 +122,17 @@ fleet "vareti'het "
 		"Vareti'het"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Wanderer
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "hurricane "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Hurricane"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Coalition
 #		-	-	-	-	-	-	-	-	-	-
 
