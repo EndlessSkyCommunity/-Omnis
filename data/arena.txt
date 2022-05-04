@@ -102,6 +102,18 @@ planet "Rainmaker "
 		threshold 0
 		fleet "rainmaker "
 
+system "Hai "
+	add object "Shield Beetle "
+		sprite "ship/hai shield beetle"
+		distance 1200
+		offset 360
+planet "Shield Beetle "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "shield beetle "
+
 system "Remnant "
 	add object "Albatross "
 		sprite "ship/albatross"

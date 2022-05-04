@@ -74,6 +74,17 @@ fleet "rainmaker "
 		"Rainmaker"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Hai
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "shield beetle "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Shield Beetle"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Remnant
 #		-	-	-	-	-	-	-	-	-	-
 
