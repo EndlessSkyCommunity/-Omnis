@@ -101,3 +101,15 @@ planet "Quarg Wardragon "
 	tribute 1
 		threshold 0
 		fleet "quarg wardragon "
+
+system "Drak "
+	add object "Archon "
+		sprite "ship/archon"
+		distance 1200
+		offset 360
+planet "Archon "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "archon "
