@@ -1,4 +1,22 @@
 #		-	-	-	-	-	-	-	-	-	-
+#	Sheragi
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "black diamond "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Black Diamond"
+fleet "emerald sword "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Emerald Sword"
+		"Black Diamond" 6
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Human
 #		-	-	-	-	-	-	-	-	-	-
 
