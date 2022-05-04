@@ -144,6 +144,28 @@ planet "Tern "
 		threshold 0
 		fleet "tern "
 
+system "Builder "
+	add object "Faes'mar "
+		sprite "ship/faes'mar"
+		distance 1440
+		offset 360
+	add object "Vareti'het "
+		sprite "ship/vareti'het"
+		distance 1200
+		offset 360
+planet "Faes'mar "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "faes'mar "
+planet "Vareti'het "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "vareti'het "
+
 system "Quarg "
 	add object "Quarg Skylark "
 		sprite "ship/skylark"
