@@ -388,6 +388,7 @@ outfitter "human vanilla"
 	"Small Radar Jammer"
 	"Surveillance Pod"
 	"Tactical Scanner"
+	"Tear of Skade"
 	"Water Coolant System"
 #		Po
 	"Armageddon Core"
