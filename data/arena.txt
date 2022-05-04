@@ -191,6 +191,7 @@ planet "Quarg Wardragon "
 system "Drak "
 	add object "Archon "
 		sprite "ship/archon"
+			"frame rate" 0.87
 		distance 1200
 		offset 360
 planet "Archon "
@@ -199,3 +200,18 @@ planet "Archon "
 	tribute 1
 		threshold 0
 		fleet "archon "
+
+system "Unknown "
+	add object "Void Sprite "
+		sprite "ship/void sprite/void sprite adult"
+			"frame rate" 14.3
+			"random start frame"
+			rewind
+		distance 1200
+		offset 360
+planet "Void Sprite "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "void sprite "

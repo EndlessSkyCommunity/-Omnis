@@ -148,3 +148,14 @@ fleet "archon "
 		"heroic"
 	variant
 		"Archon"
+
+#		-	-	-	-	-	-	-	-	-	-
+#	Unknown
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "void sprite "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Void Sprite"

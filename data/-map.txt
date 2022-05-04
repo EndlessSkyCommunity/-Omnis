@@ -1644,11 +1644,11 @@ system "Unknown "
 	object "Unknown Plugins"
 		sprite "sprite/station8"
 		distance 300
-		offset 90
+		offset 60
 	object "Unknown Vanilla"
 		sprite "sprite/station8"
 		distance 300
-		offset 270
+		offset 300
 	object
 		sprite "sprite/section_plugins"
 		distance 450
