@@ -18,6 +18,8 @@ shipyard "sheragi vanilla"
 	"Emerald Sword (Fixed)"
 #		Fi
 	"Black Diamond"
+shipyard "sheragi plugins"
+	""
 shipyard "human vanilla"
 #		Tr
 	"Arrow"
@@ -124,6 +126,8 @@ shipyard "human vanilla"
 #		Dr
 	"Combat Drone"
 	"Surveillance Drone"
+shipyard "human plugins"
+	""
 shipyard "hai vanilla"
 #		Tr
 	"Centipede"
@@ -145,6 +149,8 @@ shipyard "hai vanilla"
 	"Violin Spider"
 #		Dr
 	"Flea"
+shipyard "hai plugins"
+	""
 shipyard "remnant vanilla"
 #		Tr
 	"Heron"
@@ -167,6 +173,8 @@ shipyard "remnant vanilla"
 	"Petrel"
 #		Dr
 	"Tern"
+shipyard "remnant plugins"
+	""
 shipyard "builder vanilla"
 #		LW
 	"Maeri'het"
@@ -177,6 +185,8 @@ shipyard "builder vanilla"
 #		Dr
 	"Faes'mar"
 	"Selii'mar"
+shipyard "builder plugins"
+	""
 shipyard "korath vanilla"
 #		HF
 	"Korath Dredger"
@@ -205,6 +215,8 @@ shipyard "korath vanilla"
 	"Korath Chaser"
 #		Dr
 	"Far Lek 14"
+shipyard "korath plugins"
+	""
 shipyard "wanderer vanilla"
 #		Tr
 	"Riptide"
@@ -227,6 +239,8 @@ shipyard "wanderer vanilla"
 	"Hurricane"
 #		Dr
 	"Flycatcher"
+shipyard "wanderer plugins"
+	""
 shipyard "coalition vanilla"
 #		Tr
 	"Kimek Briar"
@@ -257,13 +271,19 @@ shipyard "coalition vanilla"
 	"Heliarch Pursuer"
 	"Heliarch Rover"
 	"Heliarch Stalker"
+shipyard "coalition plugins"
+	""
 shipyard "quarg vanilla"
 #		HW
 	"Quarg Skylark"
 	"Quarg Wardragon"
+shipyard "quarg plugins"
+	""
 shipyard "drak vanilla"
 #		HW
 	"Archon"
+shipyard "drak plugins"
+	""
 shipyard "pug vanilla"
 #		LW
 	"Pug Zibruka"
@@ -272,6 +292,8 @@ shipyard "pug vanilla"
 	"Pug Enfolta"
 #		HW
 	"Pug Maboro"
+shipyard "pug plugins"
+	""
 shipyard "unknown vanilla"
 #		LF
 	"Subsidurial"
@@ -281,6 +303,8 @@ shipyard "unknown vanilla"
 	"Void Sprite"
 #		HW
 	"Ember Waste Node"
+shipyard "unknown plugins"
+	""
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Species outfitters
@@ -305,6 +329,8 @@ outfitter "sheragi vanilla"
 #		En
 	"Fission Drive"
 	"Fusion Drive"
+outfitter "sheragi plugins"
+	""
 outfitter "human vanilla"
 #		Gu
 	"Beam Laser"
@@ -458,6 +484,8 @@ outfitter "human vanilla"
 #		Sp
 	"Local Map"
 	"Secret Cargo"
+outfitter "human plugins"
+	""
 outfitter "hai vanilla"
 #		Gu
 	"Ion Cannon"
@@ -506,6 +534,8 @@ outfitter "hai vanilla"
 	`"Bufaer" Atomic Thruster`
 #		HH
 	"Pulse Rifle"
+outfitter "hai plugins"
+	""
 outfitter "remnant vanilla"
 #		Gu
 	"Inhibitor Cannon"
@@ -549,6 +579,8 @@ outfitter "remnant vanilla"
 #		HH
 	"Tuning Rifle"
 	"Void Rifle"
+outfitter "remnant plugins"
+	""
 outfitter "builder vanilla"
 #		Gu
 	"Ka'het Annihilator"
@@ -576,6 +608,8 @@ outfitter "builder vanilla"
 	"Maeri Engine Nacelles"
 	"Telis Engine Nacelles"
 	"Vareti Engine Block"
+outfitter "builder plugins"
+	""
 outfitter "korath vanilla"
 #		Gu
 	"Korath Detainer"
@@ -631,6 +665,8 @@ outfitter "korath vanilla"
 	"Thruster (Stellar Class)"
 #		HH
 	"Korath Repeater Rifle"
+outfitter "korath plugins"
+	""
 outfitter "wanderer vanilla"
 #		Gu
 	"Moonbeam"
@@ -668,6 +704,8 @@ outfitter "wanderer vanilla"
 	"Type 3 Radiant Thruster"
 	"Type 4 Radiant Steering"
 	"Type 4 Radiant Thruster"
+outfitter "wanderer plugins"
+	""
 outfitter "coalition vanilla"
 #		Gu
 	"Bombardment Cannon"
@@ -711,6 +749,8 @@ outfitter "coalition vanilla"
 #		HH
 	"Enforcer Confrontation Gear"
 	"Enforcer Riot Staff"
+outfitter "coalition plugins"
+	""
 outfitter "quarg vanilla"
 #		Tu
 	"Quarg Anti-Missile"
@@ -726,6 +766,8 @@ outfitter "quarg vanilla"
 	"Medium Graviton Thruster"
 #		HH
 	"Intrusion Countermeasures"
+outfitter "quarg plugins"
+	""
 outfitter "drak vanilla"
 #		Gu
 	"Drak Antimatter Cannon"
@@ -741,6 +783,8 @@ outfitter "drak vanilla"
 #		Sy
 	"Hyperdrive"
 	"Jump Drive"
+outfitter "drak plugins"
+	""
 outfitter "pug vanilla"
 #		Gu
 	"Pug Seeker"
@@ -763,6 +807,10 @@ outfitter "pug vanilla"
 #		HH
 	"Pug Biodefenses"
 	"Pug Peacekeeping Staff"
+outfitter "pug plugins"
+	""
 outfitter "unknown vanilla"
 #		Gu
 	"Mouthparts?"
+outfitter "unknown plugins"
+	""
