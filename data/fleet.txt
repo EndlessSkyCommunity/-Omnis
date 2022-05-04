@@ -2,13 +2,13 @@
 #	Sheragi
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "black diamond "
+fleet "Black Diamond "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Black Diamond"
-fleet "emerald sword "
+fleet "Emerald Sword "
 	government "arena"
 	personality
 		"heroic"
@@ -20,14 +20,14 @@ fleet "emerald sword "
 #	Human
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "auxiliary "
+fleet "Auxiliary "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Auxiliary (Transport)"
 		"Lance" 4
-fleet "carrier "
+fleet "Carrier "
 	government "arena"
 	personality
 		"heroic"
@@ -35,38 +35,38 @@ fleet "carrier "
 		"Carrier"
 		"Combat Drone" 6
 		"Lance" 4
-fleet "combat drone "
+fleet "Combat Drone "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Combat Drone"
-fleet "cruiser "
+fleet "Cruiser "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Cruiser"
 		"Combat Drone" 4
-fleet "frigate "
+fleet "Frigate "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Frigate"
-fleet "gunboat "
+fleet "Gunboat "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Gunboat"
-fleet "lance "
+fleet "Lance "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Lance"
-fleet "rainmaker "
+fleet "Rainmaker "
 	government "arena"
 	personality
 		"heroic"
@@ -77,7 +77,7 @@ fleet "rainmaker "
 #	Hai
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "shield beetle "
+fleet "Shield Beetle "
 	government "arena"
 	personality
 		"heroic"
@@ -88,13 +88,13 @@ fleet "shield beetle "
 #	Remnant
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "albatross "
+fleet "Albatross "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Albatross"
-fleet "heron "
+fleet "Heron "
 	government "arena"
 	personality
 		"heroic"
@@ -102,13 +102,13 @@ fleet "heron "
 		"Heron"
 		"Petrel" 4
 		"Tern" 32
-fleet "pretrel "
+fleet "Petrel "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Petrel"
-fleet "tern "
+fleet "Tern "
 	government "arena"
 	personality
 		"heroic"
@@ -119,13 +119,13 @@ fleet "tern "
 #	Builder
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "faes'mar "
+fleet "Faes'mar "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Faes'mar"
-fleet "vareti'het "
+fleet "Vareti'het "
 	government "arena"
 	personality
 		"heroic"
@@ -133,10 +133,47 @@ fleet "vareti'het "
 		"Vareti'het"
 
 #		-	-	-	-	-	-	-	-	-	-
+#	Korath
+#		-	-	-	-	-	-	-	-	-	-
+
+fleet "Kar Ik Vot 349 "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Kar Ik Vot 349"
+fleet "Korath Dredger "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Korath Chaser" 4
+		"Korath Dredger"
+fleet "Korath Raider "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Korath Chaser" 2
+		"Korath Raider"
+fleet "Korath World-Ship "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Korath World-Ship"
+fleet "Model 512 "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Model 512"
+
+#		-	-	-	-	-	-	-	-	-	-
 #	Wanderer
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "hurricane "
+fleet "Hurricane "
 	government "arena"
 	personality
 		"heroic"
@@ -147,7 +184,7 @@ fleet "hurricane "
 #	Coalition
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "heliarch punisher "
+fleet "Heliarch Punisher "
 	government "arena"
 	personality
 		"heroic"
@@ -158,13 +195,13 @@ fleet "heliarch punisher "
 #	Quarg
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "quarg skylark "
+fleet "Quarg Skylark "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Quarg Skylark"
-fleet "quarg wardragon "
+fleet "Quarg Wardragon "
 	government "arena"
 	personality
 		"heroic"
@@ -175,7 +212,7 @@ fleet "quarg wardragon "
 #	Drak
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "archon "
+fleet "Archon "
 	government "arena"
 	personality
 		"heroic"
@@ -186,7 +223,7 @@ fleet "archon "
 #	Pug
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "pug arfecta "
+fleet "Pug Arfecta "
 	government "arena"
 	personality
 		"heroic"
@@ -197,7 +234,7 @@ fleet "pug arfecta "
 #	Unknown
 #		-	-	-	-	-	-	-	-	-	-
 
-fleet "void sprite "
+fleet "Void Sprite "
 	government "arena"
 	personality
 		"heroic"

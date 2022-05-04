@@ -12,13 +12,13 @@ planet "Black Diamond "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "black diamond "
+		fleet "Black Diamond "
 planet "Emerald Sword "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "emerald sword "
+		fleet "Emerald Sword "
 
 system "Human "
 	add object "Auxiliary "
@@ -58,49 +58,49 @@ planet "Auxiliary "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "auxiliary "
+		fleet "Auxiliary "
 planet "Carrier "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "carrier "
+		fleet "Carrier "
 planet "Combat Drone "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "combat drone "
+		fleet "Combat Drone "
 planet "Cruiser "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "cruiser "
+		fleet "Cruiser "
 planet "Frigate "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "frigate "
+		fleet "Frigate "
 planet "Gunboat "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "gunboat "
+		fleet "Gunboat "
 planet "Lance "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "lance "
+		fleet "Lance "
 planet "Rainmaker "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "rainmaker "
+		fleet "Rainmaker "
 
 system "Hai "
 	add object "Shield Beetle "
@@ -112,7 +112,7 @@ planet "Shield Beetle "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "shield beetle "
+		fleet "Shield Beetle "
 
 system "Remnant "
 	add object "Albatross "
@@ -136,25 +136,25 @@ planet "Albatross "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "albatross "
+		fleet "Albatross "
 planet "Heron "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "heron "
+		fleet "Heron "
 planet "Petrel "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "petrel "
+		fleet "Petrel "
 planet "Tern "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "tern "
+		fleet "Tern "
 
 system "Builder "
 	add object "Faes'mar "
@@ -170,13 +170,65 @@ planet "Faes'mar "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "faes'mar "
+		fleet "Faes'mar "
 planet "Vareti'het "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "vareti'het "
+		fleet "Vareti'het "
+
+system "Korath "
+	add object "Kar Ik Vot 349 "
+		sprite "ship/kar ik vot 349"
+		distance 1100
+		offset 120
+	add object "Korath Dredger "
+		sprite "ship/dredger"
+		distance 1040
+		offset 15
+	add object "Korath Raider "
+		sprite "ship/raider"
+		distance 1020
+		offset 345
+	add object "Korath World-Ship "
+		sprite "ship/world-ship a"
+		distance 1200
+		offset 360
+	add object "Model 512 "
+		sprite "ship/model 512"
+		distance 1040
+		offset 240
+planet "Kar Ik Vot 349 "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Kar Ik Vot 349 "
+planet "Korath Dredger "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Korath Dredger "
+planet "Korath Raider "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Korath Raider "
+planet "Korath World-Ship "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Korath World-Ship "
+planet "Model 512 "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Model 512 "
 
 system "Wanderer "
 	add object "Hurricane "
@@ -188,7 +240,7 @@ planet "Hurricane "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "hurricane "
+		fleet "Hurricane "
 
 system "Coalition "
 	add object "Heliarch Punisher "
@@ -200,7 +252,7 @@ planet "Heliarch Punisher "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "heliarch punisher "
+		fleet "Heliarch Punisher "
 
 system "Quarg "
 	add object "Quarg Skylark "
@@ -216,13 +268,13 @@ planet "Quarg Skylark "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "quarg skylark "
+		fleet "Quarg Skylark "
 planet "Quarg Wardragon "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "quarg wardragon "
+		fleet "Quarg Wardragon "
 
 system "Drak "
 	add object "Archon "
@@ -235,7 +287,7 @@ planet "Archon "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "archon "
+		fleet "Archon "
 
 system "Pug "
 	add object "Pug Arfecta "
@@ -247,7 +299,7 @@ planet "Pug Arfecta "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "pug arfecta "
+		fleet "Pug Arfecta "
 
 system "Unknown "
 	add object "Void Sprite "
@@ -262,4 +314,4 @@ planet "Void Sprite "
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "void sprite "
+		fleet "Void Sprite "
