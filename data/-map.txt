@@ -9,6 +9,8 @@ galaxy "omnis"
 system "Omnis"
 	pos 56 -9989
 	government "cheat"
+	object
+		sprite "_menu/title"
 	object "Plugins"
 		sprite "sprite/station8"
 		distance 300
