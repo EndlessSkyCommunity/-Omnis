@@ -534,6 +534,8 @@ outfitter "hai vanilla"
 	`"Bufaer" Atomic Thruster`
 #		HH
 	"Pulse Rifle"
+#		Sp
+	"Shield Beetle Pendant"
 outfitter "hai plugins"
 	""
 outfitter "remnant vanilla"
