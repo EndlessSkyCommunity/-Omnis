@@ -613,240 +613,218 @@ mission "Remove Coalition Licenses"
 #	Swizzles
 #		-	-	-	-	-	-	-	-	-	-
 
-mission "Swizzle- 00"
-	description `Changes ships appearance to have no color swizzle. E.g. Navy; orange and yellow.`
+mission "Swizzle Picker"
 	job
 	repeat
 	source
 		government "cheat"
 	on accept
-		event "swizzle 00"
-mission "Swizzle- 01"
-	description `Changes ships appearance to have a color swizzle of G<->B. E.g. Syndicate (Extremist); pink.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 01"
-mission "Swizzle- 02"
-	description `Changes ships appearance to have a color swizzle of R<->G. E.g. Militia; green.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 02"
-mission "Swizzle- 03"
-	description `Changes ships appearance to have a color swizzle of R->G->B->R. E.g. Test Dummy; light blue and green.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 03"
-mission "Swizzle- 04"
-	description `Changes ships appearance to have a color swizzle of R->B->G->R. E.g. Syndicate; purple.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 04"
-mission "Swizzle- 05"
-	name ``
-	description `Changes ships appearance to have a color swizzle of R<->B. E.g. Merchant; blue.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 05"
-mission "Swizzle- 06"
-	description `Changes ships appearance to have a color swizzle of G->R, B->G. E.g. Pirate; red and black.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 06"
-mission "Swizzle- 07"
-	description `Changes ships appearance to have a color swizzle of G->B. Full Red.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 07"
-mission "Swizzle- 08"
-	description `Changes ships appearance to have a color swizzle of B->G. Faded Red.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 08"
-mission "Swizzle- 09"
-	description `Changes ships appearance to have a color swizzle of B->B, G->B. Pure Black.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 09"
-mission "Swizzle- 10"
-	description `Changes ships appearance to have a color swizzle of R->G, B->G. Faded Black/Gray.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 10"
-mission "Swizzle- 11"
-	description `Changes ships appearance to have a color swizzle of G->R, B->R. Pure White.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 11"
-mission "Swizzle- 12"
-	description `Changes ships appearance to have a color swizzle of R->B, G->B, B->G. Dark Blue.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 12"
-mission "Swizzle- 13"
-	description `Changes ships appearance to have a color swizzle of R->B, G->B, G->R. Pure Blue.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 13"
-mission "Swizzle- 14"
-	description `Changes ships appearance to have a color swizzle of R->G, B->R. Faded Blue.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 14"
-mission "Swizzle- 15"
-	description `Changes ships appearance to have a color swizzle of R->B, B->G. Dark Cyan.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 15"
-mission "Swizzle- 16"
-	description `Changes ships appearance to have a color swizzle of R->B, G->R, B->R. Pure Cyan.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 16"
-mission "Swizzle- 17"
-	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->R. Faded Cyan.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 17"
-mission "Swizzle- 18"
-	description `Changes ships appearance to have a color swizzle of R->B. Dark Green.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 18"
-mission "Swizzle- 19"
-	description `Changes ships appearance to have a color swizzle of R->B, G->R. Pure Green.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 19"
-mission "Swizzle- 20"
-	description `Changes ships appearance to have a color swizzle of R->G, G->R, B->G. Faded Green.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 20"
-mission "Swizzle- 21"
-	description `Changes ships appearance to have a color swizzle of R->G. Dark Yellow.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 21"
-mission "Swizzle- 22"
-	description `Changes ships appearance to have a color swizzle of G->R. Pure Yellow.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 22"
-mission "Swizzle- 23"
-	description `Changes ships appearance to have a color swizzle of G->R, B->G. Faded Yellow.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 23"
-mission "Swizzle- 24"
-	description `Changes ships appearance to have a color swizzle of R->G, G->B, B->G. Dark Magenta.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 24"
-mission "Swizzle- 25"
-	description `Changes ships appearance to have a color swizzle of G->B, B->R. Pure Magenta.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 25"
-mission "Swizzle- 26"
-	description `Changes ships appearance to have a color swizzle of B->R. Faded Magenta.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 26"
-mission "Swizzle- 27"
-	description `Changes ships appearance to have a color swizzle of G->X, B->X. E.g. Cloaked Appearance.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 27"
-mission "Swizzle- 28"
-	description `Changes ships appearance to completely black.`
-	job
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "swizzle 28"
-
+		conversation
+			`Swizzle?`
+			choice
+				`	Orange and Yellow`
+					goto swizzle00
+				`	Pink`
+					goto swizzle01
+				`	Green`
+					goto swizzle02
+				`	Light Blue and Green`
+					goto swizzle03
+				`	Purple`
+					goto swizzle04
+				`	Blue`
+					goto swizzle05
+				`	Red and Black`
+					goto swizzle06
+				`	Full Red`
+					goto swizzle07
+				`	Faded Red`
+					goto swizzle08
+				`	Pure Black`
+					goto swizzle09
+				`	Faded Black and Gray`
+					goto swizzle10
+				`	Pure White`
+					goto swizzle11
+				`	Dark Blue`
+					goto swizzle12
+				`	Pure Blue`
+					goto swizzle13
+				`	Faded Blue`
+					goto swizzle14
+				`	Dark Cyan`
+					goto swizzle15
+				`	Pure Cyan`
+					goto swizzle16
+				`	Faded Cyan`
+					goto swizzle17
+				`	Dark Green`
+					goto swizzle18
+				`	Pure Green`
+					goto swizzle19
+				`	Faded Green`
+					goto swizzle20
+				`	Dark Yellow`
+					goto swizzle21
+				`	Pure Yellow`
+					goto swizzle22
+				`	Faded Yellow`
+					goto swizzle23
+				`	Dark Magenta`
+					goto swizzle24
+				`	Pure Magenta`
+					goto swizzle25
+				`	Faded Magenta`
+					goto swizzle26
+				`	Cloaked`
+					goto swizzle27
+				`	Complete Black`
+					goto swizzle28
+			label swizzle00
+			apply
+				event "swizzle 00"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle01
+			apply
+				event "swizzle 01"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle02
+			apply
+				event "swizzle 02"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle03
+			apply
+				event "swizzle 03"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle04
+			apply
+				event "swizzle 04"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle05
+			apply
+				event "swizzle 05"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle06
+			apply
+				event "swizzle 06"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle07
+			apply
+				event "swizzle 07"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle08
+			apply
+				event "swizzle 08"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle09
+			apply
+				event "swizzle 09"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle10
+			apply
+				event "swizzle 10"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle11
+			apply
+				event "swizzle 11"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle12
+			apply
+				event "swizzle 12"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle13
+			apply
+				event "swizzle 13"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle14
+			apply
+				event "swizzle 14"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle15
+			apply
+				event "swizzle 15"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle16
+			apply
+				event "swizzle 16"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle17
+			apply
+				event "swizzle 17"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle18
+			apply
+				event "swizzle 18"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle19
+			apply
+				event "swizzle 19"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle20
+			apply
+				event "swizzle 20"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle21
+			apply
+				event "swizzle 21"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle22
+			apply
+				event "swizzle 22"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle23
+			apply
+				event "swizzle 23"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle24
+			apply
+				event "swizzle 24"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle25
+			apply
+				event "swizzle 25"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle26
+			apply
+				event "swizzle 26"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle27
+			apply
+				event "swizzle 27"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
+			label swizzle28
+			apply
+				event "swizzle 28"
+			`Your swizzle has been changed, you'll be launched from the planet with your new swizzle.`
+				launch
 event "swizzle 00"
 	government "Escort"
 		swizzle 0
