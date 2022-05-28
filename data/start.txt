@@ -1,8 +1,8 @@
 start "omnis"
 	name "Omnis"
 	description `You will begin on a ringworld with all ships and outfits in the game, various jobs that give useful benefits, and portals in-system that will take you to whichever species capital you need..`
-	description `	Every species in the game has a station with curated content, as well. Additional stations for vanilla, plugin, and deprecated content are available for your convenience.`
-	thumbnail "landscape/station6"
+	description `	Every species in the game has a station with curated content, as well. Additional stations for vanilla and plugin content are available for your convenience.`
+	thumbnail "thumbnail/adde"
 	date 16 11 3013
 	system "Omnis"
 	planet "Everything"
@@ -26,7 +26,6 @@ start "omnis"
 	set "license: Wanderer Outfits"
 	set "license: Wanderer"
 	ship "Caster" "Caster"
-
 conversation "omnis_intro"
 	`Welcome to Omnis! Please enter your name.`
 	name
