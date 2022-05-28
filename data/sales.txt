@@ -1,6 +1,7 @@
 shipyard "omnis"
 	"Caster"
 outfitter "omnis"
+	"Disable All"
 	"Extra Engine"
 	"Extra Outfit"
 	"Extra Weapon"

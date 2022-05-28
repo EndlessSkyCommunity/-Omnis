@@ -16,6 +16,21 @@ outfit "Extra Engine"
 #	Ascension
 #		-	-	-	-	-	-	-	-	-	-
 
+outfit "Disable All"
+	category "Cheat"
+	"turret mounts" -1
+	weapon
+		icon "icon/flamethrower"
+		"turret turn" 180
+		velocity 1
+		lifetime 1
+		reload 1
+		"trigger radius" 10000
+		"no damage scaling"
+		"blast radius" 10000
+		"piercing" 1
+		"relative hull damage" .99
+		"relative disabled damage" 0
 outfit "Kill All"
 	category "Cheat"
 	"turret mounts" -1
@@ -28,6 +43,7 @@ outfit "Kill All"
 		"trigger radius" 10000
 		"piercing" 1
 		"relative hull damage" 1
+		"gravitational"
 		"hit force" 10000
 outfit "Omnipotence"
 	category "Cheat"

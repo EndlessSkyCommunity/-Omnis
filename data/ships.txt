@@ -16,8 +16,10 @@ ship "Caster"
 		"energy generation" 1
 		"afterburner thrust" -200000
 	outfits
+		"Disable All"
 		"Kill All"
 		"Omnipotence"
 		"Omnipresence"
 		"Omniscience"
-	turret 0 116 "Kill All"
+	turret 0 0 "Disable All"
+	turret 0 0 "Kill All"
