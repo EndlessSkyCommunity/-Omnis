@@ -9,6 +9,7 @@ galaxy "omnis"
 system "Omnis"
 	pos 56 -9989
 	government "cheat"
+	link "Human "
 	"jump range" 3000
 	object
 		sprite "_menu/title"
@@ -348,6 +349,7 @@ system "Human "
 	pos -200 -9950
 	government "cheat"
 	link "Korath "
+	link "Omnis"
 	link "Pug "
 	link "Sheragi "
 	"jump range" 3000
