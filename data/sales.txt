@@ -723,6 +723,7 @@ outfitter "coalition vanilla"
 	"Heliarch Repulsor"
 	"Ion Hail Turret"
 #		SW
+	"Finisher Maegrolain"
 	"Finisher Pod"
 #		Am
 	"Finisher Storage Tube"
