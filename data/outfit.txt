@@ -16,6 +16,11 @@ outfit "Extra Engine"
 #	Ascension
 #		-	-	-	-	-	-	-	-	-	-
 
+outfit "Crux Stone "
+	category "Cheat"
+	thumbnail "outfit/crux_stone"
+	Omnis 1
+	description "Enables use of the Omnis nexus wormholes."
 outfit "Disable All"
 	category "Cheat"
 	"turret mounts" -1

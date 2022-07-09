@@ -1,6 +1,7 @@
 shipyard "omnis"
 	"Caster"
 outfitter "omnis"
+	"Crux Stone "
 	"Disable All"
 	"Extra Engine"
 	"Extra Outfit"

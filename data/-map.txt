@@ -13,6 +13,10 @@ system "Omnis"
 	"jump range" 3000
 	object
 		sprite "_menu/title"
+		distance 100
+	object "omnis gateway"
+		sprite "sprite/wisp_green"
+		distance -100
 	object "Plugins"
 		sprite "sprite/station8"
 		distance 300
@@ -1783,6 +1787,7 @@ planet "Unknown Vanilla"
 #		-	-	-	-	-	-	-	-	-	-
 
 planet "remnant gateway"
+	attributes "requires: Omnis"
 system "Cinxia"
 	add object "remnant gateway"
 		sprite "sprite/wisp_green"
@@ -1791,6 +1796,7 @@ system "Cinxia"
 			distance 150
 
 planet "pug gateway"
+	attributes "requires: Omnis"
 system "Deneb"
 	add object "pug gateway"
 		sprite "sprite/wisp_green"
@@ -1799,6 +1805,7 @@ system "Deneb"
 			distance 150
 
 planet "quarg gateway"
+	attributes "requires: Omnis"
 system "Enif"
 	add object "quarg gateway"
 		sprite "sprite/wisp_green"
@@ -1807,6 +1814,7 @@ system "Enif"
 			distance 150
 
 planet "wanderer gateway"
+	attributes "requires: Omnis"
 system "Ka'ch'chrai"
 	add object "wanderer gateway"
 		sprite "sprite/wisp_green"
@@ -1815,6 +1823,7 @@ system "Ka'ch'chrai"
 			distance 150
 
 planet "unknown gateway"
+	attributes "requires: Omnis"
 system "Nenia"
 	add object "unknown gateway"
 		sprite "sprite/wisp_green"
@@ -1825,6 +1834,7 @@ system "Nenia"
 		distance 150
 
 planet "builder gateway"
+	attributes "requires: Omnis"
 system "Nona"
 	add object "builder gateway"
 		sprite "sprite/wisp_green"
@@ -1833,6 +1843,7 @@ system "Nona"
 			distance 150
 
 planet "coalition gateway"
+	attributes "requires: Omnis"
 system "Quaru"
 	add object "coalition gateway"
 		sprite "sprite/wisp_green"
@@ -1840,7 +1851,13 @@ system "Quaru"
 			sprite "sprite/gateway_omnis"
 			distance 150
 
+planet "omnis gateway"
+system "Rutilicus"
+	add object "omnis gateway"
+		sprite "sprite/wisp_green"
+
 planet "drak gateway"
+	attributes "requires: Omnis"
 system "Sayaiban"
 	add object "drak gateway"
 		sprite "sprite/wisp_green"
@@ -1851,6 +1868,7 @@ system "Sayaiban"
 		distance 150
 
 planet "korath gateway"
+	attributes "requires: Omnis"
 system "Sevrelect"
 	add object "korath gateway"
 		sprite "sprite/wisp_green"
@@ -1859,6 +1877,7 @@ system "Sevrelect"
 			distance 150
 
 planet "human gateway"
+	attributes "requires: Omnis"
 system "Sol"
 	add object "human gateway"
 		sprite "sprite/wisp_green"
@@ -1867,6 +1886,7 @@ system "Sol"
 			distance 150
 
 planet "hai gateway"
+	attributes "requires: Omnis"
 system "Ya Hai"
 	add object "hai gateway"
 		sprite "sprite/wisp_green"
@@ -1875,6 +1895,7 @@ system "Ya Hai"
 			distance 150
 
 planet "sheragi gateway"
+	attributes "requires: Omnis"
 system "Zubeneschamali"
 	add object "sheragi gateway"
 		sprite "sprite/wisp_green"

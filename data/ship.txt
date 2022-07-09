@@ -16,6 +16,7 @@ ship "Caster"
 		"energy generation" 1
 		"afterburner thrust" -200000
 	outfits
+		"Crux Stone "
 		"Disable All"
 		"Kill All"
 		"Omnipotence"
