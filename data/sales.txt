@@ -751,8 +751,10 @@ outfitter "coalition vanilla"
 	"Small Cogeneration Module"
 	"Small Reactor Module"
 #		En
+	"Large Reverse Module"
 	"Large Steering Module"
 	"Large Thrust Module"
+	"Small Reverse Module"
 	"Small Steering Module"
 	"Small Thrust Module"
 #		HH
