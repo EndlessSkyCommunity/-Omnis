@@ -35,74 +35,92 @@ system "Omnis"
 		offset 300
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Everything"
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Everything"
@@ -249,74 +267,92 @@ system "Sheragi "
 		offset 300
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Sheragi "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Sheragi "
@@ -381,74 +417,92 @@ system "Human "
 		offset 300
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Human "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Human "
@@ -511,74 +565,92 @@ system "Hai "
 		offset 300
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Hai "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Hai "
@@ -641,74 +713,92 @@ system "Remnant "
 		offset 300
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Remnant "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Remnant "
@@ -771,74 +861,92 @@ system "Builder "
 		offset 300
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Builder "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Builder "
@@ -902,74 +1010,92 @@ system "Korath "
 		offset 300
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Korath "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Korath "
@@ -1031,74 +1157,92 @@ system "Wanderer "
 		offset 300
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Wanderer "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Wanderer "
@@ -1160,74 +1304,92 @@ system "Coalition "
 		offset 300
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Coalition "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Coalition "
@@ -1291,74 +1453,92 @@ system "Quarg "
 		offset 300
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Quarg "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Quarg "
@@ -1420,74 +1600,92 @@ system "Drak "
 		offset 300
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Drak "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Drak "
@@ -1551,74 +1749,92 @@ system "Pug "
 		offset 300
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Pug "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Pug "
@@ -1682,74 +1898,92 @@ system "Unknown "
 		offset 300
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 20
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 40
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 60
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 80
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 100
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 120
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 140
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 160
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 180
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 200
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 220
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 240
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 260
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 280
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 300
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 320
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 340
 	object "Unknown "
 		sprite planet/ringworld
+			scale .5
 		distance 812
 		offset 360
 planet "Unknown "
