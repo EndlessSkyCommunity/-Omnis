@@ -1,5 +1,7 @@
 shipyard "omnis"
 	"Caster"
+shipyard "plugins"
+	""
 outfitter "omnis"
 	"Crux Stone "
 	"Disable All"
@@ -10,6 +12,8 @@ outfitter "omnis"
 	"Omnipotence"
 	"Omnipresence"
 	"Omniscience"
+outfitter "plugins"
+	""
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Species shipyards
