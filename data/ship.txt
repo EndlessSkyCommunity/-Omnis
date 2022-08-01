@@ -1,4 +1,4 @@
-ship "Caster"
+ship "Caster" "Omnis: Caster"
 	sprite "ship/caster"
 	thumbnail "thumbnail/caster"
 	attributes
