@@ -1,6 +1,9 @@
 ship "Caster"
-	sprite "ship/caster"
-	thumbnail "thumbnail/caster"
+	turret 0 0
+	turret 0 0
+ship "Caster" "Om: Caster"
+	sprite "ship/Om: Caster"
+	thumbnail "thumbnail/Om: Caster"
 	attributes
 		category "Cheat"
 		hull 1000000
