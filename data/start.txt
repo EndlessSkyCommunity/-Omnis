@@ -25,7 +25,7 @@ start "omnis"
 	set "license: Wanderer Military"
 	set "license: Wanderer Outfits"
 	set "license: Wanderer"
-	ship "Om: Caster" `Caster`
+	ship "Om- Caster" `Caster`
 conversation "omnis_intro"
 	`Welcome to Omnis! Please enter your name.`
 	name
