@@ -984,6 +984,7 @@ planet "Builder Vanilla"
 system "Korath "
 	pos -58 -10120
 	government "cheat"
+	link "Bunrodea "
 	link "Drak "
 	link "Hai "
 	link "Human "
@@ -1275,6 +1276,153 @@ planet "Wanderer Vanilla"
 	outfitter "wanderer vanilla"
 	shipyard "omnis"
 	shipyard "wanderer vanilla"
+	bribe 0
+
+system "Bunrodea "
+	pos 284.9 -136.3
+	government "cheat"
+	link "Korath "
+	"jump range" 3000
+	object "bunrodea gateway"
+		sprite "sprite/wisp_green"
+	object
+		sprite "sprite/faction_bunrodea"
+		distance 150
+		offset 180
+	object "Bunrodea Plugins"
+		sprite "sprite/station8"
+		distance 300
+		offset 60
+	object "Bunrodea Vanilla"
+		sprite "sprite/station8"
+		distance 300
+		offset 300
+	object
+		sprite "sprite/section_plugins"
+		distance 450
+		offset 60
+	object
+		sprite "sprite/section_vanilla"
+		distance 450
+		offset 300
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 20
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 40
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 60
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 80
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 100
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 120
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 140
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 160
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 180
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 200
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 220
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 240
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 260
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 280
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 300
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 320
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 340
+	object "Bunrodea "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 360
+planet "Bunrodea "
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "bunrodea plugins"
+	outfitter "bunrodea vanilla"
+	shipyard "omnis"
+	shipyard "bunrodea plugins"
+	shipyard "bunrodea vanilla"
+	bribe 0
+planet "Bunrodea Plugins"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "bunrodea plugins"
+	shipyard "omnis"
+	shipyard "bunrodea plugins"
+	bribe 0
+planet "Bunrodea Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "bunrodea vanilla"
+	shipyard "omnis"
+	shipyard "bunrodea vanilla"
 	bribe 0
 
 system "Coalition "
@@ -2044,6 +2192,15 @@ planet "quarg gateway"
 	attributes "requires: Omnis"
 system "Enif"
 	add object "quarg gateway"
+		sprite "sprite/wisp_green"
+		object
+			sprite "sprite/gateway_omnis"
+			distance 150
+
+planet "bunrodea gateway"
+	attributes "requires: Omnis"
+system "Erabu Lemeta"
+	add object "bunrodea gateway"
 		sprite "sprite/wisp_green"
 		object
 			sprite "sprite/gateway_omnis"

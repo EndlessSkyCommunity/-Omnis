@@ -248,6 +248,24 @@ shipyard "wanderer vanilla"
 	"Flycatcher"
 shipyard "wanderer plugins"
 	""
+shipyard "bunrodea vanilla"
+#		Tr
+	"Sasumata"
+#		LF
+	"Tanto"
+#		HF
+	"Ararebo"
+#		LW
+	"Kunai"
+	"Tekkan"
+#		MW
+	"Kama"
+#		HW
+	"Chigiriki"
+#		Fi
+	"Kaiken"
+shipyard "bunrodea plugins"
+	""
 shipyard "coalition vanilla"
 #		Tr
 	"Kimek Briar"
@@ -741,6 +759,48 @@ outfitter "wanderer vanilla"
 	"Type 4 Radiant Thruster"
 outfitter "wanderer plugins"
 	""
+outfitter "bunrodea vanilla"
+#		Gu
+	"Locust Blaster"
+	"Mandible Cannon"
+	"Thorax Cannon"
+#		Tu
+	"Buzzer Anti-Missile"
+	"Locust Turret"
+#		SW
+	"Swarm Pod"
+#		Am
+	"Swarm Clip"
+	"Swarm Missile"
+#		Sy
+	"Large Nanite Fabricator"
+	"Large Shield Relay"
+	"Nanite Enhancer"
+	"Nanite Limiter"
+	"Shield Relay Booster"
+	"Shield Relay Limiter"
+	"Small Nanite Fabricator"
+	"Small Shield Relay"
+#		Po
+	"Dark Reactor"
+	"Electroweak Reactor"
+	"Quark Reactor"
+	"Reactor Limiter"
+	"Reactor Overclocker"
+	"Solar Battery"
+	"Solar Cell"
+#		En
+	"Chiisana Rift Steering"
+	"Chiisana Rift Thruster"
+	"Nami Rift Steering"
+	"Nami Rift Thruster"
+	"Ookii Rift Steering"
+	"Ookii Rift Thruster"
+	"Subarashii Rift Steering"
+	"Subarashii Rift Thruster"
+#		HH
+	"Lasher Pistol"
+outfitter "bunrodea plugins"
 outfitter "coalition vanilla"
 #		Gu
 	"Bombardment Cannon"
