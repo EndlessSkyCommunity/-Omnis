@@ -148,6 +148,7 @@ shipyard "hai vanilla"
 	"Lightning Bug"
 #		MW
 	"Pond Strider"
+	"Sea Scorpion"
 #		HW
 	"Shield Beetle"
 	"Solifuge"
@@ -497,10 +498,13 @@ outfitter "human plugins"
 outfitter "hai vanilla"
 #		Gu
 	"Ion Cannon"
+	"Ionic Blaster Prototype"
 	"Pulse Cannon"
+	"Tripulse Shredder"
 #		Tu
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
+	"Ionic Turret Prototype"
 	"Pulse Turret"
 #		SW
 	"Hai Tracker Pod"
@@ -518,6 +522,7 @@ outfitter "hai vanilla"
 	"Hyperdrive"
 	"Outfits Expansion"
 	"Quantum Keystone"
+	"Value Detector"
 #		Po
 	"Boulder Reactor"
 	"Geode Reactor"
