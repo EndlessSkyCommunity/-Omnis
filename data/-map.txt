@@ -1279,7 +1279,7 @@ planet "Wanderer Vanilla"
 	bribe 0
 
 system "Bunrodea "
-	pos 284.9 -136.3
+	pos 284.9 -10136.3
 	government "cheat"
 	link "Korath "
 	"jump range" 3000
