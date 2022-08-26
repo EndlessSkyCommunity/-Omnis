@@ -1,6 +1,4 @@
-#		-	-	-	-	-	-	-	-	-	-
 #	Developer
-#		-	-	-	-	-	-	-	-	-	-
 
 outfit "Extra Outfit"
 	category "Cheat"
@@ -12,9 +10,7 @@ outfit "Extra Engine"
 	category "Cheat"
 	"engine capacity" 1
 
-#		-	-	-	-	-	-	-	-	-	-
 #	Ascension
-#		-	-	-	-	-	-	-	-	-	-
 
 outfit "Crux Stone "
 	category "Cheat"

@@ -1,6 +1,4 @@
-#		-	-	-	-	-	-	-	-	-	-
 #	Initialisation
-#		-	-	-	-	-	-	-	-	-	-
 
 mission "omnis marker"
 	invisible
@@ -16,9 +14,7 @@ mission "omnis start"
 		event "reveal omnis"
 		event "reveal map"
 
-#		-	-	-	-	-	-	-	-	-	-
 #	Mapping
-#		-	-	-	-	-	-	-	-	-	-
 
 event "reveal omnis"
 	visit "Omnis"
@@ -35,7 +31,6 @@ event "reveal omnis"
 	visit "Pug "
 	visit "Unknown "
 event "reveal map"
-#		Labels
 	galaxy "label arachi"
 		sprite "label/arachi"
 	galaxy "label graveyard"
@@ -52,17 +47,6 @@ event "reveal map"
 		sprite "label/wanderers"
 	galaxy "label waste"
 		sprite "label/waste"
-#		Wormholes
-	"visit planet" "Ember Graveyard"
-	"visit planet" "Ember Reaches"
-	"visit planet" "Ember Threshold"
-	"visit planet" "Ember Wormhole"
-	"visit planet" "Graveyard Wormhole (Stable)"
-	"visit planet" "Graveyard Wormhole (Unstable)"
-	"visit planet" "Remnant Wormhole"
-	"visit planet" "Wormhole Alpha"
-	"visit planet" "Wormhole Link"
-#		Systems
 	visit "1 Axis"
 	visit "10 Pole"
 	visit "11 Autumn Above"
@@ -464,10 +448,17 @@ event "reveal map"
 	visit "Zubenelgenubi"
 	visit "Zubenelhakrabi"
 	visit "Zubeneschamali"
+	"visit planet" "Ember Graveyard"
+	"visit planet" "Ember Reaches"
+	"visit planet" "Ember Threshold"
+	"visit planet" "Ember Wormhole"
+	"visit planet" "Graveyard Wormhole (Stable)"
+	"visit planet" "Graveyard Wormhole (Unstable)"
+	"visit planet" "Remnant Wormhole"
+	"visit planet" "Wormhole Alpha"
+	"visit planet" "Wormhole Link"
 
-#		-	-	-	-	-	-	-	-	-	-
 #	Licenses
-#		-	-	-	-	-	-	-	-	-	-
 
 mission "Add All Licenses"
 	description `Give all licenses to the player.`
@@ -611,9 +602,7 @@ mission "Remove Coalition Licenses"
 		clear "license: Coalition"
 		clear "license: Heliarch"
 
-#		-	-	-	-	-	-	-	-	-	-
 #	Swizzles
-#		-	-	-	-	-	-	-	-	-	-
 
 mission "Swizzle Picker"
 	job
