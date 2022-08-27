@@ -660,6 +660,8 @@ outfitter "unknown vanilla"
 
 #	Error Avoidance
 
+shipyard "developer"
+	""
 shipyard "plugins"
 	""
 shipyard "sheragi plugins"
@@ -687,6 +689,8 @@ shipyard "pug plugins"
 shipyard "unknown plugins"
 	""
 
+outfitter "developer"
+	""
 outfitter "plugins"
 	""
 outfitter "sheragi plugins"
