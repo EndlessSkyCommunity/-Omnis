@@ -130,20 +130,6 @@ fleet "Kar Ik Vot 349 "
 		"heroic"
 	variant
 		"Kar Ik Vot 349"
-fleet "Korath Dredger "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Korath Chaser" 4
-		"Korath Dredger"
-fleet "Korath Raider "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Korath Chaser" 2
-		"Korath Raider"
 fleet "Korath World-Ship "
 	government "arena"
 	personality
@@ -156,6 +142,20 @@ fleet "Model 512 "
 		"heroic"
 	variant
 		"Model 512"
+fleet "Palavret "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"'olofez" 2
+		"Palavret"
+fleet "Rano'erek "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"'olofez" 4
+		"Rano'erek"
 
 #	Wanderer
 

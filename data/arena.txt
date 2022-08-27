@@ -19,7 +19,7 @@ system "Omnis"
 		sprite "ship/vareti'het"
 		distance 1200
 		offset 120
-	add object "Korath Raider  "
+	add object "Palavret  "
 		sprite "ship/raider"
 		distance 1200
 		offset 150
@@ -81,12 +81,12 @@ planet "Vareti'het  "
 	tribute 1
 		threshold 0
 		fleet "Vareti'het "
-planet "Korath Raider  "
+planet "Palavret  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Korath Raider "
+		fleet "Palavret "
 planet "Hurricane  "
 	bribe 0
 	government "arena"
@@ -309,14 +309,6 @@ system "Korath "
 		sprite "ship/kar ik vot 349"
 		distance 1100
 		offset 120
-	add object "Korath Dredger "
-		sprite "ship/dredger"
-		distance 1040
-		offset 15
-	add object "Korath Raider "
-		sprite "ship/raider"
-		distance 1020
-		offset 345
 	add object "Korath World-Ship "
 		sprite "ship/world-ship a"
 		distance 1200
@@ -325,24 +317,20 @@ system "Korath "
 		sprite "ship/model 512"
 		distance 1040
 		offset 240
+	add object "Palavret "
+		sprite "ship/raider"
+		distance 1020
+		offset 345
+	add object "Rano'erek "
+		sprite "ship/dredger"
+		distance 1040
+		offset 15
 planet "Kar Ik Vot 349 "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Kar Ik Vot 349 "
-planet "Korath Dredger "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Korath Dredger "
-planet "Korath Raider "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Korath Raider "
 planet "Korath World-Ship "
 	bribe 0
 	government "arena"
@@ -355,6 +343,18 @@ planet "Model 512 "
 	tribute 1
 		threshold 0
 		fleet "Model 512 "
+planet "Palavret "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Palavret "
+planet "Rano'erek "
+	bribe 0
+	government "arena"
+	tribute 1
+		threshold 0
+		fleet "Rano'erek "
 
 system "Wanderer "
 	add object "Hurricane "
