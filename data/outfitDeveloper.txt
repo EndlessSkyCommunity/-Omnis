@@ -1,0 +1,11 @@
+#	Developer
+
+outfit "Extra Outfit"
+	category "Cheat"
+	"outfit space" 1
+outfit "Extra Weapon"
+	category "Cheat"
+	"weapon capacity" 1
+outfit "Extra Engine"
+	category "Cheat"
+	"engine capacity" 1
