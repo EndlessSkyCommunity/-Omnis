@@ -173,3 +173,49 @@ event "reveal derogam content"
 	visit "Yremila"
 	visit "Zatacom"
 	visit "Zelhan"
+
+mission "irm gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "irm gateway"
+event "irm gateway"
+	system "Irm "
+		add object "irm gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "support/faction_irm"
+			distance 150
+			offset 180
+	system "Solum"
+		add object "irm gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 150
+mission "reveal omnis-irm"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-irm"
+event "reveal omnis-irm"
+	visit "Irm "
+mission "reveal irm content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal irm content"
+event "reveal irm content"
+	"visit planet" "irm gate"
+	visit "Persolus"
+	visit "Solum"
+	visit "Solus"
+	visit "Tantum"
