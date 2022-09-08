@@ -1,3 +1,109 @@
+system "Aben "
+	pos 65 -10282
+	government "cheat"
+	link "Hai "
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 20
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 40
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 60
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 80
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 100
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 120
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 140
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 160
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 180
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 200
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 220
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 240
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 260
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 280
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 300
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 320
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 340
+	object "Aben "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 360
+planet "Aben "
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	shipyard "omnis"
+	outfitter "omnis"
+	shipyard "Aben"
+	outfitter "Aben"
+	bribe 0
+planet "aben gateway"
+	attributes "requires: Omnis"
+
 system "Derogam "
 	pos -577 -10106
 	government "cheat"

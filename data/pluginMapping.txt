@@ -1,3 +1,50 @@
+mission "aben gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "aben gateway"
+event "aben gateway"
+	system "Aben "
+		add object "aben gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/faction_aben"
+			distance 150
+			offset 180
+	system "Dzee dzee-Bon,da"
+		add object "aben gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 150
+mission "reveal omnis-aben"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-aben"
+event "reveal omnis-aben"
+	visit "Aben "
+mission "reveal aben content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal aben content"
+event "reveal aben content"
+	visit "Ahaw On,za"
+	visit "Dzee dzee-Bon,da"
+	visit "Ko,gok"
+	visit "M,ska gwe,Demoos"
+	visit "Pak.zin Skwa"
+	visit "Tso-nii"
+
 mission "derogam gateway"
 	invisible
 	landing
@@ -19,7 +66,6 @@ event "derogam gateway"
 		add object
 			sprite "sprite/gateway_omnis"
 			distance 150
-
 mission "reveal omnis-derogam"
 	invisible
 	landing
@@ -30,7 +76,6 @@ mission "reveal omnis-derogam"
 		event "reveal omnis-derogam"
 event "reveal omnis-derogam"
 	visit "Derogam "
-
 mission "reveal derogam content"
 	invisible
 	landing
