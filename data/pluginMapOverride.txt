@@ -1,6 +1,3 @@
-system "Hai "
-	add link "Aben "
-	add link "Irm "
 planet "Everything"
 	add shipyard "aben"
 	add outfitter "aben"

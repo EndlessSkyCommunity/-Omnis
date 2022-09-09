@@ -1,7 +1,7 @@
 system "Aben "
 	pos 65 -10282
 	government "cheat"
-	link "Hai "
+	"jump range" 3000
 	object "Aben "
 		sprite planet/ringworld
 			scale .5
@@ -107,6 +107,7 @@ planet "aben gateway"
 system "Altera "
 	pos 296 -9840
 	government "cheat"
+	"jump range" 3000
 	object "Altera "
 		sprite planet/ringworld
 			scale .5
@@ -318,6 +319,7 @@ planet "derogam gateway"
 system "Eternals "
 	pos 129 -10307
 	government "cheat"
+	"jump range" 3000
 	object "Eternals "
 		sprite planet/ringworld
 			scale .5
@@ -423,7 +425,6 @@ planet "eternals gateway"
 system "Irm "
 	pos -124 -10274
 	government "cheat"
-	link "Hai "
 	"jump range" 3000
 	object "Irm "
 		sprite planet/ringworld
