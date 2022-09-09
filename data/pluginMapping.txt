@@ -16,9 +16,9 @@ event "aben gateway"
 	system "Dzee dzee-Bon,da"
 		add object "aben gateway"
 			sprite "sprite/wisp_green"
-		add object
-			sprite "sprite/gateway_omnis"
-			distance 150
+			object
+				sprite "sprite/gateway_omnis"
+				distance 150
 mission "reveal omnis-aben"
 	invisible
 	landing
@@ -45,6 +45,128 @@ event "reveal aben content"
 	visit "Pak.zin Skwa"
 	visit "Tso-nii"
 
+mission "altera gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "altera gateway"
+event "altera gateway"
+	system "Altera "
+		add object "altera gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/faction_altera"
+			distance 150
+			offset 180
+	system "Light of Altera"
+		add object "altera gateway"
+			sprite "sprite/wisp_green"
+				distance 44.1758
+				period 14.0415
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 150
+mission "reveal omnis-altera"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-altera"
+event "reveal omnis-altera"
+	visit "Altera "
+mission "reveal altera content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal altera content"
+event "reveal altera content"
+	visit "Acidalia"
+	visit "Adragon"
+	visit "Aera"
+	visit "Aetia"
+	visit "Akasia"
+	visit "Allusia"
+	visit "Arcana"
+	visit "Argus"
+	visit "Ascaris"
+	visit "Assuria"
+	visit "Astrius"
+	visit "Ayata"
+	visit "Azalea"
+	visit "Basilus"
+	visit "Boreas"
+	visit "Caelum"
+	visit "Cardia"
+	visit "Carthacia"
+	visit "Curia"
+	visit "Deliorum"
+	visit "Elemira"
+	visit "Elithia"
+	visit "Emedia"
+	visit "Empyrius"
+	visit "Eryth"
+	visit "Ferrlana"
+	visit "Fiore"
+	visit "Gargantua"
+	visit "Gate of the Ascended"
+	visit "Gate of the Fallen"
+	visit "Grancrest"
+	visit "Hybernia"
+	visit "Icathia"
+	visit "Ida"
+	visit "Inferis"
+	visit "Infernalis"
+	visit "Irassia"
+	visit "Iresha"
+	visit "Ishgar"
+	visit "Ishmael"
+	visit "Karaya"
+	visit "Karyllis"
+	visit "Kyteka"
+	visit "Lantea"
+	visit "Light of Aldnoah"
+	visit "Light of Altera"
+	visit "Light of Dracone"
+	visit "Marea"
+	visit "Mataya"
+	visit "Melianea"
+	visit "Menus"
+	visit "Meshuria"
+	visit "Minarica"
+	visit "Mithra"
+	visit "Namerai"
+	visit "Nasconya"
+	visit "Nazeru"
+	visit "Ocharia"
+	visit "Ophelia"
+	visit "Oratoria"
+	visit "Regalia"
+	visit "Rekota"
+	visit "Rosalia"
+	visit "Rubica"
+	visit "Sakura"
+	visit "Selesia"
+	visit "Selphius"
+	visit "Sidonia"
+	visit "Silva"
+	visit "Sirenum"
+	visit "Thanatos"
+	visit "Thymia"
+	visit "Troyca"
+	visit "Valenthia"
+	visit "Vastaya"
+	visit "Verangia"
+	visit "Witnonia"
+	visit "Xanos"
+	visit "Zephyrius"
+
 mission "derogam gateway"
 	invisible
 	landing
@@ -63,9 +185,9 @@ event "derogam gateway"
 	system "Seborem"
 		add object "derogam gateway"
 			sprite "sprite/wisp_green"
-		add object
-			sprite "sprite/gateway_omnis"
-			distance 150
+			object
+				sprite "sprite/gateway_omnis"
+				distance 150
 mission "reveal omnis-derogam"
 	invisible
 	landing
@@ -192,9 +314,9 @@ event "irm gateway"
 	system "Solum"
 		add object "irm gateway"
 			sprite "sprite/wisp_green"
-		add object
-			sprite "sprite/gateway_omnis"
-			distance 150
+			object
+				sprite "sprite/gateway_omnis"
+				distance 150
 mission "reveal omnis-irm"
 	invisible
 	landing
