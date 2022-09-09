@@ -296,6 +296,61 @@ event "reveal derogam content"
 	visit "Zatacom"
 	visit "Zelhan"
 
+mission "eternals gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "eternals gateway"
+event "eternals gateway"
+	system "Eternals "
+		add object "eternals gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "support/faction_eternals"
+			distance 150
+			offset 180
+	system "Valiit"
+		add object "eternals gateway"
+			sprite "sprite/wisp_green"
+			object
+				sprite "sprite/gateway_omnis"
+				distance 150
+mission "reveal omnis-eternals"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-eternals"
+event "reveal omnis-eternals"
+	visit "Eternals "
+mission "reveal eternals content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal eternals content"
+event "reveal eternals content"
+	"Charybdis"
+	"Cinoo"
+	"Ephemeral Reflections"
+	"Hetuu"
+	"Ismaros"
+	"Kijaa"
+	"Masuul"
+	"Nileem"
+	"Ogygia"
+	"Pirtaal"
+	"Risiit"
+	"Thrinacia"
+	"Valiit"
+	"Wanool"
+
 mission "irm gateway"
 	invisible
 	landing
