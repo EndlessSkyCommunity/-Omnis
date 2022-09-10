@@ -9,6 +9,8 @@ outfitter "human plugins"
 	"Heavy Laser Rifle"
 	"Professional Security Station"
 	"RT-II Radiothermal"
+#	Core Mining Inc
+	"CMI Fusion Reactor"
 #	Human Fluff
 	"Knockout Gas"
 
