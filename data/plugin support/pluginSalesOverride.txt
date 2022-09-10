@@ -16,6 +16,8 @@ shipyard "human plugins"
 	"Roost D"
 	"Skein D"
 	"Viscount"
+#	Galactic Couriers
+	"Courier Freighter"
 #	Human Fluff
 	"HuFl- Colossus"
 	"HuFl- Flivver (Racing)"
@@ -30,6 +32,8 @@ outfitter "human plugins"
 	"CMI Fusion Reactor"
 #	Czartraks Ship Pack
 	"Espionage Module"
+#	Galactic Couriers
+	"Enhanced Keystone"
 #	Human Fluff
 	"Knockout Gas"
 
@@ -80,3 +84,12 @@ shipyard "pug plusins"
 #	Czartraks Ship Pack
 	"Pug Yubera"
 	"Pug Zambor"
+
+shipyard "unknown plugins"
+#	Galactic Couriers
+	"Ar'leng Arbiter"
+outfitter "unknown plugins"
+#	Galactic Couriers
+	"Ar'leng Active Heatsink"
+	"Ar'leng Particle Accelerator"
+	"Hyperspace Augmenter"
