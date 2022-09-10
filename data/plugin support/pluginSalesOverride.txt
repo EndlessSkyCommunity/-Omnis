@@ -1,4 +1,21 @@
 shipyard "human plugins"
+#	Czartraks Ship Pack
+	"Bee"
+	"Guardian"
+	"Mockingjay"
+	"Navy Battlecruiser"
+	"Navy Battleship"
+	"Navy Destroyer"
+	"Navy Dreadnought"
+	"Navy Freighter"
+	"Nesasio"
+	"Nest D"
+	"Palisade"
+	"Patrol Boat"
+	"Qrow"
+	"Roost D"
+	"Skein D"
+	"Viscount"
 #	Human Fluff
 	"HuFl- Colossus"
 	"HuFl- Flivver (Racing)"
@@ -11,6 +28,8 @@ outfitter "human plugins"
 	"RT-II Radiothermal"
 #	Core Mining Inc
 	"CMI Fusion Reactor"
+#	Czartraks Ship Pack
+	"Espionage Module"
 #	Human Fluff
 	"Knockout Gas"
 
@@ -39,10 +58,15 @@ shipyard "korath plugins"
 	"Korath Courier (Empty)"
 	"Korath Courier"
 	"Korath Shipper"
+#	Czartraks Ship Pack
+	"Korath Seedship"
 #	Korath Fluff
 	"KoFl- Kar Ik Vot 637"
 	"KoFl- Kar Ik Vot 711"
 outfitter "korath plugins"
+#	Czartraks Ship Pack
+	"AI Module"
+	"Cryogenics Pod"
 #	Korath Fluff
 	"Shield Disruptor Gun"
 	"Vector Engine (Reality Class)"
@@ -51,3 +75,8 @@ shipyard "quarg plugins"
 #	Quarg Fluff
 	"QuFl- Quarg Hydra"
 	"QuFl- Quarg Oriole"
+
+shipyard "pug plusins"
+#	Czartraks Ship Pack
+	"Pug Yubera"
+	"Pug Zambor"
