@@ -308,6 +308,11 @@ shipyard "korath plugins"
 	"KoFl- Kar Ik Vot 711"
 #	Lost in Midnight
 	"Model 512 (dire omen)"
+#	Midnight Expansion
+	"Korath Forager"
+	"Korath Warlord"
+	"Model 1024"
+	"Prateskar 711"
 outfitter "korath plugins"
 #	Czartraks Ship Pack
 	"AI Module"
@@ -336,6 +341,11 @@ outfitter "coalition plugins"
 	"Model Turret"
 
 shipyard "quarg plugins"
+#	Midnight Expansion
+	"Quarg Seakraken"
+	"Quarg Skyswift"
+	"Quarg Wardrake"
+	"Quarg Warwyvern"
 #	Quarg Fluff
 	"QuFl- Quarg Hydra"
 	"QuFl- Quarg Oriole"
@@ -344,6 +354,20 @@ outfitter "quarg plugins"
 	"Celestial Compass"
 	"Midnight's Lost Orphan"
 	"Obsolete Star Map"
+#	Midnight Expansion
+	"Central Repair Hub"
+	"Fluxion Shield Generator"
+	"Infimum Shield Generator"
+	"Large Graviton Steering"
+	"Large Graviton Thruster"
+	"Peripheral Repair Hub"
+	"Quarg Culverin"
+	"Quarg Ranseur"
+	"Quarg Skydagger"
+	"Singularity Core"
+	"Small Graviton Steering"
+	"Small Graviton Thruster"
+	"Tachyon Core"
 
 shipyard "pug plusins"
 #	Czartraks Ship Pack
