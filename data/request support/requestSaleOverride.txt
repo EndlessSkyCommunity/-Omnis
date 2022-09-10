@@ -1,0 +1,10 @@
+shipyard "unknown vanilla"
+#	Gengo
+	"Ayym"
+	"Jje"
+	"vyu'Ira"
+outfitter "unknown vanilla"
+#	Gengo
+	"Fate Divider"
+	"Fate Sealer"
+	"Impulse Engine"

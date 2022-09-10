@@ -10,6 +10,11 @@ government "cheat"
 	swizzle 0
 	color 1 1 1
 	fine 0
+government "request"
+	"display name" `Unknown`
+	swizzle 0
+	color .6 .6 .6
+	fine 0
 government "plugin"
 	"display name" `Unknown`
 	swizzle 0
