@@ -98,6 +98,7 @@ planet "Aben "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "aben"
 	outfitter "aben"
 	bribe 0
@@ -204,6 +205,7 @@ planet "Altera "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "altera"
 	outfitter "altera"
 	bribe 0
@@ -310,6 +312,7 @@ planet "Derogam "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "derogam"
 	outfitter "derogam"
 	bribe 0
@@ -416,6 +419,7 @@ planet "Eternals "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "eternals"
 	outfitter "eternals"
 	bribe 0
@@ -522,6 +526,7 @@ planet "Irm "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "irm"
 	outfitter "irm"
 	bribe 0

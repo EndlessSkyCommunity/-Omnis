@@ -99,6 +99,7 @@ planet "Gengo "
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
+	outfitter "mineables"
 	shipyard "gengo"
 	outfitter "gengo"
 	bribe 0

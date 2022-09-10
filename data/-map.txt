@@ -127,6 +127,7 @@ planet "Everything"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "developer"
+	outfitter "mineables"
 	outfitter "plugins"
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
@@ -174,35 +175,6 @@ planet "Everything"
 	shipyard "sheragi plugins"
 	shipyard "sheragi vanilla"
 	shipyard "wanderer plugins"
-	shipyard "wanderer vanilla"
-	bribe 0
-planet "Vanilla"
-	landscape "landscape/station6"
-	description ``
-	spaceport ``
-	outfitter "omnis"
-	outfitter "coalition vanilla"
-	outfitter "drak vanilla"
-	outfitter "hai vanilla"
-	outfitter "human vanilla"
-	outfitter "builder vanilla"
-	outfitter "korath vanilla"
-	outfitter "pug vanilla"
-	outfitter "quarg vanilla"
-	outfitter "remnant vanilla"
-	outfitter "sheragi vanilla"
-	outfitter "wanderer vanilla"
-	shipyard "omnis"
-	shipyard "coalition vanilla"
-	shipyard "drak vanilla"
-	shipyard "hai vanilla"
-	shipyard "human vanilla"
-	shipyard "builder vanilla"
-	shipyard "korath vanilla"
-	shipyard "pug vanilla"
-	shipyard "quarg vanilla"
-	shipyard "remnant vanilla"
-	shipyard "sheragi vanilla"
 	shipyard "wanderer vanilla"
 	bribe 0
 planet "Plugins"
@@ -237,6 +209,36 @@ planet "Plugins"
 	shipyard "remnant plugins"
 	shipyard "sheragi plugins"
 	shipyard "wanderer plugins"
+	bribe 0
+planet "Vanilla"
+	landscape "landscape/station6"
+	description ``
+	spaceport ``
+	outfitter "omnis"
+	outfitter "mineables"
+	outfitter "coalition vanilla"
+	outfitter "drak vanilla"
+	outfitter "hai vanilla"
+	outfitter "human vanilla"
+	outfitter "builder vanilla"
+	outfitter "korath vanilla"
+	outfitter "pug vanilla"
+	outfitter "quarg vanilla"
+	outfitter "remnant vanilla"
+	outfitter "sheragi vanilla"
+	outfitter "wanderer vanilla"
+	shipyard "omnis"
+	shipyard "coalition vanilla"
+	shipyard "drak vanilla"
+	shipyard "hai vanilla"
+	shipyard "human vanilla"
+	shipyard "builder vanilla"
+	shipyard "korath vanilla"
+	shipyard "pug vanilla"
+	shipyard "quarg vanilla"
+	shipyard "remnant vanilla"
+	shipyard "sheragi vanilla"
+	shipyard "wanderer vanilla"
 	bribe 0
 
 system "Sheragi "
@@ -364,6 +366,7 @@ planet "Sheragi "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "sheragi plugins"
 	outfitter "sheragi vanilla"
 	shipyard "omnis"
@@ -384,6 +387,7 @@ planet "Sheragi Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "sheragi vanilla"
 	shipyard "omnis"
 	shipyard "sheragi vanilla"
@@ -514,6 +518,7 @@ planet "Human "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "human plugins"
 	outfitter "human vanilla"
 	shipyard "omnis"
@@ -534,6 +539,7 @@ planet "Human Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "human vanilla"
 	shipyard "omnis"
 	shipyard "human vanilla"
@@ -662,6 +668,7 @@ planet "Hai "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "hai plugins"
 	outfitter "hai vanilla"
 	shipyard "omnis"
@@ -682,6 +689,7 @@ planet "Hai Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "hai vanilla"
 	shipyard "omnis"
 	shipyard "hai vanilla"
@@ -810,6 +818,7 @@ planet "Remnant "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "remnant plugins"
 	outfitter "remnant vanilla"
 	shipyard "omnis"
@@ -830,6 +839,7 @@ planet "Remnant Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "remnant vanilla"
 	shipyard "omnis"
 	shipyard "remnant vanilla"
@@ -958,6 +968,7 @@ planet "Builder "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "builder plugins"
 	outfitter "builder vanilla"
 	shipyard "omnis"
@@ -978,6 +989,7 @@ planet "Builder Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "builder vanilla"
 	shipyard "omnis"
 	shipyard "builder vanilla"
@@ -1107,6 +1119,7 @@ planet "Korath "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "korath plugins"
 	outfitter "korath vanilla"
 	shipyard "omnis"
@@ -1127,6 +1140,7 @@ planet "Korath Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "korath vanilla"
 	shipyard "omnis"
 	shipyard "korath vanilla"
@@ -1254,6 +1268,7 @@ planet "Wanderer "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "wanderer plugins"
 	outfitter "wanderer vanilla"
 	shipyard "omnis"
@@ -1274,6 +1289,7 @@ planet "Wanderer Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "wanderer vanilla"
 	shipyard "omnis"
 	shipyard "wanderer vanilla"
@@ -1401,6 +1417,7 @@ planet "Coalition "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "coalition plugins"
 	outfitter "coalition vanilla"
 	shipyard "omnis"
@@ -1421,6 +1438,7 @@ planet "Coalition Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "coalition vanilla"
 	shipyard "omnis"
 	shipyard "coalition vanilla"
@@ -1550,6 +1568,7 @@ planet "Quarg "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "quarg plugins"
 	outfitter "quarg vanilla"
 	shipyard "omnis"
@@ -1570,6 +1589,7 @@ planet "Quarg Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "quarg vanilla"
 	shipyard "omnis"
 	shipyard "quarg vanilla"
@@ -1697,6 +1717,7 @@ planet "Drak "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "drak plugins"
 	outfitter "drak vanilla"
 	shipyard "omnis"
@@ -1717,6 +1738,7 @@ planet "Drak Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "drak vanilla"
 	shipyard "omnis"
 	shipyard "drak vanilla"
@@ -1846,6 +1868,7 @@ planet "Pug "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "pug plugins"
 	outfitter "pug vanilla"
 	shipyard "omnis"
@@ -1866,6 +1889,7 @@ planet "Pug Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "pug vanilla"
 	shipyard "omnis"
 	shipyard "pug vanilla"
@@ -1995,6 +2019,7 @@ planet "Unknown "
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "unknown plugins"
 	outfitter "unknown vanilla"
 	shipyard "omnis"
@@ -2015,6 +2040,7 @@ planet "Unknown Vanilla"
 	description ``
 	spaceport ``
 	outfitter "omnis"
+	outfitter "mineables"
 	outfitter "unknown vanilla"
 	shipyard "omnis"
 	shipyard "unknown vanilla"
