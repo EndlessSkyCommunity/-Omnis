@@ -1,3 +1,71 @@
+mission "bunrodea gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "bunrodea gateway"
+event "bunrodea gateway"
+	system "Bunrodea "
+		add object "bunrodea gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "support/faction_bunrodea"
+			distance 150
+			offset 180
+	system "Erabu Lemeta"
+		add object "bunrodea gateway"
+			sprite "sprite/wisp_green"
+			object
+				sprite "sprite/gateway_omnis"
+				distance 150
+mission "reveal omnis-bunrodea"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-bunrodea"
+event "reveal omnis-bunrodea"
+	visit "Bunrodea "
+mission "reveal bunrodea content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal bunrodea content"
+event "reveal bunrodea content"
+	"Avo Chigo"
+	"Bunri Lemeta"
+	"Elabi Choati"
+	"Elo Chigo"
+	"Eneva Katta"
+	"Era Natta"
+	"Erabu Lemeta"
+	"Eragaru Le"
+	"Genta Bo"
+	"Gento Ah"
+	"Jentu Centi"
+	"Jentu Le"
+	"Kifrana Terberah"
+	"Meftarkata"
+	"Mego Faro"
+	"Mego Inito"
+	"Mego Seo"
+	"Navo Chigo"
+	"Paru Paru"
+	"Ravu Kon"
+	"Schisa Le"
+	"Sera Natta"
+	"Shini Bori"
+	"Thshybo Le"
+	"Urba Pest"
+	"Xutluno Fali"
+	"Xutluno Rees"
+
 mission "gengo gateway"
 	invisible
 	landing
@@ -38,7 +106,6 @@ mission "reveal gengo content"
 	on accept
 		event "reveal gengo content"
 event "reveal gengo content"
-	visit "Erba Yle"
 	"visit planet" "Ember Gegno"
 	visit "19c"
 	visit "21b"
@@ -61,6 +128,7 @@ event "reveal gengo content"
 	visit "Elifennka"
 	visit "Empeles"
 	visit "Eogho"
+	visit "Erba Yle"
 	visit "Evrae"
 	visit "Fscher"
 	visit "G-3191"
