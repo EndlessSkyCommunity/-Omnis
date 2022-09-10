@@ -1,443 +1,125 @@
 system "Omnis"
-	add object "Emerald Sword  "
+	add object "Sheragi  "
 		sprite "ship/emeraldsword"
 		distance 1200
 		offset 360
-	add object "Carrier  "
+	add object "Human  "
 		sprite "ship/carrier"
 		distance 1200
 		offset 30
-	add object "Shield Beetle  "
+	add object "Hai  "
 		sprite "ship/hai shield beetle"
 		distance 1200
 		offset 60
-	add object "Albatross  "
+	add object "Remnant  "
 		sprite "ship/albatross"
 		distance 1200
 		offset 90
-	add object "Vareti'het  "
+	add object "Builder  "
 		sprite "ship/vareti'het"
 		distance 1200
 		offset 120
-	add object "Palavret  "
+	add object "Korath  "
 		sprite "ship/raider"
 		distance 1200
 		offset 150
-	add object "Hurricane  "
+	add object "Wanderer  "
 		sprite "ship/hurricane"
 		distance 1200
 		offset 180
-	add object "Heliarch Punisher  "
+	add object "Coalition  "
 		sprite "ship/heliarch punisher"
 		distance 1200
 		offset 210
-	add object "Quarg Wardragon  "
+	add object "Quarg  "
 		sprite "ship/wardragon"
 		distance 1200
 		offset 240
-	add object "Archon  "
+	add object "Drak  "
 		sprite "ship/archon"
 			"frame rate" 0.87
 		distance 1200
 		offset 270
-	add object "Pug Arfecta  "
+	add object "Pug  "
 		sprite "ship/pug arfecta"
 		distance 1200
 		offset 300
-	add object "Void Sprite  "
+	add object "Unknown  "
 		sprite "ship/void sprite/void sprite adult"
 			"frame rate" 14.3
 			"random start frame"
 			rewind
 		distance 1200
 		offset 330
-planet "Emerald Sword  "
+planet "Sheragi  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Emerald Sword "
-planet "Carrier  "
+		fleet "Sheragi  "
+planet "Human  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Carrier "
-planet "Shield Beetle  "
+		fleet "Human  "
+planet "Hai  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Shield Beetle "
-planet "Albatross  "
+		fleet "Hai  "
+planet "Remnant  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Albatross "
-planet "Vareti'het  "
+		fleet "Remnant  "
+planet "Builder  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Vareti'het "
-planet "Palavret  "
+		fleet "Builder  "
+planet "Korath  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Palavret "
-planet "Hurricane  "
+		fleet "Korath  "
+planet "Wanderer  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Hurricane "
-planet "Heliarch Punisher  "
+		fleet "Wanderer  "
+planet "Coalition  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Heliarch Punisher "
-planet "Quarg Wardragon  "
+		fleet "Coalition  "
+planet "Quarg  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Quarg Wardragon "
-planet "Archon  "
+		fleet "Quarg  "
+planet "Drak  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Archon "
-planet "Pug Arfecta  "
+		fleet "Drak  "
+planet "Pug  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Pug Arfecta "
-planet "Void Sprite  "
+		fleet "Pug  "
+planet "Unknown  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
-		fleet "Void Sprite "
-
-system "Sheragi "
-	add object "Black Diamond "
-		sprite "ship/blackdiamond"
-		distance 1280
-		offset 6
-	add object "Emerald Sword "
-		sprite "ship/emeraldsword"
-		distance 1200
-		offset 360
-planet "Black Diamond "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Black Diamond "
-planet "Emerald Sword "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Emerald Sword "
-
-system "Human "
-	add object "Auxiliary "
-		sprite "ship/auxiliaryt"
-		distance 1640
-		offset 360
-	add object "Carrier "
-		sprite "ship/carrier"
-		distance 1200
-		offset 360
-	add object "Combat Drone "
-		sprite "ship/combat drone"
-		distance 1320
-		offset 356
-	add object "Cruiser "
-		sprite "ship/cruiser"
-		distance 1180
-		offset 12
-	add object "Frigate "
-		sprite "ship/frigate"
-		distance 1140
-		offset 348
-	add object "Gunboat "
-		sprite "ship/gunboat"
-		distance 1420
-		offset 352
-	add object "Lance "
-		sprite "ship/lance"
-		distance 1320
-		offset 4
-	add object "Rainmaker "
-		sprite "ship/rainmaker"
-		distance 1420
-		offset 8
-planet "Auxiliary "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Auxiliary "
-planet "Carrier "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Carrier "
-planet "Combat Drone "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Combat Drone "
-planet "Cruiser "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Cruiser "
-planet "Frigate "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Frigate "
-planet "Gunboat "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Gunboat "
-planet "Lance "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Lance "
-planet "Rainmaker "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Rainmaker "
-
-system "Hai "
-	add object "Shield Beetle "
-		sprite "ship/hai shield beetle"
-		distance 1200
-		offset 360
-planet "Shield Beetle "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Shield Beetle "
-
-system "Remnant "
-	add object "Albatross "
-		sprite "ship/albatross"
-		distance 1760
-		offset 360
-	add object "Heron "
-		sprite "ship/heron"
-		distance 1200
-		offset 360
-	add object "Petrel "
-		sprite "ship/petrel"
-		distance 1520
-		offset 356
-	add object "Tern "
-		sprite "ship/tern"
-		distance 1520
-		offset 4
-planet "Albatross "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Albatross "
-planet "Heron "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Heron "
-planet "Petrel "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Petrel "
-planet "Tern "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Tern "
-
-system "Builder "
-	add object "Faes'mar "
-		sprite "ship/faes'mar"
-		distance 1440
-		offset 360
-	add object "Vareti'het "
-		sprite "ship/vareti'het"
-		distance 1200
-		offset 360
-planet "Faes'mar "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Faes'mar "
-planet "Vareti'het "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Vareti'het "
-
-system "Korath "
-	add object "Kar Ik Vot 349 "
-		sprite "ship/kar ik vot 349"
-		distance 1100
-		offset 120
-	add object "Korath World-Ship "
-		sprite "ship/world-ship a"
-		distance 1200
-		offset 360
-	add object "Model 512 "
-		sprite "ship/model 512"
-		distance 1040
-		offset 240
-	add object "Palavret "
-		sprite "ship/raider"
-		distance 1020
-		offset 345
-	add object "Rano'erek "
-		sprite "ship/dredger"
-		distance 1040
-		offset 15
-planet "Kar Ik Vot 349 "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Kar Ik Vot 349 "
-planet "Korath World-Ship "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Korath World-Ship "
-planet "Model 512 "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Model 512 "
-planet "Palavret "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Palavret "
-planet "Rano'erek "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Rano'erek "
-
-system "Wanderer "
-	add object "Hurricane "
-		sprite "ship/hurricane"
-		distance 1200
-		offset 360
-planet "Hurricane "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Hurricane "
-
-system "Coalition "
-	add object "Heliarch Punisher "
-		sprite "ship/heliarch punisher"
-		distance 1200
-		offset 360
-planet "Heliarch Punisher "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Heliarch Punisher "
-
-system "Quarg "
-	add object "Quarg Skylark "
-		sprite "ship/skylark"
-		distance 1200
-		offset 355
-	add object "Quarg Wardragon "
-		sprite "ship/wardragon"
-		distance 1140
-		offset 5
-planet "Quarg Skylark "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Quarg Skylark "
-planet "Quarg Wardragon "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Quarg Wardragon "
-
-system "Drak "
-	add object "Archon "
-		sprite "ship/archon"
-			"frame rate" 0.87
-		distance 1200
-		offset 360
-planet "Archon "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Archon "
-
-system "Pug "
-	add object "Pug Arfecta "
-		sprite "ship/pug arfecta"
-		distance 1200
-		offset 360
-planet "Pug Arfecta "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Pug Arfecta "
-
-system "Unknown "
-	add object "Void Sprite "
-		sprite "ship/void sprite/void sprite adult"
-			"frame rate" 14.3
-			"random start frame"
-			rewind
-		distance 1200
-		offset 360
-planet "Void Sprite "
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "Void Sprite "
+		fleet "Unknown  "

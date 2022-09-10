@@ -1,29 +1,11 @@
-#	Sheragi
-
-fleet "Black Diamond "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Black Diamond"
-fleet "Emerald Sword "
+fleet "Sheragi  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Emerald Sword"
 		"Black Diamond" 6
-
-#	Human
-
-fleet "Auxiliary "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Auxiliary (Transport)"
-		"Lance" 4
-fleet "Carrier "
+fleet "Human  "
 	government "arena"
 	personality
 		"heroic"
@@ -31,186 +13,62 @@ fleet "Carrier "
 		"Carrier"
 		"Combat Drone" 6
 		"Lance" 4
-fleet "Combat Drone "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Combat Drone"
-fleet "Cruiser "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Cruiser"
-		"Combat Drone" 4
-fleet "Frigate "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Frigate"
-fleet "Gunboat "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Gunboat"
-fleet "Lance "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Lance"
-fleet "Rainmaker "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Rainmaker"
-
-#	Hai
-
-fleet "Shield Beetle "
+fleet "Hai  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Shield Beetle"
-
-#	Remnant
-
-fleet "Albatross "
+fleet "Remnant  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Albatross"
-fleet "Heron "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Heron"
-		"Petrel" 4
-		"Tern" 32
-fleet "Petrel "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Petrel"
-fleet "Tern "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Tern"
-
-#	Builder
-
-fleet "Faes'mar "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Faes'mar"
-fleet "Vareti'het "
+fleet "Builder  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Vareti'het"
-
-#	Korath
-
-fleet "Kar Ik Vot 349 "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Kar Ik Vot 349"
-fleet "Korath World-Ship "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Korath World-Ship"
-fleet "Model 512 "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Model 512"
-fleet "Palavret "
+fleet "Korath  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"'olofez" 2
 		"Palavret"
-fleet "Rano'erek "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"'olofez" 4
-		"Rano'erek"
-
-#	Wanderer
-
-fleet "Hurricane "
+fleet "Wanderer  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Hurricane"
-
-#	Coalition
-
-fleet "Heliarch Punisher "
+fleet "Coalition  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Heliarch Punisher"
-
-#	Quarg
-
-fleet "Quarg Skylark "
-	government "arena"
-	personality
-		"heroic"
-	variant
-		"Quarg Skylark"
-fleet "Quarg Wardragon "
+fleet "Quarg  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Quarg Wardragon"
-
-#	Drak
-
-fleet "Archon "
+fleet "Drak  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Archon"
-
-#	Pug
-
-fleet "Pug Arfecta "
+fleet "Pug  "
 	government "arena"
 	personality
 		"heroic"
 	variant
 		"Pug Arfecta"
-
-#	Unknown
-
-fleet "Void Sprite "
+fleet "Unknown  "
 	government "arena"
 	personality
 		"heroic"
