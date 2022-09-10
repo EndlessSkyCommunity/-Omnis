@@ -10,7 +10,7 @@ event "aben gateway"
 		add object "aben gateway"
 			sprite "sprite/wisp_green"
 		add object
-			sprite "sprite/faction_aben"
+			sprite "support/faction_aben"
 			distance 150
 			offset 180
 	system "Dzee dzee-Bon,da"
@@ -57,7 +57,7 @@ event "altera gateway"
 		add object "altera gateway"
 			sprite "sprite/wisp_green"
 		add object
-			sprite "sprite/faction_altera"
+			sprite "support/faction_altera"
 			distance 150
 			offset 180
 	system "Light of Altera"
