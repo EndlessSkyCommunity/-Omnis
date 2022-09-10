@@ -1,16 +1,51 @@
 shipyard "human plugins"
+#	Human Fluff
 	"HuFl- Colossus"
 	"HuFl- Flivver (Racing)"
 outfitter "human plugins"
+#	Beccas Endless Expansion
+	"Accurate Gatling Blaster"
+	"Fuel Centrifuge"
+	"Heavy Laser Rifle"
+	"Professional Security Station"
+	"RT-II Radiothermal"
+#	Human Fluff
 	"Knockout Gas"
 
+shipyard "hai plugins"
+#	Beccas Endless Expansion
+	"Modified Shield Beetle"
+	"Sea Scorpion"
+outfitter "hai plugins"
+#	Beccas Endless Expansion
+	"Hai Squall Cooling"
+	"Hai Zephyr Cooling"
+	"Ionic Blaster"
+	"Ionic Rifle"
+	"Ionic Turret"
+	"Protection Station"
+	`"Babreii" Afterburner`
+
+shipyard "remnant plugins"
+#	Beccas Endless Expansion
+	"Robin"
+	"Swan"
+
 shipyard "korath plugins"
+#	Beccas Endless Expansion
+	"Far Ek Tek 243"
+	"Korath Courier (Empty)"
+	"Korath Courier"
+	"Korath Shipper"
+#	Korath Fluff
 	"KoFl- Kar Ik Vot 637"
 	"KoFl- Kar Ik Vot 711"
 outfitter "korath plugins"
+#	Korath Fluff
 	"Shield Disruptor Gun"
 	"Vector Engine (Reality Class)"
 
 shipyard "quarg plugins"
+#	Quarg Fluff
 	"QuFl- Quarg Hydra"
 	"QuFl- Quarg Oriole"
