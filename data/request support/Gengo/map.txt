@@ -1,0 +1,107 @@
+system "Gengo "
+	pos 447 -10315
+	government "request"
+	"jump range" 3000
+	link "Bunrodea "
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 20
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 40
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 60
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 80
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 100
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 120
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 140
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 160
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 180
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 200
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 220
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 240
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 260
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 280
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 300
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 320
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 340
+	object "Gengo "
+		sprite planet/ringworld
+			scale .5
+		distance 812
+		offset 360
+planet "Gengo "
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	shipyard "omnis"
+	outfitter "omnis"
+	outfitter "mineables"
+	shipyard "gengo"
+	outfitter "gengo"
+	bribe 0
+planet "gengo gateway"
+	attributes "requires: Omnis"

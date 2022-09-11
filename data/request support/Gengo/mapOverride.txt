@@ -1,0 +1,6 @@
+planet "Everything"
+	add shipyard "gengo"
+	add outfitter "gengo"
+planet "Plugins"
+	add shipyard "gengo"
+	add outfitter "gengo"
