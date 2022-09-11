@@ -2,7 +2,6 @@ system "Bunrodea "
 	pos 143 -10068
 	government "request"
 	"jump range" 3000
-	link "Gengo "
 	link "Korath "
 	object "Bunrodea "
 		sprite planet/ringworld

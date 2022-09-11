@@ -1,3 +1,5 @@
+system "Gengo "
+	add link "Bunrodea "
 system "Korath "
 	add link "Bunrodea "
 

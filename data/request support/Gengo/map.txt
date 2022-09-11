@@ -2,7 +2,6 @@ system "Gengo "
 	pos 447 -10315
 	government "request"
 	"jump range" 3000
-	link "Bunrodea "
 	object "Gengo "
 		sprite planet/ringworld
 			scale .5

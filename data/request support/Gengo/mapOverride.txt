@@ -1,3 +1,6 @@
+system "Bunrodea "
+	add link "Gengo "
+
 planet "Everything"
 	add shipyard "gengo"
 	add outfitter "gengo"
