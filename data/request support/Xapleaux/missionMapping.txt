@@ -22,16 +22,6 @@ event "xapleaux gateway"
 		add object
 			sprite "sprite/gateway_omnis"
 			distance 150
-mission "reveal omnis-xapleaux"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-xapleaux"
-event "reveal omnis-xapleaux"
-	visit "Xapleaux "
 mission "reveal xapleaux content"
 	invisible
 	landing
@@ -105,5 +95,6 @@ event "reveal xapleaux content"
 	visit "Tidursangat"
 	visit "Vik-benoureal"
 	visit "Vikinik-bounera"
+	visit "Xapleaux "
 	visit "Xivik-beriloumi"
 	visit "Xivik-soubiae-tock"

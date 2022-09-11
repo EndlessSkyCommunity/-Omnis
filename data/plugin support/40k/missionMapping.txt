@@ -13,24 +13,12 @@ event "imperium gateway"
 			sprite "support/faction_imperium"
 			distance 150
 			offset 180
-	system ""
+	system "Pyherrus"
 		add object "imperium gateway"
 			sprite "sprite/wisp_green"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-imperium"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-imperium"
-event "reveal omnis-imperium"
-	visit "Imperium "
-	visit "Necron "
-	visit "Tau "
 mission "reveal imperium content"
 	invisible
 	landing
@@ -40,4 +28,7 @@ mission "reveal imperium content"
 	on accept
 		event "reveal imperium content"
 event "reveal imperium content"
+	visit "Imperium "
+	visit "Necron "
 	visit "Pyherrus"
+	visit "Tau "

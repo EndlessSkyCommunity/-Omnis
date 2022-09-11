@@ -19,16 +19,6 @@ event "bunrodea gateway"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-bunrodea"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-bunrodea"
-event "reveal omnis-bunrodea"
-	visit "Bunrodea "
 mission "reveal bunrodea content"
 	invisible
 	landing
@@ -40,6 +30,7 @@ mission "reveal bunrodea content"
 event "reveal bunrodea content"
 	visit "Avo Chigo"
 	visit "Bunri Lemeta"
+	visit "Bunrodea "
 	visit "Elabi Choati"
 	visit "Elo Chigo"
 	visit "Eneva Katta"

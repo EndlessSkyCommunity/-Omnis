@@ -19,16 +19,6 @@ event "eternals gateway"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-eternals"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-eternals"
-event "reveal omnis-eternals"
-	visit "Eternals "
 mission "reveal eternals content"
 	invisible
 	landing
@@ -41,6 +31,7 @@ event "reveal eternals content"
 	visit "Charybdis"
 	visit "Cinoo"
 	visit "Ephemeral Reflections"
+	visit "Eternals "
 	visit "Hetuu"
 	visit "Ismaros"
 	visit "Kijaa"

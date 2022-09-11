@@ -21,16 +21,6 @@ event "altera gateway"
 		add object
 			sprite "sprite/gateway_omnis"
 			distance 150
-mission "reveal omnis-altera"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-altera"
-event "reveal omnis-altera"
-	visit "Altera "
 mission "reveal altera content"
 	invisible
 	landing
@@ -46,6 +36,7 @@ event "reveal altera content"
 	visit "Aetia"
 	visit "Akasia"
 	visit "Allusia"
+	visit "Altera "
 	visit "Arcana"
 	visit "Argus"
 	visit "Ascaris"

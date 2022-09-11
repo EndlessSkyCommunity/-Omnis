@@ -19,16 +19,6 @@ event "aben gateway"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-aben"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-aben"
-event "reveal omnis-aben"
-	visit "Aben "
 mission "reveal aben content"
 	invisible
 	landing
@@ -38,6 +28,7 @@ mission "reveal aben content"
 	on accept
 		event "reveal aben content"
 event "reveal aben content"
+	visit "Aben "
 	visit "Ahaw On,za"
 	visit "Dzee dzee-Bon,da"
 	visit "Ko,gok"

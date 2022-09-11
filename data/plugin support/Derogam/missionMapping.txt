@@ -19,16 +19,6 @@ event "derogam gateway"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-derogam"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-derogam"
-event "reveal omnis-derogam"
-	visit "Derogam "
 mission "reveal derogam content"
 	invisible
 	landing
@@ -55,6 +45,7 @@ event "reveal derogam content"
 	visit "Daremto"
 	visit "Dawited"
 	visit "Delikens"
+	visit "Derogam "
 	visit "Donista"
 	visit "Dublion"
 	visit "Ecrusber"

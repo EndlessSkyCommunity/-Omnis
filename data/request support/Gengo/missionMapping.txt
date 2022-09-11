@@ -19,16 +19,6 @@ event "gengo gateway"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal omnis-gengo"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-gengo"
-event "reveal omnis-gengo"
-	visit "Gengo "
 mission "reveal gengo content"
 	invisible
 	landing
@@ -68,6 +58,7 @@ event "reveal gengo content"
 	visit "G-719"
 	visit "G-819"
 	visit "Gaungu"
+	visit "Gengo "
 	visit "Ghhil"
 	visit "Gualetri"
 	visit "H-8188"
