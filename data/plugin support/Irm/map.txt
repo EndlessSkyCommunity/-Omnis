@@ -1,4 +1,5 @@
 system "Irm "
+	hidden
 	pos -124 -10274
 	government "plugin"
 	"jump range" 3000

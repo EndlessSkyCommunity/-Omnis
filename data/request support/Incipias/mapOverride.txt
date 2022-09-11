@@ -1,6 +1,3 @@
-system "Hai "
-	add link "Incipias "
-
 planet "Everything"
 	add shipyard "incipias"
 	add outfitter "incipias"

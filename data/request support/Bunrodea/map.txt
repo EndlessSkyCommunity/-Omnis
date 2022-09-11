@@ -1,8 +1,8 @@
 system "Bunrodea "
+	hidden
 	pos 143 -10068
 	government "request"
 	"jump range" 3000
-	link "Korath "
 	object "Bunrodea "
 		sprite planet/ringworld
 			scale .5

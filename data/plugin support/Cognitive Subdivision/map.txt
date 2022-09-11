@@ -1,4 +1,5 @@
 system "Algol "
+	hidden
 	pos -641 -9503
 	government "plugin"
 	"jump range" 3000

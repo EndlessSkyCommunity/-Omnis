@@ -1,4 +1,5 @@
 system "Aben "
+	hidden
 	pos 65 -10282
 	government "plugin"
 	"jump range" 3000

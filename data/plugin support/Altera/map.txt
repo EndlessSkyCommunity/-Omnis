@@ -1,4 +1,5 @@
 system "Altera "
+	hidden
 	pos 296 -9840
 	government "plugin"
 	"jump range" 3000

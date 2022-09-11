@@ -1,7 +1,7 @@
 system "Incipias "
+	hidden
 	pos 128 -10394
 	government "request"
-	link "Hai "
 	"jump range" 3000
 	object "Incipias "
 		sprite planet/ringworld

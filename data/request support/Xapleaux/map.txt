@@ -1,9 +1,8 @@
 system "Xapleaux "
+	hidden
 	pos 78 -10008
 	government "request"
 	"jump range" 3000
-	link "Korath "
-	link "Quarg "
 	object "Xapleaux "
 		sprite planet/ringworld
 			scale .5

@@ -1,4 +1,5 @@
 system "Gengo "
+	hidden
 	pos 447 -10315
 	government "request"
 	"jump range" 3000
