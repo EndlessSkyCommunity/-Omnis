@@ -1,24 +1,24 @@
 government "arena"
 	"display name" `Unknown`
 	swizzle 0
-	color 1 1 1
+	color .43 .33 .58
 	"player reputation" -1
 	fine 0
 	"hostile hail" "arena"
 government "cheat"
 	"display name" `Unknown`
 	swizzle 0
-	color 1 1 1
+	color .43 .33 .58
 	fine 0
 government "request"
 	"display name" `Unknown`
 	swizzle 0
-	color .6 .6 .6
+	color .42 .78 .27
 	fine 0
 government "plugin"
 	"display name" `Unknown`
 	swizzle 0
-	color .3 .3 .3
+	color .74 .17 0
 	fine 0
 
 phrase "arena"
