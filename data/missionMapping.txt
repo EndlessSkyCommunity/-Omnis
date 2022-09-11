@@ -2,7 +2,7 @@ mission "omnis start"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "reveal omnis"
 		event "reveal map"

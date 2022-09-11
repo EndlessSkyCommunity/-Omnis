@@ -2,7 +2,7 @@ mission "bunrodea gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "bunrodea gateway"
 event "bunrodea gateway"
@@ -24,7 +24,7 @@ mission "reveal bunrodea content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal bunrodea content"
 event "reveal bunrodea content"

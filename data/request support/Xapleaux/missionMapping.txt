@@ -2,7 +2,7 @@ mission "xapleaux gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "xapleaux gateway"
 event "xapleaux gateway"
@@ -27,7 +27,7 @@ mission "reveal xapleaux content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal xapleaux content"
 event "reveal xapleaux content"

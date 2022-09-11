@@ -3,7 +3,7 @@ mission "reveal fallen content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal fallen content"
 event "reveal fallen content"

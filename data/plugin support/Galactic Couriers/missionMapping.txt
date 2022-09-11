@@ -3,7 +3,7 @@ mission "reveal galactic-couriers content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal galactic-couriers content"
 event "reveal galactic-couriers content"

@@ -3,7 +3,7 @@ mission "reveal lost-in-midnight content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal lost-in-midnight content"
 event "reveal lost-in-midnight content"

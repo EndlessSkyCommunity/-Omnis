@@ -6,7 +6,7 @@ galaxy "omnis"
 
 system "Omnis"
 	pos 0 -10000
-	government "cheat"
+	government "vanilla"
 	link "Human "
 	"jump range" 3000
 	object
@@ -243,7 +243,7 @@ planet "Vanilla"
 
 system "Sheragi "
 	pos -378 -9817
-	government "cheat"
+	government "vanilla"
 	link "Coalition "
 	link "Human "
 	link "Pug "
@@ -395,7 +395,7 @@ planet "Sheragi Vanilla"
 
 system "Human "
 	pos -200 -9950
-	government "cheat"
+	government "vanilla"
 	link "Korath "
 	link "Omnis"
 	link "Pug "
@@ -547,7 +547,7 @@ planet "Human Vanilla"
 
 system "Hai "
 	pos -13 -10253
-	government "cheat"
+	government "vanilla"
 	link "Korath "
 	link "Wanderer "
 	"jump range" 3000
@@ -697,7 +697,7 @@ planet "Hai Vanilla"
 
 system "Remnant "
 	pos 133 -9792
-	government "cheat"
+	government "vanilla"
 	link "Builder "
 	link "Unknown "
 	"jump range" 3000
@@ -847,7 +847,7 @@ planet "Remnant Vanilla"
 
 system "Builder "
 	pos 83 -9721
-	government "cheat"
+	government "vanilla"
 	link "Remnant "
 	link "Unknown "
 	"jump range" 3000
@@ -997,7 +997,7 @@ planet "Builder Vanilla"
 
 system "Korath "
 	pos -58 -10120
-	government "cheat"
+	government "vanilla"
 	link "Drak "
 	link "Hai "
 	link "Human "
@@ -1148,7 +1148,7 @@ planet "Korath Vanilla"
 
 system "Wanderer "
 	pos -120 -10411
-	government "cheat"
+	government "vanilla"
 	link "Hai "
 	"jump range" 3000
 	object "wanderer gateway"
@@ -1297,7 +1297,7 @@ planet "Wanderer Vanilla"
 
 system "Coalition "
 	pos -541 -9776
-	government "cheat"
+	government "vanilla"
 	link "Sheragi "
 	"jump range" 3000
 	object "coalition gateway"
@@ -1446,7 +1446,7 @@ planet "Coalition Vanilla"
 
 system "Quarg "
 	pos -89 -9751
-	government "cheat"
+	government "vanilla"
 	link "Pug "
 	link "Sheragi "
 	link "Unknown "
@@ -1597,7 +1597,7 @@ planet "Quarg Vanilla"
 
 system "Drak "
 	pos 125 -10138
-	government "cheat"
+	government "vanilla"
 	link "Korath "
 	"jump range" 3000
 	object "drak gateway"
@@ -1746,7 +1746,7 @@ planet "Drak Vanilla"
 
 system "Pug "
 	pos -174 -9887
-	government "cheat"
+	government "vanilla"
 	link "Human "
 	link "Quarg "
 	link "Sheragi "
@@ -1897,7 +1897,7 @@ planet "Pug Vanilla"
 
 system "Unknown "
 	pos -20 -9766
-	government "cheat"
+	government "vanilla"
 	link "Builder "
 	link "Quarg "
 	link "Remnant "

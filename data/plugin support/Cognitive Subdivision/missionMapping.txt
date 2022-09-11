@@ -2,7 +2,7 @@ mission "algol gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "algol gateway"
 event "algol gateway"
@@ -24,7 +24,7 @@ mission "reveal algol content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal algol content"
 event "reveal algol content"

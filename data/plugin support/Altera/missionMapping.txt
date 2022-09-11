@@ -2,7 +2,7 @@ mission "altera gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "altera gateway"
 event "altera gateway"
@@ -26,7 +26,7 @@ mission "reveal altera content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal altera content"
 event "reveal altera content"

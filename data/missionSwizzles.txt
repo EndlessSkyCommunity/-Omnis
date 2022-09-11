@@ -2,7 +2,7 @@ mission "Swizzle Picker"
 	job
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		conversation
 			`Swizzle?`

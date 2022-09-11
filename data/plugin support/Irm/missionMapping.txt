@@ -2,7 +2,7 @@ mission "irm gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "irm gateway"
 event "irm gateway"
@@ -24,7 +24,7 @@ mission "reveal irm content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal irm content"
 event "reveal irm content"

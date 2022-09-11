@@ -2,7 +2,7 @@ mission "eternals gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "eternals gateway"
 event "eternals gateway"
@@ -24,7 +24,7 @@ mission "reveal eternals content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal eternals content"
 event "reveal eternals content"

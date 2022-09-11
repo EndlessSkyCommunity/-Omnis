@@ -2,7 +2,7 @@ mission "gengo gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "gengo gateway"
 event "gengo gateway"
@@ -24,7 +24,7 @@ mission "reveal gengo content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal gengo content"
 event "reveal gengo content"

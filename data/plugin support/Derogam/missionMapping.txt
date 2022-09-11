@@ -2,7 +2,7 @@ mission "derogam gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "derogam gateway"
 event "derogam gateway"
@@ -24,7 +24,7 @@ mission "reveal derogam content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal derogam content"
 event "reveal derogam content"

@@ -2,7 +2,7 @@ mission "aben gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "aben gateway"
 event "aben gateway"
@@ -24,7 +24,7 @@ mission "reveal aben content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal aben content"
 event "reveal aben content"

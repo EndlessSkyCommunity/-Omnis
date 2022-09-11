@@ -3,7 +3,7 @@ mission "reveal pug-defense content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal pug-defense content"
 event "reveal pug-defense content"

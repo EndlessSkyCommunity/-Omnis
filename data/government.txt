@@ -5,7 +5,7 @@ government "arena"
 	"player reputation" -1
 	fine 0
 	"hostile hail" "arena"
-government "cheat"
+government "vanilla"
 	"display name" `Unknown`
 	swizzle 0
 	color .43 .33 .58

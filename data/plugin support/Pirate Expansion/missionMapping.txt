@@ -3,7 +3,7 @@ mission "reveal pirate-expansion content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal pirate-expansion content"
 event "reveal pirate-expansion content"

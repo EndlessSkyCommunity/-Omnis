@@ -2,7 +2,7 @@ mission "imperium gateway"
 	invisible
 	landing
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on offer
 		event "imperium gateway"
 event "imperium gateway"
@@ -24,7 +24,7 @@ mission "reveal imperium content"
 	landing
 	repeat
 	source
-		government "cheat"
+		government "vanilla" "request" "plugin"
 	on accept
 		event "reveal imperium content"
 event "reveal imperium content"
