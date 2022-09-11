@@ -1,8 +1,8 @@
 mission "bunrodea gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "bunrodea gateway"
 event "bunrodea gateway"
@@ -69,8 +69,8 @@ event "reveal bunrodea content"
 mission "gengo gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "gengo gateway"
 event "gengo gateway"
@@ -198,8 +198,8 @@ event "reveal gengo content"
 mission "xapleaux gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "xapleaux gateway"
 event "xapleaux gateway"

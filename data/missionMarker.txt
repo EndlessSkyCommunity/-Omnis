@@ -1,5 +1,0 @@
-mission "omnis marker"
-	invisible
-	landing
-	on offer
-		"omnis marker" = 1

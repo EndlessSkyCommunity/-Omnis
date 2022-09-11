@@ -3,8 +3,8 @@
 mission "aben gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "aben gateway"
 event "aben gateway"
@@ -50,8 +50,8 @@ event "reveal aben content"
 mission "altera gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "altera gateway"
 event "altera gateway"
@@ -172,8 +172,8 @@ event "reveal altera content"
 mission "derogam gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "derogam gateway"
 event "derogam gateway"
@@ -301,8 +301,8 @@ event "reveal derogam content"
 mission "eternals gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "eternals gateway"
 event "eternals gateway"
@@ -356,8 +356,8 @@ event "reveal eternals content"
 mission "irm gateway"
 	invisible
 	landing
-	to offer
-		"omnis marker" == 1
+	source
+		government "cheat"
 	on offer
 		event "irm gateway"
 event "irm gateway"
