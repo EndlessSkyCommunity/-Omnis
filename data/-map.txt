@@ -5,7 +5,7 @@ galaxy "omnis"
 #	Central
 
 system "Omnis"
-	pos 56 -9989
+	pos 0 -10000
 	government "cheat"
 	link "Human "
 	"jump range" 3000
