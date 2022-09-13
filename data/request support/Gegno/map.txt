@@ -1,107 +1,107 @@
-system "Gengo "
+system "Gegno "
 	hidden
 	pos 447 -10315
 	government "request"
 	"jump range" 3000
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 20
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 40
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 60
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 80
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 100
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 120
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 140
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 160
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 180
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 200
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 220
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 240
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 260
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 280
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 300
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 320
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 340
-	object "Gengo "
+	object "Gegno "
 		sprite planet/ringworld
 			scale .5
 		distance 812
 		offset 360
-planet "Gengo "
+planet "Gegno "
 	description ``
 	landscape landscape/station6
 	spaceport ``
 	shipyard "omnis"
 	outfitter "omnis"
 	outfitter "mineables"
-	shipyard "gengo"
-	outfitter "gengo"
+	shipyard "gegno"
+	outfitter "gegno"
 	bribe 0
-planet "gengo gateway"
+planet "gegno gateway"
 	attributes "requires: Omnis"

@@ -1,33 +1,33 @@
-mission "gengo gateway"
+mission "gegno gateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "gengo gateway"
-event "gengo gateway"
-	system "Gengo "
-		add object "gengo gateway"
+		event "gegno gateway"
+event "gegno gateway"
+	system "Gegno "
+		add object "gegno gateway"
 			sprite "sprite/wisp_green"
 		add object
-			sprite "support/faction_gengo"
+			sprite "support/faction_gegno"
 			distance 150
 			offset 180
 	system "Heutesl"
-		add object "gengo gateway"
+		add object "gegno gateway"
 			sprite "sprite/wisp_green"
 			object
 				sprite "sprite/gateway_omnis"
 				distance 150
-mission "reveal gengo content"
+mission "reveal gegno content"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal gengo content"
-event "reveal gengo content"
+		event "reveal gegno content"
+event "reveal gegno content"
 	"visit planet" "Ember Gegno"
 	visit "19c"
 	visit "21b"
@@ -58,7 +58,7 @@ event "reveal gengo content"
 	visit "G-719"
 	visit "G-819"
 	visit "Gaungu"
-	visit "Gengo "
+	visit "Gegno "
 	visit "Ghhil"
 	visit "Gualetri"
 	visit "H-8188"
