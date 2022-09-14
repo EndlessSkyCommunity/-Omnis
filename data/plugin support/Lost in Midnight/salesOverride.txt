@@ -138,6 +138,7 @@ outfitter "builder plugins"
 	"Ka'het Scanner"
 
 shipyard "korath plugins"
+	"Ancient Raider"
 	"Model 512 (dire omen)"
 
 shipyard "wanderer plugins"
