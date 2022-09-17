@@ -11,7 +11,7 @@ Additional features:
 ## Supported
 
 [Aben](https://github.com/Adde-Endless-Sky-Mods/Aben):
-Beyond the reaches of ordinary space faring civilizations lie the cluster of systems afforded to the Aben. Impressive technological advancement contrasts the clear non expansionist nature of the Aben, they believe in cooperation between all life and rarely show signs of hostility.
+Beyond the reaches of ordinary space-faring civilizations lies the cluster of systems afforded to the Aben, though they have yet to lay claim to the greater selection of worlds available to them. Impressive technological advancement contrasts the clear non-expansionist nature of the Aben, they believe in cooperation between all life and rarely show signs of hostility.
 
 [Altera](https://github.com/EricD112/Altera):
 Adds a new civilization to the Ember Wastes: Alterans. Alterans, like Heliarchs, are a Tier 2.5 civilization in the Endless Sky universe. In total, there are about 80 systems related to Alteran territory.
