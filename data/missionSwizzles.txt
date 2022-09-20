@@ -1,5 +1,6 @@
 mission "swizzlePicker"
 	name "Swizzle picker"
+	description "Allows for a choice between 29 different ship overlays."
 	job
 	repeat
 	source
