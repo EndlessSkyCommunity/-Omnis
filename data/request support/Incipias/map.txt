@@ -103,5 +103,5 @@ planet "Incipias "
 	shipyard "incipias"
 	outfitter "incipias"
 	bribe 0
-planet "incipias gateway"
+planet "incipiasGateway"
 	attributes "requires: Omnis"

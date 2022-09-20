@@ -103,5 +103,5 @@ planet "Bunrodea "
 	shipyard "bunrodea"
 	outfitter "bunrodea"
 	bribe 0
-planet "bunrodea gateway"
+planet "bunrodeaGateway"
 	attributes "requires: Omnis"

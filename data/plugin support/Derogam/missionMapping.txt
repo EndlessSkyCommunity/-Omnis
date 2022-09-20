@@ -1,33 +1,33 @@
-mission "derogam gateway"
+mission "derogamGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "derogam gateway"
-event "derogam gateway"
+		event "derogamGateway"
+event "derogamGateway"
 	system "Derogam "
-		add object "derogam gateway"
-			sprite "sprite/wisp_green"
+		add object "derogamGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_derogam"
+			sprite "support/factionDerogam"
 			distance 150
 			offset 180
 	system "Seborem"
-		add object "derogam gateway"
-			sprite "sprite/wisp_green"
+		add object "derogamGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal derogam content"
+mission "revealContent derogam"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal derogam content"
-event "reveal derogam content"
+		event "revealContent derogam"
+event "revealContent derogam"
 	"visit planet" "Derogate"
 	visit "Absy"
 	visit "Ailpak"

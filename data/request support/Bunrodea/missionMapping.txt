@@ -1,33 +1,33 @@
-mission "bunrodea gateway"
+mission "bunrodeaGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "bunrodea gateway"
-event "bunrodea gateway"
+		event "bunrodeaGateway"
+event "bunrodeaGateway"
 	system "Bunrodea "
-		add object "bunrodea gateway"
-			sprite "sprite/wisp_green"
+		add object "bunrodeaGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_bunrodea"
+			sprite "support/factionBunrodea"
 			distance 150
 			offset 180
 	system "Erabu Lemeta"
-		add object "bunrodea gateway"
-			sprite "sprite/wisp_green"
+		add object "bunrodeaGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal bunrodea content"
+mission "revealContent bunrodea"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal bunrodea content"
-event "reveal bunrodea content"
+		event "revealContent bunrodea"
+event "revealContent bunrodea"
 	visit "Avo Chigo"
 	visit "Bunri Lemeta"
 	visit "Bunrodea "

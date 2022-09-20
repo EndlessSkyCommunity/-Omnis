@@ -1,33 +1,33 @@
-mission "imperium gateway"
+mission "imperiumGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "imperium gateway"
-event "imperium gateway"
+		event "imperiumGateway"
+event "imperiumGateway"
 	system "Imperium "
-		add object "imperium gateway"
-			sprite "sprite/wisp_green"
+		add object "imperiumGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_imperium"
+			sprite "support/factionImperium"
 			distance 150
 			offset 180
 	system "Pyherrus"
-		add object "imperium gateway"
-			sprite "sprite/wisp_green"
+		add object "imperiumGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal imperium content"
+mission "revealContent imperium"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal imperium content"
-event "reveal imperium content"
+		event "revealContent imperium"
+event "revealContent imperium"
 	visit "Imperium "
 	visit "Necron "
 	visit "Pyherrus"

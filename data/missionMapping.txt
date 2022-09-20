@@ -1,12 +1,12 @@
-mission "omnis start"
+mission "omnisStart"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "reveal omnis"
-		event "reveal map"
-event "reveal omnis"
+		event "revealOmnis"
+		event "revealMap"
+event "revealOmnis"
 	visit "Omnis"
 	visit "Sheragi "
 	visit "Human "
@@ -20,7 +20,7 @@ event "reveal omnis"
 	visit "Drak "
 	visit "Pug "
 	visit "Unknown "
-event "reveal map"
+event "revealMap"
 	galaxy "label arachi"
 		sprite "label/arachi"
 	galaxy "label graveyard"

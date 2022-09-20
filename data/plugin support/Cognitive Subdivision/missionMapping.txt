@@ -1,33 +1,33 @@
-mission "algol gateway"
+mission "algolGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "algol gateway"
-event "algol gateway"
+		event "algolGateway"
+event "algolGateway"
 	system "Algol "
-		add object "algol gateway"
-			sprite "sprite/wisp_green"
+		add object "algolGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_algol"
+			sprite "support/factionAlgol"
 			distance 150
 			offset 180
 	system "Eva"
-		add object "algol gateway"
-			sprite "sprite/wisp_green"
+		add object "algolGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal algol content"
+mission "revealContent algol"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal algol content"
-event "reveal algol content"
+		event "revealContent algol"
+event "revealContent algol"
 	visit "Alepus"
 	visit "Algol "
 	visit "Antiphon"

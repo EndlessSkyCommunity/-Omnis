@@ -103,5 +103,5 @@ planet "Algol "
 	shipyard "algol"
 	outfitter "algol"
 	bribe 0
-planet "algol gateway"
+planet "algolGateway"
 	attributes "requires: Omnis"

@@ -1,12 +1,12 @@
-mission "reveal galactic-couriers content"
+mission "revealContent galactic-couriers"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal galactic-couriers content"
-event "reveal galactic-couriers content"
+		event "revealContent galactic-couriers"
+event "revealContent galactic-couriers"
 	"visit planet" "Donn Wormhole"
 	visit "Anu"
 	visit "Ceridwen"

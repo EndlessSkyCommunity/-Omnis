@@ -102,5 +102,5 @@ planet "Aben "
 	outfitter "mineables"
 	outfitter "aben"
 	bribe 0
-planet "aben gateway"
+planet "abenGateway"
 	attributes "requires: Omnis"

@@ -1,12 +1,12 @@
-mission "reveal pirate-expansion content"
+mission "revealContent pirate-expansion"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal pirate-expansion content"
-event "reveal pirate-expansion content"
+		event "revealContent pirate-expansion"
+event "revealContent pirate-expansion"
 	visit "Almaaz"
 	visit "Alzirr"
 	visit "Arneb"

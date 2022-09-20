@@ -1,4 +1,5 @@
-mission "Swizzle Picker"
+mission "swizzlePicker"
+	name "Swizzle picker"
 	job
 	repeat
 	source
@@ -67,233 +68,233 @@ mission "Swizzle Picker"
 					goto swizzle28
 			label swizzle00
 			apply
-				event "swizzle 00"
+				event "swizzle00"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle01
 			apply
-				event "swizzle 01"
+				event "swizzle01"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle02
 			apply
-				event "swizzle 02"
+				event "swizzle02"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle03
 			apply
-				event "swizzle 03"
+				event "swizzle03"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle04
 			apply
-				event "swizzle 04"
+				event "swizzle04"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle05
 			apply
-				event "swizzle 05"
+				event "swizzle05"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle06
 			apply
-				event "swizzle 06"
+				event "swizzle06"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle07
 			apply
-				event "swizzle 07"
+				event "swizzle07"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle08
 			apply
-				event "swizzle 08"
+				event "swizzle08"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle09
 			apply
-				event "swizzle 09"
+				event "swizzle09"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle10
 			apply
-				event "swizzle 10"
+				event "swizzle10"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle11
 			apply
-				event "swizzle 11"
+				event "swizzle11"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle12
 			apply
-				event "swizzle 12"
+				event "swizzle12"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle13
 			apply
-				event "swizzle 13"
+				event "swizzle13"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle14
 			apply
-				event "swizzle 14"
+				event "swizzle14"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle15
 			apply
-				event "swizzle 15"
+				event "swizzle15"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle16
 			apply
-				event "swizzle 16"
+				event "swizzle16"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle17
 			apply
-				event "swizzle 17"
+				event "swizzle17"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle18
 			apply
-				event "swizzle 18"
+				event "swizzle18"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle19
 			apply
-				event "swizzle 19"
+				event "swizzle19"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle20
 			apply
-				event "swizzle 20"
+				event "swizzle20"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle21
 			apply
-				event "swizzle 21"
+				event "swizzle21"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle22
 			apply
-				event "swizzle 22"
+				event "swizzle22"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle23
 			apply
-				event "swizzle 23"
+				event "swizzle23"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle24
 			apply
-				event "swizzle 24"
+				event "swizzle24"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle25
 			apply
-				event "swizzle 25"
+				event "swizzle25"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle26
 			apply
-				event "swizzle 26"
+				event "swizzle26"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle27
 			apply
-				event "swizzle 27"
+				event "swizzle27"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
 			label swizzle28
 			apply
-				event "swizzle 28"
+				event "swizzle28"
 			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
 				launch
-event "swizzle 00"
+event "swizzle00"
 	government "Escort"
 		swizzle 0
-event "swizzle 01"
+event "swizzle01"
 	government "Escort"
 		swizzle 1
-event "swizzle 02"
+event "swizzle02"
 	government "Escort"
 		swizzle 2
-event "swizzle 03"
+event "swizzle03"
 	government "Escort"
 		swizzle 3
-event "swizzle 04"
+event "swizzle04"
 	government "Escort"
 		swizzle 4
-event "swizzle 05"
+event "swizzle05"
 	government "Escort"
 		swizzle 5
-event "swizzle 06"
+event "swizzle06"
 	government "Escort"
 		swizzle 6
-event "swizzle 07"
+event "swizzle07"
 	government "Escort"
 		swizzle 7
-event "swizzle 08"
+event "swizzle08"
 	government "Escort"
 		swizzle 8
-event "swizzle 09"
+event "swizzle09"
 	government "Escort"
 		swizzle 9
-event "swizzle 10"
+event "swizzle10"
 	government "Escort"
 		swizzle 10
-event "swizzle 11"
+event "swizzle11"
 	government "Escort"
 		swizzle 11
-event "swizzle 12"
+event "swizzle12"
 	government "Escort"
 		swizzle 12
-event "swizzle 13"
+event "swizzle13"
 	government "Escort"
 		swizzle 13
-event "swizzle 14"
+event "swizzle14"
 	government "Escort"
 		swizzle 14
-event "swizzle 15"
+event "swizzle15"
 	government "Escort"
 		swizzle 15
-event "swizzle 16"
+event "swizzle16"
 	government "Escort"
 		swizzle 16
-event "swizzle 17"
+event "swizzle17"
 	government "Escort"
 		swizzle 17
-event "swizzle 18"
+event "swizzle18"
 	government "Escort"
 		swizzle 18
-event "swizzle 19"
+event "swizzle19"
 	government "Escort"
 		swizzle 19
-event "swizzle 20"
+event "swizzle20"
 	government "Escort"
 		swizzle 20
-event "swizzle 21"
+event "swizzle21"
 	government "Escort"
 		swizzle 21
-event "swizzle 22"
+event "swizzle22"
 	government "Escort"
 		swizzle 22
-event "swizzle 23"
+event "swizzle23"
 	government "Escort"
 		swizzle 23
-event "swizzle 24"
+event "swizzle24"
 	government "Escort"
 		swizzle 24
-event "swizzle 25"
+event "swizzle25"
 	government "Escort"
 		swizzle 25
-event "swizzle 26"
+event "swizzle26"
 	government "Escort"
 		swizzle 26
-event "swizzle 27"
+event "swizzle27"
 	government "Escort"
 		swizzle 27
-event "swizzle 28"
+event "swizzle28"
 	government "Escort"
 		swizzle 28

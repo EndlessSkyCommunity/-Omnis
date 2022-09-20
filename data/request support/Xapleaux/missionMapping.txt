@@ -1,36 +1,36 @@
-mission "xapleaux gateway"
+mission "xapleauxGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "xapleaux gateway"
-event "xapleaux gateway"
+		event "xapleauxGateway"
+event "xapleauxGateway"
 	system "Xapleaux "
-		add object "xapleaux gateway"
-			sprite "sprite/wisp_green"
+		add object "xapleauxGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_xapleaux"
+			sprite "support/factionXapleaux"
 			distance 150
 			offset 180
 	system "Krigec-svolurealuo-jik"
-		add object "xapleaux gateway"
-			sprite "sprite/wisp_green"
+		add object "xapleauxGateway"
+			sprite "sprite/wispGreen"
 	 		distance 41.865815
 	 		period 98.134094
 	 		offset 180
 		add object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
-mission "reveal xapleaux content"
+mission "revealContent xapleaux"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal xapleaux content"
-event "reveal xapleaux content"
+		event "revealContent xapleaux"
+event "revealContent xapleaux"
 	visit "Acrab"
 	visit "Ain"
 	visit "Aircakap"

@@ -1,33 +1,33 @@
-mission "incipias gateway"
+mission "incipiasGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "incipias gateway"
-event "incipias gateway"
+		event "incipiasGateway"
+event "incipiasGateway"
 	system "Incipias "
-		add object "incipias gateway"
-			sprite "sprite/wisp_green"
+		add object "incipiasGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_incipias"
+			sprite "support/factionIncipias"
 			distance 150
 			offset 180
 	system "Dom'us"
-		add object "incipias gateway"
-			sprite "sprite/wisp_green"
+		add object "incipiasGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal incipias content"
+mission "revealContent incipias"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal incipias content"
-event "reveal incipias content"
+		event "revealContent incipias"
+event "revealContent incipias"
 	visit "Dom'us"
 	visit "Hui'uc"
 	visit "Il'le"

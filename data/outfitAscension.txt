@@ -1,6 +1,6 @@
 outfit "Crux Stone "
 	category "Cheat"
-	thumbnail "outfit/crux_stone"
+	thumbnail "outfit/cruxStone"
 	Omnis 1
 	description "Enables use of the Omnis nexus wormholes."
 outfit "Disable All"

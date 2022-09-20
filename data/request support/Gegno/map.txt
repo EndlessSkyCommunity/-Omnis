@@ -103,5 +103,5 @@ planet "Gegno "
 	shipyard "gegno"
 	outfitter "gegno"
 	bribe 0
-planet "gegno gateway"
+planet "gegnoGateway"
 	attributes "requires: Omnis"

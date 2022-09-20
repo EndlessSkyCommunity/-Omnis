@@ -103,7 +103,7 @@ planet "Imperium "
 	shipyard "imperium"
 	outfitter "imperium"
 	bribe 0
-planet "imperium gateway"
+planet "imperiumGateway"
 	attributes "requires: Omnis"
 
 system "Necron "

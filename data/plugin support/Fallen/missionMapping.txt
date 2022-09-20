@@ -1,11 +1,11 @@
-mission "reveal fallen content"
+mission "revealContent fallen"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal fallen content"
-event "reveal fallen content"
+		event "revealContent fallen"
+event "revealContent fallen"
 	visit "Gateway"
 	visit "Relic"

@@ -1,11 +1,11 @@
-mission "reveal pug-defense content"
+mission "revealContent pug-defense"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal pug-defense content"
-event "reveal pug-defense content"
+		event "revealContent pug-defense"
+event "revealContent pug-defense"
 	visit "Isltaria"
 	visit "Sylansia Lost"

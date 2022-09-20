@@ -101,5 +101,5 @@ planet "Irm "
 	outfitter "omnis"
 	outfitter "mineables"
 	bribe 0
-planet "irm gateway"
+planet "irmGateway"
 	attributes "requires: Omnis"

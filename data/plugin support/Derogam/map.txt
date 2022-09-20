@@ -103,5 +103,5 @@ planet "Derogam "
 	shipyard "derogam"
 	outfitter "derogam"
 	bribe 0
-planet "derogam gateway"
+planet "derogamGateway"
 	attributes "requires: Omnis"

@@ -103,5 +103,5 @@ planet "Altera "
 	shipyard "altera"
 	outfitter "altera"
 	bribe 0
-planet "altera gateway"
+planet "alteraGateway"
 	attributes "requires: Omnis"

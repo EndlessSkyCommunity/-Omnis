@@ -1,2 +1,2 @@
-outfitter "human plugins"
+outfitter "humanPlugins"
 	"CMI Fusion Reactor"

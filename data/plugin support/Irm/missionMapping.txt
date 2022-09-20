@@ -1,33 +1,33 @@
-mission "irm gateway"
+mission "irmGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "irm gateway"
-event "irm gateway"
+		event "irmGateway"
+event "irmGateway"
 	system "Irm "
-		add object "irm gateway"
-			sprite "sprite/wisp_green"
+		add object "irmGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_irm"
+			sprite "support/factionIrm"
 			distance 150
 			offset 180
 	system "Solum"
-		add object "irm gateway"
-			sprite "sprite/wisp_green"
+		add object "irmGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal irm content"
+mission "revealContent irm"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal irm content"
-event "reveal irm content"
+		event "revealContent irm"
+event "revealContent irm"
 	"visit planet" "irm gate"
 	visit "Irm "
 	visit "Persolus"

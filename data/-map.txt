@@ -1,5 +1,5 @@
 galaxy "omnis"
-	sprite "sprite/galaxy half"
+	sprite "sprite/milkyWayHalf"
 	pos 0 -10000
 
 #	Central
@@ -12,8 +12,8 @@ system "Omnis"
 	object
 		sprite "_menu/title"
 		distance 100
-	object "omnis gateway"
-		sprite "sprite/wisp_green"
+	object "omnisGateway"
+		sprite "sprite/wispGreen"
 		distance -100
 	object "Plugins"
 		sprite "sprite/station8"
@@ -24,11 +24,11 @@ system "Omnis"
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Everything"
@@ -129,53 +129,53 @@ planet "Everything"
 	outfitter "developer"
 	outfitter "mineables"
 	outfitter "plugins"
-	outfitter "coalition plugins"
-	outfitter "coalition vanilla"
-	outfitter "drak plugins"
-	outfitter "drak vanilla"
-	outfitter "hai plugins"
-	outfitter "hai vanilla"
-	outfitter "human plugins"
-	outfitter "human vanilla"
-	outfitter "builder plugins"
-	outfitter "builder vanilla"
-	outfitter "korath plugins"
-	outfitter "korath vanilla"
-	outfitter "pug plugins"
-	outfitter "pug vanilla"
-	outfitter "quarg plugins"
-	outfitter "quarg vanilla"
-	outfitter "remnant plugins"
-	outfitter "remnant vanilla"
-	outfitter "sheragi plugins"
-	outfitter "sheragi vanilla"
-	outfitter "wanderer plugins"
-	outfitter "wanderer vanilla"
+	outfitter "coalitionPlugins"
+	outfitter "coalitionVanilla"
+	outfitter "drakPlugins"
+	outfitter "drakVanilla"
+	outfitter "haiPlugins"
+	outfitter "haiVanilla"
+	outfitter "humanPlugins"
+	outfitter "humanVanilla"
+	outfitter "builderPlugins"
+	outfitter "builderVanilla"
+	outfitter "korathPlugins"
+	outfitter "korathVanilla"
+	outfitter "pugPlugins"
+	outfitter "pugVanilla"
+	outfitter "quargPlugins"
+	outfitter "quargVanilla"
+	outfitter "remnantPlugins"
+	outfitter "remnantVanilla"
+	outfitter "sheragiPlugins"
+	outfitter "sheragiVanilla"
+	outfitter "wandererPlugins"
+	outfitter "wandererVanilla"
 	shipyard "omnis"
 	shipyard "developer"
 	shipyard "plugins"
-	shipyard "coalition plugins"
-	shipyard "coalition vanilla"
-	shipyard "drak plugins"
-	shipyard "drak vanilla"
-	shipyard "hai plugins"
-	shipyard "hai vanilla"
-	shipyard "human plugins"
-	shipyard "human vanilla"
-	shipyard "builder plugins"
-	shipyard "builder vanilla"
-	shipyard "korath plugins"
-	shipyard "korath vanilla"
-	shipyard "pug plugins"
-	shipyard "pug vanilla"
-	shipyard "quarg plugins"
-	shipyard "quarg vanilla"
-	shipyard "remnant plugins"
-	shipyard "remnant vanilla"
-	shipyard "sheragi plugins"
-	shipyard "sheragi vanilla"
-	shipyard "wanderer plugins"
-	shipyard "wanderer vanilla"
+	shipyard "coalitionPlugins"
+	shipyard "coalitionVanilla"
+	shipyard "drakPlugins"
+	shipyard "drakVanilla"
+	shipyard "haiPlugins"
+	shipyard "haiVanilla"
+	shipyard "humanPlugins"
+	shipyard "humanVanilla"
+	shipyard "builderPlugins"
+	shipyard "builderVanilla"
+	shipyard "korathPlugins"
+	shipyard "korathVanilla"
+	shipyard "pugPlugins"
+	shipyard "pugVanilla"
+	shipyard "quargPlugins"
+	shipyard "quargVanilla"
+	shipyard "remnantPlugins"
+	shipyard "remnantVanilla"
+	shipyard "sheragiPlugins"
+	shipyard "sheragiVanilla"
+	shipyard "wandererPlugins"
+	shipyard "wandererVanilla"
 	bribe 0
 planet "Plugins"
 	landscape "landscape/station6"
@@ -184,31 +184,31 @@ planet "Plugins"
 	outfitter "omnis"
 	outfitter "developer"
 	outfitter "plugins"
-	outfitter "coalition plugins"
-	outfitter "drak plugins"
-	outfitter "hai plugins"
-	outfitter "human plugins"
-	outfitter "builder plugins"
-	outfitter "korath plugins"
-	outfitter "pug plugins"
-	outfitter "quarg plugins"
-	outfitter "remnant plugins"
-	outfitter "sheragi plugins"
-	outfitter "wanderer plugins"
+	outfitter "coalitionPlugins"
+	outfitter "drakPlugins"
+	outfitter "haiPlugins"
+	outfitter "humanPlugins"
+	outfitter "builderPlugins"
+	outfitter "korathPlugins"
+	outfitter "pugPlugins"
+	outfitter "quargPlugins"
+	outfitter "remnantPlugins"
+	outfitter "sheragiPlugins"
+	outfitter "wandererPlugins"
 	shipyard "omnis"
 	shipyard "developer"
 	shipyard "plugins"
-	shipyard "coalition plugins"
-	shipyard "drak plugins"
-	shipyard "hai plugins"
-	shipyard "human plugins"
-	shipyard "builder plugins"
-	shipyard "korath plugins"
-	shipyard "pug plugins"
-	shipyard "quarg plugins"
-	shipyard "remnant plugins"
-	shipyard "sheragi plugins"
-	shipyard "wanderer plugins"
+	shipyard "coalitionPlugins"
+	shipyard "drakPlugins"
+	shipyard "haiPlugins"
+	shipyard "humanPlugins"
+	shipyard "builderPlugins"
+	shipyard "korathPlugins"
+	shipyard "pugPlugins"
+	shipyard "quargPlugins"
+	shipyard "remnantPlugins"
+	shipyard "sheragiPlugins"
+	shipyard "wandererPlugins"
 	bribe 0
 planet "Vanilla"
 	landscape "landscape/station6"
@@ -216,29 +216,29 @@ planet "Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "coalition vanilla"
-	outfitter "drak vanilla"
-	outfitter "hai vanilla"
-	outfitter "human vanilla"
-	outfitter "builder vanilla"
-	outfitter "korath vanilla"
-	outfitter "pug vanilla"
-	outfitter "quarg vanilla"
-	outfitter "remnant vanilla"
-	outfitter "sheragi vanilla"
-	outfitter "wanderer vanilla"
+	outfitter "coalitionVanilla"
+	outfitter "drakVanilla"
+	outfitter "haiVanilla"
+	outfitter "humanVanilla"
+	outfitter "builderVanilla"
+	outfitter "korathVanilla"
+	outfitter "pugVanilla"
+	outfitter "quargVanilla"
+	outfitter "remnantVanilla"
+	outfitter "sheragiVanilla"
+	outfitter "wandererVanilla"
 	shipyard "omnis"
-	shipyard "coalition vanilla"
-	shipyard "drak vanilla"
-	shipyard "hai vanilla"
-	shipyard "human vanilla"
-	shipyard "builder vanilla"
-	shipyard "korath vanilla"
-	shipyard "pug vanilla"
-	shipyard "quarg vanilla"
-	shipyard "remnant vanilla"
-	shipyard "sheragi vanilla"
-	shipyard "wanderer vanilla"
+	shipyard "coalitionVanilla"
+	shipyard "drakVanilla"
+	shipyard "haiVanilla"
+	shipyard "humanVanilla"
+	shipyard "builderVanilla"
+	shipyard "korathVanilla"
+	shipyard "pugVanilla"
+	shipyard "quargVanilla"
+	shipyard "remnantVanilla"
+	shipyard "sheragiVanilla"
+	shipyard "wandererVanilla"
 	bribe 0
 
 system "Sheragi "
@@ -249,10 +249,10 @@ system "Sheragi "
 	link "Pug "
 	link "Quarg "
 	"jump range" 3000
-	object "sheragi gateway"
-		sprite "sprite/wisp_green"
+	object "sheragiGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_sheragi"
+		sprite "sprite/factionSheragi"
 		distance 150
 		offset 180
 	object "Sheragi Plugins"
@@ -264,11 +264,11 @@ system "Sheragi "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Sheragi "
@@ -367,20 +367,20 @@ planet "Sheragi "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "sheragi plugins"
-	outfitter "sheragi vanilla"
+	outfitter "sheragiPlugins"
+	outfitter "sheragiVanilla"
 	shipyard "omnis"
-	shipyard "sheragi plugins"
-	shipyard "sheragi vanilla"
+	shipyard "sheragiPlugins"
+	shipyard "sheragiVanilla"
 	bribe 0
 planet "Sheragi Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "sheragi plugins"
+	outfitter "sheragiPlugins"
 	shipyard "omnis"
-	shipyard "sheragi plugins"
+	shipyard "sheragiPlugins"
 	bribe 0
 planet "Sheragi Vanilla"
 	landscape "landscape/station6"
@@ -388,9 +388,9 @@ planet "Sheragi Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "sheragi vanilla"
+	outfitter "sheragiVanilla"
 	shipyard "omnis"
-	shipyard "sheragi vanilla"
+	shipyard "sheragiVanilla"
 	bribe 0
 
 system "Human "
@@ -401,10 +401,10 @@ system "Human "
 	link "Pug "
 	link "Sheragi "
 	"jump range" 3000
-	object "human gateway"
-		sprite "sprite/wisp_green"
+	object "humanGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_human"
+		sprite "sprite/factionHuman"
 		distance 150
 		offset 180
 	object "Human Plugins"
@@ -416,11 +416,11 @@ system "Human "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Human "
@@ -514,35 +514,35 @@ system "Human "
 		distance 812
 		offset 360
 planet "Human "
-	landscape "landscape/navy_poster_ion"
+	landscape "landscape/navyPoster"
 	description ``
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "human plugins"
-	outfitter "human vanilla"
+	outfitter "humanPlugins"
+	outfitter "humanVanilla"
 	shipyard "omnis"
-	shipyard "human plugins"
-	shipyard "human vanilla"
+	shipyard "humanPlugins"
+	shipyard "humanVanilla"
 	bribe 0
 planet "Human Plugins"
-	landscape "landscape/navy_poster_ion"
+	landscape "landscape/navyPoster"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "human plugins"
+	outfitter "humanPlugins"
 	shipyard "omnis"
-	shipyard "human plugins"
+	shipyard "humanPlugins"
 	bribe 0
 planet "Human Vanilla"
-	landscape "landscape/navy_poster_ion"
+	landscape "landscape/navyPoster"
 	description ``
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "human vanilla"
+	outfitter "humanVanilla"
 	shipyard "omnis"
-	shipyard "human vanilla"
+	shipyard "humanVanilla"
 	bribe 0
 
 system "Hai "
@@ -551,10 +551,10 @@ system "Hai "
 	link "Korath "
 	link "Wanderer "
 	"jump range" 3000
-	object "hai gateway"
-		sprite "sprite/wisp_green"
+	object "haiGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_hai"
+		sprite "sprite/factionHai"
 		distance 150
 		offset 180
 	object "Hai Plugins"
@@ -566,11 +566,11 @@ system "Hai "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Hai "
@@ -669,20 +669,20 @@ planet "Hai "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "hai plugins"
-	outfitter "hai vanilla"
+	outfitter "haiPlugins"
+	outfitter "haiVanilla"
 	shipyard "omnis"
-	shipyard "hai plugins"
-	shipyard "hai vanilla"
+	shipyard "haiPlugins"
+	shipyard "haiVanilla"
 	bribe 0
 planet "Hai Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "hai plugins"
+	outfitter "haiPlugins"
 	shipyard "omnis"
-	shipyard "hai plugins"
+	shipyard "haiPlugins"
 	bribe 0
 planet "Hai Vanilla"
 	landscape "landscape/station6"
@@ -690,9 +690,9 @@ planet "Hai Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "hai vanilla"
+	outfitter "haiVanilla"
 	shipyard "omnis"
-	shipyard "hai vanilla"
+	shipyard "haiVanilla"
 	bribe 0
 
 system "Remnant "
@@ -701,10 +701,10 @@ system "Remnant "
 	link "Builder "
 	link "Unknown "
 	"jump range" 3000
-	object "remnant gateway"
-		sprite "sprite/wisp_green"
+	object "remnantGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_remnant"
+		sprite "sprite/factionRemnant"
 		distance 150
 		offset 180
 	object "Remnant Plugins"
@@ -716,11 +716,11 @@ system "Remnant "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Remnant "
@@ -819,20 +819,20 @@ planet "Remnant "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "remnant plugins"
-	outfitter "remnant vanilla"
+	outfitter "remnantPlugins"
+	outfitter "remnantVanilla"
 	shipyard "omnis"
-	shipyard "remnant plugins"
-	shipyard "remnant vanilla"
+	shipyard "remnantPlugins"
+	shipyard "remnantVanilla"
 	bribe 0
 planet "Remnant Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "remnant plugins"
+	outfitter "remnantPlugins"
 	shipyard "omnis"
-	shipyard "remnant plugins"
+	shipyard "remnantPlugins"
 	bribe 0
 planet "Remnant Vanilla"
 	landscape "landscape/station6"
@@ -840,9 +840,9 @@ planet "Remnant Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "remnant vanilla"
+	outfitter "remnantVanilla"
 	shipyard "omnis"
-	shipyard "remnant vanilla"
+	shipyard "remnantVanilla"
 	bribe 0
 
 system "Builder "
@@ -851,10 +851,10 @@ system "Builder "
 	link "Remnant "
 	link "Unknown "
 	"jump range" 3000
-	object "builder gateway"
-		sprite "sprite/wisp_green"
+	object "builderGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_builder"
+		sprite "sprite/factionBuilder"
 		distance 150
 		offset 180
 	object "Builder Plugins"
@@ -866,11 +866,11 @@ system "Builder "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Builder "
@@ -969,20 +969,20 @@ planet "Builder "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "builder plugins"
-	outfitter "builder vanilla"
+	outfitter "builderPlugins"
+	outfitter "builderVanilla"
 	shipyard "omnis"
-	shipyard "builder plugins"
-	shipyard "builder vanilla"
+	shipyard "builderPlugins"
+	shipyard "builderVanilla"
 	bribe 0
 planet "Builder Plugins"
 	landscape landscape/station6
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "builder plugins"
+	outfitter "builderPlugins"
 	shipyard "omnis"
-	shipyard "builder plugins"
+	shipyard "builderPlugins"
 	bribe 0
 planet "Builder Vanilla"
 	landscape landscape/station6
@@ -990,9 +990,9 @@ planet "Builder Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "builder vanilla"
+	outfitter "builderVanilla"
 	shipyard "omnis"
-	shipyard "builder vanilla"
+	shipyard "builderVanilla"
 	bribe 0
 
 system "Korath "
@@ -1002,10 +1002,10 @@ system "Korath "
 	link "Hai "
 	link "Human "
 	"jump range" 3000
-	object "korath gateway"
-		sprite "sprite/wisp_green"
+	object "korathGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_korath"
+		sprite "sprite/factionKorath"
 		distance 150
 		offset 180
 	object "Korath Plugins"
@@ -1017,11 +1017,11 @@ system "Korath "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Korath "
@@ -1120,20 +1120,20 @@ planet "Korath "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "korath plugins"
-	outfitter "korath vanilla"
+	outfitter "korathPlugins"
+	outfitter "korathVanilla"
 	shipyard "omnis"
-	shipyard "korath plugins"
-	shipyard "korath vanilla"
+	shipyard "korathPlugins"
+	shipyard "korathVanilla"
 	bribe 0
 planet "Korath Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "korath plugins"
+	outfitter "korathPlugins"
 	shipyard "omnis"
-	shipyard "korath plugins"
+	shipyard "korathPlugins"
 	bribe 0
 planet "Korath Vanilla"
 	landscape "landscape/station6"
@@ -1141,9 +1141,9 @@ planet "Korath Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "korath vanilla"
+	outfitter "korathVanilla"
 	shipyard "omnis"
-	shipyard "korath vanilla"
+	shipyard "korathVanilla"
 	bribe 0
 
 system "Wanderer "
@@ -1151,10 +1151,10 @@ system "Wanderer "
 	government "vanilla"
 	link "Hai "
 	"jump range" 3000
-	object "wanderer gateway"
-		sprite "sprite/wisp_green"
+	object "wandererGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_wanderer"
+		sprite "sprite/factionWanderer"
 		distance 150
 		offset 180
 	object "Wanderer Plugins"
@@ -1166,11 +1166,11 @@ system "Wanderer "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Wanderer "
@@ -1269,20 +1269,20 @@ planet "Wanderer "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "wanderer plugins"
-	outfitter "wanderer vanilla"
+	outfitter "wandererPlugins"
+	outfitter "wandererVanilla"
 	shipyard "omnis"
-	shipyard "wanderer plugins"
-	shipyard "wanderer vanilla"
+	shipyard "wandererPlugins"
+	shipyard "wandererVanilla"
 	bribe 0
 planet "Wanderer Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "wanderer plugins"
+	outfitter "wandererPlugins"
 	shipyard "omnis"
-	shipyard "wanderer plugins"
+	shipyard "wandererPlugins"
 	bribe 0
 planet "Wanderer Vanilla"
 	landscape "landscape/station6"
@@ -1290,9 +1290,9 @@ planet "Wanderer Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "wanderer vanilla"
+	outfitter "wandererVanilla"
 	shipyard "omnis"
-	shipyard "wanderer vanilla"
+	shipyard "wandererVanilla"
 	bribe 0
 
 system "Coalition "
@@ -1300,10 +1300,10 @@ system "Coalition "
 	government "vanilla"
 	link "Sheragi "
 	"jump range" 3000
-	object "coalition gateway"
-		sprite "sprite/wisp_green"
+	object "coalitionGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_coalition"
+		sprite "sprite/factionCoalition"
 		distance 150
 		offset 180
 	object "Coalition Plugins"
@@ -1315,11 +1315,11 @@ system "Coalition "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Coalition "
@@ -1418,20 +1418,20 @@ planet "Coalition "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "coalition plugins"
-	outfitter "coalition vanilla"
+	outfitter "coalitionPlugins"
+	outfitter "coalitionVanilla"
 	shipyard "omnis"
-	shipyard "coalition plugins"
-	shipyard "coalition vanilla"
+	shipyard "coalitionPlugins"
+	shipyard "coalitionVanilla"
 	bribe 0
 planet "Coalition Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "coalition plugins"
+	outfitter "coalitionPlugins"
 	shipyard "omnis"
-	shipyard "coalition plugins"
+	shipyard "coalitionPlugins"
 	bribe 0
 planet "Coalition Vanilla"
 	landscape "landscape/station6"
@@ -1439,9 +1439,9 @@ planet "Coalition Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "coalition vanilla"
+	outfitter "coalitionVanilla"
 	shipyard "omnis"
-	shipyard "coalition vanilla"
+	shipyard "coalitionVanilla"
 	bribe 0
 
 system "Quarg "
@@ -1451,10 +1451,10 @@ system "Quarg "
 	link "Sheragi "
 	link "Unknown "
 	"jump range" 3000
-	object "quarg gateway"
-		sprite "sprite/wisp_green"
+	object "quargGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_quarg"
+		sprite "sprite/factionQuarg"
 		distance 150
 		offset 180
 	object "Quarg Plugins"
@@ -1466,11 +1466,11 @@ system "Quarg "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Quarg "
@@ -1569,20 +1569,20 @@ planet "Quarg "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "quarg plugins"
-	outfitter "quarg vanilla"
+	outfitter "quargPlugins"
+	outfitter "quargVanilla"
 	shipyard "omnis"
-	shipyard "quarg plugins"
-	shipyard "quarg vanilla"
+	shipyard "quargPlugins"
+	shipyard "quargVanilla"
 	bribe 0
 planet "Quarg Plugins"
 	landscape landscape/station6
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "quarg plugins"
+	outfitter "quargPlugins"
 	shipyard "omnis"
-	shipyard "quarg plugins"
+	shipyard "quargPlugins"
 	bribe 0
 planet "Quarg Vanilla"
 	landscape landscape/station6
@@ -1590,9 +1590,9 @@ planet "Quarg Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "quarg vanilla"
+	outfitter "quargVanilla"
 	shipyard "omnis"
-	shipyard "quarg vanilla"
+	shipyard "quargVanilla"
 	bribe 0
 
 system "Drak "
@@ -1600,10 +1600,10 @@ system "Drak "
 	government "vanilla"
 	link "Korath "
 	"jump range" 3000
-	object "drak gateway"
-		sprite "sprite/wisp_green"
+	object "drakGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_drak"
+		sprite "sprite/factionDrak"
 		distance 150
 		offset 180
 	object "Drak Plugins"
@@ -1615,11 +1615,11 @@ system "Drak "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Drak "
@@ -1718,20 +1718,20 @@ planet "Drak "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "drak plugins"
-	outfitter "drak vanilla"
+	outfitter "drakPlugins"
+	outfitter "drakVanilla"
 	shipyard "omnis"
-	shipyard "drak plugins"
-	shipyard "drak vanilla"
+	shipyard "drakPlugins"
+	shipyard "drakVanilla"
 	bribe 0
 planet "Drak Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "drak plugins"
+	outfitter "drakPlugins"
 	shipyard "omnis"
-	shipyard "drak plugins"
+	shipyard "drakPlugins"
 	bribe 0
 planet "Drak Vanilla"
 	landscape "landscape/station6"
@@ -1739,9 +1739,9 @@ planet "Drak Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "drak vanilla"
+	outfitter "drakVanilla"
 	shipyard "omnis"
-	shipyard "drak vanilla"
+	shipyard "drakVanilla"
 	bribe 0
 
 system "Pug "
@@ -1751,10 +1751,10 @@ system "Pug "
 	link "Quarg "
 	link "Sheragi "
 	"jump range" 3000
-	object "pug gateway"
-		sprite "sprite/wisp_green"
+	object "pugGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_pug"
+		sprite "sprite/factionPug"
 		distance 150
 		offset 180
 	object "Pug Plugins"
@@ -1766,11 +1766,11 @@ system "Pug "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Pug "
@@ -1869,20 +1869,20 @@ planet "Pug "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "pug plugins"
-	outfitter "pug vanilla"
+	outfitter "pugPlugins"
+	outfitter "pugVanilla"
 	shipyard "omnis"
-	shipyard "pug plugins"
-	shipyard "pug vanilla"
+	shipyard "pugPlugins"
+	shipyard "pugVanilla"
 	bribe 0
 planet "Pug Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "pug plugins"
+	outfitter "pugPlugins"
 	shipyard "omnis"
-	shipyard "pug plugins"
+	shipyard "pugPlugins"
 	bribe 0
 planet "Pug Vanilla"
 	landscape "landscape/station6"
@@ -1890,9 +1890,9 @@ planet "Pug Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "pug vanilla"
+	outfitter "pugVanilla"
 	shipyard "omnis"
-	shipyard "pug vanilla"
+	shipyard "pugVanilla"
 	bribe 0
 
 system "Unknown "
@@ -1902,10 +1902,10 @@ system "Unknown "
 	link "Quarg "
 	link "Remnant "
 	"jump range" 3000
-	object "unknown gateway"
-		sprite "sprite/wisp_green"
+	object "unknownGateway"
+		sprite "sprite/wispGreen"
 	object
-		sprite "sprite/faction_unknown"
+		sprite "sprite/factionUnknown"
 		distance 150
 		offset 180
 	object "Unknown Plugins"
@@ -1917,11 +1917,11 @@ system "Unknown "
 		distance 300
 		offset 300
 	object
-		sprite "sprite/section_plugins"
+		sprite "sprite/sectionPlugins"
 		distance 450
 		offset 60
 	object
-		sprite "sprite/section_vanilla"
+		sprite "sprite/sectionVanilla"
 		distance 450
 		offset 300
 	object "Unknown "
@@ -2020,20 +2020,20 @@ planet "Unknown "
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "unknown plugins"
-	outfitter "unknown vanilla"
+	outfitter "unknownPlugins"
+	outfitter "unknownVanilla"
 	shipyard "omnis"
-	shipyard "unknown plugins"
-	shipyard "unknown vanilla"
+	shipyard "unknownPlugins"
+	shipyard "unknownVanilla"
 	bribe 0
 planet "Unknown Plugins"
 	landscape "landscape/station6"
 	description ``
 	spaceport ``
 	outfitter "omnis"
-	outfitter "unknown plugins"
+	outfitter "unknownPlugins"
 	shipyard "omnis"
-	shipyard "unknown plugins"
+	shipyard "unknownPlugins"
 	bribe 0
 planet "Unknown Vanilla"
 	landscape "landscape/station6"
@@ -2041,128 +2041,128 @@ planet "Unknown Vanilla"
 	spaceport ``
 	outfitter "omnis"
 	outfitter "mineables"
-	outfitter "unknown vanilla"
+	outfitter "unknownVanilla"
 	shipyard "omnis"
-	shipyard "unknown vanilla"
+	shipyard "unknownVanilla"
 	bribe 0
 
 #	Gateways
 
-planet "remnant gateway"
+planet "remnantGateway"
 	attributes "requires: Omnis"
 system "Cinxia"
-	add object "remnant gateway"
-		sprite "sprite/wisp_green"
+	add object "remnantGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "pug gateway"
+planet "pugGateway"
 	attributes "requires: Omnis"
 system "Deneb"
-	add object "pug gateway"
-		sprite "sprite/wisp_green"
+	add object "pugGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "quarg gateway"
+planet "quargGateway"
 	attributes "requires: Omnis"
 system "Enif"
-	add object "quarg gateway"
-		sprite "sprite/wisp_green"
+	add object "quargGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "wanderer gateway"
+planet "wandererGateway"
 	attributes "requires: Omnis"
 system "Ka'ch'chrai"
-	add object "wanderer gateway"
-		sprite "sprite/wisp_green"
+	add object "wandererGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "unknown gateway"
+planet "unknownGateway"
 	attributes "requires: Omnis"
 system "Nenia"
-	add object "unknown gateway"
-		sprite "sprite/wisp_green"
+	add object "unknownGateway"
+		sprite "sprite/wispGreen"
 		distance 37.2996
 		period 9.64933
 	add object
-		sprite "sprite/gateway_omnis"
+		sprite "sprite/gatewayOmnis"
 		distance 150
 
-planet "builder gateway"
+planet "builderGateway"
 	attributes "requires: Omnis"
 system "Nona"
-	add object "builder gateway"
-		sprite "sprite/wisp_green"
+	add object "builderGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "coalition gateway"
+planet "coalitionGateway"
 	attributes "requires: Omnis"
 system "Quaru"
-	add object "coalition gateway"
-		sprite "sprite/wisp_green"
+	add object "coalitionGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "omnis gateway"
+planet "omnisGateway"
 system "Rutilicus"
-	add object "omnis gateway"
-		sprite "sprite/wisp_green"
+	add object "omnisGateway"
+		sprite "sprite/wispGreen"
 
-planet "drak gateway"
+planet "drakGateway"
 	attributes "requires: Omnis"
 system "Sayaiban"
-	add object "drak gateway"
-		sprite "sprite/wisp_green"
+	add object "drakGateway"
+		sprite "sprite/wispGreen"
 		distance 10.0252
 		period 8.31775
 	add object
-		sprite "sprite/gateway_omnis"
+		sprite "sprite/gatewayOmnis"
 		distance 150
 
-planet "korath gateway"
+planet "korathGateway"
 	attributes "requires: Omnis"
 system "Sevrelect"
-	add object "korath gateway"
-		sprite "sprite/wisp_green"
+	add object "korathGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "human gateway"
+planet "humanGateway"
 	attributes "requires: Omnis"
 system "Sol"
-	add object "human gateway"
-		sprite "sprite/wisp_green"
+	add object "humanGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "hai gateway"
+planet "haiGateway"
 	attributes "requires: Omnis"
 system "Ya Hai"
-	add object "hai gateway"
-		sprite "sprite/wisp_green"
+	add object "haiGateway"
+		sprite "sprite/wispGreen"
 		object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
 
-planet "sheragi gateway"
+planet "sheragiGateway"
 	attributes "requires: Omnis"
 system "Zubeneschamali"
-	add object "sheragi gateway"
-		sprite "sprite/wisp_green"
+	add object "sheragiGateway"
+		sprite "sprite/wispGreen"
 		distance 53.7398
 		period 12.6065
 	add object
-		sprite "sprite/gateway_omnis"
+		sprite "sprite/gatewayOmnis"
 		distance 150

@@ -1,33 +1,33 @@
-mission "eternals gateway"
+mission "eternalsGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "eternals gateway"
-event "eternals gateway"
+		event "eternalsGateway"
+event "eternalsGateway"
 	system "Eternals "
-		add object "eternals gateway"
-			sprite "sprite/wisp_green"
+		add object "eternalsGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_eternals"
+			sprite "support/factionEternals"
 			distance 150
 			offset 180
 	system "Valiit"
-		add object "eternals gateway"
-			sprite "sprite/wisp_green"
+		add object "eternalsGateway"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal eternals content"
+mission "revealContent eternals"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal eternals content"
-event "reveal eternals content"
+		event "revealContent eternals"
+event "revealContent eternals"
 	visit "Charybdis"
 	visit "Cinoo"
 	visit "Ephemeral Reflections"

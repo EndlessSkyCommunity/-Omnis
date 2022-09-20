@@ -1,33 +1,33 @@
-mission "aben gateway"
+mission "abenGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "aben gateway"
-event "aben gateway"
+		event "abenGateway"
+event "abenGateway"
 	system "Aben "
-		add object "aben gateway"
-			sprite "sprite/wisp_green"
+		add object "abenGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_aben"
+			sprite "support/factionAben"
 			distance 150
 			offset 180
 	system "Dzee dzee-Bon,da"
 		add object "aben gateway"
-			sprite "sprite/wisp_green"
+			sprite "sprite/wispGreen"
 			object
-				sprite "sprite/gateway_omnis"
+				sprite "sprite/gatewayOmnis"
 				distance 150
-mission "reveal aben content"
+mission "revealContent aben"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal aben content"
-event "reveal aben content"
+		event "revealContent aben"
+event "revealContent aben"
 	visit "Aben "
 	visit "Ahaw On,za"
 	visit "Dzee dzee-Bon,da"

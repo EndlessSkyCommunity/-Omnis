@@ -1,12 +1,12 @@
-mission "reveal lost-in-midnight content"
+mission "revealContent lost-in-midnight"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal lost-in-midnight content"
-event "reveal lost-in-midnight content"
+		event "revealContent lost-in-midnight"
+event "revealContent lost-in-midnight"
 	visit "Archipelago"
 	visit "Aya'arak"
 	visit "Chasm"

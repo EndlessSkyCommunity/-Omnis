@@ -103,5 +103,5 @@ planet "Eternals "
 	shipyard "eternals"
 	outfitter "eternals"
 	bribe 0
-planet "eternals gateway"
+planet "eternalsGateway"
 	attributes "requires: Omnis"

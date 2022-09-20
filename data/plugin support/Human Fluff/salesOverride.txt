@@ -1,5 +1,5 @@
-shipyard "human plugins"
+shipyard "humanPlugins"
 	"HuFl- Colossus"
 	"HuFl- Flivver (Racing)"
-outfitter "human plugins"
+outfitter "humanPlugins"
 	"Knockout Gas"

@@ -1,35 +1,35 @@
-mission "altera gateway"
+mission "alteraGateway"
 	invisible
 	landing
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		event "altera gateway"
-event "altera gateway"
+		event "alteraGateway"
+event "alteraGateway"
 	system "Altera "
-		add object "altera gateway"
-			sprite "sprite/wisp_green"
+		add object "alteraGateway"
+			sprite "sprite/wispGreen"
 		add object
-			sprite "support/faction_altera"
+			sprite "support/factionAltera"
 			distance 150
 			offset 180
 	system "Light of Altera"
-		add object "altera gateway"
-			sprite "sprite/wisp_green"
+		add object "alteraGateway"
+			sprite "sprite/wispGreen"
 				distance 44.1758
 				period 14.0415
 		add object
-			sprite "sprite/gateway_omnis"
+			sprite "sprite/gatewayOmnis"
 			distance 150
-mission "reveal altera content"
+mission "revealContent altera"
 	invisible
 	landing
 	repeat
 	source
 		government "vanilla" "request" "plugin"
 	on accept
-		event "reveal altera content"
-event "reveal altera content"
+		event "revealContent altera"
+event "revealContent altera"
 	visit "Acidalia"
 	visit "Adragon"
 	visit "Aera"

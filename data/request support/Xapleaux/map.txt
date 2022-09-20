@@ -103,5 +103,5 @@ planet "Xapleaux "
 	shipyard "xapleaux"
 	outfitter "xapleaux"
 	bribe 0
-planet "xapleaux gateway"
+planet "xapleauxGateway"
 	attributes "requires: Omnis"
