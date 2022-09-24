@@ -1,3 +1,0 @@
-shipyard "quargPlugins"
-	"QuFl- Quarg Hydra"
-	"QuFl- Quarg Oriole"

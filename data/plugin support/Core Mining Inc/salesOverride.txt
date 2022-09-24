@@ -1,2 +1,0 @@
-outfitter "humanPlugins"
-	"CMI Fusion Reactor"
