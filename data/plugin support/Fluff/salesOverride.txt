@@ -1,0 +1,16 @@
+shipyard "humanPlugins"
+	"Colossus"
+	"Flivver (Racing)"
+outfitter "humanPlugins"
+	"Knockout Gas"
+
+shipyard "korathPlugins"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+outfitter "korathPlugins"
+	"Shield Disruptor Gun"
+	"Vector Engine (Reality Class)"
+
+shipyard "quargPlugins"
+	"Quarg Hydra"
+	"Quarg Oriole"
