@@ -1,3 +1,33 @@
+#	Jump-start cheat run, reveal Omnis systems and give ascendant outfits
+
+mission "omnisStart"
+	invisible
+	landing
+	source
+		government "vanilla" "request" "plugin"
+	on offer
+		outfit "Omnipotence"
+		outfit "Omnipresence"
+		outfit "Omniscience"
+		outfit "Crux Stone "
+		event "revealOmnis"
+event "revealOmnis"
+	visit "Omnis"
+	visit "Sheragi "
+	visit "Human "
+	visit "Hai "
+	visit "Remnant "
+	visit "Builder "
+	visit "Korath "
+	visit "Wanderer "
+	visit "Coalition "
+	visit "Quarg "
+	visit "Drak "
+	visit "Pug "
+	visit "Unknown "
+
+#	Tools
+
 mission "swizzlePicker"
 	name "Swizzle picker"
 	description "Allows for a choice between 29 different ship overlays."

@@ -51,75 +51,163 @@ system "Omnis"
 			rewind
 		distance 1200
 		offset 330
+
 planet "Sheragi  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Sheragi  "
+fleet "Sheragi  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Emerald Sword"
+		"Black Diamond" 6
+
 planet "Human  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Human  "
+fleet "Human  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Carrier"
+		"Combat Drone" 6
+		"Lance" 4
+
 planet "Hai  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Hai  "
+fleet "Hai  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Shield Beetle"
+
 planet "Remnant  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Remnant  "
+fleet "Remnant  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Albatross"
+
 planet "Builder  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Builder  "
+fleet "Builder  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Vareti'het"
+
 planet "Korath  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Korath  "
+fleet "Korath  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"'olofez" 2
+		"Palavret"
+
 planet "Wanderer  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Wanderer  "
+fleet "Wanderer  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Hurricane"
+
 planet "Coalition  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Coalition  "
+fleet "Coalition  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Heliarch Punisher"
+
 planet "Quarg  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Quarg  "
+fleet "Quarg  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Quarg Wardragon"
+
 planet "Drak  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Drak  "
+fleet "Drak  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Archon"
+
 planet "Pug  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Pug  "
+fleet "Pug  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Pug Arfecta"
+
 planet "Unknown  "
 	bribe 0
 	government "arena"
 	tribute 1
 		threshold 0
 		fleet "Unknown  "
+fleet "Unknown  "
+	government "arena"
+	personality
+		"heroic"
+	variant
+		"Void Sprite"
