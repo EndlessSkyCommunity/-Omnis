@@ -4,6 +4,12 @@ mission "omnisStart"
 	source
 		government "vanilla" "request" "plugin"
 	on offer
+		outfit "Crux Stone "
+		outfit "Disable All"
+		outfit "Kill All"
+		outfit "Omnipotence"
+		outfit "Omnipresence"
+		outfit "Omniscience"
 		event "revealOmnis"
 		event "revealMap"
 event "revealOmnis"

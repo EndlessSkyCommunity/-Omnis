@@ -1,5 +1,5 @@
 shipyard "omnis"
-	"omnisCaster"
+	"Caster"
 
 shipyard "sheragiVanilla"
 	"Black Diamond"

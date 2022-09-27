@@ -1,29 +1,44 @@
 ship "Caster"
-	turret 0 0
-	turret 0 0
-ship "Caster" "omnisCaster"
 	sprite "ship/omnisCaster"
 	thumbnail "thumbnail/omnisCaster"
 	attributes
 		category "Cheat"
-		hull 1000000
+		hull 10000
 		"required crew" 1
 		bunks 10000
-		mass 1000000
-		drag 11111.1
-		"heat dissipation" 1
-		"fuel capacity" 100
-		turn 4000000
-		thrust 200000
-		"fuel generation" 1
-		"energy generation" 1
-		"afterburner thrust" -200000
-	outfits
-		"Crux Stone "
-		"Disable All"
-		"Kill All"
-		"Omnipotence"
-		"Omnipresence"
-		"Omniscience"
-	turret 0 0 "Disable All"
-	turret 0 0 "Kill All"
+		mass 10000
+		drag 166.6666666666667
+		"heat dissipation" 100
+		"fuel capacity" 10000
+		"cargo space" 10000
+		"outfit space" 10000
+		"weapon capacity" 10000
+		"engine capacity" 10000
+		turn 40000
+		thrust 3000
+		"reverse thrust" 3000
+		"energy generation" .0001
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
