@@ -328,10 +328,13 @@ outfitter "haiVanilla"
 	`"Baellie" Atomic Engines`
 	`"Basrem" Atomic Steering`
 	`"Basrem" Atomic Thruster`
+	`"Basrem" Reverse Thruster`
 	`"Benga" Atomic Steering`
 	`"Benga" Atomic Thruster`
+	`"Benga" Reverse Thruster`
 	`"Biroo" Atomic Steering`
 	`"Biroo" Atomic Thruster`
+	`"Biroo" Reverse Thruster`
 	`"Bondir" Atomic Steering`
 	`"Bondir" Atomic Thruster`
 	`"Bufaer" Atomic Steering`
