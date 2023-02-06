@@ -1,4 +1,4 @@
-#	Jump-start cheat run, reveal Omnis systems and give ascendant outfits
+#	Omnis jump-start, reveal Omnis systems and full vanilla map
 
 mission "omnisStart"
 	invisible
@@ -6,10 +6,6 @@ mission "omnisStart"
 	source
 		government "vanilla" "request" "plugin"
 	on offer
-		outfit "Omnipotence"
-		outfit "Omnipresence"
-		outfit "Omniscience"
-		outfit "Crux Stone "
 		event "revealOmnis"
 		event "revealMap"
 event "revealOmnis"
