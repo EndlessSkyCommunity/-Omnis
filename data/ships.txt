@@ -2,7 +2,7 @@ ship "Caster"
 	sprite "ship/omnisCaster"
 	thumbnail "thumbnail/omnisCaster"
 	attributes
-		category "Cheat"
+		category "Transport"
 		hull 10000
 		"required crew" 1
 		bunks 10000

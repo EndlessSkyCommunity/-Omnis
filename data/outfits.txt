@@ -1,12 +1,12 @@
 #	Ascendant
 
 outfit "Crux Stone "
-	category "Cheat"
+	category "Special"
 	thumbnail "outfit/cruxStone"
 	Omnis 1
 	description "Enables use of the Omnis nexus wormholes."
 outfit "Disable All"
-	category "Cheat"
+	category "Special"
 	"turret mounts" -1
 	weapon
 		icon "icon/flamethrower"
@@ -21,7 +21,7 @@ outfit "Disable All"
 		"relative hull damage" .99
 		"relative disabled damage" 0
 outfit "Kill All"
-	category "Cheat"
+	category "Special"
 	"turret mounts" -1
 	weapon
 		"turret turn" 180
@@ -35,7 +35,7 @@ outfit "Kill All"
 		"gravitational"
 		"hit force" 10000
 outfit "Omnipotence"
-	category "Cheat"
+	category "Special"
 	cloak 1
 	"disruption protection" 1000000
 	"energy protection" 1000000
@@ -52,7 +52,7 @@ outfit "Omnipotence"
 	"leak protection" 1000000
 	"burn protection" 1000000
 outfit "Omnipresence"
-	category "Cheat"
+	category "Special"
 	hyperdrive 1
 	"scram drive" 1000000
 	"jump drive" 1
@@ -62,7 +62,7 @@ outfit "Omnipresence"
 	"quantum keystone" 1
 	gaslining 1
 outfit "Omniscience"
-	category "Cheat"
+	category "Special"
 	"outfit scan power" 1000000
 	"outfit scan speed" 1000000
 	"cargo scan power" 1000000
@@ -73,11 +73,11 @@ outfit "Omniscience"
 #	Developer
 
 outfit "Extra Engine"
-	category "Developer"
+	category "Special"
 	"engine capacity" 1
 outfit "Extra Outfit"
-	category "Developer"
+	category "Special"
 	"outfit space" 1
 outfit "Extra Weapon"
-	category "Developer"
+	category "Special"
 	"weapon capacity" 1
