@@ -20,7 +20,6 @@ government "plugin"
 	color .74 .17 0
 	fine 0
 	swizzle 0
-
 phrase "arena"
 	word
 		"A just universe wouldn't tolerate this existence."

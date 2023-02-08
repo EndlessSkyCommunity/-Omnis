@@ -1,9 +1,7 @@
 galaxy "omnis"
 	pos 0 -10000
 	sprite "sprite/milkyWayHalf"
-
 #	Central
-
 system "Omnis"
 	"jump range" 3000
 	government "vanilla"
@@ -14,6 +12,9 @@ system "Omnis"
 	object "omnisGateway"
 		sprite "sprite/wispGreen"
 		distance -100
+	object "Developer"
+		sprite "sprite/station8"
+		distance 300
 	object "Everything"
 		sprite "planet/ringworld"
 			scale .5
@@ -105,20 +106,24 @@ system "Omnis"
 		distance 812
 		offset 360
 	pos 0 -10000
+planet "Developer"
+	bribe 0
+	description ""
+	landscape "landscape/station6"
+	outfitter "omnis"
+	shipyard "omnis"
+	spaceport ""
 planet "Everything"
 	bribe 0
 	description ""
 	landscape "landscape/station6"
 	outfitter "builder"
 	outfitter "coalition"
-	outfitter "developer"
 	outfitter "drak"
 	outfitter "gegno"
 	outfitter "hai"
 	outfitter "human"
 	outfitter "korath"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "pug"
 	outfitter "quarg"
 	outfitter "remnant"
@@ -126,20 +131,17 @@ planet "Everything"
 	outfitter "wanderer"
 	shipyard "builder"
 	shipyard "coalition"
-	shipyard "developer"
 	shipyard "drak"
 	shipyard "gegno"
 	shipyard "hai"
 	shipyard "human"
 	shipyard "korath"
-	shipyard "omnis"
 	shipyard "pug"
 	shipyard "quarg"
 	shipyard "remnant"
 	shipyard "sheragi"
 	shipyard "wanderer"
 	spaceport ""
-
 system "Sheragi "
 	"jump range" 3000
 	government "vanilla"
@@ -248,13 +250,9 @@ planet "Sheragi "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "sheragi"
-	shipyard "omnis"
 	shipyard "sheragi"
 	spaceport ""
-
 system "Gegno "
 	"jump range" 3000
 	government "vanilla"
@@ -361,12 +359,8 @@ planet "Gegno "
 	description ""
 	landscape "landscape/station6"
 	outfitter "gegno"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "gegno"
-	shipyard "omnis"
 	spaceport ""
-
 system "Human "
 	"jump range" 3000
 	government "vanilla"
@@ -476,12 +470,8 @@ planet "Human "
 	description ""
 	landscape "landscape/station6"
 	outfitter "human"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "human"
-	shipyard "omnis"
 	spaceport ""
-
 system "Hai "
 	"jump range" 3000
 	government "vanilla"
@@ -589,12 +579,8 @@ planet "Hai "
 	description ""
 	landscape "landscape/station6"
 	outfitter "hai"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "hai"
-	shipyard "omnis"
 	spaceport ""
-
 system "Remnant "
 	"jump range" 3000
 	government "vanilla"
@@ -701,13 +687,9 @@ planet "Remnant "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
-	outfitter "remnant"
-	shipyard "omnis"
+	outfitter "remnant"	
 	shipyard "remnant"
 	spaceport ""
-
 system "Builder "
 	"jump range" 3000
 	government "vanilla"
@@ -815,12 +797,8 @@ planet "Builder "
 	description ""
 	landscape "landscape/station6"
 	outfitter "builder"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "builder"
-	shipyard "omnis"
 	spaceport ""
-
 system "Korath "
 	"jump range" 3000
 	government "vanilla"
@@ -930,12 +908,8 @@ planet "Korath "
 	description ""
 	landscape "landscape/station6"
 	outfitter "korath"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "korath"
-	shipyard "omnis"
 	spaceport ""
-
 system "Wanderer "
 	"jump range" 3000
 	government "vanilla"
@@ -1041,13 +1015,9 @@ planet "Wanderer "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "wanderer"
-	shipyard "omnis"
 	shipyard "wanderer"
 	spaceport ""
-
 system "Coalition "
 	"jump range" 3000
 	government "vanilla"
@@ -1154,12 +1124,8 @@ planet "Coalition "
 	description ""
 	landscape "landscape/station6"
 	outfitter "coalition"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "coalition"
-	shipyard "omnis"
 	spaceport ""
-
 system "Quarg "
 	"jump range" 3000
 	government "vanilla"
@@ -1267,13 +1233,9 @@ planet "Quarg "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "quarg"
-	shipyard "omnis"
 	shipyard "quarg"
 	spaceport ""
-
 system "Drak "
 	"jump range" 3000
 	government "vanilla"
@@ -1380,12 +1342,8 @@ planet "Drak "
 	description ""
 	landscape "landscape/station6"
 	outfitter "drak"
-	outfitter "mineables"
-	outfitter "omnis"
 	shipyard "drak"
-	shipyard "omnis"
 	spaceport ""
-
 system "Pug "
 	"jump range" 3000
 	government "vanilla"
@@ -1493,13 +1451,9 @@ planet "Pug "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "pug"
-	shipyard "omnis"
 	shipyard "pug"
 	spaceport ""
-
 system "Unknown "
 	"jump range" 3000
 	government "vanilla"
@@ -1607,15 +1561,10 @@ planet "Unknown "
 	bribe 0
 	description ""
 	landscape "landscape/station6"
-	outfitter "mineables"
-	outfitter "omnis"
 	outfitter "unknown"
-	shipyard "omnis"
 	shipyard "unknown"
 	spaceport ""
-
 #	Gateways
-
 planet "remnantGateway"
 	attributes "requires: Omnis"
 system "Cinxia"
@@ -1623,8 +1572,7 @@ system "Cinxia"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "pugGateway"
 	attributes "requires: Omnis"
 system "Deneb"
@@ -1632,8 +1580,7 @@ system "Deneb"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "quargGateway"
 	attributes "requires: Omnis"
 system "Enif"
@@ -1641,8 +1588,7 @@ system "Enif"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "gegnoGateway"
 	attributes "requires: Omnis"
 system "Heutesl"
@@ -1650,8 +1596,7 @@ system "Heutesl"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "wandererGateway"
 	attributes "requires: Omnis"
 system "Ka'ch'chrai"
@@ -1659,8 +1604,7 @@ system "Ka'ch'chrai"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "unknownGateway"
 	attributes "requires: Omnis"
 system "Nenia"
@@ -1670,8 +1614,7 @@ system "Nenia"
 		sprite "sprite/wispGreen"
 	add object
 		distance 150
-		sprite "sprite/gatewayOmnis"
-
+			sprite "sprite/gatewayOmnis"
 planet "builderGateway"
 	attributes "requires: Omnis"
 system "Nona"
@@ -1679,8 +1622,7 @@ system "Nona"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "coalitionGateway"
 	attributes "requires: Omnis"
 system "Quaru"
@@ -1688,16 +1630,14 @@ system "Quaru"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "omnisGateway"
 system "Rutilicus"
 	add object "omnisGateway"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "drakGateway"
 	attributes "requires: Omnis"
 system "Sayaiban"
@@ -1707,8 +1647,7 @@ system "Sayaiban"
 		sprite "sprite/wispGreen"
 	add object
 		distance 150
-		sprite "sprite/gatewayOmnis"
-
+			sprite "sprite/gatewayOmnis"
 planet "korathGateway"
 	attributes "requires: Omnis"
 system "Sevrelect"
@@ -1716,8 +1655,7 @@ system "Sevrelect"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "humanGateway"
 	attributes "requires: Omnis"
 system "Sol"
@@ -1725,8 +1663,7 @@ system "Sol"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "haiGateway"
 	attributes "requires: Omnis"
 system "Ya Hai"
@@ -1734,8 +1671,7 @@ system "Ya Hai"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
-			sprite "sprite/gatewayOmnis"
-
+				sprite "sprite/gatewayOmnis"
 planet "sheragiGateway"
 	attributes "requires: Omnis"
 system "Zubeneschamali"
