@@ -69,6 +69,12 @@ outfit "Omniscience"
 	"tactical scan power" 1000000
 	category "Systems"
 #	Developer
+outfit "Drag Addition"
+	category "Special"
+	drag .1
+outfit "Drag Reduction"
+	category "Special"
+	drag -.1
 outfit "Extra Engine"
 	"engine capacity" 1
 	category "Special"
@@ -78,3 +84,21 @@ outfit "Extra Outfit"
 outfit "Extra Weapon"
 	"weapon capacity" 1
 	category "Special"
+outfit "Fuel Capacity Addition"
+	category "Special"
+	"fuel capacity" 25
+outfit "Fuel Capacity Reduction"
+	category "Special"
+	"fuel capacity" -25
+outfit "Heat Dissipation Addition"
+	category "Special"
+	"heat dissipation" .01
+outfit "Heat Dissipation Reduction"
+	category "Special"
+	"heat dissipation" -.01
+outfit "Mass Addition"
+	category "Special"
+	mass 1
+outfit "Mass Reduction"
+	category "Special"
+	mass -1
