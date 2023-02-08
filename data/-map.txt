@@ -2284,6 +2284,9 @@ planet "omnisGateway"
 system "Rutilicus"
 	add object "omnisGateway"
 		sprite sprite/wispGreen
+		object
+			sprite sprite/gatewayOmnis
+			distance 150
 
 planet "drakGateway"
 	attributes "requires: Omnis"
