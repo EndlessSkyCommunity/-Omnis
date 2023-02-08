@@ -6,7 +6,7 @@ mission "omnisStart"
 		event "revealMap"
 		event "revealOmnis"
 	source
-		government "vanilla" "request" "plugin"
+		government "plugin" "vanilla"
 event "revealOmnis"
 	visit "Builder "
 	visit "Coalition "
@@ -773,7 +773,7 @@ mission "swizzlePicker"
 				launch
 	repeat
 	source
-		government "vanilla" "request" "plugin"
+		government "plugin" "vanilla"
 event "swizzle00"
 	government "Escort"
 		swizzle 0

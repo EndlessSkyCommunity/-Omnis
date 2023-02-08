@@ -1,18 +1,6 @@
-government "arena"
-	"display name" "Unknown"
-	"hostile hail" "arena"
-	"player reputation" -1
-	color .43 .33 .58
-	fine 0
-	swizzle 0
 government "vanilla"
 	"display name" "Unknown"
 	color .43 .33 .58
-	fine 0
-	swizzle 0
-government "request"
-	"display name" "Unknown"
-	color .42 .78 .27
 	fine 0
 	swizzle 0
 government "plugin"
