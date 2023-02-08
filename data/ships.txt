@@ -1,78 +1,54 @@
 ship "Caster"
-	sprite "ship/omnisCaster"
-	thumbnail "thumbnail/omnisCaster"
 	attributes
-		category Transport
-		cost 0
-		mass 10000
-		bunks 10000
 		"cargo space" 10000
-		drag 166.66667
 		"energy generation" 0.0001
 		"engine capacity" 10000
 		"fuel capacity" 10000
 		"gun ports" 12
 		"heat dissipation" 16.66667
-		hull 10000
 		"outfit space" 10000
 		"required crew" 1
 		"reverse thrust" 3000
-		thrust 3000.01
-		turn 40000
 		"turret mounts" 12
 		"weapon capacity" 10000
+		bunks 10000
+		category "Transport"
+		cost 0
+		drag 166.66667
+		hull 10000
+		mass 10000
+		thrust 3000.01
+		turn 40000
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	gun 0 -196
+	turret 0 0 "Disable All"
+	turret 0 0 "Kill All"
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
 	outfits
 		"Crux Stone "
 		"Disable All"
 		"Kill All"
-		Omnipotence
-		Omnipresence
-		Omniscience
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	gun 0 -196
-		under
-	turret 0 0 "Disable All"
-		over
-	turret 0 0 "Kill All"
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
-	turret 0 0
-		over
+		"Omnipotence"
+		"Omnipresence"
+		"Omniscience"
+	sprite "ship/omnisCaster"
+	thumbnail "thumbnail/omnisCaster"

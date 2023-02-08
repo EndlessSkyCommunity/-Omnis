@@ -3,26 +3,26 @@
 mission "omnisStart"
 	invisible
 	landing
+	on offer
+		event "revealMap"
+		event "revealOmnis"
 	source
 		government "vanilla" "request" "plugin"
-	on offer
-		event "revealOmnis"
-		event "revealMap"
 event "revealOmnis"
-	visit "Omnis"
-	visit "Sheragi "
-	visit "Gegno "
-	visit "Human "
-	visit "Hai "
-	visit "Remnant "
 	visit "Builder "
-	visit "Korath "
-	visit "Wanderer "
 	visit "Coalition "
-	visit "Quarg "
 	visit "Drak "
+	visit "Gegno "
+	visit "Hai "
+	visit "Human "
+	visit "Korath "
+	visit "Omnis"
 	visit "Pug "
+	visit "Quarg "
+	visit "Remnant "
+	visit "Sheragi "
 	visit "Unknown "
+	visit "Wanderer "
 event "revealMap"
 	galaxy "label arachi"
 		sprite "label/arachi"
@@ -562,219 +562,219 @@ event "revealMap"
 #	Tools
 
 mission "swizzlePicker"
-	name "Swizzle picker"
 	description "Allows for a choice between 29 different ship overlays."
 	job
+	name "Swizzle picker"
+	on accept
+		conversation
+			"Swizzle?"
+			choice
+				"	Orange and Yellow"
+					goto "swizzle00"
+				"	Pink"
+					goto "swizzle01"
+				"	Green"
+					goto "swizzle02"
+				"	Light Blue and Green"
+					goto "swizzle03"
+				"	Purple"
+					goto "swizzle04"
+				"	Blue"
+					goto "swizzle05"
+				"	Red and Black"
+					goto "swizzle06"
+				"	Full Red"
+					goto "swizzle07"
+				"	Faded Red"
+					goto "swizzle08"
+				"	Pure Black"
+					goto "swizzle09"
+				"	Faded Black and Gray"
+					goto "swizzle10"
+				"	Pure White"
+					goto "swizzle11"
+				"	Dark Blue"
+					goto "swizzle12"
+				"	Pure Blue"
+					goto "swizzle13"
+				"	Faded Blue"
+					goto "swizzle14"
+				"	Dark Cyan"
+					goto "swizzle15"
+				"	Pure Cyan"
+					goto "swizzle16"
+				"	Faded Cyan"
+					goto "swizzle17"
+				"	Dark Green"
+					goto "swizzle18"
+				"	Pure Green"
+					goto "swizzle19"
+				"	Faded Green"
+					goto "swizzle20"
+				"	Dark Yellow"
+					goto "swizzle21"
+				"	Pure Yellow"
+					goto "swizzle22"
+				"	Faded Yellow"
+					goto "swizzle23"
+				"	Dark Magenta"
+					goto "swizzle24"
+				"	Pure Magenta"
+					goto "swizzle25"
+				"	Faded Magenta"
+					goto "swizzle26"
+				"	Cloaked"
+					goto "swizzle27"
+				"	Complete Black"
+					goto "swizzle28"
+			label "swizzle00"
+			apply
+				event "swizzle00"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle01"
+			apply
+				event "swizzle01"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle02"
+			apply
+				event "swizzle02"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle03"
+			apply
+				event "swizzle03"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle04"
+			apply
+				event "swizzle04"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle05"
+			apply
+				event "swizzle05"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle06"
+			apply
+				event "swizzle06"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle07"
+			apply
+				event "swizzle07"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle08"
+			apply
+				event "swizzle08"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle09"
+			apply
+				event "swizzle09"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle10"
+			apply
+				event "swizzle10"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle11"
+			apply
+				event "swizzle11"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle12"
+			apply
+				event "swizzle12"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle13"
+			apply
+				event "swizzle13"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle14"
+			apply
+				event "swizzle14"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle15"
+			apply
+				event "swizzle15"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle16"
+			apply
+				event "swizzle16"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle17"
+			apply
+				event "swizzle17"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle18"
+			apply
+				event "swizzle18"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle19"
+			apply
+				event "swizzle19"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle20"
+			apply
+				event "swizzle20"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle21"
+			apply
+				event "swizzle21"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle22"
+			apply
+				event "swizzle22"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle23"
+			apply
+				event "swizzle23"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle24"
+			apply
+				event "swizzle24"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle25"
+			apply
+				event "swizzle25"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle26"
+			apply
+				event "swizzle26"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle27"
+			apply
+				event "swizzle27"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
+			label "swizzle28"
+			apply
+				event "swizzle28"
+			"Your swizzle has been changed, you will be launched from the planet with your new swizzle."
+				launch
 	repeat
 	source
 		government "vanilla" "request" "plugin"
-	on accept
-		conversation
-			`Swizzle?`
-			choice
-				`	Orange and Yellow`
-					goto swizzle00
-				`	Pink`
-					goto swizzle01
-				`	Green`
-					goto swizzle02
-				`	Light Blue and Green`
-					goto swizzle03
-				`	Purple`
-					goto swizzle04
-				`	Blue`
-					goto swizzle05
-				`	Red and Black`
-					goto swizzle06
-				`	Full Red`
-					goto swizzle07
-				`	Faded Red`
-					goto swizzle08
-				`	Pure Black`
-					goto swizzle09
-				`	Faded Black and Gray`
-					goto swizzle10
-				`	Pure White`
-					goto swizzle11
-				`	Dark Blue`
-					goto swizzle12
-				`	Pure Blue`
-					goto swizzle13
-				`	Faded Blue`
-					goto swizzle14
-				`	Dark Cyan`
-					goto swizzle15
-				`	Pure Cyan`
-					goto swizzle16
-				`	Faded Cyan`
-					goto swizzle17
-				`	Dark Green`
-					goto swizzle18
-				`	Pure Green`
-					goto swizzle19
-				`	Faded Green`
-					goto swizzle20
-				`	Dark Yellow`
-					goto swizzle21
-				`	Pure Yellow`
-					goto swizzle22
-				`	Faded Yellow`
-					goto swizzle23
-				`	Dark Magenta`
-					goto swizzle24
-				`	Pure Magenta`
-					goto swizzle25
-				`	Faded Magenta`
-					goto swizzle26
-				`	Cloaked`
-					goto swizzle27
-				`	Complete Black`
-					goto swizzle28
-			label swizzle00
-			apply
-				event "swizzle00"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle01
-			apply
-				event "swizzle01"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle02
-			apply
-				event "swizzle02"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle03
-			apply
-				event "swizzle03"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle04
-			apply
-				event "swizzle04"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle05
-			apply
-				event "swizzle05"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle06
-			apply
-				event "swizzle06"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle07
-			apply
-				event "swizzle07"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle08
-			apply
-				event "swizzle08"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle09
-			apply
-				event "swizzle09"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle10
-			apply
-				event "swizzle10"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle11
-			apply
-				event "swizzle11"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle12
-			apply
-				event "swizzle12"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle13
-			apply
-				event "swizzle13"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle14
-			apply
-				event "swizzle14"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle15
-			apply
-				event "swizzle15"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle16
-			apply
-				event "swizzle16"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle17
-			apply
-				event "swizzle17"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle18
-			apply
-				event "swizzle18"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle19
-			apply
-				event "swizzle19"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle20
-			apply
-				event "swizzle20"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle21
-			apply
-				event "swizzle21"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle22
-			apply
-				event "swizzle22"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle23
-			apply
-				event "swizzle23"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle24
-			apply
-				event "swizzle24"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle25
-			apply
-				event "swizzle25"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle26
-			apply
-				event "swizzle26"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle27
-			apply
-				event "swizzle27"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
-			label swizzle28
-			apply
-				event "swizzle28"
-			`Your swizzle has been changed, you will be launched from the planet with your new swizzle.`
-				launch
 event "swizzle00"
 	government "Escort"
 		swizzle 0

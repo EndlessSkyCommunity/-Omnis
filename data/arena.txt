@@ -1,77 +1,77 @@
 system "Omnis"
 	add object "Sheragi  "
-		sprite "ship/emeraldsword"
 		distance 1200
 		offset 360
+		sprite "ship/emeraldsword"
 	add object "Human  "
-		sprite "ship/carrier"
 		distance 1200
 		offset 30
+		sprite "ship/carrier"
 	add object "Hai  "
-		sprite "ship/hai shield beetle"
 		distance 1200
 		offset 60
+		sprite "ship/hai shield beetle"
 	add object "Remnant  "
-		sprite "ship/albatross"
 		distance 1200
 		offset 90
+		sprite "ship/albatross"
 	add object "Builder  "
-		sprite "ship/vareti'het"
 		distance 1200
 		offset 120
+		sprite "ship/vareti'het"
 	add object "Korath  "
-		sprite "ship/raider"
 		distance 1200
 		offset 150
+		sprite "ship/raider"
 	add object "Wanderer  "
-		sprite "ship/hurricane"
 		distance 1200
 		offset 180
+		sprite "ship/hurricane"
 	add object "Coalition  "
-		sprite "ship/heliarch punisher"
 		distance 1200
 		offset 210
+		sprite "ship/heliarch punisher"
 	add object "Quarg  "
-		sprite "ship/wardragon"
 		distance 1200
 		offset 240
+		sprite "ship/wardragon"
 	add object "Drak  "
-		sprite "ship/archon"
-			"frame rate" 0.87
 		distance 1200
 		offset 270
+		sprite "ship/archon"
+			"frame rate" 0.87
 	add object "Pug  "
-		sprite "ship/pug arfecta"
 		distance 1200
 		offset 300
+		sprite "ship/pug arfecta"
 	add object "Unknown  "
+		distance 1200
+		offset 330
 		sprite "ship/void sprite/void sprite adult"
 			"frame rate" 14.3
 			"random start frame"
 			rewind
-		distance 1200
-		offset 330
 
 planet "Sheragi  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Sheragi  "
+		threshold 0
 fleet "Sheragi  "
 	government "arena"
 	personality
 		"heroic"
 	variant
-		"Emerald Sword"
 		"Black Diamond" 6
+		"Emerald Sword"
 
 planet "Human  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Human  "
+		threshold 0
 fleet "Human  "
 	government "arena"
 	personality
@@ -85,8 +85,8 @@ planet "Hai  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Hai  "
+		threshold 0
 fleet "Hai  "
 	government "arena"
 	personality
@@ -98,8 +98,8 @@ planet "Remnant  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Remnant  "
+		threshold 0
 fleet "Remnant  "
 	government "arena"
 	personality
@@ -111,8 +111,8 @@ planet "Builder  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Builder  "
+		threshold 0
 fleet "Builder  "
 	government "arena"
 	personality
@@ -124,8 +124,8 @@ planet "Korath  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Korath  "
+		threshold 0
 fleet "Korath  "
 	government "arena"
 	personality
@@ -138,8 +138,8 @@ planet "Wanderer  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Wanderer  "
+		threshold 0
 fleet "Wanderer  "
 	government "arena"
 	personality
@@ -151,8 +151,8 @@ planet "Coalition  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Coalition  "
+		threshold 0
 fleet "Coalition  "
 	government "arena"
 	personality
@@ -164,8 +164,8 @@ planet "Quarg  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Quarg  "
+		threshold 0
 fleet "Quarg  "
 	government "arena"
 	personality
@@ -177,8 +177,8 @@ planet "Drak  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Drak  "
+		threshold 0
 fleet "Drak  "
 	government "arena"
 	personality
@@ -190,8 +190,8 @@ planet "Pug  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Pug  "
+		threshold 0
 fleet "Pug  "
 	government "arena"
 	personality
@@ -203,8 +203,8 @@ planet "Unknown  "
 	bribe 0
 	government "arena"
 	tribute 1
-		threshold 0
 		fleet "Unknown  "
+		threshold 0
 fleet "Unknown  "
 	government "arena"
 	personality
