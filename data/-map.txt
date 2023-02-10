@@ -6,13 +6,16 @@ system "Omnis"
 	"jump range" 3000
 	government "vanilla"
 	link "Human "
-	object "Developer"
-		distance 300
-		sprite "asteroid/yottrite/spin"
 	object
 		sprite "star/nova"
 	object "Everything"
 		sprite "star/nova-core"
+	object "Developer"
+		distance 300
+		sprite "asteroid/yottrite/spin"
+	object "omnisGateway"
+		sprite "sprite/wispGreen"
+		distance -300
 	#	Factions
 	object "Sheragi "
 		distance 1600
@@ -96,59 +99,6 @@ system "Omnis"
 			distance 385
 			period 26.6433
 			sprite "planet/dust3"
-	#	Gateways
-	object "sheragiGateway"
-		distance 2400
-		offset 20
-		sprite "sprite/wispGreen"
-	object "gegnoGateway"
-		distance 2400
-		offset 40
-		sprite "sprite/wispGreen"
-	object "humanGateway"
-		distance 2400
-		offset 60
-		sprite "sprite/wispGreen"
-	object "haiGateway"
-		distance 2400
-		offset 80
-		sprite "sprite/wispGreen"
-	object "remnantGateway"
-		distance 2400
-		offset 100
-		sprite "sprite/wispGreen"
-	object "builderGateway"
-		distance 2400
-		offset 120
-		sprite "sprite/wispGreen"
-	object "korathGateway"
-		distance 2400
-		offset 140
-		sprite "sprite/wispGreen"
-	object "wandererGateway"
-		distance 2400
-		offset 160
-		sprite "sprite/wispGreen"
-	object "coalitionGateway"
-		distance 2400
-		offset 180
-		sprite "sprite/wispGreen"
-	object "quargGateway"
-		distance 2400
-		offset 200
-		sprite "sprite/wispGreen"
-	object "drakGateway"
-		distance 2400
-		offset 220
-		sprite "sprite/wispGreen"
-	object "pugGateway"
-		distance 2400
-		offset 240
-		sprite "sprite/wispGreen"
-	object "unknownGateway"
-		distance 2400
-		offset 260
-		sprite "sprite/wispGreen"
 	pos 0 -10000
 planet "Developer"
 	bribe 0
@@ -285,11 +235,15 @@ system "Sheragi "
 	link "Human "
 	link "Pug "
 	link "Quarg "
+	object "sheragiGateway"
+		sprite "sprite/wispGreen"
 	pos -378 -9817
 system "Gegno "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
+	object "gegnoGateway"
+		sprite "sprite/wispGreen"
 	pos 447 -10315
 system "Human "
 	"jump range" 3000
@@ -298,24 +252,32 @@ system "Human "
 	link "Omnis"
 	link "Pug "
 	link "Sheragi "
+	object "humanGateway"
+		sprite "sprite/wispGreen"
 	pos -200 -9950
 system "Hai "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
 	link "Wanderer "
+	object "haiGateway"
+		sprite "sprite/wispGreen"
 	pos -13 -10253
 system "Remnant "
 	"jump range" 3000
 	government "vanilla"
 	link "Builder "
 	link "Unknown "
+	object "remnantGateway"
+		sprite "sprite/wispGreen"
 	pos 133 -9792
 system "Builder "
 	"jump range" 3000
 	government "vanilla"
 	link "Remnant "
 	link "Unknown "
+	object "builderGateway"
+		sprite "sprite/wispGreen"
 	pos 83 -9721
 system "Korath "
 	"jump range" 3000
@@ -324,16 +286,22 @@ system "Korath "
 	link "Gegno "
 	link "Hai "
 	link "Human "
+	object "korathGateway"
+		sprite "sprite/wispGreen"
 	pos -58 -10120
 system "Wanderer "
 	"jump range" 3000
 	government "vanilla"
 	link "Hai "
+	object "wandererGateway"
+		sprite "sprite/wispGreen"
 	pos -120 -10411
 system "Coalition "
 	"jump range" 3000
 	government "vanilla"
 	link "Sheragi "
+	object "coalitionGateway"
+		sprite "sprite/wispGreen"
 	pos -541 -9776
 system "Quarg "
 	"jump range" 3000
@@ -341,11 +309,15 @@ system "Quarg "
 	link "Pug "
 	link "Sheragi "
 	link "Unknown "
+	object "quargGateway"
+		sprite "sprite/wispGreen"
 	pos -89 -9751
 system "Drak "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
+	object "drakGateway"
+		sprite "sprite/wispGreen"
 	pos 125 -10138
 system "Pug "
 	"jump range" 3000
@@ -353,6 +325,8 @@ system "Pug "
 	link "Human "
 	link "Quarg "
 	link "Sheragi "
+	object "pugGateway"
+		sprite "sprite/wispGreen"
 	pos -174 -9887
 system "Unknown "
 	"jump range" 3000
@@ -360,6 +334,8 @@ system "Unknown "
 	link "Builder "
 	link "Quarg "
 	link "Remnant "
+	object "unknownGateway"
+		sprite "sprite/wispGreen"
 	pos -20 -9766
 #	Gateways
 planet "remnantGateway"
@@ -424,6 +400,13 @@ planet "coalitionGateway"
 	attributes "requires: Omnis"
 system "Homeward"
 	add object "coalitionGateway"
+		sprite "sprite/wispGreen"
+		object
+			distance 150
+				sprite "sprite/gatewayOmnis"
+planet "omnisGateway"
+system "Rutilicus"
+	add object "omnisGateway"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
