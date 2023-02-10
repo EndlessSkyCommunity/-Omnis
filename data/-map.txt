@@ -6,105 +6,149 @@ system "Omnis"
 	"jump range" 3000
 	government "vanilla"
 	link "Human "
-	object
-		sprite "_menu/title"
-		distance 100
-	object "omnisGateway"
-		sprite "sprite/wispGreen"
-		distance -100
 	object "Developer"
-		sprite "sprite/station8"
 		distance 300
+		sprite "asteroid/yottrite/spin"
+	object
+		sprite "star/nova"
 	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "star/nova-core"
+	#	Factions
+	object "Sheragi "
+		distance 1600
 		offset 20
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/forest2-b"
+	object "Gegno "
+		distance 1600
 		offset 40
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/desert7-b"
+	object "Human "
+		distance 1600
 		offset 60
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/earth"
+		object
+			distance 201.24
+			period 27.3
+			sprite "planet/luna"
+	object "Hai "
+		distance 1600
 		offset 80
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/forest2-b"
+		object
+			distance 191
+			period 25.243
+			sprite "planet/ice7"
+	object "Remnant "
+		distance 1600
 		offset 100
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/cloud3"
+		object
+			distance 135
+			period 17.2478
+			sprite "planet/dust1"
+	object "Builder "
+		distance 1600
 		offset 120
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/ocean0-b"
+		object
+			distance 174
+			period 23.9139
+			sprite "planet/station3bd"
+				scale 0.5
+	object "Korath "
+		distance 1600
 		offset 140
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/forest4-b"
+	object "Wanderer "
+		distance 1600
 		offset 160
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/earth"
+	object "Coalition "
+		distance 1600
 		offset 180
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/forest3-b"
+	object "Quarg "
+		distance 1600
 		offset 200
-	object "Everything"
-		sprite "planet/ringworld"
+		sprite "planet/station0"
 			scale .5
-		distance 812
+	object "Drak "
+		distance 1600
 		offset 220
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/lava6-b"
+	object "Pug "
+		distance 1600
 		offset 240
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
+		sprite "planet/ocean2"
+		object
+			distance 159
+			period 16.3701
+			sprite "planet/dust3"
+	object "Unknown "
+		distance 1600
 		offset 260
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Everything"
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
+		sprite "planet/gas8"
+		object
+			distance 259
+			period 14.701
+			sprite "planet/rock3"
+		object
+			distance 385
+			period 26.6433
+			sprite "planet/dust3"
+	#	Gateways
+	object "sheragiGateway"
+		distance 2400
+		offset 20
+		sprite "sprite/wispGreen"
+	object "gegnoGateway"
+		distance 2400
+		offset 40
+		sprite "sprite/wispGreen"
+	object "humanGateway"
+		distance 2400
+		offset 60
+		sprite "sprite/wispGreen"
+	object "haiGateway"
+		distance 2400
+		offset 80
+		sprite "sprite/wispGreen"
+	object "remnantGateway"
+		distance 2400
+		offset 100
+		sprite "sprite/wispGreen"
+	object "builderGateway"
+		distance 2400
+		offset 120
+		sprite "sprite/wispGreen"
+	object "korathGateway"
+		distance 2400
+		offset 140
+		sprite "sprite/wispGreen"
+	object "wandererGateway"
+		distance 2400
+		offset 160
+		sprite "sprite/wispGreen"
+	object "coalitionGateway"
+		distance 2400
+		offset 180
+		sprite "sprite/wispGreen"
+	object "quargGateway"
+		distance 2400
+		offset 200
+		sprite "sprite/wispGreen"
+	object "drakGateway"
+		distance 2400
+		offset 220
+		sprite "sprite/wispGreen"
+	object "pugGateway"
+		distance 2400
+		offset 240
+		sprite "sprite/wispGreen"
+	object "unknownGateway"
+		distance 2400
+		offset 260
+		sprite "sprite/wispGreen"
 	pos 0 -10000
 planet "Developer"
 	bribe 0
@@ -142,6 +186,98 @@ planet "Everything"
 	shipyard "sheragi"
 	shipyard "wanderer"
 	spaceport ""
+planet "Sheragi "
+	bribe 0
+	description ""
+	landscape "land/city4"
+	outfitter "sheragi"
+	shipyard "sheragi"
+	spaceport ""
+planet "Gegno "
+	bribe 0
+	description ""
+	landscape "land/desert4"
+	outfitter "gegno"
+	shipyard "gegno"
+	spaceport ""
+planet "Human "
+	bribe 0
+	description ""
+	landscape "land/city20"
+	outfitter "human"
+	shipyard "human"
+	spaceport ""
+planet "Hai "
+	bribe 0
+	description ""
+	landscape "land/valley2"
+	outfitter "hai"
+	shipyard "hai"
+	spaceport ""
+planet "Remnant "
+	bribe 0
+	description ""
+	landscape "land/sky7"
+	outfitter "remnant"	
+	shipyard "remnant"
+	spaceport ""
+planet "Builder "
+	bribe 0
+	description ""
+	landscape "land/water0"
+	outfitter "builder"
+	shipyard "builder"
+	spaceport ""
+planet "Korath "
+	bribe 0
+	description ""
+	landscape "land/snow5"
+	outfitter "korath"
+	shipyard "korath"
+	spaceport ""
+planet "Wanderer "
+	bribe 0
+	description ""
+	landscape "land/sea16-harro"
+	outfitter "wanderer"
+	shipyard "wanderer"
+	spaceport ""
+planet "Coalition "
+	bribe 0
+	description ""
+	landscape "land/valley10-sfiera"
+	outfitter "coalition"
+	shipyard "coalition"
+	spaceport ""
+planet "Quarg "
+	bribe 0
+	description ""
+	landscape "land/station5"
+	outfitter "quarg"
+	shipyard "quarg"
+	spaceport ""
+planet "Drak "
+	bribe 0
+	description ""
+	landscape "land/lava0"
+	outfitter "drak"
+	shipyard "drak"
+	spaceport ""
+planet "Pug "
+	bribe 0
+	description ""
+	landscape "land/myrabella5"
+	outfitter "pug"
+	shipyard "pug"
+	spaceport ""
+planet "Unknown "
+	bribe 0
+	description ""
+	landscape "land/nasa8"
+	outfitter "unknown"
+	shipyard "unknown"
+	spaceport ""
+#	Arena
 system "Sheragi "
 	"jump range" 3000
 	government "vanilla"
@@ -149,218 +285,12 @@ system "Sheragi "
 	link "Human "
 	link "Pug "
 	link "Quarg "
-	object "sheragiGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionSheragi"
-		distance 150
-		offset 180
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Sheragi "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -378 -9817
-planet "Sheragi "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "sheragi"
-	shipyard "sheragi"
-	spaceport ""
 system "Gegno "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
-	object "gegnoGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionGegno"
-		distance 150
-		offset 180
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Gegno "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos 447 -10315
-planet "Gegno "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "gegno"
-	shipyard "gegno"
-	spaceport ""
 system "Human "
 	"jump range" 3000
 	government "vanilla"
@@ -368,437 +298,25 @@ system "Human "
 	link "Omnis"
 	link "Pug "
 	link "Sheragi "
-	object "humanGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionHuman"
-		distance 150
-		offset 180
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Human "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -200 -9950
-planet "Human "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "human"
-	shipyard "human"
-	spaceport ""
 system "Hai "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
 	link "Wanderer "
-	object "haiGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionHai"
-		distance 150
-		offset 180
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Hai "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -13 -10253
-planet "Hai "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "hai"
-	shipyard "hai"
-	spaceport ""
 system "Remnant "
 	"jump range" 3000
 	government "vanilla"
 	link "Builder "
 	link "Unknown "
-	object "remnantGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionRemnant"
-		distance 150
-		offset 180
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Remnant "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos 133 -9792
-planet "Remnant "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "remnant"	
-	shipyard "remnant"
-	spaceport ""
 system "Builder "
 	"jump range" 3000
 	government "vanilla"
 	link "Remnant "
 	link "Unknown "
-	object "builderGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionBuilder"
-		distance 150
-		offset 180
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Builder "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos 83 -9721
-planet "Builder "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "builder"
-	shipyard "builder"
-	spaceport ""
 system "Korath "
 	"jump range" 3000
 	government "vanilla"
@@ -806,764 +324,43 @@ system "Korath "
 	link "Gegno "
 	link "Hai "
 	link "Human "
-	object "korathGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionKorath"
-		distance 150
-		offset 180
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Korath "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -58 -10120
-planet "Korath "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "korath"
-	shipyard "korath"
-	spaceport ""
 system "Wanderer "
 	"jump range" 3000
 	government "vanilla"
 	link "Hai "
-	object "wandererGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionWanderer"
-		distance 150
-		offset 180
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Wanderer "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -120 -10411
-planet "Wanderer "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "wanderer"
-	shipyard "wanderer"
-	spaceport ""
 system "Coalition "
 	"jump range" 3000
 	government "vanilla"
 	link "Sheragi "
-	object "coalitionGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionCoalition"
-		distance 150
-		offset 180
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Coalition "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -541 -9776
-planet "Coalition "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "coalition"
-	shipyard "coalition"
-	spaceport ""
 system "Quarg "
 	"jump range" 3000
 	government "vanilla"
 	link "Pug "
 	link "Sheragi "
 	link "Unknown "
-	object "quargGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionQuarg"
-		distance 150
-		offset 180
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Quarg "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -89 -9751
-planet "Quarg "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "quarg"
-	shipyard "quarg"
-	spaceport ""
 system "Drak "
 	"jump range" 3000
 	government "vanilla"
 	link "Korath "
-	object "drakGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionDrak"
-		distance 150
-		offset 180
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Drak "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos 125 -10138
-planet "Drak "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "drak"
-	shipyard "drak"
-	spaceport ""
 system "Pug "
 	"jump range" 3000
 	government "vanilla"
 	link "Human "
 	link "Quarg "
 	link "Sheragi "
-	object "pugGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionPug"
-		distance 150
-		offset 180
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Pug "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -174 -9887
-planet "Pug "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "pug"
-	shipyard "pug"
-	spaceport ""
 system "Unknown "
 	"jump range" 3000
 	government "vanilla"
 	link "Builder "
 	link "Quarg "
 	link "Remnant "
-	object "unknownGateway"
-		sprite "sprite/wispGreen"
-	object
-		sprite "sprite/factionUnknown"
-		distance 150
-		offset 180
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 20
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 40
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 60
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 80
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 100
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 120
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 140
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 160
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 180
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 200
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 220
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 240
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 260
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 280
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 300
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 320
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 340
-	object "Unknown "
-		sprite "planet/ringworld"
-			scale .5
-		distance 812
-		offset 360
 	pos -20 -9766
-planet "Unknown "
-	bribe 0
-	description ""
-	landscape "landscape/station6"
-	outfitter "unknown"
-	shipyard "unknown"
-	spaceport ""
 #	Gateways
 planet "remnantGateway"
 	attributes "requires: Omnis"
@@ -1625,15 +422,8 @@ system "Nona"
 				sprite "sprite/gatewayOmnis"
 planet "coalitionGateway"
 	attributes "requires: Omnis"
-system "Quaru"
+system "Homeward"
 	add object "coalitionGateway"
-		sprite "sprite/wispGreen"
-		object
-			distance 150
-				sprite "sprite/gatewayOmnis"
-planet "omnisGateway"
-system "Rutilicus"
-	add object "omnisGateway"
 		sprite "sprite/wispGreen"
 		object
 			distance 150
