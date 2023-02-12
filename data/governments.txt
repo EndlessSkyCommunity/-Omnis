@@ -1,11 +1,9 @@
-government "vanilla"
-	"display name" "Unknown"
+government "Central"
 	color .43 .33 .58
 	fine 0
 	swizzle 0
-government "plugin"
-	"display name" "Unknown"
-	color .74 .17 0
+government "Faction"
+	color .43 .33 .58
 	fine 0
 	swizzle 0
 phrase "arena"
