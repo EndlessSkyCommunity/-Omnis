@@ -3,8 +3,14 @@ mission "omnisStart"
 	invisible
 	landing
 	on offer
-		event "revealMap"
 		event "revealOmnis"
+	source
+		government "Central" "Faction"
+mission "revealMap"
+	job
+	name "Force Reveal Map"
+	on accept
+		event "revealMap"
 	source
 		government "Central" "Faction"
 event "revealOmnis"
