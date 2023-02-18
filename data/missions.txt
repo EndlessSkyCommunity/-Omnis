@@ -11,6 +11,7 @@ mission "revealMap"
 	name "Force Reveal Map"
 	on accept
 		event "revealMap"
+	repeat
 	source
 		government "Central" "Faction"
 event "revealOmnis"
