@@ -9,6 +9,7 @@ ship "Caster"
 		"outfit space" 10000
 		"required crew" 1
 		"reverse thrust" 3000
+		"spinal mount" 12
 		"turret mounts" 12
 		"weapon capacity" 10000
 		bunks 10000
