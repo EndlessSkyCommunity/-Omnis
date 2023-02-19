@@ -70,18 +70,26 @@ system "Omnis"
 		distance 1600
 		offset 180
 		sprite "planet/forest3-b"
-	object "Quarg "
+	object "Bunrodea "
 		distance 1600
 		offset 200
+		sprite "planet/forest5-b"
+		object
+			distance 167
+			period 23.303
+			sprite "planet/desert4-b"
+	object "Quarg "
+		distance 1600
+		offset 220
 		sprite "planet/station0"
 			scale .5
 	object "Drak "
 		distance 1600
-		offset 220
+		offset 240
 		sprite "planet/lava6-b"
 	object "Pug "
 		distance 1600
-		offset 240
+		offset 260
 		sprite "planet/ocean2"
 		object
 			distance 159
@@ -89,7 +97,7 @@ system "Omnis"
 			sprite "planet/dust3"
 	object "Unknown "
 		distance 1600
-		offset 260
+		offset 280
 		sprite "planet/gas8"
 		object
 			distance 259
@@ -232,6 +240,16 @@ planet "Coalition "
 	outfitter "drives"
 	outfitter "expansions"
 	shipyard "coalition"
+	spaceport ""
+planet "Bunrodea "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/mountain5"
+	outfitter "bunrodea"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "bunrodea"
 	spaceport ""
 planet "Quarg "
 	bribe 0
