@@ -63,22 +63,22 @@ system "Omnis"
 		distance 1600
 		offset 140
 		sprite "planet/forest4-b"
-	object "Wanderer "
-		distance 1600
-		offset 160
-		sprite "planet/earth"
-	object "Coalition "
-		distance 1600
-		offset 180
-		sprite "planet/forest3-b"
 	object "Bunrodea "
 		distance 1600
-		offset 200
+		offset 160
 		sprite "planet/forest5-b"
 		object
 			distance 167
 			period 23.303
 			sprite "planet/desert4-b"
+	object "Wanderer "
+		distance 1600
+		offset 180
+		sprite "planet/earth"
+	object "Coalition "
+		distance 1600
+		offset 200
+		sprite "planet/forest3-b"
 	object "Quarg "
 		distance 1600
 		offset 220
@@ -221,6 +221,16 @@ planet "Korath "
 	outfitter "korath"
 	shipyard "korath"
 	spaceport ""
+planet "Bunrodea "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/mountain5"
+	outfitter "bunrodea"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "bunrodea"
+	spaceport ""
 planet "Wanderer "
 	bribe 0
 	description ""
@@ -240,16 +250,6 @@ planet "Coalition "
 	outfitter "drives"
 	outfitter "expansions"
 	shipyard "coalition"
-	spaceport ""
-planet "Bunrodea "
-	bribe 0
-	description ""
-	government "Faction"
-	landscape "land/mountain5"
-	outfitter "bunrodea"
-	outfitter "drives"
-	outfitter "expansions"
-	shipyard "bunrodea"
 	spaceport ""
 planet "Quarg "
 	bribe 0
