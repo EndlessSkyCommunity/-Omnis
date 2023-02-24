@@ -1,0 +1,244 @@
+system "Hai "
+	"jump range" 3000
+	government "Arena"
+	pos 125 -10125
+	object "Geodesic Geocoris "
+		sprite "ship/geodesic geocoris"
+		distance 1500
+		offset 0
+	object "Aphid "
+		sprite "ship/hai aphid"
+		distance 1500
+		offset 23
+	object "Centipede "
+		sprite "ship/hai centipede"
+		distance 1500
+		offset 45
+	object "Cicada "
+		sprite "ship/hai cicada"
+		distance 1500
+		offset 68
+	object "Flea "
+		sprite "ship/hai flea"
+		distance 1500
+		offset 90
+	object "Geocoris "
+		sprite "ship/hai geocoris"
+		distance 1500
+		offset 113
+	object "Grasshopper "
+		sprite "ship/hai grasshopper"
+		distance 1500
+		offset 135
+	object "Lightning Bug "
+		sprite "ship/hai lightning bug"
+		distance 1500
+		offset 158
+	object "Ladybug "
+		sprite "ship/hai ladybug"
+		distance 1500
+		offset 180
+	object "Pond Strider "
+		sprite "ship/hai pond strider"
+		distance 1500
+		offset 203
+	object "Sea Scorpion "
+		sprite "ship/hai sea scorpion"
+		distance 1500
+		offset 225
+	object "Scarab "
+		sprite "ship/hai scarab"
+		distance 1500
+		offset 248
+	object "Shield Beetle "
+		sprite "ship/hai shield beetle"
+		distance 1500
+		offset 270
+	object "Solifuge "
+		sprite "ship/hai solifuge"
+		distance 1500
+		offset 293
+	object "Violin Spider "
+		sprite "ship/hai violin spider"
+		distance 1500
+		offset 315
+	object "Water Bug "
+		sprite "ship/hai water bug"
+		distance 1500
+		offset 338
+planet "Geodesic Geocoris "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Geodesic Geocoris "
+planet "Aphid "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Aphid "
+planet "Centipede "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Centipede "
+planet "Cicada "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Cicada "
+planet "Flea "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Flea "
+planet "Geocoris "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Geocoris "
+planet "Grasshopper "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Grasshopper "
+planet "Lightning Bug "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Lightning Bug "
+planet "Ladybug "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Ladybug "
+planet "Pond Strider "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Pond Strider "
+planet "Sea Scorpion "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Sea Scorpion "
+planet "Scarab "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Scarab "
+planet "Shield Beetle "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Shield Beetle "
+planet "Solifuge "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Solifuge "
+planet "Violin Spider "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Violin Spider "
+planet "Water Bug "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Water Bug "
+fleet "Geodesic Geocoris "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Geodesic Geocoris"
+fleet "Aphid "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aphid"
+fleet "Centipede "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Centipede"
+fleet "Cicada "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Cicada"
+fleet "Flea "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Flea"
+fleet "Geocoris "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Geocoris"
+fleet "Grasshopper "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Grasshopper"
+fleet "Lightning Bug "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Lightning Bug"
+fleet "Ladybug "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ladybug"
+fleet "Pond Strider "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Pond Strider"
+fleet "Sea Scorpion "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Sea Scorpion"
+fleet "Scarab "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scarab"
+fleet "Shield Beetle "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Shield Beetle"
+fleet "Solifuge "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Solifuge"
+fleet "Violin Spider "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Violin Spider"
+fleet "Water Bug "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Water Bug"

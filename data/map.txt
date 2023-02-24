@@ -1,0 +1,300 @@
+galaxy "omnis"
+	pos 0 -10000
+	sprite "sprite/milkyWayHalf"
+#	Central
+system "Omnis"
+	"jump range" 3000
+	government "Central"
+	pos 0 -10000
+	object
+		sprite "star/nova"
+	object "Everything"
+		sprite "star/nova-core"
+	object "Developer"
+		distance 300
+		sprite "asteroid/yottrite/spin"
+	object "omnisGateway"
+		sprite "sprite/wispGreen"
+		distance -300
+	#	Factions
+	object "Sheragi "
+		distance 1600
+		offset 20
+		sprite "planet/forest2-b"
+	object "Gegno "
+		distance 1600
+		offset 40
+		sprite "planet/desert7-b"
+	object "Human "
+		distance 1600
+		offset 60
+		sprite "planet/earth"
+		object
+			distance 201.24
+			period 27.3
+			sprite "planet/luna"
+	object "Hai "
+		distance 1600
+		offset 80
+		sprite "planet/forest2-b"
+		object
+			distance 191
+			period 25.243
+			sprite "planet/ice7"
+	object "Remnant "
+		distance 1600
+		offset 100
+		sprite "planet/cloud3"
+		object
+			distance 135
+			period 17.2478
+			sprite "planet/dust1"
+	object "Builder "
+		distance 1600
+		offset 120
+		sprite "planet/ocean0-b"
+		object
+			distance 174
+			period 23.9139
+			sprite "planet/station3bd"
+				scale 0.5
+	object "Korath "
+		distance 1600
+		offset 140
+		sprite "planet/forest4-b"
+	object "Bunrodea "
+		distance 1600
+		offset 160
+		sprite "planet/forest5-b"
+		object
+			distance 167
+			period 23.303
+			sprite "planet/desert4-b"
+	object "Wanderer "
+		distance 1600
+		offset 180
+		sprite "planet/earth"
+	object "Coalition "
+		distance 1600
+		offset 200
+		sprite "planet/forest3-b"
+	object "Quarg "
+		distance 1600
+		offset 220
+		sprite "planet/station0"
+			scale .5
+	object "Drak "
+		distance 1600
+		offset 240
+		sprite "planet/lava6-b"
+	object "Pug "
+		distance 1600
+		offset 260
+		sprite "planet/ocean2"
+		object
+			distance 159
+			period 16.3701
+			sprite "planet/dust3"
+	object "Unknown "
+		distance 1600
+		offset 280
+		sprite "planet/gas8"
+		object
+			distance 259
+			period 14.701
+			sprite "planet/rock3"
+		object
+			distance 385
+			period 26.6433
+			sprite "planet/dust3"
+planet "Developer"
+	bribe 0
+	description ""
+	landscape ""
+	outfitter "omnis"
+	shipyard "omnis"
+	spaceport ""
+planet "Everything"
+	bribe 0
+	description ""
+	landscape ""
+	outfitter "builder"
+	outfitter "coalition"
+	outfitter "drak"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "gegno"
+	outfitter "hai"
+	outfitter "human"
+	outfitter "korath"
+	outfitter "minerals"
+	outfitter "persons"
+	outfitter "pug"
+	outfitter "quarg"
+	outfitter "remnant"
+	outfitter "sheragi"
+	outfitter "unknown"
+	outfitter "wanderer"
+	shipyard "builder"
+	shipyard "coalition"
+	shipyard "drak"
+	shipyard "gegno"
+	shipyard "hai"
+	shipyard "human"
+	shipyard "korath"
+	shipyard "persons"
+	shipyard "pug"
+	shipyard "quarg"
+	shipyard "remnant"
+	shipyard "sheragi"
+	shipyard "unknown"
+	shipyard "wanderer"
+	spaceport ""
+planet "Sheragi "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/city4"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "sheragi"
+	shipyard "sheragi"
+	spaceport ""
+planet "Gegno "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/desert4"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "gegno"
+	shipyard "gegno"
+	spaceport ""
+planet "Human "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/city20"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "human"
+	shipyard "human"
+	spaceport ""
+planet "Hai "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/valley2"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "hai"
+	shipyard "hai"
+	spaceport ""
+planet "Remnant "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/sky7"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "remnant"	
+	shipyard "remnant"
+	spaceport ""
+planet "Builder "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/water0"
+	outfitter "builder"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "builder"
+	spaceport ""
+planet "Korath "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/snow5"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "korath"
+	shipyard "korath"
+	spaceport ""
+planet "Bunrodea "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/mountain5"
+	outfitter "bunrodea"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "bunrodea"
+	spaceport ""
+planet "Wanderer "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/sea16-harro"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "wanderer"
+	shipyard "wanderer"
+	spaceport ""
+planet "Coalition "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/valley10-sfiera"
+	outfitter "coalition"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "coalition"
+	spaceport ""
+planet "Quarg "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/station5"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "quarg"
+	shipyard "quarg"
+	spaceport ""
+planet "Drak "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/lava0"
+	outfitter "drak"
+	outfitter "drives"
+	outfitter "expansions"
+	shipyard "drak"
+	spaceport ""
+planet "Pug "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/myrabella5"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "pug"
+	shipyard "pug"
+	spaceport ""
+planet "Unknown "
+	bribe 0
+	description ""
+	government "Faction"
+	landscape "land/nasa8"
+	outfitter "drives"
+	outfitter "expansions"
+	outfitter "unknown"
+	shipyard "unknown"
+	spaceport ""
+planet "omnisGateway"
+#	Override
+system "Rutilicus"
+	add object "omnisGateway"
+		sprite "sprite/wispGreen"
+		object
+			distance 150
+				sprite "sprite/gatewayOmnis"

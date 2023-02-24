@@ -1,0 +1,34 @@
+system "Iije "
+	"jump range" 3000
+	government "Arena"
+	pos 175 -10175
+	object "Jje "
+		sprite "ship/jje/jje"
+		distance 450
+		offset 0
+	object "Ayym "
+		sprite "ship/ayym/ayym"
+		distance 450
+		offset 180
+planet "Jje "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Jje "
+planet "Ayym "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Ayym "
+fleet "Jje "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Jje"
+fleet "Ayym "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ayym"

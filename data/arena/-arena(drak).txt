@@ -1,0 +1,94 @@
+system "Drak "
+	"jump range" 3000
+	government "Arena"
+	pos 75 -10075
+	object "Subsidurial "
+		sprite "ship/subsidurial"
+		distance 750
+		offset 0
+	object "Void Sprite "
+		sprite "ship/void sprite/void sprite adult"
+		distance 750
+		offset 60
+	object "Ember Waste Node "
+		sprite "ship/ember waste node/ember waste node"
+		distance 750
+		offset 120
+	object "Embershade "
+		sprite "ship/embershade/embershade"
+		distance 750
+		offset 180
+	object "Embersylph "
+		sprite "ship/embersylph/embersylph"
+		distance 750
+		offset 240
+	object "Archon "
+		sprite "ship/archon"
+		distance 750
+		offset 300
+planet "Subsidurial "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Subsidurial "
+planet "Void Sprite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Void Sprite "
+planet "Ember Waste Node "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Ember Waste Node "
+planet "Embershade "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Embershade "
+planet "Embersylph "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Embersylph "
+planet "Archon "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Archon "
+fleet "Subsidurial "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Subsidurial"
+fleet "Void Sprite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Void Sprite"
+fleet "Ember Waste Node "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Ember Waste Node"
+fleet "Embershade "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Embershade"
+fleet "Embersylph "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Embersylph"
+fleet "Archon "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Archon"

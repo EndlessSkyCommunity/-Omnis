@@ -1,0 +1,304 @@
+system "Gegno "
+	"jump range" 3000
+	government "Arena"
+	pos 100 -10100
+	object "Shale "
+		sprite "ship/gegno shale"
+		distance 1800
+		offset 0
+	object "Dolomite "
+		sprite "ship/gegno dolomite"
+		distance 1800
+		offset 18
+	object "Conglomerate "
+		sprite "ship/gegno conglomerate"
+		distance 1800
+		offset 36
+	object "Gypsum "
+		sprite "ship/gegno gypsum"
+		distance 1800
+		offset 54
+	object "Dunite "
+		sprite "ship/gegno dunite"
+		distance 1800
+		offset 72
+	object "Augen "
+		sprite "ship/gegno augen"
+		distance 1800
+		offset 90
+	object "Slate "
+		sprite "ship/gegno slate"
+		distance 1800
+		offset 108
+	object "Schist "
+		sprite "ship/gegno schist a"
+		distance 1800
+		offset 126
+	object "Eclogite "
+		sprite "ship/gegno eclogite"
+		distance 1800
+		offset 144
+	object "Diorite "
+		sprite "ship/gegno diorite"
+		distance 1800
+		offset 162
+	object "Hornfel "
+		sprite "ship/gegno hornfel a"
+		distance 1800
+		offset 180
+	object "Gneiss "
+		sprite "ship/gegno gneiss"
+		distance 1800
+		offset 198
+	object "Granulite "
+		sprite "ship/gegno granulite"
+		distance 1800
+		offset 216
+	object "Halite "
+		sprite "ship/gegno halite"
+		distance 1800
+		offset 234
+	object "Mica "
+		sprite "ship/gegno mica"
+		distance 1800
+		offset 252
+	object "Coesite "
+		sprite "ship/gegno coesite"
+		distance 1800
+		offset 270
+	object "Tridymite "
+		sprite "ship/gegno tridymite"
+		distance 1800
+		offset 288
+	object "Felsic "
+		sprite "ship/gegno felsic"
+		distance 1800
+		offset 306
+	object "Feldspar "
+		sprite "ship/gegno feldspar"
+		distance 1800
+		offset 324
+	object "Epidote "
+		sprite "ship/gegno epidote"
+		distance 1800
+		offset 342
+planet "Shale "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Shale "
+planet "Dolomite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Dolomite "
+planet "Conglomerate "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Conglomerate "
+planet "Gypsum "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Gypsum "
+planet "Dunite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Dunite "
+planet "Augen "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Augen "
+planet "Slate "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Slate "
+planet "Schist "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Schist "
+planet "Eclogite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Eclogite "
+planet "Diorite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Diorite "
+planet "Hornfel "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hornfel "
+planet "Gneiss "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Gneiss "
+planet "Granulite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Granulite "
+planet "Halite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Halite "
+planet "Mica "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Mica "
+planet "Coesite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Coesite "
+planet "Tridymite "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Tridymite "
+planet "Felsic "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Felsic "
+planet "Feldspar "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Feldspar "
+planet "Epidote "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Epidote "
+fleet "Shale "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Shale"
+fleet "Dolomite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Dolomite"
+fleet "Conglomerate "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Conglomerate"
+fleet "Gypsum "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Gypsum"
+fleet "Dunite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Dunite"
+fleet "Augen "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Augen"
+fleet "Slate "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Slate"
+fleet "Schist "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Schist"
+fleet "Eclogite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Eclogite"
+fleet "Diorite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Diorite"
+fleet "Hornfel "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hornfel"
+fleet "Gneiss "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Gneiss"
+fleet "Granulite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Granulite"
+fleet "Halite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Halite"
+fleet "Mica "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Mica"
+fleet "Coesite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Coesite"
+fleet "Tridymite "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Tridymite"
+fleet "Felsic "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Felsic"
+fleet "Feldspar "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Feldspar"
+fleet "Epidote "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Epidote"

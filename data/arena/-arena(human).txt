@@ -1,0 +1,1189 @@
+system "Human "
+	"jump range" 3000
+	government "Arena"
+	pos 150 -10150
+	object "Marauder Arrow "
+		sprite "ship/marrows"
+		distance 6225
+		offset 0
+	object "Marauder Bounder "
+		sprite "ship/mbounders"
+		distance 6225
+		offset 5
+	object "Marauder Falcon "
+		sprite "ship/mfalcons"
+		distance 6225
+		offset 9
+	object "Marauder Firebird "
+		sprite "ship/mfirebirds"
+		distance 6225
+		offset 14
+	object "Marauder Leviathan "
+		sprite "ship/mleviathans"
+		distance 6225
+		offset 18
+	object "Marauder Manta "
+		sprite "ship/mmantas"
+		distance 6225
+		offset 23
+	object "Marauder Quicksilver "
+		sprite "ship/mquicksilvers"
+		distance 6225
+		offset 27
+	object "Marauder Raven "
+		sprite "ship/mravens"
+		distance 6225
+		offset 32
+	object "Marauder Splinter "
+		sprite "ship/msplinters"
+		distance 6225
+		offset 36
+	object "Hallucination "
+		sprite "ship/hallucination"
+		distance 6225
+		offset 41
+	object "Asteroid "
+		sprite "asteroid/medium rock/spin"
+		distance 6225
+		offset 46
+	object "Science Drone "
+		sprite "ship/science drone"
+		distance 6225
+		offset 50
+	object "Unknown Ship Type "
+		sprite "ship/kestrel"
+		distance 6225
+		offset 55
+	object "Kestrel "
+		sprite "ship/kestrel"
+		distance 6225
+		offset 59
+	object "Aerie "
+		sprite "ship/aerie"
+		distance 6225
+		offset 64
+	object "Argosy "
+		sprite "ship/argosy"
+		distance 6225
+		offset 68
+	object "Arrow "
+		sprite "ship/arrow"
+		distance 6225
+		offset 73
+	object "Auxiliary "
+		sprite "ship/auxiliaryh"
+		distance 6225
+		offset 77
+	object "Bactrian "
+		sprite "ship/bactrian"
+		distance 6225
+		offset 82
+	object "Barb "
+		sprite "ship/barb"
+		distance 6225
+		offset 87
+	object "Bastion "
+		sprite "ship/bastion"
+		distance 6225
+		offset 91
+	object "Behemoth "
+		sprite "ship/behemoth"
+		distance 6225
+		offset 96
+	object "Berserker "
+		sprite "ship/berserker"
+		distance 6225
+		offset 100
+	object "Blackbird "
+		sprite "ship/blackbird"
+		distance 6225
+		offset 105
+	object "Bounder "
+		sprite "ship/bounder"
+		distance 6225
+		offset 109
+	object "Boxwing "
+		sprite "ship/boxwing"
+		distance 6225
+		offset 114
+	object "Bulk Freighter "
+		sprite "ship/bulk freighter"
+		distance 6225
+		offset 118
+	object "Bulwark "
+		sprite "ship/pirate bulwark"
+		distance 6225
+		offset 123
+	object "Carrier "
+		sprite "ship/carrier"
+		distance 6225
+		offset 128
+	object "Class C Freighter "
+		sprite "ship/bulk freighter"
+		distance 6225
+		offset 132
+	object "Clipper "
+		sprite "ship/clipper"
+		distance 6225
+		offset 137
+	object "Combat Drone "
+		sprite "ship/combat drone"
+		distance 6225
+		offset 141
+	object "Container Transport "
+		sprite "ship/container transport"
+		distance 6225
+		offset 146
+	object "Corvette "
+		sprite "ship/corvette"
+		distance 6225
+		offset 150
+	object "Cruiser "
+		sprite "ship/cruiser"
+		distance 6225
+		offset 155
+	object "Cutthroat "
+		sprite "ship/pirate cutthroat"
+		distance 6225
+		offset 159
+	object "Dagger "
+		sprite "ship/dagger"
+		distance 6225
+		offset 164
+	object "Dreadnought "
+		sprite "ship/dreadnought"
+		distance 6225
+		offset 169
+	object "Dropship "
+		sprite "ship/dropship"
+		distance 6225
+		offset 173
+	object "Falcon "
+		sprite "ship/falcon"
+		distance 6225
+		offset 178
+	object "Finch "
+		sprite "ship/finch"
+		distance 6225
+		offset 182
+	object "Firebird "
+		sprite "ship/firebird"
+		distance 6225
+		offset 187
+	object "Flivver "
+		sprite "ship/flivver"
+		distance 6225
+		offset 191
+	object "Freighter "
+		sprite "ship/freighter"
+		distance 6225
+		offset 196
+	object "Frigate "
+		sprite "ship/frigate"
+		distance 6225
+		offset 201
+	object "Fury "
+		sprite "ship/fury"
+		distance 6225
+		offset 205
+	object "Gunboat "
+		sprite "ship/gunboat"
+		distance 6225
+		offset 210
+	object "Hauler "
+		sprite "ship/hauler i"
+		distance 6225
+		offset 214
+	object "Hauler II "
+		sprite "ship/hauler ii"
+		distance 6225
+		offset 219
+	object "Hauler III "
+		sprite "ship/hauler iii"
+		distance 6225
+		offset 223
+	object "Hawk "
+		sprite "ship/hawk"
+		distance 6225
+		offset 228
+	object "Headhunter "
+		sprite "ship/headhunter"
+		distance 6225
+		offset 232
+	object "Heavy Shuttle "
+		sprite "ship/heavy shuttle"
+		distance 6225
+		offset 237
+	object "Lance "
+		sprite "ship/lance"
+		distance 6225
+		offset 242
+	object "Leviathan "
+		sprite "ship/leviathan"
+		distance 6225
+		offset 246
+	object "Mammoth "
+		sprite "ship/pirate mammoth"
+		distance 6225
+		offset 251
+	object "Manta "
+		sprite "ship/manta"
+		distance 6225
+		offset 255
+	object "Modified Argosy "
+		sprite "ship/modified argosy"
+		distance 6225
+		offset 260
+	object "Mule "
+		sprite "ship/mule"
+		distance 6225
+		offset 264
+	object "Nest "
+		sprite "ship/nest"
+		distance 6225
+		offset 269
+	object "Nighthawk "
+		sprite "ship/pirate nighthawk"
+		distance 6225
+		offset 273
+	object "Osprey "
+		sprite "ship/osprey"
+		distance 6225
+		offset 278
+	object "Protector "
+		sprite "ship/protector"
+		distance 6225
+		offset 283
+	object "Quicksilver "
+		sprite "ship/quicksilver"
+		distance 6225
+		offset 287
+	object "Rainmaker "
+		sprite "ship/rainmaker"
+		distance 6225
+		offset 292
+	object "Raven "
+		sprite "ship/raven"
+		distance 6225
+		offset 296
+	object "Roost "
+		sprite "ship/roost"
+		distance 6225
+		offset 301
+	object "Scout "
+		sprite "ship/scout"
+		distance 6225
+		offset 305
+	object "Scrapper "
+		sprite "ship/pirate scrapper"
+		distance 6225
+		offset 310
+	object "Shuttle "
+		sprite "ship/shuttle"
+		distance 6225
+		offset 314
+	object "Skein "
+		sprite "ship/skein"
+		distance 6225
+		offset 319
+	object "Sparrow "
+		sprite "ship/sparrow"
+		distance 6225
+		offset 324
+	object "Splinter "
+		sprite "ship/splinter"
+		distance 6225
+		offset 328
+	object "Star Barge "
+		sprite "ship/star barge"
+		distance 6225
+		offset 333
+	object "Star Queen "
+		sprite "ship/star queen"
+		distance 6225
+		offset 337
+	object "Surveillance Drone "
+		sprite "ship/surveillance drone"
+		distance 6225
+		offset 342
+	object "Valkyrie "
+		sprite "ship/pirate valkyrie"
+		distance 6225
+		offset 346
+	object "Vanguard "
+		sprite "ship/vanguard"
+		distance 6225
+		offset 351
+	object "Wasp "
+		sprite "ship/wasp"
+		distance 6225
+		offset 355
+planet "Marauder Arrow "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Arrow "
+planet "Marauder Bounder "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Bounder "
+planet "Marauder Falcon "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Falcon "
+planet "Marauder Firebird "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Firebird "
+planet "Marauder Leviathan "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Leviathan "
+planet "Marauder Manta "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Manta "
+planet "Marauder Quicksilver "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Quicksilver "
+planet "Marauder Raven "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Raven "
+planet "Marauder Splinter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Marauder Splinter "
+planet "Hallucination "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hallucination "
+planet "Asteroid "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Asteroid "
+planet "Science Drone "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Science Drone "
+planet "Unknown Ship Type "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Unknown Ship Type "
+planet "Kestrel "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Kestrel "
+planet "Aerie "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Aerie "
+planet "Argosy "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Argosy "
+planet "Arrow "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Arrow "
+planet "Auxiliary "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Auxiliary "
+planet "Bactrian "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Bactrian "
+planet "Barb "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Barb "
+planet "Bastion "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Bastion "
+planet "Behemoth "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Behemoth "
+planet "Berserker "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Berserker "
+planet "Blackbird "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Blackbird "
+planet "Bounder "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Bounder "
+planet "Boxwing "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Boxwing "
+planet "Bulk Freighter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Bulk Freighter "
+planet "Bulwark "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Bulwark "
+planet "Carrier "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Carrier "
+planet "Class C Freighter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Class C Freighter "
+planet "Clipper "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Clipper "
+planet "Combat Drone "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Combat Drone "
+planet "Container Transport "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Container Transport "
+planet "Corvette "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Corvette "
+planet "Cruiser "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Cruiser "
+planet "Cutthroat "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Cutthroat "
+planet "Dagger "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Dagger "
+planet "Dreadnought "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Dreadnought "
+planet "Dropship "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Dropship "
+planet "Falcon "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Falcon "
+planet "Finch "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Finch "
+planet "Firebird "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Firebird "
+planet "Flivver "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Flivver "
+planet "Freighter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Freighter "
+planet "Frigate "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Frigate "
+planet "Fury "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Fury "
+planet "Gunboat "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Gunboat "
+planet "Hauler "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hauler "
+planet "Hauler II "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hauler II "
+planet "Hauler III "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hauler III "
+planet "Hawk "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hawk "
+planet "Headhunter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Headhunter "
+planet "Heavy Shuttle "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Heavy Shuttle "
+planet "Lance "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Lance "
+planet "Leviathan "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Leviathan "
+planet "Mammoth "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Mammoth "
+planet "Manta "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Manta "
+planet "Modified Argosy "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Modified Argosy "
+planet "Mule "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Mule "
+planet "Nest "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Nest "
+planet "Nighthawk "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Nighthawk "
+planet "Osprey "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Osprey "
+planet "Protector "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Protector "
+planet "Quicksilver "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Quicksilver "
+planet "Rainmaker "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Rainmaker "
+planet "Raven "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Raven "
+planet "Roost "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Roost "
+planet "Scout "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Scout "
+planet "Scrapper "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Scrapper "
+planet "Shuttle "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Shuttle "
+planet "Skein "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Skein "
+planet "Sparrow "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Sparrow "
+planet "Splinter "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Splinter "
+planet "Star Barge "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Star Barge "
+planet "Star Queen "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Star Queen "
+planet "Surveillance Drone "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Surveillance Drone "
+planet "Valkyrie "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Valkyrie "
+planet "Vanguard "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Vanguard "
+planet "Wasp "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Wasp "
+fleet "Marauder Arrow "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Arrow"
+fleet "Marauder Bounder "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Bounder"
+fleet "Marauder Falcon "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Falcon"
+fleet "Marauder Firebird "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Firebird"
+fleet "Marauder Leviathan "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Leviathan"
+fleet "Marauder Manta "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Manta"
+fleet "Marauder Quicksilver "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Quicksilver"
+fleet "Marauder Raven "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Raven"
+fleet "Marauder Splinter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Marauder Splinter"
+fleet "Hallucination "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hallucination"
+fleet "Asteroid "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Asteroid"
+fleet "Science Drone "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Science Drone"
+fleet "Unknown Ship Type "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Unknown Ship Type"
+fleet "Kestrel "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kestrel"
+fleet "Aerie "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aerie"
+fleet "Argosy "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Argosy"
+fleet "Arrow "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Arrow"
+fleet "Auxiliary "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Auxiliary"
+fleet "Bactrian "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bactrian"
+fleet "Barb "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Barb"
+fleet "Bastion "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bastion"
+fleet "Behemoth "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Behemoth"
+fleet "Berserker "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Berserker"
+fleet "Blackbird "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Blackbird"
+fleet "Bounder "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bounder"
+fleet "Boxwing "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Boxwing"
+fleet "Bulk Freighter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bulk Freighter"
+fleet "Bulwark "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bulwark"
+fleet "Carrier "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Carrier"
+fleet "Class C Freighter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Class C Freighter"
+fleet "Clipper "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Clipper"
+fleet "Combat Drone "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Combat Drone"
+fleet "Container Transport "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Container Transport"
+fleet "Corvette "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Corvette"
+fleet "Cruiser "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Cruiser"
+fleet "Cutthroat "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Cutthroat"
+fleet "Dagger "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Dagger"
+fleet "Dreadnought "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Dreadnought"
+fleet "Dropship "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Dropship"
+fleet "Falcon "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Falcon"
+fleet "Finch "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Finch"
+fleet "Firebird "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Firebird"
+fleet "Flivver "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Flivver"
+fleet "Freighter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Freighter"
+fleet "Frigate "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Frigate"
+fleet "Fury "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Fury"
+fleet "Gunboat "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Gunboat"
+fleet "Hauler "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hauler"
+fleet "Hauler II "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hauler II"
+fleet "Hauler III "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hauler III"
+fleet "Hawk "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hawk"
+fleet "Headhunter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Headhunter"
+fleet "Heavy Shuttle "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Heavy Shuttle"
+fleet "Lance "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Lance"
+fleet "Leviathan "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Leviathan"
+fleet "Mammoth "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Mammoth"
+fleet "Manta "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Manta"
+fleet "Modified Argosy "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Modified Argosy"
+fleet "Mule "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Mule"
+fleet "Nest "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Nest"
+fleet "Nighthawk "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Nighthawk"
+fleet "Osprey "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Osprey"
+fleet "Protector "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Protector"
+fleet "Quicksilver "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quicksilver"
+fleet "Rainmaker "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Rainmaker"
+fleet "Raven "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Raven"
+fleet "Roost "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Roost"
+fleet "Scout "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scout"
+fleet "Scrapper "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scrapper"
+fleet "Shuttle "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Shuttle"
+fleet "Skein "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Skein"
+fleet "Sparrow "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Sparrow"
+fleet "Splinter "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Splinter"
+fleet "Star Barge "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Star Barge"
+fleet "Star Queen "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Star Queen"
+fleet "Surveillance Drone "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Surveillance Drone"
+fleet "Valkyrie "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Valkyrie"
+fleet "Vanguard "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Vanguard"
+fleet "Wasp "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Wasp"

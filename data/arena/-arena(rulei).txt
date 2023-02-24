@@ -1,0 +1,19 @@
+system "Rulei "
+	"jump range" 3000
+	government "Arena"
+	pos 325 -10325
+	object "vyu-Ira "
+		sprite "ship/vyuira/vyuira"
+		distance 375
+		offset 0
+planet "vyu-Ira "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "vyu-Ira "
+fleet "vyu-Ira "
+	government "Arena"
+	personality "heroic"
+	variant
+		"vyu-Ira"

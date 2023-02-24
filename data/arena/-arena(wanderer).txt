@@ -1,0 +1,199 @@
+system "Wanderer "
+	"jump range" 3000
+	government "Arena"
+	pos 400 -10400
+	object "Earth Shaper "
+		sprite "ship/earth shaper"
+		distance 1275
+		offset 0
+	object "Flycatcher "
+		sprite "ship/flycatcher"
+		distance 1275
+		offset 28
+	object "Summer Leaf "
+		sprite "ship/summer leaf"
+		distance 1275
+		offset 55
+	object "Autumn Leaf "
+		sprite "ship/autumn leaf"
+		distance 1275
+		offset 83
+	object "Strong Wind "
+		sprite "ship/strong wind"
+		distance 1275
+		offset 111
+	object "Tempest "
+		sprite "ship/tempest"
+		distance 1275
+		offset 138
+	object "Derecho "
+		sprite "ship/derecho"
+		distance 1275
+		offset 166
+	object "Hurricane "
+		sprite "ship/hurricane"
+		distance 1275
+		offset 194
+	object "Cool Breeze "
+		sprite "ship/cool breeze"
+		distance 1275
+		offset 222
+	object "Winter Gale "
+		sprite "ship/winter gale"
+		distance 1275
+		offset 249
+	object "Deep River "
+		sprite "ship/deep river"
+		distance 1275
+		offset 277
+	object "Deep River Transport "
+		sprite "ship/deep river"
+		distance 1275
+		offset 305
+	object "Riptide "
+		sprite "ship/riptide"
+		distance 1275
+		offset 332
+planet "Earth Shaper "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Earth Shaper "
+planet "Flycatcher "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Flycatcher "
+planet "Summer Leaf "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Summer Leaf "
+planet "Autumn Leaf "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Autumn Leaf "
+planet "Strong Wind "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Strong Wind "
+planet "Tempest "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Tempest "
+planet "Derecho "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Derecho "
+planet "Hurricane "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Hurricane "
+planet "Cool Breeze "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Cool Breeze "
+planet "Winter Gale "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Winter Gale "
+planet "Deep River "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Deep River "
+planet "Deep River Transport "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Deep River Transport "
+planet "Riptide "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Riptide "
+fleet "Earth Shaper "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Earth Shaper"
+fleet "Flycatcher "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Flycatcher"
+fleet "Summer Leaf "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Summer Leaf"
+fleet "Autumn Leaf "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Autumn Leaf"
+fleet "Strong Wind "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Strong Wind"
+fleet "Tempest "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Tempest"
+fleet "Derecho "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Derecho"
+fleet "Hurricane "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Hurricane"
+fleet "Cool Breeze "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Cool Breeze"
+fleet "Winter Gale "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Winter Gale"
+fleet "Deep River "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Deep River"
+fleet "Deep River Transport "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Deep River Transport"
+fleet "Riptide "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Riptide"

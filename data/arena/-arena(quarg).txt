@@ -1,0 +1,34 @@
+system "Quarg "
+	"jump range" 3000
+	government "Arena"
+	pos 275 -10275
+	object "Quarg Skylark "
+		sprite "ship/skylark"
+		distance 450
+		offset 0
+	object "Quarg Wardragon "
+		sprite "ship/wardragon"
+		distance 450
+		offset 180
+planet "Quarg Skylark "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Quarg Skylark "
+planet "Quarg Wardragon "
+	bribe 0
+	government "Arena"
+	tribute 1
+		threshold 0
+		fleet "Quarg Wardragon "
+fleet "Quarg Skylark "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Skylark"
+fleet "Quarg Wardragon "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Wardragon"
