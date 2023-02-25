@@ -3,12 +3,11 @@ government "Arena"
 	"player reputation" -1
 	color 1 0 0
 	fine 0
-	swizzle 0
-government "Central"
+government "Faction"
 	color .43 .33 .58
 	fine 0
 	swizzle 0
-government "Faction"
+government "Omnis"
 	color .43 .33 .58
 	fine 0
 	swizzle 0
