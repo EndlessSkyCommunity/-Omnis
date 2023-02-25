@@ -62,10 +62,10 @@ outfit "Omnipresence"
 	hyperdrive 1
 outfit "Omniscience"
 	"asteroid scan power" 1000000
+	"cargo scan efficiency" 1000000
 	"cargo scan power" 1000000
-	"cargo scan speed" 1000000
+	"outfit scan efficiency" 1000000
 	"outfit scan power" 1000000
-	"outfit scan speed" 1000000
 	"tactical scan power" 1000000
 	category "Systems"
 #	Developer

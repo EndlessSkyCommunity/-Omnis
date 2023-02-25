@@ -110,14 +110,14 @@ system "Omnis"
 planet "Developer"
 	bribe 0
 	description ""
-	landscape ""
+#	landscape ""
 	outfitter "omnis"
 	shipyard "omnis"
 	spaceport ""
 planet "Everything"
 	bribe 0
 	description ""
-	landscape ""
+#	landscape ""
 	outfitter "builder"
 	outfitter "coalition"
 	outfitter "drak"
@@ -291,7 +291,18 @@ planet "Unknown "
 	shipyard "unknown"
 	spaceport ""
 planet "omnisGateway"
+	wormhole "omnisGateway"
+wormhole "omnisGateway"
+	link "Omnis" "Rutilicus"
+	link "Rutilicus" "Omnis"
 #	Override
+system "Rutilicus"
+	add object "omnisGateway"
+		sprite "sprite/wispGreen"
+		object
+			distance 150
+				sprite "sprite/gatewayOmnis"
+#		Arena
 system "Omnis"
 	add object "Shale "
 		sprite "ship/gegno shale"
@@ -3938,9 +3949,3 @@ fleet "Wasp "
 	personality "heroic"
 	variant
 		"Wasp"
-system "Rutilicus"
-	add object "omnisGateway"
-		sprite "sprite/wispGreen"
-		object
-			distance 150
-				sprite "sprite/gatewayOmnis"
