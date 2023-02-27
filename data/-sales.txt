@@ -417,25 +417,25 @@ outfitter "everything"
 	"Geode Reactor"
 	"Pebble Core"
 	"Sand Cell"
-	"`Baellie Atomic Engines`"
-	"`Basrem Atomic Thruster`"
-	"`Benga Atomic Thruster`"
-	"`Biroo Atomic Thruster`"
-	"`Bondir Atomic Thruster`"
-	"`Bufaer Atomic Thruster`"
-	"`Basrem Reverse Thruster`"
-	"`Benga Reverse Thruster`"
-	"`Biroo Reverse Thruster`"
-	"`Basrem Atomic Steering`"
-	"`Benga Atomic Steering`"
-	"`Biroo Atomic Steering`"
-	"`Bondir Atomic Steering`"
-	"`Bufaer Atomic Steering`"
+	`"Baellie" Atomic Engines`
+	`"Basrem" Atomic Thruster`
+	`"Benga" Atomic Thruster`
+	`"Biroo" Atomic Thruster`
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Thruster`
+	`"Basrem" Reverse Thruster`
+	`"Benga" Reverse Thruster`
+	`"Biroo" Reverse Thruster`
+	`"Basrem" Atomic Steering`
+	`"Benga" Atomic Steering`
+	`"Biroo" Atomic Steering`
+	`"Bondir" Atomic Steering`
+	`"Bufaer" Atomic Steering`
 	"Pulse Rifle"
 	"Shield Beetle Pendant"
 	"Failed Control System"
 	"Absorption Organ"
-	"Mouthparts?"
+	Mouthparts?
 	"Drak Distancer"
 	"Drak Draining Field"
 	"Drak Draining Field (Augmented)"
@@ -544,7 +544,7 @@ outfitter "everything"
 	"Fragmentation Grenades"
 	"Security Station"
 	"Nerve Gas"
-	"`Puny`"
+	`"Puny"`
 	"Tear of Skade"
 	"Local Map"
 	"Pilot's License"
@@ -646,6 +646,8 @@ shipyard "everything"
 	"Smew"
 	"Starling"
 	"Tern"
+	"Rescue Dummy"
+	"_Ion Timer Ship"
 	"Marauder Fury"
 	"Lampyrid-Class Transport"
 	"Modified Osprey"
@@ -690,6 +692,7 @@ shipyard "everything"
 	"Model 128"
 	"Model 256"
 	"Model 512"
+	"Nanobot"
 	"Pug Zibruka"
 	"Pug Enfolta"
 	"Pug Maboro"
@@ -698,6 +701,7 @@ shipyard "everything"
 	"Astral Cetacean"
 	"Emerald Sword"
 	"Black Diamond"
+	"Timer Ship"
 	"Korath Dredger"
 	"Korath Raider"
 	"Korath Chaser"
