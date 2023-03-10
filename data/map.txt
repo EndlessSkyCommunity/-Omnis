@@ -19,71 +19,71 @@ system "Omnis"
 		object "Bunrodea  "
 			distance 1600
 			offset 21
-			sprite "planet/forest2-b"
+			sprite "ship/chigiriki"
 		object "Coalition  "
 			distance 1600
 			offset 42
-			sprite "planet/forest2-b"
+			sprite "ship/heliarch punisher"
 		object "Drak  "
 			distance 1600
 			offset 64
-			sprite "planet/forest2-b"
+			sprite "ship/archon"
 		object "Gegno  "
 			distance 1600
 			offset 85
-			sprite "planet/forest2-b"
+			sprite "ship/gegno augen"
 		object "Hai  "
 			distance 1600
 			offset 106
-			sprite "planet/forest2-b"
+			sprite "ship/hai shield beetle"
 		object "Human  "
 			distance 1600
 			offset 127
-			sprite "planet/forest2-b"
+			sprite "ship/carrier"
 		object "Iije  "
 			distance 1600
 			offset 148
-			sprite "planet/forest2-b"
+			sprite "ship/ayym/ayym"
 		object "Ka'het  "
 			distance 1600
 			offset 169
-			sprite "planet/forest2-b"
+			sprite "ship/vareti'het"
 		object "Korath  "
 			distance 1600
 			offset 191
-			sprite "planet/forest2-b"
+			sprite "ship/raider"
 		object "Pug  "
 			distance 1600
 			offset 212
-			sprite "planet/forest2-b"
+			sprite "ship/pug arfecta"
 		object "Quarg  "
 			distance 1600
 			offset 233
-			sprite "planet/forest2-b"
+			sprite "ship/wardragon"
 		object "Remnant  "
 			distance 1600
 			offset 254
-			sprite "planet/forest2-b"
+			sprite "ship/albatross"
 		object "Rulei  "
 			distance 1600
 			offset 275
-			sprite "planet/forest2-b"
+			sprite "ship/vyuira/vyuira"
 		object "Sheragi  "
 			distance 1600
 			offset 296
-			sprite "planet/forest2-b"
+			sprite "ship/emeraldsword"
 		object "Vyrmeid  "
 			distance 1600
 			offset 318
-			sprite "planet/forest2-b"
+			sprite "ship/astral cetacean/astral"
 		object "Wanderer  "
 			distance 1600
 			offset 339
-			sprite "planet/forest2-b"
+			sprite "ship/hurricane"
 		object "Whispering Void  "
 			distance 1600
 			offset 360
-			sprite "planet/forest2-b"
+			sprite "ship/pincer beast"
 planet "omnisGateway"
 	wormhole "omnisGateway"
 wormhole "omnisGateway"
