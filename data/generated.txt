@@ -1,5 +1,6 @@
 #	Arena
 system "Omnis"
+	pos 0 -10000
 	add object
 		object "Shale "
 			distance 18525

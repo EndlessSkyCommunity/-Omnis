@@ -6,7 +6,7 @@ mission "revealMap"
 		event "revealMap"
 	repeat
 	source
-		government "Faction" "Omnis"
+		government "Omnis"
 event "revealVisuals"
 	"visit planet" "Devil-Run Wormhole"
 	"visit planet" "Ember Gegno"
@@ -16,7 +16,6 @@ event "revealVisuals"
 	"visit planet" "Ember Wormhole"
 	"visit planet" "Graveyard Wormhole (Stable)"
 	"visit planet" "Graveyard Wormhole (Unstable)"
-	"visit planet" "Pug Wormhole"
 	"visit planet" "Remnant Wormhole"
 	"visit planet" "Wormhole Alpha"
 	"visit planet" "Wormhole Link"
@@ -251,7 +250,7 @@ mission "swizzlePicker"
 				launch
 	repeat
 	source
-		government "Faction" "Omnis"
+		government "Omnis"
 event "swizzle00"
 	government "Escort"
 		swizzle 0
