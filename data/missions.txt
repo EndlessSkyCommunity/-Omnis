@@ -1,3 +1,11 @@
+mission "revealMapStart"
+	invisible
+	landing
+	on accept
+		event "revealVisuals"
+		event "revealMap"
+	source
+		government "Omnis"
 mission "revealMap"
 	job
 	name "Force Reveal Map"
