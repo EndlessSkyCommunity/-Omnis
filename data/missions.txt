@@ -1,3 +1,4 @@
+#	Mapping
 mission "revealMapStart"
 	invisible
 	landing
@@ -46,6 +47,7 @@ event "revealVisuals"
 		sprite "label/wanderers"
 	galaxy "label waste"
 		sprite "label/waste"
+#	Swizzle
 mission "swizzlePicker"
 	description "Allows for a choice between 29 different ship overlays."
 	job
