@@ -354,7 +354,7 @@ outfitter "human"
 	"Fragmentation Grenades"
 	"Security Station"
 	"Nerve Gas"
-	`"Puny"`
+	"Puny"
 	"Tear of Skade"
 	"Local Map"
 	"Pilot's License"
