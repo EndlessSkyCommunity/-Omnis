@@ -4,8 +4,8 @@ start "omnis"
 		score 800
 	conversation "omnisIntro"
 	date 16 11 3013
-	description "You will begin on a ringworld with all ships and outfits in the game, various jobs that give useful benefits, and portals in-system that will take you to whichever species capital you need.."
-	description "	Every species in the game has a station with curated content, as well. Additional stations for vanilla and plugin content are available for your convenience."
+	description "You will begin in the Omnis system with all ships and outfits in the game available to you, and various jobs to change the players experience for testing purposes."
+	description "	Every species in the game has a station with curated content. "
 	name "Omnis"
 	planet "Everything "
 	set "license: City-Ship"
@@ -37,5 +37,5 @@ conversation "omnisIntro"
 	"Welcome to Omnis! Please enter your name."
 	name
 	"You can't remember when you got here or how, so much time has passed it feels almost moot. This is your playground to explore as you will. Any and all ships or outfits from all across the galaxy is at your fingertips here."
-	"	With unlimited credits and with unrestricted access to the technology of the galaxy, not only is Omnis your play ground, but so are all the stars in the sky.."
+	"	With unlimited credits and with unrestricted access to the technology of the galaxy, not only is Omnis yours, but so are all the stars in the sky..."
 	"	Have fun!"
