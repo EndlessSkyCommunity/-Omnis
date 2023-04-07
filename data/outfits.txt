@@ -1,6 +1,6 @@
 #	Ascendant
 outfit "Crux Stone "
-	"Omnis" 1
+	"Omnis" 1e20
 	category "Systems"
 	description "Enables use of the Omnis nexus wormholes."
 	thumbnail "outfit/cruxStone"
@@ -34,39 +34,39 @@ outfit "Kill All"
 		reload 1
 		velocity 1
 outfit "Omnipotence"
-	"burn protection" 1000000
-	"corrosion protection" 1000000
-	"discharge protection" 1000000
-	"disruption protection" 1000000
-	"energy protection" 1000000
-	"force protection" 1000000
-	"fuel protection" 1000000
-	"heat protection" 1000000
-	"hull protection" 1000000
-	"ion protection" 1000000
-	"leak protection" 1000000
-	"piercing protection" 1000000
-	"shield protection" 1000000
-	"slowing protection" 1000000
+	"burn protection" 1e20
+	"corrosion protection" 1e20
+	"discharge protection" 1e20
+	"disruption protection" 1e20
+	"energy protection" 1e20
+	"force protection" 1e20
+	"fuel protection" 1e20
+	"heat protection" 1e20
+	"hull protection" 1e20
+	"ion protection" 1e20
+	"leak protection" 1e20
+	"piercing protection" 1e20
+	"shield protection" 1e20
+	"slowing protection" 1e20
 	category "Systems"
-	cloak 1
+	cloak 1e20
 outfit "Omnipresence"
-	"jump drive" 1
-	"jump fuel" 1
+	"jump drive" 1e20
+	"jump fuel" 1e-20
 	"jump range" 3000
-	"jump speed" 1000000
-	"quantum keystone" 1
-	"scram drive" 1000000
+	"jump speed" 1e20
+	"quantum keystone" 1e20
+	"scram drive" 1e20
 	category "Systems"
-	gaslining 1
-	hyperdrive 1
+	gaslining 1e20
+	hyperdrive 1e20
 outfit "Omniscience"
-	"asteroid scan power" 1000000
-	"cargo scan efficiency" 1000000
-	"cargo scan power" 1000000
-	"outfit scan efficiency" 1000000
-	"outfit scan power" 1000000
-	"tactical scan power" 1000000
+	"asteroid scan power" 1e20
+	"cargo scan efficiency" 1e20
+	"cargo scan power" 1e20
+	"outfit scan efficiency" 1e20
+	"outfit scan power" 1e20
+	"tactical scan power" 1e20
 	category "Systems"
 #	Developer
 outfit "Drag Addition"
