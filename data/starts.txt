@@ -32,7 +32,7 @@ start "omnis"
 	set "license: Wanderer"
 	ship "Caster" ""
 	system "Omnis"
-	thumbnail "adde"
+	thumbnail "sprite/wispGreen"
 conversation "omnisIntro"
 	"Welcome to Omnis! Please enter your name."
 	name
