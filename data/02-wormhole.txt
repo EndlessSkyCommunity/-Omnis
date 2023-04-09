@@ -1,0 +1,13 @@
+system "Omnis"
+	add object "omnisGateway"
+		distance 300
+		offset 180
+		sprite "sprite/wispGreen"
+system "Rutilicus"
+	add object "omnisGateway"
+		sprite "sprite/wispGreen"
+planet "omnisGateway"
+	wormhole "omnisGateway"
+wormhole "omnisGateway"
+	link "Omnis" "Rutilicus"
+	link "Rutilicus" "Omnis"

@@ -102,5 +102,3 @@ outfit "Mass Addition"
 outfit "Mass Reduction"
 	category "Special"
 	mass -1
-#	Dummy
-outfit "dummy"

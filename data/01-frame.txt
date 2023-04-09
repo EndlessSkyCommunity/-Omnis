@@ -1,0 +1,16 @@
+galaxy "omnis"
+	pos 0 -10000
+	sprite "sprite/milkyWayHalf"
+government "Omnis"
+	color .43 .33 .58
+	fine 0
+	swizzle 0
+system "Omnis"
+	"jump range" 3000
+	government "Omnis"
+	pos 0 -10000
+	object
+		sprite "star/nova"
+star "star/nova"
+	power 1
+	wind 1
