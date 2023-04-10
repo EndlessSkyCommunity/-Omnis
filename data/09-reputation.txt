@@ -27,6 +27,7 @@ mission "resetReputation"
 		"reputation: Hai Merchant (Sympathizers)" = 0
 		"reputation: Hai Merchant (Human)" = 0
 		"reputation: Hai (Unfettered)" = -1000
+		"reputation: Hai (Unfettered Wanderer Tribute)" = 0
 		"reputation: Hai (Friendly Unfettered)" = 100
 		"reputation: Hai (Unfettered Civilians)" = 10
 		"reputation: Heliarch" = 1
