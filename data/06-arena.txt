@@ -645,10 +645,10 @@ system "Omnis"
 			distance 18525
 			offset 231.11
 			sprite "ship/saryd visitor"
-		object "vyu-Ira "
+		object "vyu-Ir "
 			distance 18525
 			offset 232.59
-			sprite "ship/vyuira/vyuira"
+			sprite "ship/vyuir/vyuir"
 		object "Kaiken "
 			distance 18525
 			offset 234.07
@@ -2717,17 +2717,17 @@ fleet "Saryd Visitor "
 	personality "heroic"
 	variant
 		"Saryd Visitor"
-planet "vyu-Ira "
+planet "vyu-Ir "
 	bribe 0
 	government "Arena"
 	tribute 1
-		fleet "vyu-Ira "
+		fleet "vyu-Ir "
 		threshold 0
-fleet "vyu-Ira "
+fleet "vyu-Ir "
 	government "Arena"
 	personality "heroic"
 	variant
-		"vyu-Ira"
+		"vyu-Ir"
 planet "Kaiken "
 	bribe 0
 	government "Arena"

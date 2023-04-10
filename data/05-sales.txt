@@ -59,7 +59,7 @@ system "Omnis"
 	add object "Rulei  "
 		distance 1600
 		offset 275
-		sprite "ship/vyuira/vyuira"
+		sprite "ship/vyuir/vyuir"
 	add object "Sheragi  "
 		distance 1600
 		offset 296
@@ -858,7 +858,7 @@ shipyard "everything"
 	"Saryd Sojourner"
 	"Saryd Traveler"
 	"Saryd Visitor"
-	"vyu-Ira"
+	"vyu-Ir"
 	"Kaiken"
 	"Sasumata"
 	"Tanto"
@@ -1798,7 +1798,7 @@ outfitter "rulei"
 	"Fate Divider Activated"
 	"Abyssal Composer"
 shipyard "rulei"
-	"vyu-Ira"
+	"vyu-Ir"
 planet "Sheragi  "
 	bribe 0
 	description ""
