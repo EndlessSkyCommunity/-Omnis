@@ -1,0 +1,128 @@
+#	Sales
+#		Main
+planet "Everything "
+	bribe 0
+	description ""
+	outfitter "developer"
+	outfitter "everything"
+	shipyard "developer"
+	shipyard "everything"
+	spaceport ""
+planet "Developer "
+	bribe 0
+	description ""
+	outfitter "omnis"
+	shipyard "omnis"
+	spaceport ""
+#		Factions
+planet "Bunrodea  "
+	bribe 0
+	description ""
+	outfitter "bunrodea"
+	shipyard "bunrodea"
+	spaceport ""
+planet "Coalition  "
+	bribe 0
+	description ""
+	outfitter "coalition"
+	shipyard "coalition"
+	spaceport ""
+planet "Drak  "
+	bribe 0
+	description ""
+	outfitter "drak"
+	shipyard "drak"
+	spaceport ""
+planet "Gegno  "
+	bribe 0
+	description ""
+	outfitter "gegno"
+	shipyard "gegno"
+	spaceport ""
+planet "Hai  "
+	bribe 0
+	description ""
+	outfitter "hai"
+	shipyard "hai"
+	spaceport ""
+planet "Human  "
+	bribe 0
+	description ""
+	outfitter "human"
+	shipyard "human"
+	spaceport ""
+planet "Iije  "
+	bribe 0
+	description ""
+	shipyard "iije"
+	spaceport ""
+planet "Ka'het  "
+	bribe 0
+	description ""
+	outfitter "kahet"
+	shipyard "kahet"
+	spaceport ""
+planet "Korath  "
+	bribe 0
+	description ""
+	outfitter "korath"
+	shipyard "korath"
+	spaceport ""
+planet "Pug  "
+	bribe 0
+	description ""
+	outfitter "pug"
+	shipyard "pug"
+	spaceport ""
+planet "Quarg  "
+	bribe 0
+	description ""
+	outfitter "quarg"
+	shipyard "quarg"
+	spaceport ""
+planet "Remnant  "
+	bribe 0
+	description ""
+	outfitter "remnant"
+	shipyard "remnant"
+	spaceport ""
+planet "Rulei  "
+	bribe 0
+	description ""
+	outfitter "rulei"
+	shipyard "rulei"
+	spaceport ""
+planet "Sheragi  "
+	bribe 0
+	description ""
+	outfitter "sheragi"
+	shipyard "sheragi"
+	spaceport ""
+planet "Vyrmeid  "
+	bribe 0
+	description ""
+	outfitter "vyrmeid"
+	shipyard "vyrmeid"
+	spaceport ""
+planet "Wanderer  "
+	bribe 0
+	description ""
+	outfitter "wanderer"
+	shipyard "wanderer"
+	spaceport ""
+planet "Whispering Void  "
+	bribe 0
+	description ""
+	outfitter "whispering void"
+	shipyard "whispering void"
+	spaceport ""
+#	Star
+star "star/nova"
+	power 1
+	wind 1
+#	Wormhole
+planet "omnisGateway"
+	wormhole "omnisGateway"
+wormhole "omnisGateway"
+	link "Omnis" "Rutilicus"
+	link "Rutilicus" "Omnis"

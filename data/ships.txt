@@ -53,3 +53,7 @@ ship "Caster"
 		"Omniscience"
 	sprite "ship/omnisCaster"
 	thumbnail "thumbnail/omnisCaster"
+#	Dummy
+ship "dummy"
+	attributes
+		drag 1

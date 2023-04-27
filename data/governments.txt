@@ -1,0 +1,9 @@
+government "Arena"
+	"hostile hail" "arena"
+	"player reputation" -1
+	color 1 0 0
+	fine 0
+government "Omnis"
+	color .43 .33 .58
+	fine 0
+	swizzle 0

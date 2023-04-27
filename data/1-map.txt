@@ -1,0 +1,94 @@
+galaxy "omnis"
+	pos 0 -10000
+	sprite "sprite/milkyWayHalf"
+system "Omnis"
+	"jump range" 3000
+	government "Omnis"
+	pos 0 -10000
+	object
+		sprite "star/nova"
+	#	Wormhole
+	object "omnisGateway"
+		distance 300
+		offset 180
+		sprite "sprite/wispGreen"
+	#	Sales
+	#		Main
+	object "Everything "
+		sprite "star/nova-core"
+	object "Developer "
+		distance 300
+		sprite "asteroid/yottrite/spin"
+	#		Factions
+	object "Bunrodea  "
+		distance 1600
+		offset 21
+		sprite "ship/chigiriki"
+	object "Coalition  "
+		distance 1600
+		offset 42
+		sprite "ship/heliarch punisher"
+	object "Drak  "
+		distance 1600
+		offset 64
+		sprite "ship/archon"
+	object "Gegno  "
+		distance 1600
+		offset 85
+		sprite "ship/gegno augen"
+	object "Hai  "
+		distance 1600
+		offset 106
+		sprite "ship/hai shield beetle"
+	object "Human  "
+		distance 1600
+		offset 127
+		sprite "ship/carrier"
+	object "Iije  "
+		distance 1600
+		offset 148
+		sprite "ship/ayym/ayym"
+	object "Ka'het  "
+		distance 1600
+		offset 169
+		sprite "ship/vareti'het"
+	object "Korath  "
+		distance 1600
+		offset 191
+		sprite "ship/raider"
+	object "Pug  "
+		distance 1600
+		offset 212
+		sprite "ship/pug arfecta"
+	object "Quarg  "
+		distance 1600
+		offset 233
+		sprite "ship/wardragon"
+	object "Remnant  "
+		distance 1600
+		offset 254
+		sprite "ship/albatross"
+	object "Rulei  "
+		distance 1600
+		offset 275
+		sprite "ship/vyuir/vyuir"
+	object "Sheragi  "
+		distance 1600
+		offset 296
+		sprite "ship/emeraldsword"
+	object "Vyrmeid  "
+		distance 1600
+		offset 318
+		sprite "ship/astral cetacean/astral"
+	object "Wanderer  "
+		distance 1600
+		offset 339
+		sprite "ship/hurricane"
+	object "Whispering Void  "
+		distance 1600
+		offset 360
+		sprite "ship/pincer beast"
+#	Override
+system "Rutilicus"
+	add object "omnisGateway"
+		sprite "sprite/wispGreen"
