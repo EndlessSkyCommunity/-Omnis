@@ -1,9 +1,10 @@
 ship "Caster"
 	attributes
-		"cargo space" 10000
-		"energy generation" 0.0001
+		"cargo space" 1000000
+		"energy generation" 16666.666667
+		"energy capacity" 1000000
 		"engine capacity" 10000
-		"fuel capacity" 10000
+		"fuel capacity" 1000000
 		"gun ports" 12
 		"heat dissipation" 16.66667
 		"outfit space" 10000
@@ -16,7 +17,7 @@ ship "Caster"
 		category "Transport"
 		cost 0
 		drag 166.66667
-		hull 10000
+		hull 1
 		mass 10000
 		thrust 3000.01
 		turn 40000
