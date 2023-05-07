@@ -75,4 +75,4 @@ mission "resetReputation"
 		"reputation: Syndicate (Hostile)" = -1000
 	repeat
 	source
-		government "Omnis"
+		government "Omnis" "Faction"

@@ -211,7 +211,7 @@ mission "swizzlePicker"
 				launch
 	repeat
 	source
-		government "Omnis"
+		government "Omnis" "Faction"
 event "swizzle00"
 	government "Escort"
 		swizzle 0
