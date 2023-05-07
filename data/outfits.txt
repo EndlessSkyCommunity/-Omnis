@@ -1,7 +1,7 @@
 #	Ascendant
 outfit "Crux Stone "
 	"Omnis" 1e20
-	category "Systems"
+	category "Miscellaneous"
 	description "Enables use of the Omnis nexus wormholes."
 	thumbnail "outfit/cruxStone"
 outfit "Disable All"
@@ -48,7 +48,7 @@ outfit "Omnipotence"
 	"piercing protection" 1e20
 	"shield protection" 1e20
 	"slowing protection" 1e20
-	category "Systems"
+	category "Miscellaneous"
 	cloak 1e20
 outfit "Omnipresence"
 	"jump drive" 1e20
@@ -57,7 +57,7 @@ outfit "Omnipresence"
 	"jump speed" 1e20
 	"quantum keystone" 1e20
 	"scram drive" 1e20
-	category "Systems"
+	category "Miscellaneous"
 	gaslining 1e20
 	hyperdrive 1e20
 outfit "Omniscience"
@@ -67,40 +67,40 @@ outfit "Omniscience"
 	"outfit scan efficiency" 1e20
 	"outfit scan power" 1e20
 	"tactical scan power" 1e20
-	category "Systems"
+	category "Miscellaneous"
 #	Developer
 outfit "Drag Addition"
-	category "Special"
+	category "Miscellaneous"
 	drag .1
 outfit "Drag Reduction"
-	category "Special"
+	category "Miscellaneous"
 	drag -.1
 outfit "Extra Engine"
 	"engine capacity" 1
-	category "Special"
+	category "Miscellaneous"
 outfit "Extra Outfit"
 	"outfit space" 1
-	category "Special"
+	category "Miscellaneous"
 outfit "Extra Weapon"
 	"weapon capacity" 1
-	category "Special"
+	category "Miscellaneous"
 outfit "Fuel Capacity Addition"
-	category "Special"
 	"fuel capacity" 25
+	category "Miscellaneous"
 outfit "Fuel Capacity Reduction"
-	category "Special"
 	"fuel capacity" -25
+	category "Miscellaneous"
 outfit "Heat Dissipation Addition"
-	category "Special"
 	"heat dissipation" .01
+	category "Miscellaneous"
 outfit "Heat Dissipation Reduction"
-	category "Special"
 	"heat dissipation" -.01
+	category "Miscellaneous"
 outfit "Mass Addition"
-	category "Special"
+	category "Miscellaneous"
 	mass 1
 outfit "Mass Reduction"
-	category "Special"
+	category "Miscellaneous"
 	mass -1
 #	Dummy
 outfit "dummy"
