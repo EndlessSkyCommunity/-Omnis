@@ -1,5 +1,5 @@
 galaxy "omnis"
-	pos -56 -10011
+	pos 0 -10000
 	sprite "sprite/milkyWayHalf"
 system "Omnis"
 	"jump range" 3000
