@@ -11,3 +11,7 @@ government "Omnis"
 	color .43 .33 .58
 	fine 0
 	swizzle 0
+government "Plugin"
+	color .74 .17 0
+	fine 0
+	swizzle 0

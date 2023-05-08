@@ -89,10 +89,10 @@ system "Omnis"
 		distance 1600
 		offset 360
 		sprite "ship/pincer beast"
+#	Factions
 system "Bunrodea "
 	"jump range" 3000
 	government "Faction"
-	link "Gegno "
 	link "Korath "
 	pos 134 -10068
 	object "  Bunrodea"
@@ -116,7 +116,6 @@ system "Drak "
 system "Gegno "
 	"jump range" 3000
 	government "Faction"
-	link "Bunrodea "
 	link "Iije "
 	link "Vyrmeid "
 	pos 447 -10315
@@ -127,7 +126,6 @@ system "Hai "
 	government "Faction"
 	link "Korath "
 	link "Wanderer "
-	link "Whispering Void "
 	pos -13 -10253
 	object "  Hai"
 		sprite "asteroid/yottrite/spin"
@@ -222,7 +220,6 @@ system "Wanderer "
 system "Whispering Void "
 	"jump range" 3000
 	government "Faction"
-	link "Hai "
 	pos -387 -10225
 	object "  Whispering Void"
 		sprite "asteroid/yottrite/spin"
