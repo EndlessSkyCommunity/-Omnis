@@ -8,11 +8,11 @@ mission "revealMapStart"
 		event "revealFluff"
 		event "revealIrm"
 	source
-		government "Omnis" "Faction"
+		government "Faction" "Omnis" "Plugin"
 mission "revealMap"
-	description "A forced reveal of the vanilla games systems in the case of new additions to the map."
+	description `A forced reveal of the vanilla games systems in the case of new additions to the map.`
 	job
-	name "Force Reveal Map"
+	name `Force Reveal Map`
 	on accept
 		event "revealOmnis"
 		event "revealMap"
@@ -21,7 +21,7 @@ mission "revealMap"
 		event "revealIrm"
 	repeat
 	source
-		government "Omnis" "Faction"
+		government "Faction" "Omnis" "Plugin"
 event "revealOmnis"
 	visit "Bunrodea "
 	visit "Coalition "
