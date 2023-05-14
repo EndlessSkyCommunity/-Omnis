@@ -166,6 +166,12 @@ planet "Developer "
 	outfitter "omnis"
 	shipyard "omnis"
 	spaceport ""
+planet "Deprecated "
+	bribe 0
+	description ""
+	outfitter "deprecated"
+	shipyard "deprecated"
+	spaceport ""
 #		Factions
 planet " Bunrodea"
 	government "Faction"

@@ -36,6 +36,7 @@ mission "omnisTutorial"
 			`	Mapping missions reveal the entire game map, this includes labels and wormholes alongside systems of course. While the map is automatically revealed when arriving at Omnis for the first time, older saves will sometimes persist through updates where map changes occur, a job is provided to reveal the map if this ever occurs.`
 			`	Your reputation with the factions of the game can be irreversibly damaged by your actions, for this reason, a job is provided to reset the players reputation with all the factions of the vanilla game.`
 			`	A swizzle job allows the player to choose any of 29 swizzles to change the appearance of the players' ships. Most options are minor or major color changes, while some offer swizzles that are more than simple repaintings.`
+			`	While Omnis offers all the content you would need, it does not give you access to ship variants by default. You can toggle if you want variants to be sold at sales via the job board.`
 				goto "help"
 	repeat
 	source

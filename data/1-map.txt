@@ -19,6 +19,11 @@ system "Omnis"
 		sprite "star/nova-core"
 	object "Developer "
 		distance 300
+		offset 60
+		sprite "asteroid/yottrite/spin"
+	object "Deprecated "
+		distance 300
+		offset 300
 		sprite "asteroid/yottrite/spin"
 	#		Factions
 	object " Bunrodea"
