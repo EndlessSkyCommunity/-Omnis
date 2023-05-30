@@ -69,6 +69,10 @@ outfit "Omniscience"
 	"tactical scan power" 1e20
 	category "Miscellaneous"
 #	Developer
+outfit "Carry All"
+	"cargo space" 1000
+	bunks 1000
+	category "Miscellaneous"
 outfit "Drag Addition"
 	category "Miscellaneous"
 	drag .1

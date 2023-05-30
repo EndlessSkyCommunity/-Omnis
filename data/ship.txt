@@ -1,6 +1,5 @@
 ship "Caster"
 	attributes
-		"cargo space" 1000000
 		"energy generation" 16666.666667
 		"energy capacity" 1000000
 		"engine capacity" 10000
@@ -13,7 +12,7 @@ ship "Caster"
 		"spinal mount" 12
 		"turret mounts" 12
 		"weapon capacity" 10000
-		bunks 10000
+		bunks 1
 		category "Transport"
 		cost 0
 		drag 166.66667
