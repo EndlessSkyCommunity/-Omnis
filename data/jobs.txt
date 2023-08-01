@@ -2,8 +2,6 @@
 mission "omnisRevealMapAuto"
 	invisible
 	landing
-	to offer
-		has "omnisStart"
 	on accept
 		event "revealOmnis"
 		event "revealMap"
@@ -381,3 +379,14 @@ mission "omnisHideVariants"
 		government "Faction" "Omnis" "Plugin"
 	to offer
 		has "variantsRevealed"
+mission "omnisGiveMoney"
+	name `Credit Influx`
+	description `Gives the player a cool billion to play with, for if you're short on change.`
+	source
+		government "Faction" "Omnis" "Plugin"
+	to offer
+		not "omnisStart"
+	job
+	repeat
+	on accept
+		payment 1e9
