@@ -189,7 +189,7 @@ planet "Deprecated "
 	spaceport ""
 #		Factions
 planet " Avgi"
-	government "Faction"
+	government "Ancillary"
 	bribe 0
 	description ""
 	spaceport ""
@@ -208,7 +208,7 @@ planet " Avgi"
 	shipyard "Avgi Spaceguard Heavy"
 	shipyard "Avgi Spaceguard Light"
 planet "  Avgi"
-	government "Faction"
+	government "Ancillary"
 	bribe 0
 	description ""
 	spaceport ""

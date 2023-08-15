@@ -101,7 +101,7 @@ system "Omnis"
 #	Factions
 system "Avgi "
 	"jump range" 3000
-	government "Faction"
+	government "Ancillary"
 	link "Coalition "
 	link "Ka'het "
 	pos -232 -9651
