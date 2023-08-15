@@ -5,6 +5,7 @@ mission "omnisRevealMapAuto"
 	on accept
 		event "revealOmnis"
 		event "revealMap"
+		event "revealAvgi"
 	repeat
 	source
 		government "Faction" "Omnis" "Plugin"
@@ -14,6 +15,7 @@ mission "omnisRevealMapManual"
 	on accept
 		event "revealOmnis"
 		event "revealMap"
+		event "revealAvgi"
 	repeat
 	source
 		government "Faction" "Omnis" "Plugin"
@@ -93,6 +95,14 @@ mission "omnisResetReputation"
 		"reputation: Ember Waste" = 1
 		"reputation: Wanderer" = 1
 		"reputation: Syndicate (Hostile)" = -1000
+		#	Avgi
+		"reputation: Aberrant" = -1000
+		"reputation: Avgi" = 1
+		"reputation: Avgi (Consonance)" = 1
+		"reputation: Avgi (Twilight Guard)" = 1
+		"reputation: Avgi (Dissonance)" = 0
+		"reputation: Avgi (Dissonance Aggressive)" = 0
+		"reputation: Avgi (Dissonance Aggressive)" = 0
 	repeat
 	source
 		government "Faction" "Omnis" "Plugin"
