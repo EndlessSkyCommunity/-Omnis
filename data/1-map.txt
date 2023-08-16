@@ -5,7 +5,8 @@ system "Omnis"
 	"jump range" 3000
 	government "Omnis"
 	link "Human "
-	pos 0 -10000
+	link "Sheragi "
+	pos -268 -9863
 	object
 		sprite "star/nova"
 	#	Wormhole
@@ -153,7 +154,6 @@ system "Human "
 	link "Korath "
 	link "Omnis"
 	link "Pug "
-	link "Sheragi "
 	pos -200 -9950
 	object "  Human"
 		sprite "asteroid/yottrite/spin"
@@ -187,6 +187,7 @@ system "Pug "
 	"jump range" 3000
 	government "Faction"
 	link "Human "
+	link "Omnis "
 	link "Quarg "
 	pos -174 -9887
 	object "  Pug"
@@ -218,7 +219,7 @@ system "Sheragi "
 	"jump range" 3000
 	government "Faction"
 	link "Coalition "
-	link "Human "
+	link "Omnis"
 	pos -378 -9817
 	object "  Sheragi"
 		sprite "asteroid/yottrite/spin"
