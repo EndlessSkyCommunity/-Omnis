@@ -1,16 +1,16 @@
 #	Events in mapping.txt: Main
-mission "omnisRevealMapAuto"
-	invisible
-	landing
+mission "omnisRevealMapManual"
+	name `Reveal Map`
+	job
 	on accept
 		event "revealOmnis"
 		event "revealMap"
 	repeat
 	source
 		government "Omnis" "Faction" "Ancillary"
-mission "omnisRevealMapManual"
-	name `Reveal Map`
-	job
+mission "omnisRevealMapAuto"
+	invisible
+	landing
 	on accept
 		event "revealOmnis"
 		event "revealMap"
@@ -23,6 +23,14 @@ mission "omnisRevealMapAutoAvgi"
 	landing
 	on accept
 		event "revealAvgi"
+	repeat
+	source
+		government "Omnis" "Faction" "Ancillary"
+mission "omnisRevealMapAutoXapleaux"
+	invisible
+	landing
+	on accept
+		event "revealXapleaux"
 	repeat
 	source
 		government "Omnis" "Faction" "Ancillary"
