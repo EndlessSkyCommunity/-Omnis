@@ -1,11 +1,10 @@
-#	Events in mapping.txt
+#	Events in mapping.txt: Main
 mission "omnisRevealMapAuto"
 	invisible
 	landing
 	on accept
 		event "revealOmnis"
 		event "revealMap"
-		event "revealAvgi"
 	repeat
 	source
 		government "Omnis" "Faction" "Ancillary"
@@ -15,6 +14,14 @@ mission "omnisRevealMapManual"
 	on accept
 		event "revealOmnis"
 		event "revealMap"
+	repeat
+	source
+		government "Omnis" "Faction" "Ancillary"
+#	Events in mapping.txt: Ancillary
+mission "omnisRevealMapAutoAvgi"
+	invisible
+	landing
+	on accept
 		event "revealAvgi"
 	repeat
 	source
