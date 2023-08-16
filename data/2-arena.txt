@@ -992,97 +992,153 @@ system "Omnis"
 		offset 36
 		sprite "ship/gegno kyanite"
 system "Avgi "
-	add object "Koryfi  "
+	add object "Twilight Ka'sei 1A  "
 		distance 900
 		offset 30
-		sprite "ship/avgi koryfi/koryfi"
-	add object "Melodikos  "
+		sprite "ship/aberration 1-a"
+	add object "Twilight Ka'sei 1B  "
 		distance 900
 		offset 60
+		sprite "ship/aberration 1-b"
+	add object "Twilight Ka'sei 1C  "
+		distance 900
+		offset 90
+		sprite "ship/aberration 1-c"
+	add object "Twilight Ka'sei 1D  "
+		distance 900
+		offset 120
+		sprite "ship/aberration 1-d"
+	add object "Twilight Ka'sei 1E  "
+		distance 900
+		offset 150
+		sprite "ship/aberration 1-e"
+	add object "Twilight Ka'sei 1F  "
+		distance 900
+		offset 180
+		sprite "ship/aberration 1-f"
+	add object "Twilight Ka'sei 1G  "
+		distance 900
+		offset 210
+		sprite "ship/aberration 1-g"
+	add object "Twilight Ka'sei 2A  "
+		distance 900
+		offset 240
+		sprite "ship/aberration 2-a"
+	add object "Twilight Ka'sei 2B  "
+		distance 900
+		offset 270
+		sprite "ship/aberration 2-b"
+	add object "Twilight Ka'sei 2C  "
+		distance 900
+		offset 300
+		sprite "ship/aberration 2-c"
+	add object "Twilight Ka'sei 2D  "
+		distance 900
+		offset 330
+		sprite "ship/aberration 2-d"
+	add object "Twilight Ka'sei 2E  "
+		distance 900
+		offset 360
+		sprite "ship/aberration 2-e"
+	add object "Twilight Ka'sei 2F  "
+		distance 1500
+		offset 18
+		sprite "ship/aberration 2-f"
+	add object "Twilight Ka'sei 2G  "
+		distance 1500
+		offset 36
+		sprite "ship/aberration 2-g"
+	add object "Koryfi  "
+		distance 1500
+		offset 54
+		sprite "ship/avgi koryfi/koryfi"
+	add object "Melodikos  "
+		distance 1500
+		offset 72
 		sprite "ship/avgi melodikos/melodikos"
 	add object "Avlaki  "
-		distance 900
+		distance 1500
 		offset 90
 		sprite "ship/avgi avlaki"
 	add object "Harmonikos  "
-		distance 900
-		offset 120
+		distance 1500
+		offset 108
 		sprite "ship/avgi harmonikos"
 	add object "Phononos  "
-		distance 900
-		offset 150
+		distance 1500
+		offset 126
 		sprite "ship/avgi phononos"
 	add object "Frequentia  "
-		distance 900
-		offset 180
+		distance 1500
+		offset 144
 		sprite "ship/avgi frequentia"
 	add object "Undsyni  "
-		distance 900
-		offset 210
+		distance 1500
+		offset 162
 		sprite "ship/avgi undsyni"
 	add object "Polari  "
-		distance 900
-		offset 240
+		distance 1500
+		offset 180
 		sprite "ship/avgi polari"
 	add object "Entasi  "
-		distance 900
-		offset 270
+		distance 1500
+		offset 198
 		sprite "ship/avgi entasi"
 	add object "Modified Tachytia  "
-		distance 900
-		offset 300
+		distance 1500
+		offset 216
 		sprite "ship/avgi tachytia/tachytia"
 	add object "Tremoros  "
-		distance 900
-		offset 330
+		distance 1500
+		offset 234
 		sprite "ship/avgi tremoros"
 	add object "Prismaios  "
-		distance 900
-		offset 360
+		distance 1500
+		offset 252
 		sprite "ship/avgi prismaios"
 	add object "Interferos  "
 		distance 1500
-		offset 18
+		offset 270
 		sprite "ship/avgi interferos"
 	add object "Diaspersi  "
 		distance 1500
-		offset 36
+		offset 288
 		sprite "ship/avgi diaspersi"
 	add object "Difraktos  "
 		distance 1500
-		offset 54
+		offset 306
 		sprite "ship/avgi difraktos"
 	add object "Refraktos  "
 		distance 1500
-		offset 72
+		offset 324
 		sprite "ship/avgi refraktos"
 	add object "Atenuatia  "
 		distance 1500
-		offset 90
+		offset 342
 		sprite "ship/avgi atenuatia"
 	add object "Akoustiki  "
 		distance 1500
-		offset 108
+		offset 360
 		sprite "ship/avgi akoustiki"
 	add object "Photikon  "
-		distance 1500
-		offset 126
+		distance 2100
+		offset 13
 		sprite "ship/avgi photikon"
 	add object "Vibratia  "
-		distance 1500
-		offset 144
+		distance 2100
+		offset 26
 		sprite "ship/avgi vibratia"
 	add object "Undulon  "
-		distance 1500
-		offset 162
+		distance 2100
+		offset 39
 		sprite "ship/avgi undulon"
 	add object "Optikon  "
-		distance 1500
-		offset 180
+		distance 2100
+		offset 51
 		sprite "ship/avgi optikon"
 	add object "Sonikis  "
-		distance 1500
-		offset 198
+		distance 2100
+		offset 64
 		sprite "ship/avgi sonikis"
 system "Bunrodea "
 	add object "Kaiken  "
@@ -1748,63 +1804,6 @@ system "Ka'het "
 		distance 900
 		offset 180
 		sprite "ship/fetri'sei"
-	#	Avgi
-	add object "Twilight Ka'sei 1A  "
-		distance 900
-		offset 210
-		sprite "ship/aberration 1-a"
-	add object "Twilight Ka'sei 1B  "
-		distance 900
-		offset 240
-		sprite "ship/aberration 1-b"
-	add object "Twilight Ka'sei 1C  "
-		distance 900
-		offset 270
-		sprite "ship/aberration 1-c"
-	add object "Twilight Ka'sei 1D  "
-		distance 900
-		offset 300
-		sprite "ship/aberration 1-d"
-	add object "Twilight Ka'sei 1E  "
-		distance 900
-		offset 330
-		sprite "ship/aberration 1-e"
-	add object "Twilight Ka'sei 1F  "
-		distance 900
-		offset 360
-		sprite "ship/aberration 1-f"
-	add object "Twilight Ka'sei 1G  "
-		distance 1500
-		offset 18
-		sprite "ship/aberration 1-g"
-	add object "Twilight Ka'sei 2A  "
-		distance 1500
-		offset 36
-		sprite "ship/aberration 2-a"
-	add object "Twilight Ka'sei 2B  "
-		distance 1500
-		offset 54
-		sprite "ship/aberration 2-b"
-	add object "Twilight Ka'sei 2C  "
-		distance 1500
-		offset 72
-		sprite "ship/aberration 2-c"
-	add object "Twilight Ka'sei 2D  "
-		distance 1500
-		offset 90
-		sprite "ship/aberration 2-d"
-	add object "Twilight Ka'sei 2E  "
-		distance 1500
-		offset 108
-		sprite "ship/aberration 2-e"
-	add object "Twilight Ka'sei 2F  "
-		distance 1500
-		offset 126
-		sprite "ship/aberration 2-f"
-	add object "Twilight Ka'sei 2G  "
-		distance 1500
-		offset 144
-		sprite "ship/aberration 2-g"
 system "Korath "
 	add object "Rano'erek  "
 		distance 900
