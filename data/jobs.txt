@@ -132,6 +132,8 @@ mission "omnisResetReputation"
 		"reputation: Incipias" = 0
 		"reputation: Quarg (Incipias)" = 1
 		"reputation: Silent Ones" = 1
+		#	Xapleaux
+		"reputation: Xapleaux" = 1
 	repeat
 	source
 		government "Omnis" "Faction" "Ancillary"
