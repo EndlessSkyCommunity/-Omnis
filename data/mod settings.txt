@@ -10,7 +10,7 @@ mission " Mod Settings: Omnis"
 				`	Shipyard Variants`
 					goto "2"
 				`	(Exit.)`
-					defer
+					launch
 #	Automatic Map Reveal
 			label "1"
 			`Currently enabled.`
