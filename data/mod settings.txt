@@ -65,11 +65,13 @@ mission " Mod Settings: Omnis"
 					goto "return"
 			label "2 1"
 			action
+				event "Omnis: shipyard variants enabled"
 				set "global: Omnis: Shipyard Variants"
 			`Enabled Shipyard Variants.`
 				goto "return"
 			label "2 2"
 			action
+				event "Omnis: shipyard variants disabled"
 				clear "global: Omnis: Shipyard Variants"
 			`Disabled Shipyard Variants.`
 				goto "return"
