@@ -26,96 +26,76 @@ system "Omnis"
 		distance 300
 		offset 300
 		sprite "asteroid/yottrite/spin"
-	#		Factions - 20
-	object " Avgi"
-		distance 1600
-		offset 18
-		sprite "ship/avgi atenuatia"
+	#		Factions - 17
 	object " Bunrodea"
 		distance 1600
-		offset 36
+		offset 21
 		sprite "ship/chigiriki"
 	object " Coalition"
 		distance 1600
-		offset 54
+		offset 42
 		sprite "ship/heliarch punisher"
 	object " Drak"
 		distance 1600
-		offset 72
+		offset 64
 		sprite "ship/archon"
 	object " Gegno"
 		distance 1600
-		offset 90
+		offset 85
 		sprite "ship/gegno augen"
 	object " Hai"
 		distance 1600
-		offset 108
+		offset 106
 		sprite "ship/hai shield beetle"
 	object " Human"
 		distance 1600
-		offset 126
+		offset 127
 		sprite "ship/carrier"
 	object " Iije"
 		distance 1600
-		offset 144
+		offset 148
 		sprite "ship/ayym/ayym"
-	object " Incipias"
-		distance 1600
-		offset 162
-		sprite "ship/nimbus"
 	object " Ka'het"
 		distance 1600
-		offset 180
+		offset 169
 		sprite "ship/vareti'het"
 	object " Korath"
 		distance 1600
-		offset 198
+		offset 191
 		sprite "ship/raider"
 	object " Pug"
 		distance 1600
-		offset 216
+		offset 212
 		sprite "ship/pug arfecta"
 	object " Quarg"
 		distance 1600
-		offset 234
+		offset 233
 		sprite "ship/wardragon"
 	object " Remnant"
 		distance 1600
-		offset 252
+		offset 254
 		sprite "ship/albatross"
 	object " Rulei"
 		distance 1600
-		offset 270
+		offset 275
 		sprite "ship/vyuir/vyuir"
 	object " Sheragi"
 		distance 1600
-		offset 288
+		offset 296
 		sprite "ship/emeraldsword"
 	object " Vyrmeid"
 		distance 1600
-		offset 306
+		offset 318
 		sprite "ship/astral cetacean/astral"
 	object " Wanderer"
 		distance 1600
-		offset 324
+		offset 339
 		sprite "ship/hurricane"
 	object " Whispering Void"
 		distance 1600
-		offset 342
-		sprite "ship/pincer beast"
-	object " Xapleaux"
-		distance 1600
 		offset 360
-		sprite "ship/ascomy"
+		sprite "ship/pincer beast"
 #	Factions
-system "Avgi "
-	"jump range" 3000
-	government "Ancillary"
-	link "Coalition "
-	link "Ka'het "
-	pos -232 -9651
-	object "  Avgi"
-		sprite "asteroid/yottrite/spin"
 system "Bunrodea "
 	"jump range" 3000
 	government "Faction"
@@ -126,7 +106,6 @@ system "Bunrodea "
 system "Coalition "
 	"jump range" 3000
 	government "Faction"
-	link "Avgi "
 	link "Sheragi "
 	pos -541 -9776
 	object "  Coalition"
@@ -151,7 +130,6 @@ system "Gegno "
 system "Hai "
 	"jump range" 3000
 	government "Faction"
-	link "Incipias "
 	link "Korath "
 	link "Wanderer "
 	pos -13 -10253
@@ -174,17 +152,9 @@ system "Iije "
 	pos 538 -10234
 	object "  Iije"
 		sprite "asteroid/yottrite/spin"
-system "Incipias "
-	"jump range" 3000
-	government "Ancillary"
-	link "Hai "
-	pos 91 -10381
-	object "  Incipias"
-		sprite "asteroid/yottrite/spin"
 system "Ka'het "
 	"jump range" 3000
 	government "Faction"
-	link "Avgi "
 	link "Drak "
 	link "Remnant "
 	pos 83 -9721
@@ -196,7 +166,6 @@ system "Korath "
 	link "Bunrodea "
 	link "Hai "
 	link "Human "
-	link "Xapleaux "
 	pos -58 -10120
 	object "  Korath"
 		sprite "asteroid/yottrite/spin"
@@ -259,13 +228,6 @@ system "Whispering Void "
 	government "Faction"
 	pos -387 -10225
 	object "  Whispering Void"
-		sprite "asteroid/yottrite/spin"
-system "Xapleaux "
-	"jump range" 3000
-	government "Ancillary"
-	link "Korath "
-	pos 50 -9938
-	object "  Xapleaux"
 		sprite "asteroid/yottrite/spin"
 #	Override
 system "Rutilicus"
