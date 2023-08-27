@@ -1,5 +1,7 @@
-mission " Mod Settings: Omnis"
+mission "Omnis: mod settings"
+	description `Accept this job to open a settings menu, it's in the title.`
 	job
+	name ` Mod Settings: Omnis`
 	on accept
 		conversation
 #	Menu
