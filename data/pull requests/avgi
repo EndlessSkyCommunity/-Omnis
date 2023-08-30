@@ -176,7 +176,6 @@ planet "Everything "
 	add shipyard "Avgi Spaceguard Heavy"
 	add shipyard "Avgi Spaceguard Light"
 planet "  Avgi"
-	government "Ancillary"
 	bribe 0
 	description ""
 	spaceport ""

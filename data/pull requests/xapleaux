@@ -35,7 +35,6 @@ planet "Everything "
 	add shipyard "Xapleaux Basics"
 	add shipyard "Xapleaux Intermediate"
 planet "  Xapleaux"
-	government "Ancillary"
 	bribe 0
 	description ""
 	spaceport ""
