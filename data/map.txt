@@ -2175,7 +2175,3 @@ system "Whispering Void "
 		distance 900
 		offset 30
 		sprite "ship/pincer beast"
-#	Override
-system "Rutilicus"
-	add object "omnisGateway"
-		sprite "sprite/wispGreen"
