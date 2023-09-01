@@ -1955,7 +1955,7 @@ system "Pug "
 	"jump range" 3000
 	government "Faction"
 	link "Human "
-	link "Omnis "
+	link "Omnis"
 	link "Quarg "
 	pos -174 -9887
 	object "  Pug"
