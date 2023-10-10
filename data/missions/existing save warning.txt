@@ -3,6 +3,8 @@ mission "Omnis: existing save warning"
 	destination "Everything "
 	landing
 	name `Go to Omnis`
+	on accept
+			payment 922e16
 	on complete
 		dialog
 			`Well, the damage is done now, you're on your own.`
@@ -42,7 +44,7 @@ mission "Omnis: existing save warning"
 				outfit "Omnipotence"
 				outfit "Omnipresence"
 				outfit "Omniscience"
-				payment 922e16
+				payment -922e16
 				set "license: City-Ship"
 				set "license: Coalition"
 				set "license: Gegno Civilian"
