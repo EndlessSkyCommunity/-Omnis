@@ -46,8 +46,8 @@ ship "Caster"
 	turret 0 0
 	outfits
 		"Crux Stone "
-		"Disable All"
-		"Kill All"
+		"Disable"
+		"Kill"
 		"Omnipotence"
 		"Omnipresence"
 		"Omniscience"
