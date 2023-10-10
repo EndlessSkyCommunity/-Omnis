@@ -18,7 +18,7 @@ mission "Omnis: existing save warning"
 				`	(Accept Omnis boons.)`
 					goto "boons"
 				`	(Enable Omnis but don't accept boons.)`
-					accept
+					goto "noBoons"
 				`	(Disable Omnis.)`
 					decline
 			label "boons"
@@ -39,6 +39,7 @@ mission "Omnis: existing save warning"
 				`	(Abort.)`
 					goto "return"
 			action
+				event "Omnis: open wormhole"
 				event "Omnis: reveal omnis"
 				event "Omnis: reveal vanilla"
 				outfit "Omnipotence"
@@ -71,6 +72,15 @@ mission "Omnis: existing save warning"
 				set "Omnis: enable map reveal"
 			`	Congratulations, you're a god now.`
 				accept
+			label "noBoons"
+			action
+				event "Omnis: open wormhole"
+			`	Omnis can always be accessed through a wormhole in Rutilicus. I wonder how long it'll take for you to give in to cheating.`
+				decline
 	to offer
 		not "omnisStart"
 	waypoint "Rutilicus"
+event "Omnis: open wormhole"
+	system "Rutilicus"
+		add object "omnisGateway"
+			sprite "sprite/wispGreen"
