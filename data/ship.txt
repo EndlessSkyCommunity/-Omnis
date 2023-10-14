@@ -19,6 +19,8 @@ ship "Caster A"
 		"outfit space" 10000
 		"weapon capacity" 10000
 		"gun ports" 12
+		"drill port" 12
+		"drill spar" 12
 		"spinal mount" 12
 		"turret mounts" 12
 		"engine capacity" 10000
@@ -75,6 +77,8 @@ ship "Caster B"
 		"outfit space" 10000
 		"weapon capacity" 10000
 		"gun ports" 12
+		"drill port" 12
+		"drill spar" 12
 		"spinal mount" 12
 		"turret mounts" 12
 		"engine capacity" 10000
@@ -131,6 +135,8 @@ ship "Caster C"
 		"outfit space" 10000
 		"weapon capacity" 10000
 		"gun ports" 12
+		"drill port" 12
+		"drill spar" 12
 		"spinal mount" 12
 		"turret mounts" 12
 		"engine capacity" 10000
