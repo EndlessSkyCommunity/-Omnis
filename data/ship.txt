@@ -20,7 +20,7 @@ ship "Caster"
 		hull 1e19
 		mass 1e4
 		"heat dissipation" 1666667e-5
-		drag 166e6
+		drag 166652e-3
 		thrust 3e3
 		"reverse thrust" 3e3
 		turn 4e4
@@ -44,6 +44,30 @@ ship "Caster"
 		"  Disable"
 		"  Kill"
 		" Crux Stone "
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0 "  Disable"
+	turret 0 0 "  Kill"
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
 ship "Caster" "Caster A"
 	sprite "ship/omnisCasterA"
 	thumbnail "thumbnail/omnisCasterA"
@@ -59,8 +83,8 @@ ship "Caster" "Caster A"
 	gun 0 -56.5
 	gun 0 -56.5
 	gun 0 -56.5
-	turret 0 0 "Disable"
-	turret 0 0 "Kill"
+	turret 0 0 "  Disable"
+	turret 0 0 "  Kill"
 	turret 0 0
 	turret 0 0
 	turret 0 0
@@ -86,8 +110,8 @@ ship "Caster" "Caster B"
 	gun 0 -34.5
 	gun 0 -34.5
 	gun 0 -34.5
-	turret 0 0 "Disable"
-	turret 0 0 "Kill"
+	turret 0 0 "  Disable"
+	turret 0 0 "  Kill"
 	turret 0 0
 	turret 0 0
 	turret 0 0
@@ -113,8 +137,8 @@ ship "Caster" "Caster C"
 	gun 0 -30
 	gun 0 -30
 	gun 0 -30
-	turret 0 0 "Disable"
-	turret 0 0 "Kill"
+	turret 0 0 "  Disable"
+	turret 0 0 "  Kill"
 	turret 0 0
 	turret 0 0
 	turret 0 0
