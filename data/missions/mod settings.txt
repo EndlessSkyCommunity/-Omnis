@@ -106,7 +106,7 @@ mission "Omnis: mod settings"
 				"reputation: Unknown" = -1000
 				"reputation: Wanderer" = 1
 			`Reputation of vanilla governments have been reset.`
-				goto 100
+				goto 000
 			label 120
 			`Reveals all vanilla systems, and enables auto-mapping of unsupported systems.`
 			choice
@@ -120,7 +120,7 @@ mission "Omnis: mod settings"
 				event "Omnis: reveal omnis"
 				event "Omnis: reveal vanilla"
 			`Map revealed and auto-mapping enabled.`
-				goto 100
+				goto 000
 			label 130
 			`Presents a menu of all 29 swizzle options available.`
 			choice
@@ -193,147 +193,147 @@ mission "Omnis: mod settings"
 			action
 				event "swizzle00"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle01"
 			action
 				event "swizzle01"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle02"
 			action
 				event "swizzle02"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle03"
 			action
 				event "swizzle03"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle04"
 			action
 				event "swizzle04"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle05"
 			action
 				event "swizzle05"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle06"
 			action
 				event "swizzle06"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle07"
 			action
 				event "swizzle07"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle08"
 			action
 				event "swizzle08"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle09"
 			action
 				event "swizzle09"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle10"
 			action
 				event "swizzle10"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle11"
 			action
 				event "swizzle11"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle12"
 			action
 				event "swizzle12"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle13"
 			action
 				event "swizzle13"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle14"
 			action
 				event "swizzle14"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle15"
 			action
 				event "swizzle15"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle16"
 			action
 				event "swizzle16"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle17"
 			action
 				event "swizzle17"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle18"
 			action
 				event "swizzle18"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle19"
 			action
 				event "swizzle19"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle20"
 			action
 				event "swizzle20"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle21"
 			action
 				event "swizzle21"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle22"
 			action
 				event "swizzle22"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle23"
 			action
 				event "swizzle23"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle24"
 			action
 				event "swizzle24"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle25"
 			action
 				event "swizzle25"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle26"
 			action
 				event "swizzle26"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle27"
 			action
 				event "swizzle27"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label "swizzle28"
 			action
 				event "swizzle28"
 			`Your swizzle has been changed.`
-				goto 100
+				goto 000
 			label 200
 			`WARNING: These options perpetrate all saves that interact with Omnis, consider the effects of each before continuing.`
 			choice
@@ -367,44 +367,66 @@ mission "Omnis: mod settings"
 			action
 				set "global: Omnis: Automatic Map Reveal"
 			`Enabled Automatic Map Reveal.`
-				goto 200
+				goto 000
 			label 212
 			action
 				clear "global: Omnis: Automatic Map Reveal"
 			`Disabled Automatic Map Reveal.`
-				goto 200
+				goto 000
 			label 220
 			`Currently disabled.`
 				to display
-					not "global: Omnis: Shipyard Variants"
-			`Currently enabled.`
+					and
+						not "global: Omnis: Shipyard Variants"
+						not "global: Omnis: Shipyard VariantsAll"
+			`Currently enabled 'Limited'.`
 				to display
 					has "global: Omnis: Shipyard Variants"
+			`Currently enabled 'All'.`
+				to display
+					has "global: Omnis: Shipyard VariantsAll"
 			`Defaultly disabled`
 			`When enabled, Omnis shipyards will display ship variants alongside ship bases.`
+			`'Limited' only makes available variants with attribute or sprite changes.`
+			`'All' makes available all variants, even if only outfit changes.`
 			choice
-				`	(Enable.)`
+				`	(Enable All.)`
 					to display
-						not "global: Omnis: Shipyard Variants"
+						not "global: Omnis: Shipyard VariantsAll"
 					goto 221
+				`	(Enable Limited.)`
+					to display
+						or
+							not "global: Omnis: Shipyard Variants"
+							has "global: Omnis: Shipyard VariantsAll"
+					goto 222
 				`	(Disable.)`
 					to display
-						has "global: Omnis: Shipyard Variants"
-					goto 222
+						or
+							has "global: Omnis: Shipyard Variants"
+							has "global: Omnis: Shipyard VariantsAll"
+					goto 223
 				`	(Return.)`
 					goto 200
 			label 221
 			action
-				event "Omnis: shipyard variants enabled"
-				set "global: Omnis: Shipyard Variants"
-			`Enabled Shipyard Variants.`
-				goto 200
+				event "Omnis: shipyard variants all enabled"
+				set "global: Omnis: Shipyard VariantsAll"
+			`Enabled All Shipyard Variants.`
+				goto 000
 			label 222
+			action
+				event "Omnis: shipyard variants limited enabled"
+				set "global: Omnis: Shipyard Variants"
+			`Enabled Limited Shipyard Variants.`
+				goto 000
+			label 223
 			action
 				event "Omnis: shipyard variants disabled"
 				clear "global: Omnis: Shipyard Variants"
+				clear "global: Omnis: Shipyard VariantsAll"
 			`Disabled Shipyard Variants.`
-				goto 200
+				goto 000
 	repeat
 	source
 		government
@@ -1149,11 +1171,24 @@ event "swizzle28"
 	government "Escort"
 		swizzle 28
 #	Variants
-mission "Omnis: shipyard variants enabled"
+mission "Omnis: shipyard variants enabled all"
 	invisible
 	landing
 	on accept
-		event "Omnis: shipyard variants enabled"
+		event "Omnis: shipyard variants all enabled"
+	repeat
+	source
+		government
+			"Omnis"
+			"Faction"
+			"Ancillary"
+	to offer
+		has "global: Omnis: Shipyard VariantsAll"
+mission "Omnis: shipyard variants enabled limited"
+	invisible
+	landing
+	on accept
+		event "Omnis: shipyard variants limited enabled"
 	repeat
 	source
 		government
@@ -1174,114 +1209,435 @@ mission "Omnis: shipyard variants disabled"
 			"Faction"
 			"Ancillary"
 	to offer
-		not "global: Omnis: Shipyard Variants"
-event "Omnis: shipyard variants enabled"
+		and
+			not "global: Omnis: Shipyard Variants"
+			not "global: Omnis: Shipyard VariantsAll"
+event "Omnis: shipyard variants all enabled"
 	planet "Everything "
 		add shipyard "deprecatedVariants"
+		add shipyard "deprecatedVariantsAll"
+		add shipyard "bunrodeaVariants"
+		add shipyard "bunrodeaVariantsAll"
 		add shipyard "coalitionVariants"
+		add shipyard "coalitionVariantsAll"
 		add shipyard "drakVariants"
+		add shipyard "drakVariantsAll"
 		add shipyard "gegnoVariants"
+		add shipyard "gegnoVariantsAll"
 		add shipyard "haiVariants"
+		add shipyard "haiVariantsAll"
 		add shipyard "humanVariants"
+		add shipyard "humanVariantsAll"
+		add shipyard "iijeVariants"
+		add shipyard "iijeVariantsAll"
 		add shipyard "kahetVariants"
+		add shipyard "kahetVariantsAll"
 		add shipyard "korathVariants"
+		add shipyard "korathVariantsAll"
+		add shipyard "pugVariants"
+		add shipyard "pugVariantsAll"
+		add shipyard "quargVariants"
+		add shipyard "quargVariantsAll"
 		add shipyard "remnantVariants"
+		add shipyard "remnantVariantsAll"
+		add shipyard "ruleiVariants"
+		add shipyard "ruleiVariantsAll"
 		add shipyard "sheragiVariants"
+		add shipyard "sheragiVariantsAll"
+		add shipyard "vyrmeidVariants"
+		add shipyard "vyrmeidVariantsAll"
 		add shipyard "wandererVariants"
+		add shipyard "wandererVariantsAll"
+		add shipyard "whispering voidVariants"
+		add shipyard "whispering voidVariantsAll"
 	planet "Deprecated "
 		add shipyard "deprecatedVariants"
+		add shipyard "deprecatedVariantsAll"
+	planet " Bunrodea"
+		add shipyard "bunrodeaVariants"
+		add shipyard "bunrodeaVariantsAll"
+	planet "  Bunrodea"
+		add shipyard "bunrodeaVariants"
+		add shipyard "bunrodeaVariantsAll"
 	planet " Coalition"
 		add shipyard "coalitionVariants"
+		add shipyard "coalitionVariantsAll"
 	planet "  Coalition"
 		add shipyard "coalitionVariants"
+		add shipyard "coalitionVariantsAll"
 	planet " Drak"
 		add shipyard "drakVariants"
+		add shipyard "drakVariantsAll"
 	planet "  Drak"
 		add shipyard "drakVariants"
+		add shipyard "drakVariantsAll"
 	planet " Gegno"
 		add shipyard "gegnoVariants"
+		add shipyard "gegnoVariantsAll"
 	planet "  Gegno"
 		add shipyard "gegnoVariants"
+		add shipyard "gegnoVariantsAll"
 	planet " Hai"
 		add shipyard "haiVariants"
+		add shipyard "haiVariantsAll"
 	planet "  Hai"
 		add shipyard "haiVariants"
+		add shipyard "haiVariantsAll"
 	planet " Human"
 		add shipyard "humanVariants"
+		add shipyard "humanVariantsAll"
 	planet "  Human"
 		add shipyard "humanVariants"
+		add shipyard "humanVariantsAll"
+	planet " Iije"
+		add shipyard "iijeVariants"
+		add shipyard "iijeVariantsAll"
+	planet "  Iije"
+		add shipyard "iijeVariants"
+		add shipyard "iijeVariantsAll"
 	planet " Ka'het"
 		add shipyard "kahetVariants"
+		add shipyard "kahetVariantsAll"
 	planet "  Ka'het"
 		add shipyard "kahetVariants"
+		add shipyard "kahetVariantsAll"
 	planet " Korath"
 		add shipyard "korathVariants"
+		add shipyard "korathVariantsAll"
 	planet "  Korath"
 		add shipyard "korathVariants"
+		add shipyard "korathVariantsAll"
+	planet " Pug"
+		add shipyard "pugVariants"
+		add shipyard "pugVariantsAll"
+	planet "  Pug"
+		add shipyard "pugVariants"
+		add shipyard "pugVariantsAll"
+	planet " Quarg"
+		add shipyard "quargVariants"
+		add shipyard "quargVariantsAll"
+	planet "  Quarg"
+		add shipyard "quargVariants"
+		add shipyard "quargVariantsAll"
 	planet " Remnant"
 		add shipyard "remnantVariants"
+		add shipyard "remnantVariantsAll"
 	planet "  Remnant"
 		add shipyard "remnantVariants"
+		add shipyard "remnantVariantsAll"
+	planet " Rulei"
+		add shipyard "ruleiVariants"
+		add shipyard "ruleiVariantsAll"
+	planet "  Rulei"
+		add shipyard "ruleiVariants"
+		add shipyard "ruleiVariantsAll"
 	planet " Sheragi"
 		add shipyard "sheragiVariants"
+		add shipyard "sheragiVariantsAll"
 	planet "  Sheragi"
 		add shipyard "sheragiVariants"
+		add shipyard "sheragiVariantsAll"
+	planet " Vyrmeid"
+		add shipyard "vyrmeidVariants"
+		add shipyard "vyrmeidVariantsAll"
+	planet "  Vyrmeid"
+		add shipyard "vyrmeidVariants"
+		add shipyard "vyrmeidVariantsAll"
 	planet " Wanderer"
 		add shipyard "wandererVariants"
+		add shipyard "wandererVariantsAll"
 	planet "  Wanderer"
 		add shipyard "wandererVariants"
+		add shipyard "wandererVariantsAll"
+	planet " Whispering Void"
+		add shipyard "whispering voidVariants"
+		add shipyard "whispering voidVariantsAll"
+	planet "  Whispering Void"
+		add shipyard "whispering voidVariants"
+		add shipyard "whispering voidVariantsAll"
+event "Omnis: shipyard variants limited enabled"
+	planet "Everything "
+		add shipyard "deprecatedVariants"
+		remove shipyard "deprecatedVariantsAll"
+		add shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
+		add shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
+		add shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
+		add shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
+		add shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
+		add shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
+		add shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
+		add shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
+		add shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
+		add shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+		add shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
+		add shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
+		add shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
+		add shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
+		add shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
+		add shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
+		add shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
+	planet "Deprecated "
+		add shipyard "deprecatedVariants"
+		remove shipyard "deprecatedVariantsAll"
+	planet " Bunrodea"
+		add shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
+	planet "  Bunrodea"
+		add shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
+	planet " Coalition"
+		add shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
+	planet "  Coalition"
+		add shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
+	planet " Drak"
+		add shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
+	planet "  Drak"
+		add shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
+	planet " Gegno"
+		add shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
+	planet "  Gegno"
+		add shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
+	planet " Hai"
+		add shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
+	planet "  Hai"
+		add shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
+	planet " Human"
+		add shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
+	planet "  Human"
+		add shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
+	planet " Iije"
+		add shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
+	planet "  Iije"
+		add shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
+	planet " Ka'het"
+		add shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
+	planet "  Ka'het"
+		add shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
+	planet " Korath"
+		add shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
+	planet "  Korath"
+		add shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
+	planet " Pug"
+		add shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+	planet "  Pug"
+		add shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+	planet " Quarg"
+		add shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
+	planet "  Quarg"
+		add shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
+	planet " Remnant"
+		add shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
+	planet "  Remnant"
+		add shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
+	planet " Rulei"
+		add shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
+	planet "  Rulei"
+		add shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
+	planet " Sheragi"
+		add shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
+	planet "  Sheragi"
+		add shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
+	planet " Vyrmeid"
+		add shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
+	planet "  Vyrmeid"
+		add shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
+	planet " Wanderer"
+		add shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
+	planet "  Wanderer"
+		add shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
+	planet " Whispering Void"
+		add shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
+	planet "  Whispering Void"
+		add shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
 event "Omnis: shipyard variants disabled"
 	planet "Everything "
 		remove shipyard "deprecatedVariants"
+		remove shipyard "deprecatedVariantsAll"
+		remove shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
 		remove shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
 		remove shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
 		remove shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
 		remove shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
 		remove shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
+		remove shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
 		remove shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
 		remove shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
+		remove shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+		remove shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
 		remove shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
+		remove shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
 		remove shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
+		remove shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
 		remove shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
+		remove shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
 	planet "Deprecated "
 		remove shipyard "deprecatedVariants"
+		remove shipyard "deprecatedVariantsAll"
+	planet " Bunrodea"
+		remove shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
+	planet "  Bunrodea"
+		remove shipyard "bunrodeaVariants"
+		remove shipyard "bunrodeaVariantsAll"
 	planet " Coalition"
 		remove shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
 	planet "  Coalition"
 		remove shipyard "coalitionVariants"
+		remove shipyard "coalitionVariantsAll"
 	planet " Drak"
 		remove shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
 	planet "  Drak"
 		remove shipyard "drakVariants"
+		remove shipyard "drakVariantsAll"
 	planet " Gegno"
 		remove shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
 	planet "  Gegno"
 		remove shipyard "gegnoVariants"
+		remove shipyard "gegnoVariantsAll"
 	planet " Hai"
 		remove shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
 	planet "  Hai"
 		remove shipyard "haiVariants"
+		remove shipyard "haiVariantsAll"
 	planet " Human"
 		remove shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
 	planet "  Human"
 		remove shipyard "humanVariants"
+		remove shipyard "humanVariantsAll"
+	planet " Iije"
+		remove shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
+	planet "  Iije"
+		remove shipyard "iijeVariants"
+		remove shipyard "iijeVariantsAll"
 	planet " Ka'het"
 		remove shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
 	planet "  Ka'het"
 		remove shipyard "kahetVariants"
+		remove shipyard "kahetVariantsAll"
 	planet " Korath"
 		remove shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
 	planet "  Korath"
 		remove shipyard "korathVariants"
+		remove shipyard "korathVariantsAll"
+	planet " Pug"
+		remove shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+	planet "  Pug"
+		remove shipyard "pugVariants"
+		remove shipyard "pugVariantsAll"
+	planet " Quarg"
+		remove shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
+	planet "  Quarg"
+		remove shipyard "quargVariants"
+		remove shipyard "quargVariantsAll"
 	planet " Remnant"
 		remove shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
 	planet "  Remnant"
 		remove shipyard "remnantVariants"
+		remove shipyard "remnantVariantsAll"
+	planet " Rulei"
+		remove shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
+	planet "  Rulei"
+		remove shipyard "ruleiVariants"
+		remove shipyard "ruleiVariantsAll"
 	planet " Sheragi"
 		remove shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
 	planet "  Sheragi"
 		remove shipyard "sheragiVariants"
+		remove shipyard "sheragiVariantsAll"
+	planet " Vyrmeid"
+		remove shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
+	planet "  Vyrmeid"
+		remove shipyard "vyrmeidVariants"
+		remove shipyard "vyrmeidVariantsAll"
 	planet " Wanderer"
 		remove shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
 	planet "  Wanderer"
 		remove shipyard "wandererVariants"
+		remove shipyard "wandererVariantsAll"
+	planet " Whispering Void"
+		remove shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
+	planet "  Whispering Void"
+		remove shipyard "whispering voidVariants"
+		remove shipyard "whispering voidVariantsAll"
