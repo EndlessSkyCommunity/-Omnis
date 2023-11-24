@@ -24,6 +24,8 @@ mission "Omnis: mod settings"
 					goto 120
 				`	(Swizzle Picker.)`
 					goto 130
+				`	(Max Combat Rating.)`
+					goto 140
 				`	(Return.)`
 					goto 000
 			label 110
@@ -333,6 +335,11 @@ mission "Omnis: mod settings"
 			action
 				event "swizzle28"
 			`Your swizzle has been changed.`
+				goto 000
+			label 140
+			action
+				"combat rating" = 1318815735
+			`Your combat rating has been set to max.`
 				goto 000
 			label 200
 			`WARNING: These options perpetrate all saves that interact with Omnis, consider the effects of each before continuing.`
