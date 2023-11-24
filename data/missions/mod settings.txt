@@ -366,6 +366,8 @@ mission "Omnis: mod settings"
 			label 211
 			action
 				set "global: Omnis: Automatic Map Reveal"
+				event "Omnis: reveal omnis"
+				event "Omnis: reveal vanilla"
 			`Enabled Automatic Map Reveal.`
 				goto 000
 			label 212
