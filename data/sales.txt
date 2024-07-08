@@ -1285,21 +1285,19 @@ outfitter "sheragi"
 	"Small EM Battery"
 	"Small Hybrid Cooling"
 shipyard "successors"
-	"Valkkyiara-Khorasaqra"
 	"Aaulqra"
 	"Ejniisde"
 	"Kaskhorade"
 	"Kvelqde"
 	"Kvelqde-Khora"
+	"Nnaatej"
+	"Nnesaarau"
 	"Myaede"
 	"Ojde"
 	"Seiitej"
 	"Stolsaqra"
 	"Veusade"
-	"Nnesaarau"
 	"Vujlet"
-	"Nnaatej"
-	"Kijra-Khora"
 outfitter "successors"
 	"Auxiliary Power Reserve"
 	"Primary Power Reserve"
@@ -1313,10 +1311,7 @@ outfitter "successors"
 	"Heirloom Hunter-Killers"
 	"Heirloom License"
 	"Heirloom Point Defense"
-	`"Sarija" Heirloom Coilgun`
-	`"Jiita" Heirloom Shielding`
 	"High Houses License"
-	`"Tijra" Heirloom Lance`
 	"Hypervelocity Spike"
 	"Multimodal Armor: Heavy"
 	"Multimodal Armor: Regen"
@@ -1353,7 +1348,6 @@ outfitter "successors"
 	`1-"Uurau" Betavoltaic Cell`
 	`3-"Kaska" Betavoltaic Cell`
 	`6-"Ruuv" Betavoltaic Cell`
-	`"Ija" Heirloom Reactor`
 	`OC-"Mavra" Betavoltaic Cell`
 shipyard "vyrmeid"
 	"Astral Cetacean"

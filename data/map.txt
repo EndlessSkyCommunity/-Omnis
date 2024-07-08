@@ -2149,14 +2149,6 @@ system "Successors "
 		distance 1500
 		offset 0
 		sprite "ship/nnaatej"
-	object "Valkkyiara-Khorasaqra  "
-		distance 1500
-		offset 30
-		sprite "ship/valkkyiara-khorasaqra"
-	object "Kijra-Khora  "
-		distance 1500
-		offset 60
-		sprite "ship/kijra-khora"
 system "Vyrmeid "
 	"jump range" 3000
 	government "Faction"
