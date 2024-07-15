@@ -121,7 +121,7 @@ mission "Omnis: mod settings"
 				"reputation: Old Houses" = 0
 				"reputation: Parrot" = 1
 				"reputation: People's Houses" = 0
-				"reputation: People's Houses (Hostile)" = -999
+				"reputation: People's Houses (Hostile)" = -10
 				"reputation: Pirate" = -10
 				"reputation: Pirate (Devil-Run Gang)" = -1000
 				"reputation: Pirate (Rival)" = -10
