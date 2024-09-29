@@ -1293,6 +1293,66 @@ outfitter "sheragi"
 	"Sheragi Anti-Missile"
 	"Small EM Battery"
 	"Small Hybrid Cooling"
+shipyard "successors"
+	"Aaulqra"
+	"Ejniisde"
+	"Kaskhorade"
+	"Kvelqde"
+	"Kvelqde-Khora"
+	"Myaede"
+	"Nnaatej"
+	"Nnesaarau"
+	"Ojde"
+	"Seiitej"
+	"Stolsaqra"
+	"Veusade"
+	"Vujlet"
+outfitter "successors"
+	"Auxiliary Power Reserve"
+	"Primary Power Reserve"
+	"Bimodal Coilgun Turret"
+	`"Ojet" Bimodal Coilgun`
+	`"Sjeja" Kinetic Lance`
+	"High-Velocity Spike"
+	"High-Velocity Spike Rack"
+	"Kinetic Rail Rifle"
+	"High Houses License"
+	"Multimodal Armor: Heavy"
+	"Multimodal Armor: Regen"
+	"Multimodal Armor: Resilient"
+	"Multimodal Armor: Keystone"
+	"Overcharged Laser Turret"
+	"Overcharged Pulse Laser"
+	"Pulse Laser Turret"
+	"Drag Cannon"
+	"Successor Cooling"
+	"Successor Fuel Sail"
+	"Successor License"
+	"Successor Pulse Laser"
+	`Shield Cortex Interface`
+	`"Veldt" Combat Scanner`
+	`"Tuur" Scanning Suite`
+	`"Aqra" Inductive Reverser`
+	`"Aqra" Inductive Steering`
+	`"Aqra" Inductive Thruster`
+	`"Byiaa" Shield Cortex`
+	`"Chyyra" Inductive Reverser`
+	`"Chyyra" Inductive Steering`
+	`"Chyyra" Inductive Thruster`
+	`"Ej" Shield Cortex`
+	`"Jaase" Shield Cortex`
+	`"Jorv" Shield Cortex`
+	`"Niis" Inductive Engines`
+	`"Nnesa" Fusion Core`
+	`"Ryuit" Fusion Core`
+	`"Uoret" Fusion Core`
+	`"Veusa" Inductive Reverser`
+	`"Veusa" Inductive Steering`
+	`"Veusa" Inductive Thruster`
+	`1-"Uurau" Betavoltaic Cell`
+	`3-"Kaska" Betavoltaic Cell`
+	`6-"Ruuv" Betavoltaic Cell`
+	`OC-"Mavra" Betavoltaic Cell`
 shipyard "vyrmeid"
 	"Astral Cetacean"
 	"Vyrmeid"
