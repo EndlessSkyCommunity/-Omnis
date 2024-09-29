@@ -22,6 +22,8 @@ planet "Everything "
 	outfitter "human"
 	shipyard "human"
 	shipyard "iije"
+	shipyard "incipias"
+	outfitter "incipias"
 	outfitter "kahet"
 	shipyard "kahet"
 	outfitter "korath"
@@ -137,6 +139,9 @@ planet "Everything "
 	shipyard "Syndicate Basics"
 	shipyard "Tarazed Advanced"
 	shipyard "Tarazed Basics"
+#	Incipias
+	outfitter "Hicemus"
+	shipyard "Hicemus"
 #	Ka'het
 	outfitter "Ka'het"
 #	Korath
@@ -151,6 +156,7 @@ planet "Everything "
 	shipyard "Remnant Puffin"
 	shipyard "Remnant Salvage Ships"
 	shipyard "Remnant"
+#	Wanderer
 	outfitter "Wanderer Advanced"
 	outfitter "Wanderer Basics"
 	shipyard "Wanderer Advanced"
@@ -478,6 +484,27 @@ planet "  Human"
 	shipyard "Syndicate Basics"
 	shipyard "Tarazed Advanced"
 	shipyard "Tarazed Basics"
+planet " Incipias"
+	government "Faction"
+	bribe 0
+	description ""
+	port "Settings"
+		recharges all
+		services all
+	outfitter "omnis"
+	shipyard "omnis"
+	outfitter "incipias"
+	shipyard "incipias"
+planet "  Incipias"
+	bribe 0
+	description ""
+	port "Settings"
+		recharges all
+		services all
+	outfitter "omnis"
+	shipyard "omnis"
+	outfitter "incipias"
+	shipyard "incipias"
 planet " Iije"
 	government "Faction"
 	bribe 0

@@ -59,11 +59,13 @@ mission "Omnis: mod settings"
 				"reputation: Bounty Hunter" = -1000
 				"reputation: Bounty Hunter that Won't Enter Hai Space" = -1000
 				"reputation: Coalition" = 1
+				"reputation: Conlatio" = 0
 				"reputation: Deep" = -1000
 				"reputation: Deep Security" = 1
 				"reputation: Derelict" = 0
 				"reputation: Drak" = 1
-				"reputation: Drak (Hostile)" = -1000
+				"reputation: Drak (Hostile)" = 1
+				"reputation: Drak (Incipias)" = -1000
 				"reputation: Elenctic Commune" = 1000
 				"reputation: Escort (Betraying)" = 10
 				"reputation: Forest (Prey)" = 1
@@ -87,12 +89,14 @@ mission "Omnis: mod settings"
 				"reputation: Hai (Unfettered Civilians)" = 10
 				"reputation: Heliarch" = 1
 				"reputation: Heliarch Test Dummy" = -1000
+				"reputation: Hicemus" = 0
 				"reputation: House Aqrabe" = 0
 				"reputation: House Chydiyi" = 0
 				"reputation: House Kaatrij" = 0
 				"reputation: House Myurej" = 0
 				"reputation: House Seineq" = 0
 				"reputation: House Sioeora" = 0
+				"reputation: Incipias Civilian" = 0
 				"reputation: Independent" = 10
 				"reputation: Independent (Killable)" = 10
 				"reputation: Indigenous Lifeform" = 1
@@ -129,9 +133,10 @@ mission "Omnis: mod settings"
 				"reputation: Pug" = 1
 				"reputation: Pug (Wanderer)" = 1
 				"reputation: Quarg" = 1
-				"reputation: Quarg (Hai)" = 1
-				"reputation: Quarg (Kor Efret)" = 1
 				"reputation: Quarg (Gegno)" = 1
+				"reputation: Quarg (Hai)" = 1
+				"reputation: Quarg (Incipias)" = 1
+				"reputation: Quarg (Kor Efret)" = 1
 				"reputation: Remnant" = 1
 				"reputation: Remnant (Research)" = 1
 				"reputation: Republic" = 2
@@ -142,6 +147,7 @@ mission "Omnis: mod settings"
 				"reputation: Scar's Legion" = 10
 				"reputation: Scar's Legion (Killable)" = -1000
 				"reputation: Sheragi" = 1
+				"reputation: Silent Ones" = 1
 				"reputation: Smuggler (Hai Trafficker)" = 1
 				"reputation: Syndicate" = 2
 				"reputation: Syndicate (Extremist)" = -1000
@@ -694,12 +700,16 @@ event "Omnis: reveal vanilla"
 		sprite "label/graveyard"
 	galaxy "label hai"
 		sprite "label/hai"
+	galaxy "label incipias"
+		sprite "label/incipias"
 	galaxy "label kimek"
 		sprite "label/kimek"
 	galaxy "label korath"
 		sprite "label/korath"
 	galaxy "label saryds"
 		sprite "label/saryds"
+	galaxy "label successors"
+		sprite "label/successors"
 	galaxy "label wanderers"
 		sprite "label/wanderers"
 	galaxy "label waste"
@@ -839,12 +849,15 @@ event "Omnis: reveal vanilla"
 	visit "Chyyra-Osolaa"
 	visit "Cinxia"
 	visit "Citadelle"
+	visit "Clepsydra"
 	visit "Coluber"
 	visit "Companion"
 	visit "Convector"
 	visit "Cor Caroli"
 	visit "Cotpoxi"
 	visit "Cshudlye"
+	visit "Cura Dic"
+	visit "Currus"
 	visit "Da Ent"
 	visit "Da Lest"
 	visit "Dabih"
@@ -874,6 +887,7 @@ event "Omnis: reveal vanilla"
 	visit "Diphda"
 	visit "Dixere"
 	visit "Dokdobaru"
+	visit "Dom'us"
 	visit "Dschubba"
 	visit "Dubhe"
 	visit "Due Yoot"
@@ -899,6 +913,7 @@ event "Omnis: reveal vanilla"
 	visit "Enif"
 	visit "Eogho"
 	visit "Epsilon Leonis"
+	visit "Equus"
 	visit "Era Natta"
 	visit "Erabu Lemeta"
 	visit "Eragaru Le"
@@ -970,12 +985,15 @@ event "Omnis: reveal vanilla"
 	visit "Holeb"
 	visit "Homeward"
 	visit "Host"
+	visit "Hui'uc"
 	visit "Hunter"
 	visit "Huud"
+	visit "Ianua"
 	visit "Iigen"
 	visit "Iinjma"
 	visit "Iise"
 	visit "Ik'kara'ka"
+	visit "Il'le"
 	visit "Ildaria"
 	visit "Iliniza"
 	visit "Ilirco"
@@ -1128,6 +1146,8 @@ event "Omnis: reveal vanilla"
 	visit "Patir"
 	visit "Pbelnep"
 	visit "Peacock"
+	visit "Pedita Pri"
+	visit "Pedita Sec"
 	visit "Pelaa-Muora"
 	visit "Pelubta"
 	visit "Peragenor"
@@ -1146,6 +1166,7 @@ event "Omnis: reveal vanilla"
 	visit "Polerius"
 	visit "Pollux"
 	visit "Porrima"
+	visit "Porta Terra"
 	visit "Postverta"
 	visit "Prakacha'a"
 	visit "Procyon"
@@ -1168,6 +1189,7 @@ event "Omnis: reveal vanilla"
 	visit "Remembrance"
 	visit "Rigel"
 	visit "Ritilas"
+	visit "Rota"
 	visit "Rouseu"
 	visit "Ruchbah"
 	visit "Rutilicus"
@@ -1186,6 +1208,7 @@ event "Omnis: reveal vanilla"
 	visit "Scheat"
 	visit "Schedar"
 	visit "Scija"
+	visit "Sedes"
 	visit "Segesta"
 	visit "Seginus"
 	visit "Seketra"
@@ -1221,11 +1244,13 @@ event "Omnis: reveal vanilla"
 	visit "Suhail"
 	visit "Sumar"
 	visit "Sumprast"
+	visit "Supra"
 	visit "Tais"
 	visit "Talita"
 	visit "Tania Australis"
 	visit "Tarazed"
 	visit "Tebuteb"
+	visit "Tectum"
 	visit "Tejat"
 	visit "Terminus"
 	visit "Terra Incognita"
@@ -1441,6 +1466,7 @@ event "Omnis: shipyard variants all enabled"
 		add shipyard "humanVariantsAll"
 		add shipyard "iijeVariants"
 		add shipyard "iijeVariantsAll"
+		add shipyard "incipiasVariants"
 		add shipyard "kahetVariants"
 		add shipyard "kahetVariantsAll"
 		add shipyard "korathVariants"
@@ -1455,6 +1481,7 @@ event "Omnis: shipyard variants all enabled"
 		add shipyard "ruleiVariantsAll"
 		add shipyard "sheragiVariants"
 		add shipyard "sheragiVariantsAll"
+		add shipyard "successorVariants"
 		add shipyard "vyrmeidVariants"
 		add shipyard "vyrmeidVariantsAll"
 		add shipyard "wandererVariants"
@@ -1506,6 +1533,10 @@ event "Omnis: shipyard variants all enabled"
 	planet "  Iije"
 		add shipyard "iijeVariants"
 		add shipyard "iijeVariantsAll"
+	planet " Incipias"
+		add shipyard "incipiasVariants"
+	planet "  Incipias"
+		add shipyard "incipiasVariants"
 	planet " Ka'het"
 		add shipyard "kahetVariants"
 		add shipyard "kahetVariantsAll"
@@ -1792,6 +1823,10 @@ event "Omnis: shipyard variants disabled"
 	planet "  Iije"
 		remove shipyard "iijeVariants"
 		remove shipyard "iijeVariantsAll"
+	planet " Incipias"
+		remove shipyard "incipiasVariants"
+	planet "  "Incipias"
+		remove shipyard "incipiasVariants"
 	planet " Ka'het"
 		remove shipyard "kahetVariants"
 		remove shipyard "kahetVariantsAll"
