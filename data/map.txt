@@ -11,19 +11,31 @@ system "Omnis"
 	pos -268 -9863
 	object
 		sprite "star/nova"
-	object "omnisGateway"
+	object "omnisGatewayRutilicus"
+		distance 300
+		offset 60
+		sprite "sprite/wispGreen"
+	object "omnisGatewayGammaCorvi"
+		distance 300
+		offset 120
+		sprite "sprite/wispGreen"
+	object "omnisGatewayMarkab"
 		distance 300
 		offset 180
+		sprite "sprite/wispGreen"
+	object "omnisGatewaySol"
+		distance 300
+		offset 240
 		sprite "sprite/wispGreen"
 	object "Everything "
 		sprite "star/nova-core"
 	object "Developer "
 		distance 300
-		offset 60
+		offset 300
 		sprite "asteroid/yottrite/spin"
 	object "Deprecated "
 		distance 300
-		offset 300
+		offset 360
 		sprite "asteroid/yottrite/spin"
 	object " Bunrodea"
 		distance 1600
