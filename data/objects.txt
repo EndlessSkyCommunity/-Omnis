@@ -779,32 +779,75 @@ planet "  Whispering Void"
 star "star/nova"
 	power 1
 	wind 1
-#	Wormhole
+#	Wormholes
+
 planet "omnisGatewayRutilicus"
 	wormhole "omnisGatewayRutilicus"
 	government "Omnis Wormhole Access"
+
 wormhole "omnisGatewayRutilicus"
-	"display name" "Omnis"
+	"display name" "Rutilicus"
 	link "Omnis" "Rutilicus"
-	link "Rutilicus" "Omnis"
+
+
 planet "omnisGatewayGammaCorvi"
-	wormhole "omnisGatewayGamma Corvi"
+	wormhole "omnisGatewayGammaCorvi"
 	government "Omnis Wormhole Access"
+
 wormhole "omnisGatewayGammaCorvi"
-	"display name" "Omnis"
+	"display name" "Gamma Corvi"
 	link "Omnis" "Gamma Corvi"
-	link "Gamma Corvi" "Omnis"
+
+
 planet "omnisGatewayMarkab"
 	wormhole "omnisGatewayMarkab"
 	government "Omnis Wormhole Access"
+
 wormhole "omnisGatewayMarkab"
-	"display name" "Omnis"
+	"display name" "Markab"
 	link "Omnis" "Markab"
-	link "Markab" "Omnis"
+
+
 planet "omnisGatewaySol"
 	wormhole "omnisGatewaySol"
 	government "Omnis Wormhole Access"
+
 wormhole "omnisGatewaySol"
-	"display name" "Omnis"
+	"display name" "Sol"
 	link "Omnis" "Sol"
+
+
+planet "rutilicusGatewayOmnis"
+	wormhole "rutilicusGatewayOmnis"
+	government "Omnis Wormhole Access"
+
+wormhole "rutilicusGatewayOmnis"
+	"display name" "Omnis"
+	link "Rutilicus" "Omnis"
+
+
+planet "gammacorviGatewayOmnis"
+	wormhole "gammacorviGatewayOmnis"
+	government "Omnis Wormhole Access"
+
+wormhole "gammacorviGatewayOmnis"
+	"display name" "Omnis"
+	link "Gamma Corvi" "Omnis"
+
+
+planet "markabGatewayOmnis"
+	wormhole "markabGatewayOmnis"
+	government "Omnis Wormhole Access"
+
+wormhole "markabGatewayOmnis"
+	"display name" "Omnis"
+	link "Markab" "Omnis"
+
+
+planet "solGatewayOmnis"
+	wormhole "solGatewayOmnis"
+	government "Omnis Wormhole Access"
+
+wormhole "solGatewayOmnis"
+	"display name" "Omnis"
 	link "Sol" "Omnis"
