@@ -20,4 +20,4 @@ government "Omnis Wormhole Access"
 	fine 0
 	swizzle 0
 	"player reputation" 1
-	"default reputation" -0.01
+	"default attitude" -0.01
