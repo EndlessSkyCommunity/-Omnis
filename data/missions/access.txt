@@ -2,10 +2,20 @@ mission "Omnis: open wormhole"
 	invisible
 	landing
 	on offer
-		event "Omnis: open wormhole"
+		event "Omnis: open wormholes"
 	to offer
 		has "omnisStart"
-event "Omnis: open wormhole"
+
+event "Omnis: open wormholes"
 	system "Rutilicus"
-		add object "omnisGateway"
+		add object "rutilicusGatewayOmnis"
+			sprite "sprite/wispGreen"
+	system "Gamma Corvi"
+		add object "gammacorviGatewayOmnis"
+			sprite "sprite/wispGreen"
+	system "Markab"
+		add object "markabGatewayOmnis"
+			sprite "sprite/wispGreen"
+	system "Sol"
+		add object "solGatewayOmnis"
 			sprite "sprite/wispGreen"
