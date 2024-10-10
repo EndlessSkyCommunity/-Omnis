@@ -1,10 +1,13 @@
-mission "Omnis: open wormhole"
+mission "Omnis: open wormholes"
 	invisible
 	landing
 	on offer
 		event "Omnis: open wormholes"
+		fail
 	to offer
-		has "omnisStart"
+		or
+			has "omnisStart"
+			has "Omnis: open wormhole: failed"
 
 event "Omnis: open wormholes"
 	system "Rutilicus"
