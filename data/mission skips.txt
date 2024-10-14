@@ -1,0 +1,106 @@
+mission "Omnis: FW Skip 1"
+	job
+	name "Skip Free Worlds until Branch"
+	description "Skip to the mission just before you decide whether to do FW Checkmate or FW Reconciliation."
+	on accept
+		set "FW Rand 1B: active"
+		dialog "Go to Wayfarer to choose which Free Worlds mission chain completion you will do."
+		fail
+
+mission "Omnis: FW Skip Checkmate"
+	job
+	name "Skip to the end of FW Checkmate"
+	description "Skip the Free Worlds storyline until the end of Checkmate."
+	to offer
+		has "FW Rand 1B: active"
+	on accept
+		set "FWC End: active"
+		event "fwc pug defeated"
+		dialog "You have successfully skipped until the end of Free Worlds Checkmate. Go to Earth to finish the last mission."
+		fail
+
+mission "Omnis: FW Skip Reconciliation"
+	job
+	name "Skip to the end of FW Reconciliation"
+	description "Skip the Free Worlds storyline until the end of Reconciliation."
+	to offer
+		has "FW Rand 1B: active"
+	on accept
+		set "FW Syndicate Extremists 1C: active"
+		event "pug flee"
+		event "navy occupies algenib"
+		event "navy done with algenib" 50
+		dialog "You have successfully skipped the Free Worlds storyline until the last mission in Reconciliation. Go to Earth to finish the campaign."
+		fail
+
+
+disable mission
+	"Rim Archaeology 5B"
+
+mission "Omnis: Rim Archaeology Halfway Skip"
+	job
+	name "Rim Archaeology Skip"
+	description "Skip the first five missions in the Rim Archaeology mission chain."
+	to offer
+		has "main plot completed"
+	on accept
+		set "Rim Archaeology 5A: done"
+		event "rim archaeology results"
+		dialog "The first five missions have been skipped. Go to Zug and Zug's spaceport to continue the mission chain from this point."
+		fail
+
+mission "Omnis: Rim Archaeology 5B"
+	landing
+	invisible
+	to offer
+		has "Omnis: Rim Archaeology Halfway Skip: failed"
+	npc kill
+		government Quarg
+		personality heroic staying uninterested
+		ship "Quarg Wardragon" "Gloref Esa Kurayi"
+
+
+mission "Omnis: Emerald Sword 2 Skip"
+	job
+	name "Emerald Sword Skip"
+	description "Skip to the mission just before you get the Emerald Sword."
+	on accept
+		set "Sheragi Archaeology: The Emerald Sword 2: active"
+		event "zubenelhakrabi discovered"
+		dialog "To get the Emerald Sword, all you need to do is get two jump drives and 150 bunks. Land on Zug to complete the mission chain."
+		fail
+
+
+mission "Omnis: Skip to Remnant Technology Available"
+	job
+	name "Remnant Technology Available mission"
+	description "Skip the Remnant storyline until their technology becomes available."
+	on accept
+		set "Remnant: Defense 3: done"
+		set "Remnant: Keystones: done"
+		event "remnant: void sprite research"
+		dialog "You have successfully skipped until the Technology Available mission. Go land on a Remnant planet to continue the storyline."
+		fail
+
+
+mission "Omnis: Wanderer Skip to Defend Ap'arak"
+	job
+	name "Wanderer Storyline to Defend Ap'arak"
+	description "Skip the Wanderer storyline to the point that you are supposed to defend Ap'arak."
+	to offer
+		has "main plot completed"
+	on accept
+		set "Wanderers Rek 3: done"
+		dialog "You have successfully skipped the Wanderer storyline up until the point you defend Ap'arak. Go land on Tik Klai to continue the Wanderer storyline."
+		fail
+
+mission "Omnis: Wanderer Skip to Exiles 1"
+	job
+	name "Wanderer Storyline to Korath Exiles"
+	description "Skip the Wanderer storyline up until the point where you talk to the Korath Exiles."
+	to offer
+		has "Wanderers Rek 3: done"
+	on accept
+		set "Wanderers: Sestor: Scan Drones: done"
+		dialog "You have successfully skipped the Wanderer storyline until the meeting with the Korath Exiles. Go to Desi Seledrak to continue the Wanderer storyline."
+		fail
