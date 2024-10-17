@@ -12,6 +12,7 @@ category "ship"
 	"Superheavy"
 	"Fighter"
 	"Drone"
+	"Unknown"
 ship "Caster"
 	"display name" "Caster"
 	attributes
