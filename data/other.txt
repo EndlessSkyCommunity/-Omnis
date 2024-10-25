@@ -1,5 +1,7 @@
 ship "Hallucination"
-	category "Unknown"
+	attributes
+		category "Unknown"
 
 ship "Timer Ship"
-	category "Unknown"
+	attributes
+		category "Unknown"
