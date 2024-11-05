@@ -792,8 +792,6 @@ mission "Omnis: mod settings"
 				set "FW Northern 4.1A: offered"
 				set "FW Northern 4: done"
 				set "FW Northern 4: offered"
-				set "FW Outfitter Resupply [0]: done" 2
-				set "FW Outfitter Resupply [0]: offered" 2
 				set "FW Pirates 1: done"
 				set "FW Pirates 1: offered"
 				set "FW Pirates 2: done"
@@ -1355,8 +1353,6 @@ mission "Omnis: mod settings"
 				set "FW Northern 4.1A: offered"
 				set "FW Northern 4: done"
 				set "FW Northern 4: offered"
-				set "FW Outfitter Resupply [0]: done" 2
-				set "FW Outfitter Resupply [0]: offered" 2
 				set "FW Pirates 1: done"
 				set "FW Pirates 1: offered"
 				set "FW Pirates 2: done"
