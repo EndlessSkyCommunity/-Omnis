@@ -4801,3 +4801,207 @@ fleet "Venta "
 	personality "heroic"
 	variant
 		"Venta"
+planet "Aberrant Chomper "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Chomper "
+		threshold 0
+planet "Aberrant Chomper  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Chomper "
+		threshold 0
+fleet "Aberrant Chomper "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Chomper"
+planet "Aberrant Hugger "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Hugger "
+		threshold 0
+planet "Aberrant Hugger  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Hugger "
+		threshold 0
+fleet "Aberrant Hugger "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Hugger"
+planet "Aberrant Junior "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Junior "
+		threshold 0
+planet "Aberrant Junior  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Junior "
+		threshold 0
+fleet "Aberrant Junior "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Junior"
+planet "Aberrant Latte "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Latte "
+		threshold 0
+planet "Aberrant Latte  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Latte "
+		threshold 0
+fleet "Aberrant Latte "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Latte"
+planet "Aberrant Longfellow "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Longfellow "
+		threshold 0
+planet "Aberrant Longfellow  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Longfellow "
+		threshold 0
+fleet "Aberrant Longfellow "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Longfellow"
+planet "Aberrant Mole "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Mole "
+		threshold 0
+planet "Aberrant Mole  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Mole "
+		threshold 0
+fleet "Aberrant Mole "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Mole"
+planet "Aberrant Pike "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Pike "
+		threshold 0
+planet "Aberrant Pike  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Pike "
+		threshold 0
+fleet "Aberrant Pike "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Pike"
+planet "Aberrant Pileup "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Pileup "
+		threshold 0
+planet "Aberrant Pileup  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Pileup "
+		threshold 0
+fleet "Aberrant Pileup "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Pileup"
+planet "Aberrant Traincar "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Traincar "
+		threshold 0
+planet "Aberrant Traincar  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Traincar "
+		threshold 0
+fleet "Aberrant Traincar "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Traincar"
+planet "Aberrant Trip "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Trip "
+		threshold 0
+planet "Aberrant Trip  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Trip "
+		threshold 0
+fleet "Aberrant Trip "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Trip"
+planet "Aberrant Triplet "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Triplet "
+		threshold 0
+planet "Aberrant Triplet  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Triplet "
+		threshold 0
+fleet "Aberrant Triplet "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Triplet"
+planet "Aberrant Whiskers "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Whiskers "
+		threshold 0
+planet "Aberrant Whiskers  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Aberrant Whiskers "
+		threshold 0
+fleet "Aberrant Whiskers "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Aberrant Whiskers"

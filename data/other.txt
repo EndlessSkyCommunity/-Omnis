@@ -1,7 +1,0 @@
-ship "Hallucination"
-	attributes
-		category "Unknown"
-
-ship "Timer Ship"
-	attributes
-		category "Unknown"
