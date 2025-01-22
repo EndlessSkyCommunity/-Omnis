@@ -1830,10 +1830,11 @@ mission "Omnis: reveal vanilla"
 mission "Omnis: map the unknown"
 	invisible
 	landing
-	minor
+	non-blocking
+	priority
+	repeat
 	on offer
 		outfit "map all"
-	repeat
 	to offer
 		has "Omnis: enable map reveal"
 event "Omnis: reveal omnis"
