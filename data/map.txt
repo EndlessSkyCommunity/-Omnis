@@ -1238,47 +1238,47 @@ system "Omnis"
 		distance 6000
 		offset 132
 		sprite "ship/avgi sonikis"
-	object "Aberrant Chomper  "
+	object "Aberrant Chomper "
 		distance 6000
 		offset 136
 		sprite "ship/aberrant chomper"
-	object "Aberrant Hugger  "
+	object "Aberrant Hugger "
 		distance 6000
 		offset 140
 		sprite "ship/aberrant hugger"
-	object "Aberrant Junior  "
+	object "Aberrant Junior "
 		distance 6000
 		offset 144
 		sprite "ship/aberrant junior"
-	object "Aberrant Latte  "
+	object "Aberrant Latte "
 		distance 6000
 		offset 148
 		sprite "ship/aberrant latte"
-	object "Aberrant Longfellow  "
+	object "Aberrant Longfellow "
 		distance 6000
 		offset 152
 		sprite "ship/aberrant longfellow"
-	object "Aberrant Mole  "
+	object "Aberrant Mole "
 		distance 6000
 		offset 156
 		sprite "ship/aberrant mole"
-	object "Aberrant Pike  "
+	object "Aberrant Pike "
 		distance 6000
 		offset 160
 		sprite "ship/aberrant pike"
-	object "Aberrant Pileup  "
+	object "Aberrant Pileup "
 		distance 6000
 		offset 164
 		sprite "ship/aberrant pileup"
-	object "Aberrant Trip  "
+	object "Aberrant Trip "
 		distance 6000
 		offset 168
 		sprite "ship/aberrant trip"
-	object "Aberrant Triplet  "
+	object "Aberrant Triplet "
 		distance 6000
 		offset 172
 		sprite "ship/aberrant triplet"
-	object "Aberrant Whiskers  "
+	object "Aberrant Whiskers "
 		offset 176
 		distance 6000
 		sprite "ship/aberrant whiskers"
