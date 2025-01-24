@@ -2644,7 +2644,7 @@ system "Whispering Void "
 		offset 30
 		sprite "ship/pincer beast"
 system "Windjammer "
-	pos -240 -9621
+	pos -237 -9592
 	"jump range" 3000
 	government "Faction"
 	link "Avgi "
