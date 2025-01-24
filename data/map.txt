@@ -1440,6 +1440,30 @@ system "Avgi "
 		distance 1200
 		offset 345
 		sprite "ship/avgi vibratia"
+	object "Atenuatia (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi atenuatia"
+	object "Diaspersi (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi diaspersi"
+	object "Difraktos (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi difraktos"
+	object "Interferos (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi interferos"
+	object "Photikon (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi photikon"
+	object "Prismaios (Atomic)  "
+		distance 1800
+		offset 15
+		sprite "ship/avgi prismaios"
 system "Bunrodea "
 	"jump range" 3000
 	government "Faction"
