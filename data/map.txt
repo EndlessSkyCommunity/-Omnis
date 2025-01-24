@@ -1189,6 +1189,7 @@ system "Omnis"
 		distance 6000
 		offset 80
 		sprite "ship/avgi tachytia/tachytia"
+			scale 0.8
 	object "Tremoros "
 		distance 6000
 		offset 84
