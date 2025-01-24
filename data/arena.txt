@@ -5379,11 +5379,6 @@ fleet "Vibratia "
 	personality "heroic"
 	variant
 		"Vibratia"
-"Interferos (Atomic)"
-"Diaspersi (Atomic)"
-"Difraktos (Atomic)"
-"Atenuatia (Atomic)"
-"Photikon (Atomic)"
 planet "Prismaios (Atomic)  "
 	bribe 0
 	government "Arena"
