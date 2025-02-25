@@ -249,6 +249,7 @@ wormhole "hetGatewayOmnis"
 
 
 planet "incipiasGatewayOmnis"
+	attributes "requires: Omnis"
 	wormhole "incipiasGatewayOmnis"
 	government "Omnis Wormhole Access"
 
