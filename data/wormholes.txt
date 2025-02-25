@@ -114,6 +114,7 @@ wormhole "omnisGatewayHet"
 
 
 planet "omnisGatewayIncipias"
+	attributes "requires: Omnis"
 	wormhole "omnisGatewayIncipias"
 	government "Omnis Wormhole Access"
 
