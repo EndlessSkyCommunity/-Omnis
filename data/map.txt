@@ -1346,7 +1346,7 @@ system "Omnis"
 		offset 232
 		distance 6000
 		sprite "ship/gero"
-	object "Nimbo Currus "
+	object "Nimbo Cirrus "
 		offset 236
 		distance 6000
 		sprite "ship/cirrus"
