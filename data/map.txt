@@ -1362,27 +1362,27 @@ system "Omnis"
 		offset 246
 		distance 6000
 		sprite "ship/venta"
-	object "Quarg Lindwyrm  "
+	object "Quarg Lindwyrm "
 		distance 6000
 		offset 250
 		sprite "ship/quarg lindwyrm"
-	object "Quarg Guivre  "
+	object "Quarg Guivre "
 		distance 6000
 		offset 254
 		sprite "ship/quarg guivre"
-	object "Quarg Drake  "
+	object "Quarg Drake "
 		distance 6000
 		offset 258
 		sprite "ship/quarg drake"
-	object "Quarg Wardragon  "
+	object "Quarg Wardragon "
 		distance 6000
 		offset 262
 		sprite "ship/quarg wardragon"
-	object "Quarg Wyvern  "
+	object "Quarg Wyvern "
 		distance 6000
 		offset 266
 		sprite "ship/quarg wyvern"
-	object "Quarg Hydra  "
+	object "Quarg Hydra "
 		distance 6000
 		offset 270
 		sprite "ship/quarg hydra"
