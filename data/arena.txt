@@ -1,4 +1,4 @@
-planet "Marauder Fury "
+orumplanet "Marauder Fury "
 	bribe 0
 	government "Arena"
 	tribute 1
