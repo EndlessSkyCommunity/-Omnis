@@ -3,9 +3,21 @@ mission "Omnis: open wormholes"
 	landing
 	on offer
 		event "Omnis: open wormholes"
+		set "omnis: wormholes fine"
 		fail
 	to offer
 		has "omnisStart"
+
+mission "Omnis: wormhole compatibility"
+	invisible
+	landing
+	to offer
+		has "omnisStart"
+		not "omnis: wormholes fine"
+	on offer
+		event "omnis: no faction wormholes"
+		event "omnis: faction wormholes"
+		fail
 
 event "Omnis: open wormholes"
 	system "Rutilicus"
