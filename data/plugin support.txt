@@ -126,7 +126,7 @@ mission "Omnis: All Plugin Variants"
 	repeat
 	to offer
 		has "omnis: plugin integration"
-		has "global: Omnis: Shipyard VariantsAll
+		has "global: Omnis: Shipyard VariantsAll"
 	on offer
 		event "omnis: all plugin variants integration"
 
