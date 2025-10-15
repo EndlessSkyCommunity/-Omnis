@@ -128,7 +128,7 @@ mission "Omnis: All Plugin Variants"
 		has "omnis: plugin integration"
 		has "global: Omnis: Shipyard VariantsAll
 	on offer
-		event "omnis all plugin variants integration"
+		event "omnis: all plugin variants integration"
 
 mission "Omnis: No Plugin Variants"
 	invisible
@@ -140,7 +140,7 @@ mission "Omnis: No Plugin Variants"
 				not "global: Omnis: Shipyard VariantsAll"
 				not "global: Omnis: Shipyard Variants"
 	on offer
-		event "omnis remove plugin variants integration"
+		event "omnis: remove plugin variants integration"
 
 mission "Omnis: Limited Plugin Variants"
 	invisible
@@ -150,9 +150,9 @@ mission "Omnis: Limited Plugin Variants"
 		not "global: Omnis: Shipyard VariantsAll"
 		has "global: Omnis: Shipyard Variants"
 	on offer
-		event "omnis limited plugin variants integration"
+		event "omnis: limited plugin variants integration"
 
-event "omnis all plugin variants integration"
+event "omnis: all plugin variants integration"
 	planet "Everything "
 		add shipyard "bunrodeaVariants plugin"
 		add shipyard "bunrodeaVariantsAll plugin"
@@ -275,7 +275,7 @@ event "omnis all plugin variants integration"
 		add shipyard "wandererVariants plugin"
 		add shipyard "wandererVariantsAll plugin"
 
-event "omnis remove plugin variants integration"
+event "omnis: remove plugin variants integration"
 	planet "Everything "
 		remove shipyard "bunrodeaVariants plugin"
 		remove shipyard "bunrodeaVariantsAll plugin"
@@ -398,7 +398,7 @@ event "omnis remove plugin variants integration"
 		remove shipyard "wandererVariants plugin"
 		remove shipyard "wandererVariantsAll plugin"
 
-event "omnis limiteed plugin variants integration"
+event "omnis: limited plugin variants integration"
 	planet "Everything "
 		add shipyard "bunrodeaVariants plugin"
 		remove shipyard "bunrodeaVariantsAll plugin"
