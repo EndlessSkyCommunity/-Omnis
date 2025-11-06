@@ -3852,7 +3852,7 @@ planet "Quarg Wardragon  "
 	tribute 1
 		fleet "Quarg Wardragon "
 		threshold 0
-fleet "Wardargon "
+fleet "Wardragon "
 	government "Arena"
 	personality "heroic"
 	variant
