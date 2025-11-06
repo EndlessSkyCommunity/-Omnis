@@ -3844,14 +3844,19 @@ planet "Quarg Wardragon "
 	bribe 0
 	government "Arena"
 	tribute 1
-		fleet "Quarg Wardragon "
+		fleet "Wardragon "
 		threshold 0
 planet "Quarg Wardragon  "
 	bribe 0
 	government "Arena"
 	tribute 1
-		fleet "Quarg Wardragon "
+		fleet "Wardragon "
 		threshold 0
+fleet "Wardargon "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Wardragon"
 fleet "Quarg Wardragon "
 	government "Arena"
 	personality "heroic"
@@ -4318,7 +4323,7 @@ fleet "Aerie "
 	personality "heroic"
 	variant
 		"Aerie"
-		"Dagger" 2 #
+		"Dagger" 4 #
 fleet "Auxiliary "
 	government "Arena"
 	personality "heroic"
@@ -4337,7 +4342,7 @@ fleet "Carrier "
 	variant
 		"Carrier"
 		"Combat Drone" 6 #
-		"Lance" 4 #
+		"Lance" 8 #
 fleet "Class C Freighter "
 	government "Arena"
 	personality "heroic"
