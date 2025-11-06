@@ -3840,7 +3840,7 @@ fleet "Quarg Skylark "
 	personality "heroic"
 	variant
 		"Quarg Skylark"
-planet "Quarg Wardragon "
+planet "Quarg Wardragon   "
 	bribe 0
 	government "Arena"
 	tribute 1
@@ -3850,7 +3850,7 @@ planet "Quarg Wardragon  "
 	bribe 0
 	government "Arena"
 	tribute 1
-		fleet "Wardragon "
+		fleet "Quarg Wardragon "
 		threshold 0
 fleet "Wardargon "
 	government "Arena"
