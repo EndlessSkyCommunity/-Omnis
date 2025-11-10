@@ -23,9 +23,10 @@ jobs:
         run: |
           Expand-Archive EndlessSky-win64-continuous.zip -DestinationPath endless-sky -Force
           ls
-      - uses: TheGiraffe3/checkout@v5 # Ideally we wouldn't use one person's repository, but otherwise we lose our information.
+      - uses: actions/checkout@v5
         with:
           ref: 'actions-generate-info'
+          path: Omnis
       - name: Install Python libraries
         run: |
           ls
