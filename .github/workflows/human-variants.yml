@@ -1,6 +1,9 @@
 name: Generate Human Variants
 
-on: 
+on:
+  push:
+    branches:
+      - actions-generate-info
   schedule: 
     - cron: '00 0 1,15 * *' 
     # runs every hour
