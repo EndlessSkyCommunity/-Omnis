@@ -68,7 +68,7 @@ def show_variants(objs):
 					pos2 = line.find('"', pos1 + 1)
 					line = line[pos2 + 1:].strip() # only get the second token
 					ships.append('\t' + line)
-	with open('variants.txt', 'w') as target: # write to file
+	with open('-Omnis/data/variants.txt', 'w') as target: # write to file
 		for line in ships:
 			target.writelines(line + '\n')
 	print(str(len(ships)) + ' variants found')
