@@ -42,9 +42,5 @@ jobs:
           git config user.name "script" 
           git config user.email "<>"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Updated variant list"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+          git commit -m "Updated variant list"
+          git push
