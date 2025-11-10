@@ -22,6 +22,8 @@ jobs:
           Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
           ls
       - uses: actions/checkout@v4
+        with:
+          branch: actions-generate-info
       - name: install libs
         run: |
           python3 -m pip install Pillow
@@ -29,7 +31,7 @@ jobs:
       - name: Disable Python cache
         run: export PYTHONDONTWRITEBYTECODE=1
       - name: Generate Variants List
-        run: python3 .github/workflows/humanvariants.py
+        run: python3 -Omnis/.github/workflows/human-variants.py
       - name: Commit file
         run: |
           git config user.name "script" 
