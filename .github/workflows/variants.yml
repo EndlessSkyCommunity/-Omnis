@@ -1,4 +1,4 @@
-name: Generate Human Variants
+name: Generate
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   download-data:
-    name: Download Data Files
+    name: Variants
     runs-on: windows-2022
     env:
       CONTINUOUS: EndlessSky-win64-continuous.zip
