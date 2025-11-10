@@ -1,4 +1,5 @@
 import os
+import re
 
 def read_everything(data_folder):
 	print('\nreading data folder')
@@ -56,21 +57,24 @@ def read_everything(data_folder):
 def show_variants(objs):
 	ships = []
 	for obj in objs:
-		if obj.startswith('ship '): #get all ships
-			line = obj[:obj.find('\n')] #get just the first line i.e. ship "scrapper" "scrapper (gatling)"
+		if obj.startswith('ship '): # get all ships
+			line = obj[:obj.find('\n')] # get just the first line i.e. ship "scrapper" "scrapper (gatling)"
 			if '"' in line:
 				pos1 = line.find('"')
 				pos2 = line.find('"', pos1 +1)
-				if obj[pos2 + 1] != '\n': #if a linebreak comes after the "scrapper"
-					line = line.replace('ship ', '') #remove the 'ship ' before the name
-					ships.append(line)
-	with open('variants.txt', 'w') as target: #write to file
+				if obj[pos2 + 1] != '\n': # if a linebreak comes after the "scrapper"
+					line = line.replace('ship ', '') # remove the 'ship ' before the name
+					pos1 = line.find('"')
+					pos2 = line.find('"', pos1 + 1)
+					line = line[pos2 + 1:].strip() # only get the second token
+					ships.append('\t' + line)
+	with open('variants.txt', 'w') as target: # write to file
 		for line in ships:
 			target.writelines(line + '\n')
 	print(str(len(ships)) + ' variants found')
 	print('variants.txt written to: ' + os.getcwd())
 
 if __name__ == "__main__":
-	data_folder = "C:/Users/woot/AppData/Local/ESLauncher2/instances/release/data/human/"
+	data_folder = "data/"
 	objs, obj_paths, obj_names = read_everything(data_folder)
 	show_variants(objs)
