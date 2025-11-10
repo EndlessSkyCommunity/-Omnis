@@ -68,13 +68,13 @@ def show_variants(objs):
 					pos2 = line.find('"', pos1 + 1)
 					line = line[pos2 + 1:].strip() # only get the second token
 					ships.append('\t' + line)
-	with open('-Omnis/data/variants.txt', 'w') as target: # write to file
+	with open('~/-Omnis/data/variants.txt', 'w') as target: # write to file
 		for line in ships:
 			target.writelines(line + '\n')
 	print(str(len(ships)) + ' variants found')
 	print('variants.txt written to: ' + os.getcwd())
 
 if __name__ == "__main__":
-	data_folder = "endless-sky/data/"
+	data_folder = "~/endless-sky/data/"
 	objs, obj_paths, obj_names = read_everything(data_folder)
 	show_variants(objs)
