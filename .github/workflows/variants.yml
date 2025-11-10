@@ -23,19 +23,15 @@ jobs:
         run: |
           Expand-Archive EndlessSky-win64-continuous.zip -DestinationPath endless-sky -Force
           ls
-          pwd
-          mkdir Omnis
-          ls
-          cd Omnis
-          ls
-      - uses: actions/checkout@v5
+      - uses: TheGiraffe3/checkout@v5 # Ideally we wouldn't use one person's repository, but otherwise we lose our information.
         with:
           ref: 'actions-generate-info'
-      - name: Install Python Libraries and Generate Variants List
+      - name: Install Python libraries
         run: |
+          ls
           python3 -m pip install Pillow
           python3 -m pip install numpy
-      - name: Generate Files
+      - name: Generate variants list
         run: |
           ls
           python3 '.github/workflows/human-variants.py'
