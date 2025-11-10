@@ -32,7 +32,7 @@ jobs:
           python3 -m pip install Pillow
           python3 -m pip install numpy
       - name: Generate Variants List
-        run: python3 -Omnis/.github/workflows/human-variants.py
+        run: python3 '-Omnis/.github/workflows/human-variants.py'
       - name: Commit file
         run: |
           git config user.name "script" 
