@@ -24,15 +24,13 @@ jobs:
         run: |
           Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
           ls
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          branch: actions-generate-info
-      - name: install libs
+          ref: 'actions-generate-info'
+      - name: Install Python Libraries
         run: |
           python3 -m pip install Pillow
           python3 -m pip install numpy
-      - name: Disable Python cache
-        run: export PYTHONDONTWRITEBYTECODE=1
       - name: Generate Variants List
         run: python3 -Omnis/.github/workflows/human-variants.py
       - name: Commit file
