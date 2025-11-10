@@ -24,9 +24,12 @@ jobs:
         run: |
           Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
           ls
+          pwd
       - uses: actions/checkout@v5
         with:
           ref: 'actions-generate-info'
+      - name: Where are we?
+        run: ls
       - name: Install Python Libraries and Generate Variants List
         run: |
           python3 -m pip install Pillow
