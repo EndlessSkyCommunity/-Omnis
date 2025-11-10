@@ -75,6 +75,6 @@ def show_variants(objs):
 	print('variants.txt written to: ' + os.getcwd())
 
 if __name__ == "__main__":
-	data_folder = "endless-sky\data"
+	data_folder = "endless-sky\data\"
 	objs, obj_paths, obj_names = read_everything(data_folder)
 	show_variants(objs)
