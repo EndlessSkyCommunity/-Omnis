@@ -33,7 +33,7 @@ jobs:
           python3 -m pip install numpy
       - name: Generate Files
         run: |
-          mv -Omnis Omnis
+          mv '-Omnis' 'Omnis'
           python3 'Omnis/.github/workflows/human-variants.py'
           cd Omnis
       - name: Commit file
