@@ -25,7 +25,9 @@ jobs:
           ls
           pwd
           mkdir Omnis
+          ls
           cd Omnis
+          ls
       - uses: actions/checkout@v5
         with:
           ref: 'actions-generate-info'
