@@ -1,0 +1,43 @@
+name: Generate Human Variants
+
+on: 
+  schedule: 
+    - cron: '00 0 1,15 * *' 
+    # runs every hour
+    # minute(0-59) / hour(0-23) / day of month(1-31) / month(1-12) / day of week(0-6)
+  workflow_dispatch:
+
+jobs:
+  download-data:
+    name: Download Data Files
+    runs-on: windows-2022
+    env:
+      CONTINUOUS: EndlessSky-win64-continuous.zip
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Download latest continuous
+        run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
+      - name: Extract and prepare continuous
+        run: |
+          Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
+          ls
+      - uses: actions/checkout@v4
+      - name: install libs
+        run: |
+          python3 -m pip install Pillow
+          python3 -m pip install numpy
+      - name: Disable Python cache
+        run: export PYTHONDONTWRITEBYTECODE=1
+      - name: Generate Variants List
+        run: python3 .github/workflows/humanvariants.py
+      - name: Commit file
+        run: |
+          git config user.name "script" 
+          git config user.email "<>"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Updated variant list"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
