@@ -27,12 +27,15 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: 'actions-generate-info'
-      - name: Install Python Libraries
+      - name: Install Python Libraries and Generate Variants List
         run: |
           python3 -m pip install Pillow
           python3 -m pip install numpy
-      - name: Generate Variants List
-        run: python3 '-Omnis/.github/workflows/human-variants.py'
+      - name: Generate Files
+        run: |
+          mv -Omnis Omnis
+          python3 'Omnis/.github/workflows/human-variants.py'
+          cd Omnis
       - name: Commit file
         run: |
           git config user.name "script" 
