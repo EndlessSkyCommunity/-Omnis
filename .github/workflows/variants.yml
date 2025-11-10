@@ -11,25 +11,22 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-data:
+  data:
     name: Variants
     runs-on: windows-2022
-    env:
-      CONTINUOUS: EndlessSky-win64-continuous.zip
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Download latest continuous
-        run: gh release download -R endless-sky/endless-sky continuous -p ${{ env.CONTINUOUS }}
+        run: gh release download -R endless-sky/endless-sky continuous -p EndlessSky-win64-continuous.zip
       - name: Extract and prepare continuous
         run: |
-          Expand-Archive ${{ env.CONTINUOUS }} -DestinationPath endless-sky -Force
+          Expand-Archive EndlessSky-win64-continuous.zip -DestinationPath endless-sky -Force
           ls
           pwd
+          mkdir Omnis
+          cd Omnis
       - uses: actions/checkout@v5
         with:
           ref: 'actions-generate-info'
-      - name: Where are we?
-        run: ls
       - name: Install Python Libraries and Generate Variants List
         run: |
           python3 -m pip install Pillow
