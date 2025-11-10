@@ -38,6 +38,7 @@ jobs:
           python3 'Omnis\.github\workflows\human-variants.py'
       - name: Commit file
         run: |
+          cd Omnis
           git config user.name "script" 
           git config user.email "<>"
           git add .
