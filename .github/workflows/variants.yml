@@ -35,7 +35,7 @@ jobs:
       - name: Generate variants list
         run: |
           ls
-          python3 '.github/workflows/human-variants.py'
+          python3 'D:\a\-Omnis\-Omnis\Omnis\.github\workflows\human-variants.py'
       - name: Commit file
         run: |
           git config user.name "script" 
