@@ -141,6 +141,7 @@ mission "Omnis: All Plugin Variants"
 		event "omnis: all plugin variants integration"
 		clear "event: omnis: remove plugin variants integration"
 		clear "event: omnis: limited plugin variants integration"
+		fail
 
 mission "Omnis: No Plugin Variants"
 	invisible
@@ -157,6 +158,7 @@ mission "Omnis: No Plugin Variants"
 		event "omnis: remove plugin variants integration"
 		clear "event: omnis: all plugin variants integration"
 		clear "event: omnis: limited plugin variants integration"
+		fail
 
 mission "Omnis: Limited Plugin Variants"
 	invisible
@@ -171,6 +173,7 @@ mission "Omnis: Limited Plugin Variants"
 		event "omnis: limited plugin variants integration"
 		clear "event: omnis: all plugin variants integration"
 		clear "event: omnis: remote plugin variants integration"
+		fail
 
 event "omnis: all plugin variants integration"
 	planet "Everything "
