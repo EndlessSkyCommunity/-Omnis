@@ -642,6 +642,8 @@ mission "Omnis: mod settings"
 						not "Sheragi Archaeology Epilogue: done"
 				`	(The Remnant storyline until technology becomes available.)`
 					goto 1731
+					to display
+						not "Remnant: Defense 2: done"
 				`	(The Wanderer storyline until Defend Ap'arak.)`
 					goto 1741
 					to display
@@ -1826,41 +1828,40 @@ mission "Omnis: mod settings"
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 #	Mapping
 mission "Omnis: enable map reveal auto"
 	invisible
 	landing
-	on accept
+	on offer
 		set "Omnis: enable map reveal"
+		fail
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 	to offer
 		has "global: Omnis: Automatic Map Reveal"
 mission "Omnis: reveal omnis"
 	invisible
 	landing
-	on accept
+	on offer
 		event "Omnis: reveal omnis"
+		fail
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 mission "Omnis: reveal vanilla"
 	invisible
 	landing
-	on accept
+	on offer
 		event "Omnis: reveal vanilla"
+		fail
 	repeat
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 	to offer
 		or
 			has "global: Omnis: Automatic Map Reveal"
@@ -1872,6 +1873,7 @@ mission "Omnis: map the unknown"
 	repeat
 	on offer
 		outfit "map all"
+		fail
 	to offer
 		has "Omnis: enable map reveal"
 event "Omnis: reveal omnis"
@@ -2699,40 +2701,40 @@ event "swizzle28"
 mission "Omnis: shipyard variants enabled all"
 	invisible
 	landing
-	on accept
+	on offer
 		event "Omnis: shipyard variants all enabled"
+		fail
 	repeat
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 	to offer
 		has "global: Omnis: Shipyard VariantsAll"
 mission "Omnis: shipyard variants enabled limited"
 	invisible
 	landing
-	on accept
+	on offer
 		event "Omnis: shipyard variants limited enabled"
+		fail
 	repeat
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 	to offer
 		has "global: Omnis: Shipyard Variants"
 mission "Omnis: shipyard variants disabled"
 	invisible
 	landing
-	on accept
+	on offer
 		event "Omnis: shipyard variants disabled"
+		fail
 	repeat
 	source
 		government
 			"Omnis"
 			"Faction"
-			"Ancillary"
 	to offer
 		and
 			not "global: Omnis: Shipyard Variants"
