@@ -55,7 +55,7 @@ mission "Omnis: mod settings"
 				`	(Return.)`
 					goto 0000
 			label 1100
-			`How would you like galactic governments to behave around you.`
+			`How would you like galactic governments to behave around you?`
 			choice
 				`	(Reset to Default.)`
 					goto 1110
@@ -1733,6 +1733,8 @@ mission "Omnis: mod settings"
 					goto 2100
 				`	(Shipyard Variants.)`
 					goto 2200
+				`	(Unobtainable Ships.)`
+					goto 2300
 				`	(Return.)`
 					goto 0000
 			label 2100
@@ -1821,6 +1823,38 @@ mission "Omnis: mod settings"
 				clear "global: Omnis: Shipyard VariantsAll"
 			`Disabled Shipyard Variants.`
 				goto 0000
+			label 2300
+			`Currently disabled. This means that Ka'het, Aberrant, and indigenous/Deak ships will not show up in the shipyard on Everything.`
+				to display
+					not "global: Omnis: Unobtainium Available"
+			`Currently enabled. This means that Ka'het, Aberrant, and indigenous/Deak ships will show up in the shipyard on Everything.`
+				to display
+					has "global: Omnis: Unobtainium Available"
+			choice
+				`	(Enable.)`
+					to display
+						not "global: Omnis: Unobtainium Available"
+					goto 2310
+				`	(Disable.)`
+					to display
+						has "global: Omnis: Unobtainium Available"
+					goto 2320
+				`	(Return.)`
+					goto 2000
+			label 2310
+			action
+				event "Omnis: unobtainable ships in shipyards"
+				set "global: Omnis: Unobtainium Available"
+			`Added Ka'het, Aberrant, and indigenous/Drak ships to Everything.`
+				goto 0000
+			label 2320
+			action
+				event "Omnis: shipyard variants all enabled"
+				set "global: Omnis: Shipyard VariantsAll"
+			`Enabled All Shipyard Variants.`
+				goto 0000
+			a
+			a
 	repeat
 	source
 		government
