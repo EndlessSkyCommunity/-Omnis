@@ -1843,13 +1843,13 @@ mission "Omnis: mod settings"
 					goto 2000
 			label 2310
 			action
-				event "Omnis: unobtainable ships in shipyards"
+				event "omnis: unobtainable ships in shipyards"
 				set "global: Omnis: Unobtainium Available"
 			`Added Ka'het, Aberrant, and indigenous/Drak ships to Everything.`
 				goto 0000
 			label 2320
 			action
-				event "Omnis: unobtainable ships no longer in shipyards"
+				event "omnis: unobtainable ships no longer in shipyards"
 				clear "global: Omnis: Unobtainium Available"
 			`Removed Ka'het, Aberrant, and indigenous/Drak ships from Everything.`
 				goto 0000
