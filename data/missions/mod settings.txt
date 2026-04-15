@@ -3215,20 +3215,51 @@ event "Omnis: shipyard variants disabled"
 	planet "  Wanderer"
 		remove shipyard "wandererVariants"
 		remove shipyard "wandererVariantsAll"
+# Unobtainability
+mission "Omnis: unobtainable ships available"
+	invisible
+	landing
+	on offer
+		event "omnis: unobtainable ships in shipyards"
+		clear "event: omnis: unobtainable ships no longer in shipyards"
+		clear "Omnis: unobtainable ships no longer available: offered"
+		fail
+	source
+		government
+			"Omnis"
+			"Faction"
+	to offer
+		has "global: Omnis: Unobtainium Available"
+mission "Omnis: unobtainable ships no longer available"
+	invisible
+	landing
+	on offer
+		event "omnis: unobtainable ships no longer in shipyards"
+		clear "event: omnis: unobtainable ships in shipyards"
+		clear "Omnis: unobtainable ships available: offered"
+		fail
+	source
+		government
+			"Omnis"
+			"Faction"
+	to offer
+		not "global: Omnis: Unobtainium Available"
 event "omnis: unobtainable ships in shipyards"
 	planet "Everything"
 		add shipyard "aberrant"
 		add shipyard "drak"
 		add shipyard "iije"
 		add shipyard "kahet"
+		add shipyard "rulei"
 		add shipyard "vyrmeid"
 event "omnis: unobtainable ships no longer in shipyards"
 	planet "Everything"
-		add shipyard "aberrant"
-		add shipyard "drak"
-		add shipyard "iije"
-		add shipyard "kahet"
-		add shipyard "vyrmeid"
+		remove shipyard "aberrant"
+		remove shipyard "drak"
+		remove shipyard "iije"
+		remove shipyard "kahet"
+		remove shipyard "rulei"
+		remove shipyard "vyrmeid"
 event "omnis: reveal shrouded systems"
 	# Successors
 	system "Khasola-Ryuit"
