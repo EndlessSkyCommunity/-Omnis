@@ -1849,12 +1849,10 @@ mission "Omnis: mod settings"
 				goto 0000
 			label 2320
 			action
-				event "Omnis: shipyard variants all enabled"
-				set "global: Omnis: Shipyard VariantsAll"
-			`Enabled All Shipyard Variants.`
+				event "Omnis: unobtainable ships no longer in shipyards"
+				clear "global: Omnis: Unobtainium Available"
+			`Removed Ka'het, Aberrant, and indigenous/Drak ships from Everything.`
 				goto 0000
-			a
-			a
 	repeat
 	source
 		government
@@ -3217,6 +3215,20 @@ event "Omnis: shipyard variants disabled"
 	planet "  Wanderer"
 		remove shipyard "wandererVariants"
 		remove shipyard "wandererVariantsAll"
+event "omnis: unobtainable ships in shipyards"
+	planet "Everything"
+		add shipyard "aberrant"
+		add shipyard "drak"
+		add shipyard "iije"
+		add shipyard "kahet"
+		add shipyard "vyrmeid"
+event "omnis: unobtainable ships no longer in shipyards"
+	planet "Everything"
+		add shipyard "aberrant"
+		add shipyard "drak"
+		add shipyard "iije"
+		add shipyard "kahet"
+		add shipyard "vyrmeid"
 event "omnis: reveal shrouded systems"
 	# Successors
 	system "Khasola-Ryuit"
