@@ -1824,10 +1824,10 @@ mission "Omnis: mod settings"
 			`Disabled Shipyard Variants.`
 				goto 0000
 			label 2300
-			`Currently disabled. This means that Ka'het, Aberrant, and indigenous/Deak ships will not show up in the shipyard on Everything.`
+			`Currently disabled. This means that Ka'het, Aberrant, author, and indigenous/Drak ships will not show up in the shipyard on Everything.`
 				to display
 					not "global: Omnis: Unobtainium Available"
-			`Currently enabled. This means that Ka'het, Aberrant, and indigenous/Deak ships will show up in the shipyard on Everything.`
+			`Currently enabled. This means that Ka'het, Aberrant, author, and indigenous/Drak ships will show up in the shipyard on Everything.`
 				to display
 					has "global: Omnis: Unobtainium Available"
 			choice
@@ -1845,13 +1845,13 @@ mission "Omnis: mod settings"
 			action
 				event "omnis: unobtainable ships in shipyards"
 				set "global: Omnis: Unobtainium Available"
-			`Added Ka'het, Aberrant, and indigenous/Drak ships to Everything.`
+			`Added Ka'het, Aberrant, author, and indigenous/Drak ships to Everything.`
 				goto 0000
 			label 2320
 			action
 				event "omnis: unobtainable ships no longer in shipyards"
 				clear "global: Omnis: Unobtainium Available"
-			`Removed Ka'het, Aberrant, and indigenous/Drak ships from Everything.`
+			`Removed Ka'het, Aberrant, author, and indigenous/Drak ships from Everything.`
 				goto 0000
 	repeat
 	source
