@@ -1,0 +1,55 @@
+name: Generate Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    name: Update Plugin
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+    steps:
+      - name: Checkout Omnis
+        uses: actions/checkout@v6
+      - name: Checkout Endless Sky
+        uses: actions/checkout@v6
+        with:
+          path: endless-sky
+          repository: endless-sky/endless-sky
+      - name: Move folders
+        run: |
+          mv endless-sky/data ./es-data
+          rm -rf endless-sky
+          ls
+      - name: Run scripts
+        run: |
+          python3 .github/workflows/update.py
+      - name: Get branch name
+        run: |
+          echo "BRANCH=auto-generated-pr-$(date +'%Y%m%d')" >> $GITHUB_ENV
+      - name: Add generated files
+        run: |
+          echo $BRANCH
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add "data/sales.txt"
+          git diff-index --quiet HEAD || git commit -m "Updated sales"
+      - name: Get commit SHA
+        run: |
+          echo "COMMIT_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+      - name: Echo SHA, checkout a new branch, and cherry-pick
+        run: |
+          echo "COMMIT_SHA: $COMMIT_SHA"
+          git fetch origin main
+          git checkout main
+          git checkout -b temp_branch
+          git cherry-pick $COMMIT_SHA
+      - name: Push files and create a pull request
+        run: |
+          git push -f --set-upstream origin HEAD:$BRANCH
+          gh pr create --base main --body "Automatic sales update." --head ${{ github.repository_owner }}:$BRANCH -t "auto-generated sales update" --repo EndlessSkyCommunity/-Omnis
